@@ -74,6 +74,7 @@ palabras = ["heroes ascendentes", "ascenso heroico", "ascended heroes"]
 [[alerta]]
 nombre = "30 Aniversario"
 colecciones = ["celebracion 30 aniversario"]
+formatos = ["etb", "booster-bundle"]
 
 
 # Ejemplo de filtro apagado (pon activa = true para usarlo):
