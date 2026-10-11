@@ -1,6 +1,6 @@
 # Stock actual
 
-72 productos en stock que cumplen tus filtros ([filtros.toml](filtros.toml)). Datos de [StockTCG](https://stocktcg.net/stock) del 11/10/2026 21:54 (hora de España). Toca el nombre del producto para ir a la tienda.
+72 productos en stock que cumplen tus filtros ([filtros.toml](filtros.toml)). Datos de [StockTCG](https://stocktcg.net/stock) del 11/10/2026 22:57 (hora de España). Toca el nombre del producto para ir a la tienda. 🔥 = por debajo del precio de Cardmarket.
 
 <!-- contenido -->
 
@@ -8,9 +8,9 @@
 
 | Tipo | Precio | Tienda | Producto |
 |---|---|---|---|
-| Booster Box / Display | 180,00 € | Universe TCG | [Pokémon TCG: Llamaradas Fantasmales (Latin American Spanish) Booster Box – 36 Packs](https://universetcg.com/products/pokemon-tcg-llamaradas-fantasmales-es-la-booster-box) |
+| Booster Box / Display | 180,00 € 🔥 | Universe TCG | [Pokémon TCG: Llamaradas Fantasmales (Latin American Spanish) Booster Box – 36 Packs](https://universetcg.com/products/pokemon-tcg-llamaradas-fantasmales-es-la-booster-box) |
 | Booster Box / Display | 279,95 € | Shark Games Center | [\[PKM\] Booster box Fuegos Fantasmales Caja 36 Castellano](https://sharkgamescenter.es/products/pkm-booster-box-fuegos-fantasmales-caja-36-castellano) |
-| ETB | 79,95 € | Mythic Card TCG | [ETB Elite Trainer Box Mega Evoluciones fuegos Fantasmales Pokemon TCG](https://mythocardtcg.com/cajas-de-sobres/16-etb-elite-trainer-box-mega-evoluciones-llamas-fantasmales.html) |
+| ETB | 79,95 € 🔥 | Mythic Card TCG | [ETB Elite Trainer Box Mega Evoluciones fuegos Fantasmales Pokemon TCG](https://mythocardtcg.com/cajas-de-sobres/16-etb-elite-trainer-box-mega-evoluciones-llamas-fantasmales.html) |
 | ETB | 86,99 € | Monsters Collectors | [Elite Trainer Box Pokémon Fuegos Fantasmales Español](https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/elite-trainer-box-pokemon-fuegos-fantasmales-espanol/) |
 | Tin | 38,95 € | Pidopop | [Lata 4 Sobres Pokemon Fuegos Fantasmales Español](https://pidopop.com/lata-juego-cartas-coleccionables-spring-ex-pokemon-espanol-89368.html) |
 | Tin | 42,99 € | Monsters Collectors | [Lata Pokémon Mega Charizard X Fuegos Fantasmales Español](https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/lata-pokemon-mega-charizard-x-fuegos-fantasmales-espanol/) |
@@ -62,7 +62,7 @@
 
 | Tipo | Precio | Tienda | Producto |
 |---|---|---|---|
-| ETB | 95,00 € | EpicDeck | [Pokemon Ascenso Heroico Elite Trainer Box LAT](https://epicdeck.es/products/pokemon-ascenso-heroico-elite-trainer-box) |
+| ETB | 95,00 € 🔥 | EpicDeck | [Pokemon Ascenso Heroico Elite Trainer Box LAT](https://epicdeck.es/products/pokemon-ascenso-heroico-elite-trainer-box) |
 | ETB | 114,90 € | BimbaCards | [ETB Héroes Ascendentes \| Ascended Heroes Pokémon](https://bimbacards.com/product/etb-heroes-ascendentes-ascended-heroes/) |
 | Booster Bundle | 69,90 € | BimbaCards | [Booster Bundle – Héroes Ascendentes](https://bimbacards.com/product/booster-bundle-heroes-ascendentes/) |
 | Booster Bundle | 69,95 € | Kame House Cards | [Booster Bundle Pokémon Héroes Ascendentes y Ascended Heroes — Español](https://kamehousecards.com/products/booster-bundle-pokemon-fuegos-fantasmales-y-phantasmal-flames-813356008?variant=53009008525650) |

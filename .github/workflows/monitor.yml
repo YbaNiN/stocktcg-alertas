@@ -47,6 +47,13 @@ jobs:
           path: estado
           key: estado-${{ github.run_id }}
 
+      - name: Avisar si GitHub falla antes de comprobar
+        if: ${{ failure() }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -s -H "Content-Type: application/json" https://ntfy.sh -d "{\"topic\":\"$NTFY_TOPIC\",\"title\":\"⚠️ El monitor de stock está fallando\",\"message\":\"Ha fallado la ejecución en GitHub. Toca para ver el error.\",\"click\":\"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID\",\"priority\":4,\"tags\":[\"warning\"]}"
+
       - name: Publicar lista de stock (STOCK.md)
         run: |
           if [ -n "$(git status --porcelain STOCK.md)" ]; then

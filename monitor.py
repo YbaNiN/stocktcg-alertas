@@ -1,9 +1,11 @@
 """Vigila el stock de stocktcg.net y manda notificaciones al móvil (ntfy) cuando
-un producto que cumple tus filtros (filtros.toml) vuelve a estar disponible.
-Además mantiene STOCK.md con todo lo que hay en stock ahora mismo según tus filtros.
+un producto que cumple tus filtros (filtros.toml) vuelve a estar disponible,
+baja de precio o se pone por debajo del precio de Cardmarket.
+Además mantiene STOCK.md con todo lo que hay en stock ahora mismo según tus filtros,
+y avisa si el propio monitor deja de funcionar.
 
 Uso:
-    python monitor.py            # comprobación normal (la que hace GitHub cada pocos minutos)
+    python monitor.py            # comprobación normal (la que se hace cada pocos minutos)
     python monitor.py --resumen  # manda un resumen de todo lo que hay en stock ahora mismo
                                  # (no toca el estado de reposiciones)
 
@@ -19,10 +21,12 @@ import os
 import re
 import sys
 import tomllib
+import traceback
 import unicodedata
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 BASE = "https://stocktcg.net"
 STOCK_URL = f"{BASE}/stock.json"
@@ -33,12 +37,19 @@ FILTROS = DIR / "filtros.toml"
 ESTADO = DIR / "estado" / "estado.json"
 LISTA = DIR / "STOCK.md"
 
-# Enlace a STOCK.md en GitHub (GitHub Actions define estas variables)
+# Enlaces en GitHub (GitHub Actions define estas variables)
 REPO = os.environ.get("GITHUB_REPOSITORY")
 URL_LISTA = f"https://github.com/{REPO}/blob/main/STOCK.md" if REPO else f"{BASE}/stock"
+URL_ACTIONS = f"https://github.com/{REPO}/actions" if REPO else BASE
 
-MAX_AVISOS_SUELTOS = 8   # si hay más reposiciones a la vez, el resto va en un resumen
+MAX_AVISOS_SUELTOS = 8   # si hay más avisos a la vez, el resto va en un resumen
 MAX_LINEAS_RESUMEN = 30  # líneas por notificación de resumen
+DATOS_VIEJOS = timedelta(minutes=30)  # si StockTCG no actualiza en este tiempo, se considera un fallo
+AVISAR_FALLO_TRAS = 2    # fallos seguidos antes de avisar (evita avisos por un corte puntual)
+REPETIR_FALLO_CADA = 36  # mientras siga fallando, recordatorio cada ~3 horas
+
+# Niveles de precio de StockTCG frente a Cardmarket que cuentan como chollo
+NIVELES_CHOLLO = {"bueno", "chollo"}  # bueno: 10-44% por debajo · chollo: 15% o más y al mínimo
 
 # Conversión aproximada a euros para aplicar precio_max/precio_min
 A_EUROS = {"EUR": 1.0, "DKK": 0.134, "SEK": 0.088, "NOK": 0.086, "CHF": 1.06, "PLN": 0.235}
@@ -66,10 +77,15 @@ def precio_euros(item):
     return item["price"] * tasa if tasa and item.get("price") is not None else None
 
 
-def formatear_precio(item):
-    precio = f"{item['price']:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+def formatear_precio(item, precio=None):
+    precio = item["price"] if precio is None else precio
+    texto = f"{precio:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
     moneda = item.get("currency") or "EUR"
-    return f"{precio} €" if moneda == "EUR" else f"{precio} {moneda}"
+    return f"{texto} €" if moneda == "EUR" else f"{texto} {moneda}"
+
+
+def es_chollo(item):
+    return item.get("cmTier") in NIVELES_CHOLLO
 
 
 def orden_item(item):
@@ -80,18 +96,43 @@ def orden_item(item):
 
 def descargar_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept-Encoding": "gzip"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        datos = resp.read()
-        if resp.headers.get("Content-Encoding") == "gzip":
-            datos = gzip.decompress(datos)
-    return json.loads(datos)
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            datos = resp.read()
+            if resp.headers.get("Content-Encoding") == "gzip":
+                datos = gzip.decompress(datos)
+    except Exception as e:
+        raise RuntimeError(f"No se puede conectar con StockTCG ({e}).") from e
+    try:
+        return json.loads(datos)
+    except ValueError as e:
+        raise RuntimeError("StockTCG ha devuelto datos que no se entienden (¿han cambiado la web?).") from e
+
+
+def validar_catalogo(datos):
+    """Lanza un error si StockTCG ha cambiado su formato o lleva tiempo sin actualizar."""
+    items = datos.get("items") if isinstance(datos, dict) else None
+    if not items:
+        raise RuntimeError("StockTCG ha devuelto un catálogo vacío o con otro formato.")
+    faltan = {"url", "store", "title", "setName", "fmt", "price", "available", "langs"} - set(items[0])
+    if faltan:
+        raise RuntimeError(f"StockTCG ha cambiado el formato de sus datos (faltan: {', '.join(sorted(faltan))}).")
+    try:
+        ts = datetime.fromisoformat(datos["ts"]).replace(tzinfo=ZoneInfo("Europe/Madrid"))
+    except (KeyError, ValueError, TypeError):
+        return
+    if datetime.now(ZoneInfo("Europe/Madrid")) - ts > DATOS_VIEJOS:
+        raise RuntimeError(f"StockTCG no actualiza sus datos desde el {ts:%d/%m %H:%M}.")
 
 
 # ---------------------------------------------------------------- filtros
 
 def cargar_filtros():
-    with open(FILTROS, "rb") as f:
-        cfg = tomllib.load(f)
+    try:
+        with open(FILTROS, "rb") as f:
+            cfg = tomllib.load(f)
+    except tomllib.TOMLDecodeError as e:
+        raise RuntimeError(f"Hay un error al escribir filtros.toml: {e}. Revisa el último cambio que hiciste.") from e
     general = cfg.get("general", {})
     alertas = [a for a in cfg.get("alerta", []) if a.get("activa", True)]
     return general, alertas
@@ -185,24 +226,44 @@ def enviar_ntfy(mensaje):
         print("  ERROR enviando a ntfy:", e)
 
 
-def aviso_producto(item, alerta):
-    preventa = item.get("preorder")
-    titulo = f"{'🕒 Preventa' if preventa else '🟢 En stock'}: {item.get('setName')} · {item.get('fmtName')}"
-    lineas = [
-        f"{formatear_precio(item)} en {item.get('store')} · {(item.get('langs') or '?').upper()}",
-        item.get("title") or "",
-    ]
-    if item.get("cmTrend"):
-        pct = item.get("cmPctTrend")
-        lineas.append(f"Cardmarket: {item['cmTrend']:.2f} €" + (f" ({pct:+.0f}%)" if pct is not None else ""))
-    lineas.append(f"Filtro: {alerta.get('nombre', 'sin nombre')}")
+def linea_cardmarket(item):
+    if not item.get("cmTrend"):
+        return None
+    pct = item.get("cmPctTrend")
+    return f"Cardmarket: {item['cmTrend']:.2f} €" + (f" ({pct:+.0f}%)" if pct is not None else "")
 
+
+def aviso_producto(tipo, item, alerta, precio_antes=None):
+    """tipo: 'reposicion', 'bajada', 'chollo' o 'filtro'"""
+    producto = f"{item.get('setName')} · {item.get('fmtName')}"
+    chollo = " 🔥" if es_chollo(item) else ""
+    lugar = f"en {item.get('store')} · {(item.get('langs') or '?').upper()}"
+
+    if tipo == "reposicion":
+        titulo = f"{'🕒 Preventa' if item.get('preorder') else '🟢 En stock'}{chollo}: {producto}"
+        primera = f"{formatear_precio(item)} {lugar}"
+        etiqueta = "hourglass" if item.get("preorder") else "rotating_light"
+    elif tipo == "bajada":
+        bajada = (1 - item["price"] / precio_antes) * 100
+        titulo = f"📉 Baja de precio{chollo}: {producto}"
+        primera = f"{formatear_precio(item)} (antes {formatear_precio(item, precio_antes)}, -{bajada:.0f}%) {lugar}"
+        etiqueta = "chart_with_downwards_trend"
+    elif tipo == "chollo":
+        titulo = f"🔥 Chollo: {producto}"
+        primera = f"{formatear_precio(item)} {lugar} · por debajo de Cardmarket"
+        etiqueta = "fire"
+    else:  # 'filtro': ya estaba en stock pero ahora cumple tu filtro (p. ej. ha bajado de tu precio máximo)
+        titulo = f"🎯 Ahora cumple tu filtro: {producto}"
+        primera = f"{formatear_precio(item)} {lugar}"
+        etiqueta = "dart"
+
+    lineas = [primera, item.get("title") or "", linea_cardmarket(item), f"Filtro: {alerta.get('nombre', 'sin nombre')}"]
     mensaje = {
         "title": titulo,
-        "message": "\n".join(lineas),
+        "message": "\n".join(l for l in lineas if l),
         "click": item["url"],
         "priority": 4,
-        "tags": ["hourglass" if preventa else "rotating_light"],
+        "tags": [etiqueta],
         "actions": [{"action": "view", "label": "Comprar", "url": item["url"]}],
     }
     if item.get("ppage"):
@@ -214,8 +275,8 @@ def aviso_producto(item, alerta):
 
 
 def linea_corta(item):
-    preventa = " (preventa)" if item.get("preorder") else ""
-    return f"• {item.get('fmtName')}{preventa} · {formatear_precio(item)} · {item.get('store')}"
+    extra = (" (preventa)" if item.get("preorder") else "") + (" 🔥" if es_chollo(item) else "")
+    return f"• {item.get('fmtName')}{extra} · {formatear_precio(item)} · {item.get('store')}"
 
 
 def enviar_resumen(grupos, motivo):
@@ -231,6 +292,22 @@ def enviar_resumen(grupos, motivo):
             "actions": [{"action": "view", "label": "Ver lista con enlaces", "url": URL_LISTA}],
         })
     print(f"Resumen enviado ({motivo}).")
+
+
+def enviar_eventos(eventos):
+    for tipo, item, alerta, precio_antes in eventos[:MAX_AVISOS_SUELTOS]:
+        print(f"  -> [{tipo}] {item.get('setName')} · {item.get('fmtName')} · {formatear_precio(item)} · {item.get('store')}")
+        enviar_ntfy(aviso_producto(tipo, item, alerta, precio_antes))
+
+    resto = eventos[MAX_AVISOS_SUELTOS:]
+    if resto:
+        iconos = {"reposicion": "🟢", "bajada": "📉", "chollo": "🔥", "filtro": "🎯"}
+        lineas = [f"{iconos[t]} {i.get('setName')} · {i.get('fmtName')} · {formatear_precio(i)} · {i.get('store')}"
+                  for t, i, _, _ in resto[:15]]
+        if len(resto) > 15:
+            lineas.append(f"… y {len(resto) - 15} más")
+        enviar_ntfy({"title": f"🟢 {len(resto)} avisos más", "message": "\n".join(lineas),
+                     "click": URL_LISTA, "priority": 4, "tags": ["rotating_light"]})
 
 
 # ---------------------------------------------------------------- lista STOCK.md
@@ -250,7 +327,8 @@ def escribir_lista(grupos, ts_catalogo):
         partes.append("| Tipo | Precio | Tienda | Producto |\n|---|---|---|---|")
         for i in items:
             tipo = i.get("fmtName") + (" · preventa" if i.get("preorder") else "")
-            partes.append(f"| {escapar_md(tipo)} | {formatear_precio(i)} | {escapar_md(i.get('store'))} "
+            precio = formatear_precio(i) + (" 🔥" if es_chollo(i) else "")
+            partes.append(f"| {escapar_md(tipo)} | {precio} | {escapar_md(i.get('store'))} "
                           f"| [{escapar_md(i.get('title'))}]({i['url']}) |")
         partes.append("")
     contenido = "\n".join(partes)
@@ -262,21 +340,22 @@ def escribir_lista(grupos, ts_catalogo):
     total = sum(len(v) for v in grupos.values())
     cabecera = (f"# Stock actual\n\n{total} productos en stock que cumplen tus filtros "
                 f"([filtros.toml](filtros.toml)). Datos de [StockTCG]({BASE}/stock) del {hora} "
-                f"(hora de España). Toca el nombre del producto para ir a la tienda.\n")
+                f"(hora de España). Toca el nombre del producto para ir a la tienda. "
+                f"🔥 = por debajo del precio de Cardmarket.\n")
     LISTA.write_text(f"{cabecera}\n{marca}\n\n{contenido}", encoding="utf-8")
     return True
 
 
 # ---------------------------------------------------------------- principal
 
-def main():
-    sys.stdout.reconfigure(encoding="utf-8")
-    solo_resumen = "--resumen" in sys.argv
+def comprobar(solo_resumen, anterior):
+    """Hace una comprobación completa. Devuelve el nuevo estado a guardar (o None si no hay que guardarlo)."""
     general, alertas = cargar_filtros()
     print(f"Filtros activos: {len(alertas)}")
 
     datos = descargar_json(STOCK_URL)
-    items = datos.get("items", [])
+    validar_catalogo(datos)
+    items = datos["items"]
     obsoletas = set(datos.get("stale_stores", []))
     print(f"Catálogo de {datos.get('ts')}: {len(items)} productos ({len(obsoletas)} tiendas sin actualizar)")
 
@@ -291,44 +370,95 @@ def main():
 
     if solo_resumen:
         enviar_resumen(grupos, "pedido a mano")
-        return
+        return None
 
-    # Estado: claves de productos disponibles por tienda en la comprobación anterior
-    anterior = json.loads(ESTADO.read_text()) if ESTADO.exists() else None
     huella = huella_filtros()
 
-    actual = {}
+    # Productos disponibles por tienda, y precio/nivel de los que cumplen tus filtros
+    tiendas = {}
     for item in disponibles:
-        actual.setdefault(item["store"], []).append(clave(item))
+        tiendas.setdefault(item["store"], []).append(clave(item))
+    seguidos = {clave(i): [i["price"], i.get("cmTier"), i["store"]] for i, _ in coinciden}
+
     if anterior:
         # Las tiendas sin datos recientes conservan su estado anterior para no dar falsos avisos
         for tienda in obsoletas:
             if tienda in anterior["tiendas"]:
-                actual[tienda] = anterior["tiendas"][tienda]
+                tiendas[tienda] = anterior["tiendas"][tienda]
+        for k, v in (anterior.get("seguidos") or {}).items():
+            if v[2] in obsoletas:
+                seguidos.setdefault(k, v)
 
-    ESTADO.parent.mkdir(exist_ok=True)
-    ESTADO.write_text(json.dumps({"ts": datos.get("ts"), "filtros": huella, "tiendas": actual}))
+    nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0}
 
     if anterior is None or anterior.get("filtros") != huella:
         # Primera vez o filtros cambiados: resumen de lo que ya hay (y no se avisa como reposición)
         enviar_resumen(grupos, "primera ejecución" if anterior is None else "filtros cambiados")
-        return
+        return nuevo_estado
+
+    avisar_bajadas = general.get("avisar_bajadas", True)
+    bajada_minima = general.get("bajada_minima", 5)
+    avisar_chollos = general.get("avisar_chollos", True)
 
     antes = {k for claves in anterior["tiendas"].values() for k in claves}
-    nuevos = [(i, a) for i, a in coinciden if i["store"] not in obsoletas and clave(i) not in antes]
-    print(f"Reposiciones que cumplen tus filtros: {len(nuevos)}")
+    seguidos_antes = anterior.get("seguidos")  # None si el estado es de una versión antigua
+    eventos = []
+    for item, alerta in coinciden:
+        if item["store"] in obsoletas:
+            continue
+        k = clave(item)
+        if k not in antes:
+            eventos.append(("reposicion", item, alerta, None))
+            continue
+        if seguidos_antes is None:
+            continue
+        if k not in seguidos_antes:
+            eventos.append(("filtro", item, alerta, None))
+            continue
+        precio_antes, nivel_antes, _ = seguidos_antes[k]
+        if avisar_bajadas and precio_antes and item["price"] < precio_antes * (1 - bajada_minima / 100):
+            eventos.append(("bajada", item, alerta, precio_antes))
+        elif avisar_chollos and es_chollo(item) and nivel_antes not in NIVELES_CHOLLO:
+            eventos.append(("chollo", item, alerta, None))
 
-    for item, alerta in nuevos[:MAX_AVISOS_SUELTOS]:
-        print(f"  -> {item.get('setName')} · {item.get('fmtName')} · {formatear_precio(item)} · {item.get('store')}")
-        enviar_ntfy(aviso_producto(item, alerta))
+    print(f"Avisos: {len(eventos)}")
+    enviar_eventos(eventos)
+    return nuevo_estado
 
-    resto = nuevos[MAX_AVISOS_SUELTOS:]
-    if resto:
-        lineas = [f"• {i.get('setName')} · {i.get('fmtName')} · {formatear_precio(i)} · {i.get('store')}" for i, _ in resto[:15]]
-        if len(resto) > 15:
-            lineas.append(f"… y {len(resto) - 15} más")
-        enviar_ntfy({"title": f"🟢 {len(resto)} reposiciones más", "message": "\n".join(lineas),
-                     "click": URL_LISTA, "priority": 4, "tags": ["rotating_light"]})
+
+def main():
+    sys.stdout.reconfigure(encoding="utf-8")
+    solo_resumen = "--resumen" in sys.argv
+
+    guardado = json.loads(ESTADO.read_text()) if ESTADO.exists() else {}
+    anterior = guardado if "tiendas" in guardado else None
+    errores_antes = guardado.get("errores", 0)
+
+    try:
+        nuevo = comprobar(solo_resumen, anterior)
+    except Exception as e:
+        traceback.print_exc()
+        errores = errores_antes + 1
+        print(f"::error::El monitor ha fallado ({errores} veces seguidas): {e}")
+        if not solo_resumen:
+            ESTADO.parent.mkdir(exist_ok=True)
+            ESTADO.write_text(json.dumps({**guardado, "errores": errores}))
+        if solo_resumen or errores == AVISAR_FALLO_TRAS or (errores > AVISAR_FALLO_TRAS and errores % REPETIR_FALLO_CADA == 0):
+            enviar_ntfy({
+                "title": "⚠️ El monitor de stock está fallando",
+                "message": f"{e}\n\nMientras siga así no te llegarán avisos de stock. "
+                           f"Te avisaré cuando vuelva a funcionar.",
+                "click": URL_ACTIONS, "priority": 4, "tags": ["warning"],
+            })
+        return
+
+    if nuevo is not None:
+        if errores_antes >= AVISAR_FALLO_TRAS:
+            enviar_ntfy({"title": "✅ El monitor de stock vuelve a funcionar",
+                         "message": f"Ha estado fallando unos {errores_antes * 5} minutos. Ya vuelves a recibir avisos.",
+                         "click": URL_LISTA, "tags": ["white_check_mark"]})
+        ESTADO.parent.mkdir(exist_ok=True)
+        ESTADO.write_text(json.dumps(nuevo))
 
 
 if __name__ == "__main__":

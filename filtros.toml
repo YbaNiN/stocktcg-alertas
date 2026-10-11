@@ -45,6 +45,15 @@ preventas = true
 # Tiendas que nunca quieres que te avisen.
 tiendas_excluidas = []
 
+# Avisos de precio (solo de productos en stock que cumplen tus filtros):
+# Aviso cuando un producto baja de precio...
+avisar_bajadas = true
+# ...al menos este porcentaje.
+bajada_minima = 5
+# Aviso cuando un producto se pone por debajo del precio de Cardmarket (🔥).
+# Ojo: muchos productos en español no tienen precio de Cardmarket.
+avisar_chollos = true
+
 
 # ---------------- TUS FILTROS ----------------
 # Se busca por nombre en inglés y en español para no perder productos
