@@ -1,10 +1,11 @@
 """Vigila el stock de stocktcg.net y manda notificaciones al móvil (ntfy) cuando
 un producto que cumple tus filtros (filtros.toml) vuelve a estar disponible.
+Además mantiene STOCK.md con todo lo que hay en stock ahora mismo según tus filtros.
 
 Uso:
     python monitor.py            # comprobación normal (la que hace GitHub cada pocos minutos)
-    python monitor.py --prueba   # muestra qué hay AHORA en stock según tus filtros y
-                                 # manda una notificación de prueba (no toca el estado)
+    python monitor.py --resumen  # manda un resumen de todo lo que hay en stock ahora mismo
+                                 # (no toca el estado de reposiciones)
 
 Variables de entorno:
     NTFY_TOPIC   tema de ntfy al que estás suscrito en el móvil (obligatoria para avisar)
@@ -20,6 +21,7 @@ import sys
 import tomllib
 import unicodedata
 import urllib.request
+from datetime import datetime
 from pathlib import Path
 
 BASE = "https://stocktcg.net"
@@ -29,11 +31,23 @@ USER_AGENT = "stocktcg-alertas/1.0 (monitor personal; github.com/YbaNiN)"
 DIR = Path(__file__).parent
 FILTROS = DIR / "filtros.toml"
 ESTADO = DIR / "estado" / "estado.json"
+LISTA = DIR / "STOCK.md"
 
-MAX_AVISOS_SUELTOS = 8  # si hay más reposiciones a la vez, el resto va en un resumen
+# Enlace a STOCK.md en GitHub (GitHub Actions define estas variables)
+REPO = os.environ.get("GITHUB_REPOSITORY")
+URL_LISTA = f"https://github.com/{REPO}/blob/main/STOCK.md" if REPO else f"{BASE}/stock"
+
+MAX_AVISOS_SUELTOS = 8   # si hay más reposiciones a la vez, el resto va en un resumen
+MAX_LINEAS_RESUMEN = 30  # líneas por notificación de resumen
 
 # Conversión aproximada a euros para aplicar precio_max/precio_min
 A_EUROS = {"EUR": 1.0, "DKK": 0.134, "SEK": 0.088, "NOK": 0.086, "CHF": 1.06, "PLN": 0.235}
+
+# Orden en el que se listan los tipos de producto
+ORDEN_FORMATOS = ["booster-box", "etb", "booster-bundle", "ultra-premium-collection", "premium-collection",
+                  "collection-box", "mini-tin-display", "tin", "mini-tin", "stacking-tin", "blister",
+                  "booster-pack", "build-battle", "pin-collection", "deck", "deck-display",
+                  "trainers-toolkit", "trainer-collection", "otros"]
 
 
 # ---------------------------------------------------------------- utilidades
@@ -58,6 +72,12 @@ def formatear_precio(item):
     return f"{precio} €" if moneda == "EUR" else f"{precio} {moneda}"
 
 
+def orden_item(item):
+    fmt = item.get("fmt")
+    pos = ORDEN_FORMATOS.index(fmt) if fmt in ORDEN_FORMATOS else len(ORDEN_FORMATOS)
+    return pos, precio_euros(item) or 0
+
+
 def descargar_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept-Encoding": "gzip"})
     with urllib.request.urlopen(req, timeout=60) as resp:
@@ -75,6 +95,10 @@ def cargar_filtros():
     general = cfg.get("general", {})
     alertas = [a for a in cfg.get("alerta", []) if a.get("activa", True)]
     return general, alertas
+
+
+def huella_filtros():
+    return hashlib.sha1(FILTROS.read_bytes()).hexdigest()[:12]
 
 
 def coincide(item, alerta, general):
@@ -134,6 +158,16 @@ def primer_filtro(item, alertas, general):
     return None
 
 
+def agrupar(coinciden, alertas):
+    """{nombre del filtro: [items ordenados]} manteniendo el orden de filtros.toml"""
+    grupos = {a.get("nombre", "sin nombre"): [] for a in alertas}
+    for item, alerta in coinciden:
+        grupos[alerta.get("nombre", "sin nombre")].append(item)
+    for lista in grupos.values():
+        lista.sort(key=orden_item)
+    return grupos
+
+
 # ---------------------------------------------------------------- notificaciones
 
 def enviar_ntfy(mensaje):
@@ -172,17 +206,72 @@ def aviso_producto(item, alerta):
         "actions": [{"action": "view", "label": "Comprar", "url": item["url"]}],
     }
     if item.get("ppage"):
-        mensaje["actions"].append({"action": "view", "label": "Ver en StockTCG", "url": BASE + item["ppage"]})
+        mensaje["actions"].append({"action": "view", "label": "StockTCG", "url": BASE + item["ppage"]})
+    mensaje["actions"].append({"action": "view", "label": "Todo el stock", "url": URL_LISTA})
     if item.get("img"):
         mensaje["attach"] = item["img"]
     return mensaje
+
+
+def linea_corta(item):
+    preventa = " (preventa)" if item.get("preorder") else ""
+    return f"• {item.get('fmtName')}{preventa} · {formatear_precio(item)} · {item.get('store')}"
+
+
+def enviar_resumen(grupos, motivo):
+    for nombre, items in grupos.items():
+        lineas = [linea_corta(i) for i in items[:MAX_LINEAS_RESUMEN]]
+        if len(items) > MAX_LINEAS_RESUMEN:
+            lineas.append(f"… y {len(items) - MAX_LINEAS_RESUMEN} más (toca para ver la lista completa)")
+        enviar_ntfy({
+            "title": f"📦 {nombre}: {len(items)} en stock",
+            "message": "\n".join(lineas) if lineas else "Ahora mismo no hay nada en stock con este filtro.",
+            "click": URL_LISTA,
+            "tags": ["package"],
+            "actions": [{"action": "view", "label": "Ver lista con enlaces", "url": URL_LISTA}],
+        })
+    print(f"Resumen enviado ({motivo}).")
+
+
+# ---------------------------------------------------------------- lista STOCK.md
+
+def escapar_md(texto):
+    return re.sub(r"([\\|\[\]])", r"\\\1", texto or "")
+
+
+def escribir_lista(grupos, ts_catalogo):
+    marca = "<!-- contenido -->"
+    partes = []
+    for nombre, items in grupos.items():
+        partes.append(f"## {nombre} ({len(items)})\n")
+        if not items:
+            partes.append("_Ahora mismo no hay nada en stock con este filtro._\n")
+            continue
+        partes.append("| Tipo | Precio | Tienda | Producto |\n|---|---|---|---|")
+        for i in items:
+            tipo = i.get("fmtName") + (" · preventa" if i.get("preorder") else "")
+            partes.append(f"| {escapar_md(tipo)} | {formatear_precio(i)} | {escapar_md(i.get('store'))} "
+                          f"| [{escapar_md(i.get('title'))}]({i['url']}) |")
+        partes.append("")
+    contenido = "\n".join(partes)
+
+    if LISTA.exists() and LISTA.read_text(encoding="utf-8").split(marca)[-1].strip() == contenido.strip():
+        return False  # sin cambios: no se reescribe (así no hay commits innecesarios)
+
+    hora = datetime.fromisoformat(ts_catalogo).strftime("%d/%m/%Y %H:%M") if ts_catalogo else "?"
+    total = sum(len(v) for v in grupos.values())
+    cabecera = (f"# Stock actual\n\n{total} productos en stock que cumplen tus filtros "
+                f"([filtros.toml](filtros.toml)). Datos de [StockTCG]({BASE}/stock) del {hora} "
+                f"(hora de España). Toca el nombre del producto para ir a la tienda.\n")
+    LISTA.write_text(f"{cabecera}\n{marca}\n\n{contenido}", encoding="utf-8")
+    return True
 
 
 # ---------------------------------------------------------------- principal
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
-    prueba = "--prueba" in sys.argv
+    solo_resumen = "--resumen" in sys.argv
     general, alertas = cargar_filtros()
     print(f"Filtros activos: {len(alertas)}")
 
@@ -193,19 +282,20 @@ def main():
 
     disponibles = [i for i in items if i.get("available") and i.get("url")]
     coinciden = [(i, a) for i in disponibles if (a := primer_filtro(i, alertas, general))]
+    grupos = agrupar(coinciden, alertas)
+    for nombre, lista in grupos.items():
+        print(f"  {nombre}: {len(lista)} en stock")
 
-    if prueba:
-        print(f"\nAhora mismo hay {len(coinciden)} productos en stock que cumplen tus filtros:")
-        for item, alerta in coinciden:
-            print(f"  [{alerta.get('nombre')}] {item.get('setName')} · {item.get('fmtName')} · "
-                  f"{formatear_precio(item)} · {item.get('store')} · {item.get('langs')}")
-        enviar_ntfy({"title": "✅ Prueba de StockTCG alertas",
-                     "message": f"Funciona. Ahora hay {len(coinciden)} productos en stock que cumplen tus filtros.",
-                     "click": f"{BASE}/stock", "tags": ["white_check_mark"]})
+    if escribir_lista(grupos, datos.get("ts")):
+        print("STOCK.md actualizado.")
+
+    if solo_resumen:
+        enviar_resumen(grupos, "pedido a mano")
         return
 
     # Estado: claves de productos disponibles por tienda en la comprobación anterior
     anterior = json.loads(ESTADO.read_text()) if ESTADO.exists() else None
+    huella = huella_filtros()
 
     actual = {}
     for item in disponibles:
@@ -217,14 +307,11 @@ def main():
                 actual[tienda] = anterior["tiendas"][tienda]
 
     ESTADO.parent.mkdir(exist_ok=True)
-    ESTADO.write_text(json.dumps({"ts": datos.get("ts"), "tiendas": actual}))
+    ESTADO.write_text(json.dumps({"ts": datos.get("ts"), "filtros": huella, "tiendas": actual}))
 
-    if anterior is None:
-        print(f"Primera ejecución: estado guardado. {len(coinciden)} productos ya en stock cumplen tus filtros.")
-        enviar_ntfy({"title": "✅ StockTCG alertas activado",
-                     "message": f"Te avisaré cuando haya reposiciones. Ahora mismo ya hay {len(coinciden)} "
-                                f"productos en stock que cumplen tus filtros.",
-                     "click": f"{BASE}/stock", "tags": ["white_check_mark"]})
+    if anterior is None or anterior.get("filtros") != huella:
+        # Primera vez o filtros cambiados: resumen de lo que ya hay (y no se avisa como reposición)
+        enviar_resumen(grupos, "primera ejecución" if anterior is None else "filtros cambiados")
         return
 
     antes = {k for claves in anterior["tiendas"].values() for k in claves}
@@ -241,7 +328,7 @@ def main():
         if len(resto) > 15:
             lineas.append(f"… y {len(resto) - 15} más")
         enviar_ntfy({"title": f"🟢 {len(resto)} reposiciones más", "message": "\n".join(lineas),
-                     "click": f"{BASE}/stock", "priority": 4, "tags": ["rotating_light"]})
+                     "click": URL_LISTA, "priority": 4, "tags": ["rotating_light"]})
 
 
 if __name__ == "__main__":

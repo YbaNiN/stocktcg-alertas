@@ -5,6 +5,7 @@
 # Cada bloque [[alerta]] es un filtro. Te llega una notificación cuando un
 # producto VUELVE a estar en stock (o aparece nuevo) y cumple TODO lo que
 # pongas en ese bloque. Lo que no pongas, no filtra.
+# Al guardar cambios aquí te llega un resumen de todo lo que ya hay en stock.
 #
 # Campos disponibles (todos opcionales):
 #
@@ -20,14 +21,14 @@
 #                                     "30th", "destined rivals", "mega evolution"...
 #   formatos        = ["...", "..."]  Tipos de producto (ver lista abajo).
 #   idiomas         = ["es", "en"]    Idiomas: es, en, ja, fr, it, de, ko, zh, pt, nl...
-#                                     Si no lo pones se usa el de [general].
+#                                     Si no lo pones se usa el de la sección general.
 #   tiendas         = ["...", "..."]  Solo estas tiendas (por defecto: cualquiera).
 #   precio_max      = 60              En euros (otras monedas se convierten aprox.).
 #   precio_min      = 10
 #   max_sobreprecio = 20              Máximo % por encima del precio medio de Cardmarket.
 #                                     (Si el producto no tiene precio de Cardmarket, pasa.)
 #   preventas       = true / false    Si avisar también de preventas.
-#                                     Si no lo pones se usa el de [general].
+#                                     Si no lo pones se usa el de la sección general.
 #
 # Formatos válidos:
 #   etb, booster-box, booster-pack, booster-bundle, collection-box, blister,
@@ -38,34 +39,33 @@
 
 [general]
 # Idiomas por defecto para todos los filtros. Vacío [] = cualquier idioma.
-idiomas = ["es", "en"]
+idiomas = ["es"]
 # Avisar también de preventas (cada filtro puede cambiarlo).
 preventas = true
 # Tiendas que nunca quieres que te avisen.
 tiendas_excluidas = []
 
 
-# ---------------- TUS FILTROS (ejemplos, cámbialos a tu gusto) ----------------
+# ---------------- TUS FILTROS ----------------
+# Se busca por nombre en inglés y en español para no perder productos
+# (algunas tiendas solo ponen uno de los dos).
 
 [[alerta]]
-nombre = "ETB a buen precio"
-formatos = ["etb"]
-max_sobreprecio = 15
-precio_max = 90
+nombre = "Fuegos Fantasmales"
+palabras = ["fuegos fantasmales", "llamaradas fantasmales", "phantasmal flames"]
 
 [[alerta]]
-nombre = "Prismatic Evolutions"
-colecciones = ["prismatic"]
-excluir = ["sobre suelto", "single"]
-precio_max = 150
+nombre = "Evoluciones Prismáticas"
+palabras = ["evoluciones prismaticas", "prismatic evolutions"]
 
 [[alerta]]
-nombre = "151 (cajas y displays)"
-colecciones = ["151"]
-formatos = ["booster-box", "booster-bundle", "ultra-premium-collection", "etb"]
+nombre = "Héroes Ascendentes"
+palabras = ["heroes ascendentes", "ascenso heroico", "ascended heroes"]
 
+
+# Ejemplo de filtro apagado (pon activa = true para usarlo):
 [[alerta]]
-nombre = "Ejemplo apagado: cualquier cosa de Charizard"
+nombre = "ETB baratas de cualquier colección"
 activa = false
-palabras = ["charizard"]
-idiomas = []
+formatos = ["etb"]
+precio_max = 60

@@ -7,16 +7,19 @@ GitHub Actions ejecuta `monitor.py` cada ~5 minutos. El script descarga el catá
 aplica tus filtros de `filtros.toml` y, si un producto que cumple algún filtro vuelve a estar
 disponible, manda una notificación al móvil a través de [ntfy](https://ntfy.sh).
 
+📋 **[STOCK.md](STOCK.md)**: lista siempre actualizada de todo lo que hay en stock ahora mismo
+según tus filtros, con enlace directo a cada tienda.
+
 ## Cambiar lo que te avisa
 
 Edita [`filtros.toml`](filtros.toml). Puedes hacerlo desde la propia web de GitHub (icono del lápiz)
 o desde la app de GitHub en el móvil. Los cambios se aplican en la siguiente comprobación.
 
-## Probar los filtros
+## Pedir un resumen del stock actual
 
-Pestaña **Actions** → **Vigilar stock** → **Run workflow** → marca *Modo prueba* → **Run workflow**.
-Te llega una notificación de prueba y, en el registro de la ejecución, ves la lista de productos
-que ahora mismo están en stock y cumplen tus filtros.
+Pestaña **Actions** → **Vigilar stock** → **Run workflow** → **Run workflow**.
+Te llega una notificación por cada filtro con todo lo que hay en stock ahora mismo.
+También llega automáticamente cada vez que cambias `filtros.toml`.
 
 ## Pausar los avisos
 
@@ -25,7 +28,7 @@ Pestaña **Actions** → **Vigilar stock** → menú `···` → **Disable work
 ## Notas
 
 - Solo avisa de **reposiciones**: productos que no estaban disponibles en la comprobación anterior.
-  Al cambiar los filtros no te llegan avisos de lo que ya estaba en stock.
+  Lo que ya estaba en stock lo tienes en el resumen y en STOCK.md.
 - Si el repositorio pasa 60 días sin cambios, GitHub pausa las ejecuciones programadas y te avisa
   por email. Basta con volver a activarlo en Actions.
 - Los precios en otras monedas (DKK, SEK, CHF…) se convierten a euros de forma aproximada.

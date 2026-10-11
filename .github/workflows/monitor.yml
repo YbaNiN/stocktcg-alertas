@@ -5,14 +5,17 @@ on:
     - cron: "*/5 * * * *"   # cada 5 minutos (GitHub a veces lo retrasa un poco)
   workflow_dispatch:
     inputs:
-      prueba:
-        description: "Modo prueba: lista lo que hay en stock con tus filtros y manda una notificación de prueba"
+      resumen:
+        description: "Mandar al móvil un resumen de todo lo que hay en stock ahora mismo"
         type: boolean
-        default: false
+        default: true
 
 concurrency:
   group: monitor
   cancel-in-progress: false
+
+permissions:
+  contents: write   # para actualizar STOCK.md
 
 jobs:
   vigilar:
@@ -35,11 +38,22 @@ jobs:
       - name: Comprobar stock
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python monitor.py ${{ inputs.prueba && '--prueba' || '' }}
+        run: python monitor.py ${{ inputs.resumen && '--resumen' || '' }}
 
       - name: Guardar estado
-        if: ${{ !inputs.prueba }}
+        if: ${{ !inputs.resumen }}
         uses: actions/cache/save@v4
         with:
           path: estado
           key: estado-${{ github.run_id }}
+
+      - name: Publicar lista de stock (STOCK.md)
+        run: |
+          if [ -n "$(git status --porcelain STOCK.md)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add STOCK.md
+            git commit -q -m "Actualizar lista de stock"
+            git pull -q --rebase
+            git push -q
+          fi
