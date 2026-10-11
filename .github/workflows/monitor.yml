@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write   # para actualizar STOCK.md
+  contents: write   # para actualizar datos/stock.json (lo usa la web)
 
 jobs:
   vigilar:
@@ -55,13 +55,13 @@ jobs:
         run: |
           curl -s -H "Content-Type: application/json" https://ntfy.sh -d "{\"topic\":\"$NTFY_TOPIC\",\"title\":\"⚠️ El monitor de stock está fallando\",\"message\":\"Ha fallado la ejecución en GitHub. Toca para ver el error.\",\"click\":\"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID\",\"priority\":4,\"tags\":[\"warning\"]}"
 
-      - name: Publicar lista de stock (STOCK.md)
+      - name: Publicar datos para la web
         run: |
-          if [ -n "$(git status --porcelain STOCK.md)" ]; then
+          if [ -n "$(git status --porcelain datos)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add STOCK.md
-            git commit -q -m "Actualizar lista de stock"
+            git add datos
+            git commit -q -m "Actualizar stock"
             git pull -q --rebase
             git push -q
           fi

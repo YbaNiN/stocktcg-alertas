@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stock TCG</title>
+<meta name="description" content="Stock en español de tus colecciones de Pokémon TCG, a partir de StockTCG.">
+<meta name="theme-color" content="#12152a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f4f5fa" media="(prefers-color-scheme: light)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root {
+    --bg: #f4f5fa;
+    --surface: #ffffff;
+    --surface-2: #eceef5;
+    --text: #151830;
+    --muted: #616784;
+    --line: #dfe2ec;
+    --accent: #ffcb05;
+    --accent-text: #1a1600;
+    --green: #12a150;
+    --red: #e5484d;
+    --orange: #f76b15;
+    --blue: #3e63dd;
+    --shadow: 0 1px 2px rgba(20, 24, 50, .06), 0 4px 16px rgba(20, 24, 50, .06);
+    --radius: 16px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1022;
+      --surface: #171b33;
+      --surface-2: #20253f;
+      --text: #eef0fa;
+      --muted: #9aa0bf;
+      --line: #282e4d;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 20px rgba(0, 0, 0, .25);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  button, select, input { font: inherit; color: inherit; }
+
+  /* ---------- cabecera ---------- */
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+    padding: calc(env(safe-area-inset-top) + 10px) 16px 0;
+  }
+  .top { display: flex; align-items: center; gap: 12px; max-width: 1100px; margin: 0 auto; }
+  .logo { width: 36px; height: 36px; border-radius: 10px; flex: none; }
+  .titulo { flex: 1; min-width: 0; }
+  .titulo h1 { font-size: 18px; margin: 0; letter-spacing: -.01em; }
+  .titulo p { margin: 0; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .titulo p .punto { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--green); margin-right: 5px; vertical-align: 1px; }
+  .icono-btn {
+    width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--line);
+    background: var(--surface); display: grid; place-items: center; cursor: pointer; flex: none;
+  }
+  .icono-btn svg { width: 20px; height: 20px; }
+  .icono-btn.girando svg { animation: girar .8s linear infinite; }
+  @keyframes girar { to { transform: rotate(360deg); } }
+
+  .scroll-x {
+    display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
+    padding: 12px 16px; margin: 0 -16px; scroll-padding: 16px;
+  }
+  .scroll-x::-webkit-scrollbar { display: none; }
+  @media (min-width: 1132px) { .tabs { max-width: 1132px; margin: 0 auto; } }
+  .tab {
+    flex: none; border: 1px solid var(--line); background: var(--surface);
+    border-radius: 999px; padding: 8px 14px; cursor: pointer; white-space: nowrap; font-weight: 600; font-size: 14px;
+  }
+  .tab .n { font-weight: 500; color: var(--muted); margin-left: 4px; }
+  .tab[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .tab[aria-pressed="true"] .n { color: inherit; opacity: .7; }
+
+  /* ---------- herramientas ---------- */
+  main { max-width: 1100px; margin: 0 auto; padding: 4px 16px 32px; }
+  .herramientas { display: flex; gap: 8px; align-items: center; padding-top: 10px; }
+  .buscar {
+    flex: 1; min-width: 0; display: flex; align-items: center; gap: 8px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0 12px; height: 42px;
+  }
+  .buscar svg { width: 18px; height: 18px; color: var(--muted); flex: none; }
+  .buscar input { border: 0; outline: 0; background: transparent; width: 100%; height: 100%; font-size: 15px; }
+  select {
+    height: 42px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface);
+    padding: 0 10px; font-size: 14px; max-width: 45%;
+  }
+  .tipos { padding-top: 10px; padding-bottom: 6px; }
+  .chip {
+    flex: none; border: 1px solid var(--line); background: transparent; border-radius: 999px;
+    padding: 6px 12px; font-size: 13.5px; cursor: pointer; white-space: nowrap; color: var(--muted);
+  }
+  .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 600; }
+
+  .resumen { font-size: 13px; color: var(--muted); margin: 6px 0 12px; }
+
+  /* ---------- tarjetas ---------- */
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  @media (min-width: 640px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; } }
+  @media (min-width: 900px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+  .card {
+    background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+    overflow: hidden; display: flex; flex-direction: column; border: 1px solid var(--line);
+  }
+  .foto { position: relative; aspect-ratio: 1; background: #fff; display: grid; place-items: center; }
+  .foto img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
+  .foto .sin-foto { color: #b5b9cc; font-size: 34px; }
+  .etiquetas { position: absolute; top: 8px; left: 8px; right: 8px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .et {
+    font-size: 11.5px; font-weight: 700; padding: 3px 7px; border-radius: 7px; line-height: 1.2;
+    color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.15);
+  }
+  .et.nuevo { background: var(--green); }
+  .et.bajada { background: var(--blue); }
+  .et.chollo { background: var(--orange); }
+  .et.preventa { background: #6e56cf; }
+
+  .cuerpo { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .meta { font-size: 12px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+  .idioma { font-weight: 700; font-size: 10.5px; border: 1px solid var(--line); border-radius: 5px; padding: 0 4px; }
+  .nombre {
+    font-size: 13.5px; font-weight: 600; margin: 0;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.8em;
+  }
+  .precio-fila { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; margin-top: 2px; }
+  .precio { font-size: 20px; font-weight: 800; letter-spacing: -.02em; }
+  .antes { font-size: 13px; color: var(--muted); text-decoration: line-through; }
+  .tienda { font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .cm { font-size: 12px; color: var(--muted); }
+  .cm b.bien { color: var(--green); }
+  .cm b.mal { color: var(--red); }
+  .acciones { display: flex; gap: 6px; margin-top: auto; padding-top: 8px; }
+  .comprar {
+    flex: 1; display: grid; place-items: center; height: 38px; border-radius: 10px;
+    background: var(--accent); color: var(--accent-text); font-weight: 700; text-decoration: none; font-size: 14px;
+  }
+  .mas {
+    width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center;
+    background: var(--surface-2); color: var(--text); text-decoration: none;
+  }
+  .mas svg { width: 17px; height: 17px; }
+
+  .vacio { text-align: center; color: var(--muted); padding: 48px 16px; }
+  .vacio b { display: block; color: var(--text); font-size: 16px; margin-bottom: 4px; }
+  .aviso { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 12px 0; font-size: 14px; }
+  .instalar { display: none; }
+  .instalar.visible { display: grid; }
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <img class="logo" src="icon-192.png" alt="">
+    <div class="titulo">
+      <h1>Stock TCG</h1>
+      <p id="estado">Cargando…</p>
+    </div>
+    <button class="icono-btn instalar" id="instalar" aria-label="Instalar como app" title="Instalar como app">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+    </button>
+    <button class="icono-btn" id="recargar" aria-label="Actualizar" title="Actualizar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.64-6.36M21 4v5h-5"/></svg>
+    </button>
+  </div>
+  <nav class="tabs scroll-x" id="tabs" aria-label="Colecciones"></nav>
+</header>
+
+<main>
+  <div class="herramientas">
+    <label class="buscar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="buscar" type="search" placeholder="Buscar producto o tienda" autocomplete="off">
+    </label>
+    <select id="orden" aria-label="Ordenar">
+      <option value="novedades">Novedades</option>
+      <option value="barato">Más barato</option>
+      <option value="caro">Más caro</option>
+    </select>
+  </div>
+  <div class="tipos scroll-x" id="tipos" aria-label="Tipo de producto"></div>
+  <p class="resumen" id="resumen"></p>
+  <div class="grid" id="grid"></div>
+</main>
+
+<script>
+const ORDEN_TIPOS = ["booster-box", "etb", "booster-bundle", "ultra-premium-collection", "premium-collection",
+  "collection-box", "mini-tin-display", "tin", "mini-tin", "stacking-tin", "blister", "booster-pack",
+  "build-battle", "pin-collection", "deck", "deck-display", "trainers-toolkit", "trainer-collection", "otros"];
+const NUEVO_HORAS = 24;    // cuánto tiempo se marca algo como "Nuevo"
+const BAJADA_HORAS = 72;   // cuánto tiempo se marca una bajada de precio
+
+// En GitHub Pages los datos se leen del repositorio; en local, del archivo de al lado
+const enPages = location.hostname.endsWith("github.io");
+const URL_DATOS = enPages
+  ? `https://raw.githubusercontent.com/${location.hostname.split(".")[0]}/${location.pathname.split("/")[1]}/main/datos/stock.json`
+  : "../datos/stock.json";
+
+const $ = (s) => document.querySelector(s);
+const estado = { datos: null, coleccion: guardado("coleccion") || "__todas", tipo: "__todos", orden: guardado("orden") || "novedades", texto: "" };
+
+function guardado(k) { try { return localStorage.getItem("stk-" + k); } catch { return null; } }
+function guardar(k, v) { try { localStorage.setItem("stk-" + k, v); } catch {} }
+
+const fmtPrecio = (p, moneda) => new Intl.NumberFormat("es-ES", { style: "currency", currency: moneda || "EUR" }).format(p);
+const norm = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+function hace(fecha) {
+  if (!fecha) return "";
+  const min = Math.round((Date.now() - new Date(fecha).getTime()) / 60000);
+  if (min < 1) return "ahora mismo";
+  if (min < 60) return `hace ${min} min`;
+  const h = Math.round(min / 60);
+  if (h < 24) return `hace ${h} h`;
+  const d = Math.round(h / 24);
+  return d === 1 ? "hace 1 día" : `hace ${d} días`;
+}
+const horasDesde = (f) => f ? (Date.now() - new Date(f).getTime()) / 3600000 : Infinity;
+const esNuevo = (p) => horasDesde(p.desde) < NUEVO_HORAS;
+const tieneBajada = (p) => p.precioAntes && horasDesde(p.bajadaDesde) < BAJADA_HORAS;
+
+async function cargar() {
+  const btn = $("#recargar");
+  btn.classList.add("girando");
+  try {
+    const r = await fetch(URL_DATOS + "?t=" + Math.floor(Date.now() / 60000), { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    estado.datos = await r.json();
+    pintar();
+  } catch (e) {
+    if (!estado.datos) {
+      $("#estado").textContent = "Sin conexión";
+      $("#grid").innerHTML = `<div class="vacio" style="grid-column:1/-1"><b>No se han podido cargar los datos</b>Comprueba tu conexión y pulsa actualizar.</div>`;
+    }
+  } finally {
+    btn.classList.remove("girando");
+  }
+}
+
+function productosDeColeccion() {
+  const cols = estado.datos.colecciones;
+  if (estado.coleccion === "__todas") return cols.flatMap((c) => c.productos.map((p) => ({ ...p, filtro: c.nombre })));
+  const c = cols.find((c) => c.nombre === estado.coleccion);
+  return c ? c.productos.map((p) => ({ ...p, filtro: c.nombre })) : [];
+}
+
+function pintar() {
+  const d = estado.datos;
+  if (!d.colecciones.some((c) => c.nombre === estado.coleccion)) estado.coleccion = "__todas";
+
+  $("#estado").innerHTML = `<span class="punto"></span>Último cambio ${esc(hace(d.actualizado))}`;
+
+  // Pestañas de colección
+  const total = d.colecciones.reduce((n, c) => n + c.productos.length, 0);
+  const tabs = [{ id: "__todas", nombre: "Todas", n: total }, ...d.colecciones.map((c) => ({ id: c.nombre, nombre: c.nombre, n: c.productos.length }))];
+  $("#tabs").innerHTML = tabs.map((t) =>
+    `<button class="tab" data-col="${esc(t.id)}" aria-pressed="${t.id === estado.coleccion}">${esc(t.nombre)}<span class="n">${t.n}</span></button>`).join("");
+
+  // Chips de tipo de producto (solo los que existen en esta colección)
+  let productos = productosDeColeccion();
+  const tipos = new Map();
+  productos.forEach((p) => tipos.set(p.tipo, p.tipoNombre));
+  if (estado.tipo !== "__todos" && !tipos.has(estado.tipo)) estado.tipo = "__todos";
+  const tiposOrdenados = [...tipos].sort((a, b) => ORDEN_TIPOS.indexOf(a[0]) - ORDEN_TIPOS.indexOf(b[0]));
+  $("#tipos").innerHTML = [["__todos", "Todo"], ...tiposOrdenados].map(([id, nombre]) =>
+    `<button class="chip" data-tipo="${esc(id)}" aria-pressed="${id === estado.tipo}">${esc(nombre)}</button>`).join("");
+
+  // Filtrar
+  if (estado.tipo !== "__todos") productos = productos.filter((p) => p.tipo === estado.tipo);
+  if (estado.texto) {
+    const q = norm(estado.texto).split(/\s+/).filter(Boolean);
+    productos = productos.filter((p) => { const t = norm(`${p.titulo} ${p.tienda} ${p.tipoNombre}`); return q.every((w) => t.includes(w)); });
+  }
+
+  // Ordenar
+  const porTipo = (p) => { const i = ORDEN_TIPOS.indexOf(p.tipo); return i < 0 ? 99 : i; };
+  if (estado.orden === "barato") productos.sort((a, b) => a.precio - b.precio);
+  else if (estado.orden === "caro") productos.sort((a, b) => b.precio - a.precio);
+  else productos.sort((a, b) =>
+    (esNuevo(b) - esNuevo(a)) || (tieneBajada(b) - tieneBajada(a)) || (b.chollo - a.chollo) ||
+    (esNuevo(a) && esNuevo(b) ? new Date(b.desde) - new Date(a.desde) : 0) ||
+    (porTipo(a) - porTipo(b)) || (a.precio - b.precio));
+
+  const nuevos = productos.filter(esNuevo).length;
+  $("#resumen").textContent = `${productos.length} ${productos.length === 1 ? "producto" : "productos"} en stock` +
+    (nuevos ? ` · ${nuevos} ${nuevos === 1 ? "nuevo" : "nuevos"} en las últimas 24 h` : "");
+
+  $("#grid").innerHTML = productos.length ? productos.map(tarjeta).join("") :
+    `<div class="vacio" style="grid-column:1/-1"><b>Nada por aquí</b>Ahora mismo no hay stock que cumpla esto.</div>`;
+}
+
+function tarjeta(p) {
+  const et = [];
+  if (esNuevo(p)) et.push(`<span class="et nuevo">Nuevo · ${esc(hace(p.desde))}</span>`);
+  if (tieneBajada(p)) et.push(`<span class="et bajada">−${Math.round((1 - p.precio / p.precioAntes) * 100)}%</span>`);
+  if (p.chollo) et.push(`<span class="et chollo">🔥 Chollo</span>`);
+  if (p.preventa) et.push(`<span class="et preventa">Preventa</span>`);
+
+  let cm = "";
+  if (p.cardmarket) {
+    const pct = p.cardmarketPct;
+    const clase = pct == null ? "" : pct <= -10 ? "bien" : pct >= 10 ? "mal" : "";
+    cm = `<div class="cm">Cardmarket ${fmtPrecio(p.cardmarket, "EUR")}${pct == null ? "" : ` <b class="${clase}">${pct > 0 ? "+" : ""}${Math.round(pct)}%</b>`}</div>`;
+  }
+  const idioma = (p.idioma || "").toUpperCase().replace(",", "/");
+
+  return `<article class="card">
+    <div class="foto">
+      ${p.img ? `<img src="${esc(p.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'sin-foto',textContent:'🃏'}))">` : `<span class="sin-foto">🃏</span>`}
+      ${et.length ? `<div class="etiquetas">${et.join("")}</div>` : ""}
+    </div>
+    <div class="cuerpo">
+      <div class="meta"><span>${esc(p.tipoNombre)}</span>${idioma ? `<span class="idioma">${esc(idioma)}</span>` : ""}</div>
+      <h2 class="nombre">${esc(p.titulo)}</h2>
+      <div class="precio-fila"><span class="precio">${fmtPrecio(p.precio, p.moneda)}</span>${tieneBajada(p) ? `<span class="antes">${fmtPrecio(p.precioAntes, p.moneda)}</span>` : ""}</div>
+      <div class="tienda">${esc(p.tienda)}</div>
+      ${cm}
+      <div class="acciones">
+        <a class="comprar" href="${esc(p.url)}" target="_blank" rel="noopener">Comprar</a>
+        ${p.stocktcg ? `<a class="mas" href="${esc(p.stocktcg)}" target="_blank" rel="noopener" aria-label="Ver en StockTCG" title="Ver en StockTCG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg></a>` : ""}
+      </div>
+    </div>
+  </article>`;
+}
+
+// ---------- eventos ----------
+$("#tabs").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-col]"); if (!b) return;
+  estado.coleccion = b.dataset.col; estado.tipo = "__todos"; guardar("coleccion", estado.coleccion);
+  pintar(); b.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" }); window.scrollTo({ top: 0 });
+});
+$("#tipos").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-tipo]"); if (!b) return;
+  estado.tipo = b.dataset.tipo; pintar();
+});
+$("#orden").value = estado.orden;
+$("#orden").addEventListener("change", (e) => { estado.orden = e.target.value; guardar("orden", estado.orden); pintar(); });
+$("#buscar").addEventListener("input", (e) => { estado.texto = e.target.value; pintar(); });
+$("#recargar").addEventListener("click", cargar);
+
+// Abrir directamente una colección con #nombre (lo usan las notificaciones)
+if (location.hash) { estado.coleccion = decodeURIComponent(location.hash.slice(1)); }
+
+cargar();
+setInterval(() => { if (document.visibilityState === "visible") cargar(); }, 2 * 60 * 1000);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") cargar(); });
+setInterval(() => { if (estado.datos) $("#estado").innerHTML = `<span class="punto"></span>Último cambio ${esc(hace(estado.datos.actualizado))}`; }, 30000);
+
+// ---------- instalar como app ----------
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+let promptInstalar = null;
+window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); promptInstalar = e; $("#instalar").classList.add("visible"); });
+$("#instalar").addEventListener("click", async () => {
+  if (!promptInstalar) return;
+  promptInstalar.prompt(); await promptInstalar.userChoice; promptInstalar = null; $("#instalar").classList.remove("visible");
+});
+</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 """Vigila el stock de stocktcg.net y manda notificaciones al móvil (ntfy) cuando
 un producto que cumple tus filtros (filtros.toml) vuelve a estar disponible,
 baja de precio o se pone por debajo del precio de Cardmarket.
-Además mantiene STOCK.md con todo lo que hay en stock ahora mismo según tus filtros,
+Además genera datos/stock.json, que usa la web (docs/) para mostrar todo lo que hay en stock,
 y avisa si el propio monitor deja de funcionar.
 
 Uso:
@@ -23,10 +23,11 @@ import sys
 import tomllib
 import traceback
 import unicodedata
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
-from zoneinfo import ZoneInfo
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 BASE = "https://stocktcg.net"
 STOCK_URL = f"{BASE}/stock.json"
@@ -35,11 +36,12 @@ USER_AGENT = "stocktcg-alertas/1.0 (monitor personal; github.com/YbaNiN)"
 DIR = Path(__file__).parent
 FILTROS = DIR / "filtros.toml"
 ESTADO = DIR / "estado" / "estado.json"
-LISTA = DIR / "STOCK.md"
+DATOS_WEB = DIR / "datos" / "stock.json"
 
 # Enlaces en GitHub (GitHub Actions define estas variables)
 REPO = os.environ.get("GITHUB_REPOSITORY")
-URL_LISTA = f"https://github.com/{REPO}/blob/main/STOCK.md" if REPO else f"{BASE}/stock"
+URL_LISTA = (f"https://{REPO.split('/')[0].lower()}.github.io/{REPO.split('/')[1]}/" if REPO
+             else f"{BASE}/stock")
 URL_ACTIONS = f"https://github.com/{REPO}/actions" if REPO else BASE
 
 MAX_AVISOS_SUELTOS = 8   # si hay más avisos a la vez, el resto va en un resumen
@@ -50,6 +52,11 @@ REPETIR_FALLO_CADA = 36  # mientras siga fallando, recordatorio cada ~3 horas
 
 # Niveles de precio de StockTCG frente a Cardmarket que cuentan como chollo
 NIVELES_CHOLLO = {"bueno", "chollo"}  # bueno: 10-44% por debajo · chollo: 15% o más y al mínimo
+
+try:
+    MADRID = ZoneInfo("Europe/Madrid")
+except ZoneInfoNotFoundError:  # Windows sin el paquete tzdata: se usa la hora local del equipo
+    MADRID = datetime.now().astimezone().tzinfo
 
 # Conversión aproximada a euros para aplicar precio_max/precio_min
 A_EUROS = {"EUR": 1.0, "DKK": 0.134, "SEK": 0.088, "NOK": 0.086, "CHF": 1.06, "PLN": 0.235}
@@ -118,10 +125,10 @@ def validar_catalogo(datos):
     if faltan:
         raise RuntimeError(f"StockTCG ha cambiado el formato de sus datos (faltan: {', '.join(sorted(faltan))}).")
     try:
-        ts = datetime.fromisoformat(datos["ts"]).replace(tzinfo=ZoneInfo("Europe/Madrid"))
+        ts = datetime.fromisoformat(datos["ts"]).replace(tzinfo=MADRID)
     except (KeyError, ValueError, TypeError):
         return
-    if datetime.now(ZoneInfo("Europe/Madrid")) - ts > DATOS_VIEJOS:
+    if datetime.now(MADRID) - ts > DATOS_VIEJOS:
         raise RuntimeError(f"StockTCG no actualiza sus datos desde el {ts:%d/%m %H:%M}.")
 
 
@@ -226,6 +233,10 @@ def enviar_ntfy(mensaje):
         print("  ERROR enviando a ntfy:", e)
 
 
+def url_coleccion(nombre):
+    return f"{URL_LISTA}#{urllib.parse.quote(nombre)}" if nombre else URL_LISTA
+
+
 def linea_cardmarket(item):
     if not item.get("cmTrend"):
         return None
@@ -268,7 +279,7 @@ def aviso_producto(tipo, item, alerta, precio_antes=None):
     }
     if item.get("ppage"):
         mensaje["actions"].append({"action": "view", "label": "StockTCG", "url": BASE + item["ppage"]})
-    mensaje["actions"].append({"action": "view", "label": "Todo el stock", "url": URL_LISTA})
+    mensaje["actions"].append({"action": "view", "label": "Ver en la app", "url": url_coleccion(alerta.get("nombre", ""))})
     if item.get("img"):
         mensaje["attach"] = item["img"]
     return mensaje
@@ -283,13 +294,13 @@ def enviar_resumen(grupos, motivo):
     for nombre, items in grupos.items():
         lineas = [linea_corta(i) for i in items[:MAX_LINEAS_RESUMEN]]
         if len(items) > MAX_LINEAS_RESUMEN:
-            lineas.append(f"… y {len(items) - MAX_LINEAS_RESUMEN} más (toca para ver la lista completa)")
+            lineas.append(f"… y {len(items) - MAX_LINEAS_RESUMEN} más (toca para verlos todos)")
         enviar_ntfy({
             "title": f"📦 {nombre}: {len(items)} en stock",
             "message": "\n".join(lineas) if lineas else "Ahora mismo no hay nada en stock con este filtro.",
-            "click": URL_LISTA,
+            "click": url_coleccion(nombre),
             "tags": ["package"],
-            "actions": [{"action": "view", "label": "Ver lista con enlaces", "url": URL_LISTA}],
+            "actions": [{"action": "view", "label": "Abrir la app", "url": url_coleccion(nombre)}],
         })
     print(f"Resumen enviado ({motivo}).")
 
@@ -310,39 +321,38 @@ def enviar_eventos(eventos):
                      "click": URL_LISTA, "priority": 4, "tags": ["rotating_light"]})
 
 
-# ---------------------------------------------------------------- lista STOCK.md
+# ---------------------------------------------------------------- datos para la web
 
-def escapar_md(texto):
-    return re.sub(r"([\\|\[\]])", r"\\\1", texto or "")
-
-
-def escribir_lista(grupos, ts_catalogo):
-    marca = "<!-- contenido -->"
-    partes = []
+def escribir_datos_web(grupos, info, ts_catalogo):
+    """Escribe datos/stock.json para la web. Solo lo reescribe si algo ha cambiado (así no hay commits de más)."""
+    colecciones = []
     for nombre, items in grupos.items():
-        partes.append(f"## {nombre} ({len(items)})\n")
-        if not items:
-            partes.append("_Ahora mismo no hay nada en stock con este filtro._\n")
-            continue
-        partes.append("| Tipo | Precio | Tienda | Producto |\n|---|---|---|---|")
+        lista = []
         for i in items:
-            tipo = i.get("fmtName") + (" · preventa" if i.get("preorder") else "")
-            precio = formatear_precio(i) + (" 🔥" if es_chollo(i) else "")
-            partes.append(f"| {escapar_md(tipo)} | {precio} | {escapar_md(i.get('store'))} "
-                          f"| [{escapar_md(i.get('title'))}]({i['url']}) |")
-        partes.append("")
-    contenido = "\n".join(partes)
+            desde, precio_antes, ts_bajada = info.get(clave(i), (None, None, None))
+            lista.append({
+                "titulo": i.get("title"), "coleccion": i.get("setName"), "tipo": i.get("fmt"),
+                "tipoNombre": i.get("fmtName"), "precio": i.get("price"), "moneda": i.get("currency") or "EUR",
+                "tienda": i.get("store"), "idioma": i.get("langs"), "url": i["url"], "img": i.get("img"),
+                "preventa": bool(i.get("preorder")), "cardmarket": i.get("cmTrend"),
+                "cardmarketPct": i.get("cmPctTrend"), "chollo": es_chollo(i),
+                "stocktcg": BASE + i["ppage"] if i.get("ppage") else None,
+                "desde": desde, "precioAntes": precio_antes, "bajadaDesde": ts_bajada,
+            })
+        colecciones.append({"nombre": nombre, "productos": lista})
+    contenido = {"colecciones": colecciones}
 
-    if LISTA.exists() and LISTA.read_text(encoding="utf-8").split(marca)[-1].strip() == contenido.strip():
-        return False  # sin cambios: no se reescribe (así no hay commits innecesarios)
-
-    hora = datetime.fromisoformat(ts_catalogo).strftime("%d/%m/%Y %H:%M") if ts_catalogo else "?"
-    total = sum(len(v) for v in grupos.values())
-    cabecera = (f"# Stock actual\n\n{total} productos en stock que cumplen tus filtros "
-                f"([filtros.toml](filtros.toml)). Datos de [StockTCG]({BASE}/stock) del {hora} "
-                f"(hora de España). Toca el nombre del producto para ir a la tienda. "
-                f"🔥 = por debajo del precio de Cardmarket.\n")
-    LISTA.write_text(f"{cabecera}\n{marca}\n\n{contenido}", encoding="utf-8")
+    if DATOS_WEB.exists():
+        try:
+            viejo = json.loads(DATOS_WEB.read_text(encoding="utf-8"))
+            viejo.pop("actualizado", None)
+            if viejo == contenido:
+                return False
+        except ValueError:
+            pass
+    DATOS_WEB.parent.mkdir(exist_ok=True)
+    DATOS_WEB.write_text(json.dumps({"actualizado": ts_catalogo, **contenido}, ensure_ascii=False, indent=1),
+                         encoding="utf-8")
     return True
 
 
@@ -365,61 +375,69 @@ def comprobar(solo_resumen, anterior):
     for nombre, lista in grupos.items():
         print(f"  {nombre}: {len(lista)} en stock")
 
-    if escribir_lista(grupos, datos.get("ts")):
-        print("STOCK.md actualizado.")
-
-    if solo_resumen:
-        enviar_resumen(grupos, "pedido a mano")
-        return None
-
     huella = huella_filtros()
-
-    # Productos disponibles por tienda, y precio/nivel de los que cumplen tus filtros
-    tiendas = {}
-    for item in disponibles:
-        tiendas.setdefault(item["store"], []).append(clave(item))
-    seguidos = {clave(i): [i["price"], i.get("cmTier"), i["store"]] for i, _ in coinciden}
-
-    if anterior:
-        # Las tiendas sin datos recientes conservan su estado anterior para no dar falsos avisos
-        for tienda in obsoletas:
-            if tienda in anterior["tiendas"]:
-                tiendas[tienda] = anterior["tiendas"][tienda]
-        for k, v in (anterior.get("seguidos") or {}).items():
-            if v[2] in obsoletas:
-                seguidos.setdefault(k, v)
-
-    nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0}
-
-    if anterior is None or anterior.get("filtros") != huella:
-        # Primera vez o filtros cambiados: resumen de lo que ya hay (y no se avisa como reposición)
-        enviar_resumen(grupos, "primera ejecución" if anterior is None else "filtros cambiados")
-        return nuevo_estado
+    misma_config = anterior is not None and anterior.get("filtros") == huella
+    antes = {k for claves in anterior["tiendas"].values() for k in claves} if anterior else set()
+    seguidos_antes = (anterior or {}).get("seguidos")  # None si el estado es de una versión antigua
+    ahora = datetime.now(MADRID).isoformat(timespec="minutes")
 
     avisar_bajadas = general.get("avisar_bajadas", True)
     bajada_minima = general.get("bajada_minima", 5)
     avisar_chollos = general.get("avisar_chollos", True)
 
-    antes = {k for claves in anterior["tiendas"].values() for k in claves}
-    seguidos_antes = anterior.get("seguidos")  # None si el estado es de una versión antigua
-    eventos = []
+    # Para cada producto que cumple tus filtros: qué ha pasado y desde cuándo
+    eventos, seguidos, info = [], {}, {}
     for item, alerta in coinciden:
-        if item["store"] in obsoletas:
-            continue
         k = clave(item)
-        if k not in antes:
-            eventos.append(("reposicion", item, alerta, None))
-            continue
-        if seguidos_antes is None:
-            continue
-        if k not in seguidos_antes:
-            eventos.append(("filtro", item, alerta, None))
-            continue
-        precio_antes, nivel_antes, _ = seguidos_antes[k]
-        if avisar_bajadas and precio_antes and item["price"] < precio_antes * (1 - bajada_minima / 100):
-            eventos.append(("bajada", item, alerta, precio_antes))
-        elif avisar_chollos and es_chollo(item) and nivel_antes not in NIVELES_CHOLLO:
-            eventos.append(("chollo", item, alerta, None))
+        previo = (seguidos_antes or {}).get(k)
+        previo = (previo or []) + [None] * (6 - len(previo or []))  # entradas antiguas tenían 3 campos
+        desde, precio_antes, ts_bajada = previo[3], previo[4], previo[5]
+
+        if misma_config and item["store"] not in obsoletas:
+            if k not in antes:
+                eventos.append(("reposicion", item, alerta, None))
+                desde, precio_antes, ts_bajada = ahora, None, None
+            elif seguidos_antes is not None and previo[0] is None:
+                eventos.append(("filtro", item, alerta, None))
+                desde = ahora
+            elif seguidos_antes is not None:
+                if avisar_bajadas and previo[0] and item["price"] < previo[0] * (1 - bajada_minima / 100):
+                    eventos.append(("bajada", item, alerta, previo[0]))
+                    precio_antes, ts_bajada = previo[0], ahora
+                elif avisar_chollos and es_chollo(item) and previo[1] not in NIVELES_CHOLLO:
+                    eventos.append(("chollo", item, alerta, None))
+
+        if precio_antes is not None and item["price"] >= precio_antes:
+            precio_antes, ts_bajada = None, None  # ha vuelto a subir: ya no es una bajada
+        seguidos[k] = [item["price"], item.get("cmTier"), item["store"], desde, precio_antes, ts_bajada]
+        info[k] = (desde, precio_antes, ts_bajada)
+
+    if escribir_datos_web(grupos, info, datos.get("ts")):
+        print("datos/stock.json actualizado.")
+
+    if solo_resumen:
+        enviar_resumen(grupos, "pedido a mano")
+        return None
+
+    # Productos disponibles por tienda
+    tiendas = {}
+    for item in disponibles:
+        tiendas.setdefault(item["store"], []).append(clave(item))
+    if anterior:
+        # Las tiendas sin datos recientes conservan su estado anterior para no dar falsos avisos
+        for tienda in obsoletas:
+            if tienda in anterior["tiendas"]:
+                tiendas[tienda] = anterior["tiendas"][tienda]
+        for k, v in (seguidos_antes or {}).items():
+            if v[2] in obsoletas:
+                seguidos.setdefault(k, v)
+
+    nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0}
+
+    if not misma_config:
+        # Primera vez o filtros cambiados: resumen de lo que ya hay (y no se avisa como reposición)
+        enviar_resumen(grupos, "primera ejecución" if anterior is None else "filtros cambiados")
+        return nuevo_estado
 
     print(f"Avisos: {len(eventos)}")
     enviar_eventos(eventos)

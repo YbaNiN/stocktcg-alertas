@@ -7,8 +7,10 @@ cron-job.org lanza `monitor.py` en GitHub Actions cada 5 minutos (y GitHub lo ej
 aplica tus filtros de `filtros.toml` y, si un producto que cumple algún filtro vuelve a estar
 disponible, manda una notificación al móvil a través de [ntfy](https://ntfy.sh).
 
-📋 **[STOCK.md](STOCK.md)**: lista siempre actualizada de todo lo que hay en stock ahora mismo
-según tus filtros, con enlace directo a cada tienda.
+📱 **Web-app: https://ybanin.github.io/stocktcg-alertas/**. Todo lo que hay en stock ahora mismo
+según tus filtros, con fotos, precios y enlace directo a cada tienda. En Chrome para Android:
+menú ⋮ → **Instalar aplicación** (o **Añadir a pantalla de inicio**) y se abre como una app.
+La web está en `docs/` y los datos que muestra en `datos/stock.json`, que se actualizan solos.
 
 ## Cambiar lo que te avisa
 
@@ -28,7 +30,7 @@ Pestaña **Actions** → **Vigilar stock** → menú `···` → **Disable work
 ## Notas
 
 - Solo avisa de **reposiciones**: productos que no estaban disponibles en la comprobación anterior.
-  Lo que ya estaba en stock lo tienes en el resumen y en STOCK.md.
+  Lo que ya estaba en stock lo tienes en el resumen y en la web-app.
 - Si el repositorio pasa 60 días sin cambios, GitHub pausa las ejecuciones programadas y te avisa
   por email. Basta con volver a activarlo en Actions.
 - Los precios en otras monedas (DKK, SEK, CHF…) se convierten a euros de forma aproximada.
