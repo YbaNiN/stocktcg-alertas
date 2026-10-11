@@ -3,7 +3,7 @@
 Avisos en el móvil cuando vuelve a haber stock en [stocktcg.net](https://stocktcg.net) de los
 productos que te interesan.
 
-GitHub Actions ejecuta `monitor.py` cada ~5 minutos. El script descarga el catálogo de StockTCG,
+cron-job.org lanza `monitor.py` en GitHub Actions cada 5 minutos (y GitHub lo ejecuta cada 30 como respaldo). El script descarga el catálogo de StockTCG,
 aplica tus filtros de `filtros.toml` y, si un producto que cumple algún filtro vuelve a estar
 disponible, manda una notificación al móvil a través de [ntfy](https://ntfy.sh).
 
