@@ -71,6 +71,10 @@ palabras = ["evoluciones prismaticas", "prismatic evolutions"]
 nombre = "Héroes Ascendentes"
 palabras = ["heroes ascendentes", "ascenso heroico", "ascended heroes"]
 
+[[alerta]]
+nombre = "30 Aniversario"
+colecciones = ["celebracion 30 aniversario"]
+
 
 # Ejemplo de filtro apagado (pon activa = true para usarlo):
 [[alerta]]
