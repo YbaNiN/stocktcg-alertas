@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-12T15:25:18",
+ "actualizado": "2026-10-12T15:55:13",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -465,26 +465,6 @@
      "cardmarketPct": 33,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Evoluciones Prismaticas Booster Bundle",
-     "coleccion": "Prismatic Evolutions",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 79.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/evoluciones-prismaticas-booster-bundle/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/600518_in_400x400.jpg",
-     "preventa": false,
-     "cardmarket": 81.52,
-     "cardmarketPct": -2,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
