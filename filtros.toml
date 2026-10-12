@@ -54,6 +54,9 @@ bajada_minima = 5
 # Ojo: muchos productos en español no tienen precio de Cardmarket.
 avisar_chollos = true
 
+# Aviso cuando abre una preventa en español de cualquier colección (aunque no esté en tus filtros).
+avisar_preventas_es = true
+
 
 # ---------------- TUS FILTROS ----------------
 # Se busca por nombre en inglés y en español para no perder productos

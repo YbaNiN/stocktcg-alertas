@@ -16,6 +16,7 @@ Variables de entorno:
 
 import gzip
 import hashlib
+import html as html_lib
 import io
 import json
 import os
@@ -40,6 +41,9 @@ ESTADO = DIR / "estado" / "estado.json"
 DATOS_WEB = DIR / "datos" / "stock.json"
 HISTORIAL = DIR / "datos" / "historial.json"
 DIAS_HISTORIAL = 120  # días de historial de precios y reposiciones que se guardan
+LANZAMIENTOS = DIR / "datos" / "lanzamientos.json"
+CALENDARIO_CADA = timedelta(hours=6)  # cada cuánto se vuelve a leer el calendario de StockTCG
+DIAS_YA_LANZADO = 14                  # los lanzamientos de hace menos de esto siguen apareciendo
 FOTOS = DIR / "datos" / "fotos"  # miniaturas uniformes de las fotos de producto (las usa la web)
 TAM_FOTO = 480       # px del cuadrado
 MARGEN_FOTO = 0.07   # margen blanco alrededor del producto
@@ -290,23 +294,33 @@ def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False):
         titulo = f"🔥 Chollo: {producto}"
         primera = f"{formatear_precio(item)} {lugar} · por debajo de Cardmarket"
         etiqueta = "fire"
+    elif tipo == "preventa_es":
+        producto = f"{nombre_es(item.get('setName'))} · {item.get('fmtName')}"
+        titulo = f"🗓️ Nueva preventa en español: {producto}"
+        lanz = item.get("_lanzamiento")
+        sale = f" · sale el {int(lanz['fecha'][8:])}/{int(lanz['fecha'][5:7])}" if lanz else ""
+        primera = f"{formatear_precio(item)} en {item.get('store')}{sale}"
+        etiqueta = "date"
     else:  # 'filtro': ya estaba en stock pero ahora cumple tu filtro (p. ej. ha bajado de tu precio máximo)
         titulo = f"🎯 Ahora cumple tu filtro: {producto}"
         primera = f"{formatear_precio(item)} {lugar}"
         etiqueta = "dart"
 
-    lineas = [primera, item.get("title") or "", linea_cardmarket(item), f"Filtro: {alerta.get('nombre', 'sin nombre')}"]
+    lineas = [primera, item.get("title") or "", linea_cardmarket(item),
+              "Fuera de tus filtros: te aviso porque es una preventa en español" if tipo == "preventa_es"
+              else f"Filtro: {alerta.get('nombre', 'sin nombre')}"]
     mensaje = {
         "title": ("❤️ " if favorito else "") + titulo,
         "message": "\n".join(l for l in lineas if l),
         "click": item["url"],
         "priority": 5 if favorito else 4,  # 5 = urgente: ntfy la hace sonar con más insistencia
         "tags": [etiqueta],
-        "actions": [{"action": "view", "label": "Comprar", "url": item["url"]}],
+        "actions": [{"action": "view", "label": "Reservar" if tipo == "preventa_es" else "Comprar", "url": item["url"]}],
     }
     if item.get("ppage"):
         mensaje["actions"].append({"action": "view", "label": "StockTCG", "url": BASE + item["ppage"]})
-    mensaje["actions"].append({"action": "view", "label": "Ver en la app", "url": url_coleccion(alerta.get("nombre", ""))})
+    mensaje["actions"].append({"action": "view", "label": "Ver en la app",
+                               "url": f"{URL_LISTA}#lanzamientos" if tipo == "preventa_es" else url_coleccion(alerta.get("nombre", ""))})
     if item.get("img"):
         mensaje["attach"] = item["img"]
     return mensaje
@@ -342,13 +356,139 @@ def enviar_eventos(eventos, favoritos=frozenset()):
 
     resto = eventos[MAX_AVISOS_SUELTOS:]
     if resto:
-        iconos = {"reposicion": "🟢", "bajada": "📉", "chollo": "🔥", "filtro": "🎯"}
+        iconos = {"reposicion": "🟢", "bajada": "📉", "chollo": "🔥", "filtro": "🎯", "preventa_es": "🗓️"}
         lineas = [f"{iconos[t]} {i.get('setName')} · {i.get('fmtName')} · {formatear_precio(i)} · {i.get('store')}"
                   for t, i, _, _ in resto[:15]]
         if len(resto) > 15:
             lineas.append(f"… y {len(resto) - 15} más")
         enviar_ntfy({"title": f"🟢 {len(resto)} avisos más", "message": "\n".join(lineas),
                      "click": URL_LISTA, "priority": 4, "tags": ["rotating_light"]})
+
+
+# ---------------------------------------------------------------- lanzamientos y preventas en español
+
+def es_espanol(item):
+    return "es" in (item.get("langs") or "").split(",")
+
+
+def nombre_es(nombre):
+    """'Delta Reign / Dominio Delta (Mega Evolution)' -> 'Dominio Delta'"""
+    if " / " in (nombre or ""):
+        return re.sub(r"\s*\([^)]*\)\s*$", "", nombre.split(" / ")[-1]).strip()
+    return nombre or ""
+
+
+def descargar_html(url):
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept-Encoding": "gzip"})
+    with urllib.request.urlopen(req, timeout=40) as resp:
+        datos = resp.read()
+        if resp.headers.get("Content-Encoding") == "gzip":
+            datos = gzip.decompress(datos)
+    return datos.decode("utf-8", "replace")
+
+
+def texto_html(fragmento):
+    return html_lib.unescape(re.sub(r"<[^>]+>", "", fragmento or "")).strip()
+
+
+def leer_calendario():
+    """Lee el calendario de https://stocktcg.net/lanzamientos y, de cada lanzamiento, los enlaces exactos
+    de los productos de las tiendas (así cada oleada se queda solo con sus productos)."""
+    pagina = descargar_html(f"{BASE}/lanzamientos")
+    lanzamientos = []
+    for bloque in re.findall(r'<article class="release[^"]*">(.*?)</article>', pagina, re.S):
+        fecha = re.search(r'<time[^>]*datetime="(\d{4}-\d{2}-\d{2})"', bloque)
+        enlace = re.search(r'<a class="rel-link" href="/lanzamientos/([^"]+)">(.*?)</a>', bloque, re.S)
+        if not (fecha and enlace):
+            continue
+        tipo = re.search(r'<p class="rel-type">(.*?)</p>', bloque, re.S)
+        img = re.search(r'<div class="rel-img"><img src="([^"]+)"', bloque)
+        lanzamientos.append({
+            "slug": enlace.group(1), "nombre": texto_html(enlace.group(2)), "tipo": texto_html(tipo.group(1) if tipo else ""),
+            "fecha": fecha.group(1), "fechaConfirmada": "por confirmar" not in bloque.lower(),
+            "img": html_lib.unescape(img.group(1)) if img else None,
+        })
+    if not lanzamientos:
+        raise RuntimeError("no se ha encontrado ningún lanzamiento en la página (¿ha cambiado la web?)")
+    limite = (datetime.now(MADRID) - timedelta(days=DIAS_YA_LANZADO)).date().isoformat()
+    lanzamientos = [l for l in lanzamientos if l["fecha"] >= limite]
+    for l in lanzamientos:
+        try:
+            ficha = descargar_html(f"{BASE}/lanzamientos/{l['slug']}")
+            cuerpo = ficha[ficha.find("<main"):ficha.find("</main>")]
+            l["urls"] = sorted({html_lib.unescape(u) for u in re.findall(r'href="(https?://[^"]+)"', cuerpo)
+                                if "stocktcg.net" not in u and "t.me/" not in u})
+        except Exception as e:
+            print(f"  (no se ha podido leer la ficha de {l['slug']}: {e})")
+            l["urls"] = []
+    return lanzamientos
+
+
+def obtener_calendario(anterior):
+    """Calendario guardado en el estado; se renueva cada CALENDARIO_CADA."""
+    guardado = (anterior or {}).get("calendario") or {}
+    try:
+        viejo = datetime.now(MADRID) - datetime.fromisoformat(guardado["ts"]) > CALENDARIO_CADA
+    except (KeyError, ValueError, TypeError):
+        viejo = True
+    if not viejo:
+        return guardado
+    try:
+        lanzamientos = leer_calendario()
+        print(f"Calendario de lanzamientos actualizado: {len(lanzamientos)} lanzamientos.")
+        return {"ts": datetime.now(MADRID).isoformat(timespec="minutes"), "lanzamientos": lanzamientos}
+    except Exception as e:  # sin calendario el monitor sigue funcionando
+        print(f"  (no se ha podido leer el calendario de lanzamientos: {e})")
+        return guardado or {"ts": None, "lanzamientos": []}
+
+
+def oferta_web(item, fotos):
+    return {
+        "titulo": item.get("title"), "coleccion": item.get("setName"), "tipo": item.get("fmt"),
+        "tipoNombre": item.get("fmtName"), "precio": item.get("price"), "moneda": item.get("currency") or "EUR",
+        "tienda": item.get("store"), "idioma": item.get("langs"), "url": item["url"], "img": item.get("img"),
+        "foto": (fotos or {}).get(item.get("img")), "preventa": bool(item.get("preorder")),
+        "stocktcg": BASE + item["ppage"] if item.get("ppage") else None,
+    }
+
+
+def cruzar_lanzamientos(calendario, disponibles):
+    """Une el calendario con el catálogo. Devuelve los lanzamientos con sus ofertas en español
+    y todas las preventas en español (de cualquier colección)."""
+    por_url = {i["url"]: i for i in disponibles if es_espanol(i)}
+    lanzamientos, fecha_de = [], {}
+    for l in sorted(calendario.get("lanzamientos", []), key=lambda x: x["fecha"]):
+        ofertas = sorted((por_url[u] for u in l.get("urls", []) if u in por_url), key=lambda i: i["price"])
+        for i in ofertas:
+            fecha_de.setdefault(i["url"], l)
+        lanzamientos.append({**{k: v for k, v in l.items() if k != "urls"}, "items": ofertas})
+    preventas = sorted((i for i in disponibles if i.get("preorder") and es_espanol(i)),
+                       key=lambda i: (nombre_es(i.get("setName")), i.get("fmt") or "", i["price"]))
+    for i in preventas:
+        if i["url"] in fecha_de:
+            i["_lanzamiento"] = fecha_de[i["url"]]
+    return lanzamientos, preventas
+
+
+def escribir_lanzamientos(lanzamientos, preventas, fotos, ts):
+    contenido = {
+        "lanzamientos": [{**{k: v for k, v in l.items() if k != "items"},
+                          "foto": (fotos or {}).get(l.get("img")),
+                          "ofertas": [oferta_web(i, fotos) for i in l["items"]]} for l in lanzamientos],
+        "preventas": [{**oferta_web(i, fotos), "lanzamiento": i.get("_lanzamiento", {}).get("slug"),
+                       "fecha": i.get("_lanzamiento", {}).get("fecha")} for i in preventas],
+    }
+    if LANZAMIENTOS.exists():
+        try:
+            viejo = json.loads(LANZAMIENTOS.read_text(encoding="utf-8"))
+            viejo.pop("actualizado", None)
+            if viejo == contenido:
+                return False
+        except ValueError:
+            pass
+    LANZAMIENTOS.parent.mkdir(exist_ok=True)
+    LANZAMIENTOS.write_text(json.dumps({"actualizado": ts, **contenido}, ensure_ascii=False, indent=1), encoding="utf-8")
+    return True
 
 
 # ---------------------------------------------------------------- fotos
@@ -560,9 +700,18 @@ def comprobar(solo_resumen, anterior):
         seguidos[k] = [item["price"], item.get("cmTier"), item["store"], desde, precio_antes, ts_bajada]
         info[k] = (desde, precio_antes, ts_bajada)
 
-    fotos = preparar_fotos({i["img"] for i, _ in coinciden if i.get("img")})
+    calendario = obtener_calendario(anterior)
+    lanzamientos, preventas_es = cruzar_lanzamientos(calendario, disponibles)
+
+    imagenes = {i["img"] for i, _ in coinciden if i.get("img")}
+    imagenes |= {i["img"] for i in preventas_es if i.get("img")}
+    imagenes |= {i["img"] for l in lanzamientos for i in l["items"] if i.get("img")}
+    imagenes |= {l["img"] for l in lanzamientos if l.get("img")}
+    fotos = preparar_fotos(imagenes)
     if escribir_datos_web(grupos, info, datos.get("ts"), fotos):
         print("datos/stock.json actualizado.")
+    if escribir_lanzamientos(lanzamientos, preventas_es, fotos, datos.get("ts")):
+        print("datos/lanzamientos.json actualizado.")
 
     if solo_resumen:
         enviar_resumen(grupos, "pedido a mano")
@@ -581,7 +730,18 @@ def comprobar(solo_resumen, anterior):
             if v[2] in obsoletas:
                 seguidos.setdefault(k, v)
 
-    nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0}
+    # Preventas en español nuevas (de cualquier colección): se avisan aunque no estén en tus filtros.
+    # Las que ya cumplen un filtro no se repiten: ya llegan como reposición/preventa normal.
+    vistas_antes = set((anterior or {}).get("preventas_es") or [])
+    if anterior and "preventas_es" in anterior and general.get("avisar_preventas_es", True):
+        en_filtros = {clave(i) for i, _ in coinciden}
+        for i in preventas_es:
+            k = clave(i)
+            if k not in vistas_antes and k not in en_filtros and i["store"] not in obsoletas:
+                eventos.append(("preventa_es", i, {"nombre": "Preventas en español"}, None))
+
+    nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0,
+                    "preventas_es": sorted({clave(i) for i in preventas_es}), "calendario": calendario}
 
     if actualizar_historial(coinciden, eventos if misma_config else [], disponibles, obsoletas, ahora):
         print("datos/historial.json actualizado.")

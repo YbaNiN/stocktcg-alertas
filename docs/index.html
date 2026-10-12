@@ -383,6 +383,32 @@
   .ajustes-seccion + .ajustes-seccion { margin-top: 18px; border-top: 1px solid var(--line); }
   .ajustes-seccion h3 { margin: 0 0 4px; font-size: 15px; }
 
+  /* lanzamientos */
+  .calendario { list-style: none; margin: 0; padding: 0; display: grid; }
+  @media (min-width: 900px) { .calendario { grid-template-columns: 1fr 1fr; column-gap: 32px; } }
+  .lanz { display: grid; grid-template-columns: 52px 1fr 64px; gap: 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+  .lanz:last-child { border-bottom: 0; }
+  @media (min-width: 900px) { .lanz:nth-last-child(2):nth-child(odd) { border-bottom: 0; } }
+  .dia { width: 52px; border-radius: 10px; border: 1px solid var(--line); overflow: hidden; text-align: center; background: var(--bg); }
+  .dia span { display: block; font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--on-accent); background: var(--accent); padding: 2px 0; }
+  .dia b { display: block; font-size: 21px; line-height: 1.25; padding: 3px 0 4px; font-variant-numeric: tabular-nums; }
+  .lanz.pasado .dia span { background: var(--faint); color: var(--bg); }
+  .lanz .info { min-width: 0; }
+  .lanz h3 { margin: 2px 0 1px; font-size: 15px; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .lanz .s { font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .lanz .es { font-size: 13px; margin-top: 4px; color: var(--muted); }
+  .lanz .es b { color: var(--text); }
+  .lanz .mini { width: 64px; height: 64px; border-radius: 10px; background: #fff; border: 1px solid var(--line); display: grid; place-items: center; overflow: hidden; }
+  .lanz .mini img { width: 100%; height: 100%; object-fit: contain; padding: 5px; }
+  .lanz .mini img.prep { padding: 0; }
+  .cuenta-atras { font-size: 12.5px; font-weight: 650; color: var(--accent); }
+  .cuenta-atras.ya { color: var(--new-fg); }
+  .cuenta-atras.pronto { color: var(--drop-fg); }
+  .grupo-cab { display: flex; align-items: baseline; gap: 8px; margin: 22px 0 2px; }
+  .grupo-cab h3 { margin: 0; font-size: 15.5px; }
+  .grupo-cab span { font-size: 13px; color: var(--muted); }
+  @media (prefers-color-scheme: dark) { .lanz .mini { border-color: transparent; } }
+
   /* tooltip compartido */
   .tip {
     position: fixed; z-index: 60; transform: translate(-50%, calc(-100% - 8px)); pointer-events: none;
@@ -446,6 +472,7 @@
   <symbol id="i-ajustes" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></symbol>
   <symbol id="i-compartir" viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="m8.2 10.9 7.6-4.3M8.2 13.1l7.6 4.3"/></symbol>
   <symbol id="i-ojo-no" viewBox="0 0 24 24"><path d="M3 3l18 18"/><path d="M10.6 6.2A9.7 9.7 0 0 1 12 6c5 0 9 6 9 6a15 15 0 0 1-2.6 3.1M6.6 7.7C4.4 9.3 3 12 3 12s4 6 9 6a8.8 8.8 0 0 0 3.7-.8"/><path d="M9.9 10a3 3 0 0 0 4.1 4.1"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8.5 12.2 2.4 2.4 4.8-5"/></symbol>
 </svg>
 
@@ -456,6 +483,7 @@
       <nav class="vistas" id="vistas" aria-label="Secciones">
         <button class="vista-btn" data-vista="stock" aria-current="page"><svg class="i"><use href="#i-inicio"/></svg>Stock</button>
         <button class="vista-btn" data-vista="favoritos"><svg class="i"><use href="#i-corazon"/></svg>Favoritos</button>
+        <button class="vista-btn" data-vista="lanzamientos"><svg class="i"><use href="#i-calendario"/></svg>Calendario</button>
         <button class="vista-btn" data-vista="reposiciones"><svg class="i"><use href="#i-grafico"/></svg>Reposiciones</button>
         <button class="vista-btn" data-accion="ajustes"><svg class="i"><use href="#i-ajustes"/></svg>Ajustes</button>
       </nav>
@@ -510,6 +538,7 @@
  </div>
  <div id="vista-favoritos" hidden></div>
  <div id="vista-reposiciones" hidden></div>
+ <div id="vista-lanzamientos" hidden></div>
 </main>
 
 <div class="tip" id="tip" role="tooltip"></div>
@@ -547,6 +576,7 @@ const USUARIO = enPages ? location.hostname.split(".")[0] : "ybanin";
 const REPO = enPages ? location.pathname.split("/")[1] : "stocktcg-alertas";
 const URL_DATOS = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/stock.json` : "../datos/stock.json";
 const URL_RUNS = `https://api.github.com/repos/${USUARIO}/${REPO}/actions/workflows/monitor.yml/runs?per_page=1&status=success`;
+const URL_LANZ = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/lanzamientos.json` : "../datos/lanzamientos.json";
 const URL_HIST = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/historial.json` : "../datos/historial.json";
 // Los favoritos viven en un repositorio aparte: la clave de la app solo puede escribir ahí
 const FAV_REPO = "stocktcg-favoritos";
@@ -672,8 +702,10 @@ async function cargar() {
     estado.datos = await r.json();
     estado.grupos = construirGrupos(estado.datos);
     estado.errorRed = false;
-    const h = await fetch(URL_HIST + "?t=" + Math.floor(Date.now() / 60000), { cache: "no-store" }).catch(() => null);
+    const minuto = Math.floor(Date.now() / 60000);
+    const [h, l] = await Promise.all([URL_HIST, URL_LANZ].map((u) => fetch(u + "?t=" + minuto, { cache: "no-store" }).catch(() => null)));
     if (h?.ok) estado.hist = await h.json().catch(() => estado.hist);
+    if (l?.ok) estado.lanz = await l.json().catch(() => estado.lanz);
   } catch {
     estado.errorRed = true;
   } finally {
@@ -718,9 +750,11 @@ function gruposVisibles() {
 function pintar() {
   document.querySelectorAll(".vista-btn").forEach((b) => b.toggleAttribute("aria-current", b.dataset.vista === estado.vista));
   document.querySelectorAll(".vista-btn[aria-current]").forEach((b) => b.setAttribute("aria-current", "page"));
-  for (const v of ["stock", "favoritos", "reposiciones"]) $("#vista-" + v).hidden = v !== estado.vista;
+  for (const v of ["stock", "favoritos", "lanzamientos", "reposiciones"]) $("#vista-" + v).hidden = v !== estado.vista;
   $(".buscar").hidden = estado.vista === "reposiciones";
+  $("#tabs").hidden = estado.vista === "lanzamientos";
   if (!estado.datos) return;
+  if (estado.vista === "lanzamientos") { pintarLanzamientos(); return pintarFrescura(); }
   if (estado.vista === "favoritos") { pintarPestanas(); pintarFavoritos(); return pintarFrescura(); }
   if (estado.vista === "reposiciones") { pintarPestanas(); pintarReposiciones(); return pintarFrescura(); }
   pintarStock();
@@ -1062,6 +1096,135 @@ function pintarReposiciones() {
   </section>`;
 }
 
+// ---------------- lanzamientos y preventas en español ----------------
+const MESES_LARGOS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+const fechaLocal = (iso) => { const [a, m, d] = iso.split("-").map(Number); return new Date(a, m - 1, d); };
+function diasHasta(iso) {
+  const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+  return Math.round((fechaLocal(iso) - hoy) / 864e5);
+}
+function cuentaAtras(l) {
+  const d = diasHasta(l.fecha);
+  if (d < 0) return { texto: "Ya a la venta", clase: "ya" };
+  if (d === 0) return { texto: "Sale hoy", clase: "pronto" };
+  if (d === 1) return { texto: "Sale mañana", clase: "pronto" };
+  return { texto: `${l.fechaConfirmada ? "" : "Aprox. "}en ${d} días`, clase: d <= 7 ? "pronto" : "" };
+}
+const nombreEs = (n) => (n || "").includes(" / ") ? n.split(" / ").pop().replace(/\s*\([^)]*\)\s*$/, "") : (n || "");
+
+function resumenEspanol(l) {
+  const n = l.ofertas.length;
+  if (!n) return `Todavía sin ofertas en español`;
+  const pre = l.ofertas.filter((o) => o.preventa).length;
+  const min = Math.min(...l.ofertas.map((o) => o.precio));
+  return `<b>${n} ${n === 1 ? "oferta" : "ofertas"} en español</b>${pre ? ` · ${pre} en preventa` : ""} · desde ${euros(min)}`;
+}
+
+function filtrarTexto(lista, campos) {
+  if (!estado.texto) return lista;
+  const q = norm(estado.texto).split(/\s+/).filter(Boolean);
+  return lista.filter((x) => { const t = norm(campos(x)); return q.every((w) => t.includes(w)); });
+}
+
+function pintarLanzamientos() {
+  const v = $("#vista-lanzamientos");
+  const d = estado.lanz;
+  if (!d) {
+    v.innerHTML = `<section class="seccion"><div class="seccion-cab"><h2>Lanzamientos</h2></div>
+      <div class="sin-novedades">${icono("calendario")}<div><b>El calendario aún no está disponible</b>Se genera en la próxima comprobación del monitor.</div></div></section>`;
+    return;
+  }
+  const lanz = filtrarTexto(d.lanzamientos,
+    (l) => `${l.nombre} ${l.tipo} ${l.ofertas.map((o) => `${o.titulo} ${o.tienda}`).join(" ")}`);
+  const proximos = lanz.filter((l) => diasHasta(l.fecha) >= 0), recientes = lanz.filter((l) => diasHasta(l.fecha) < 0);
+  const preventas = filtrarTexto(d.preventas.filter((o) => !estado.ocultas.has(o.tienda)),
+    (o) => `${o.titulo} ${o.tienda} ${o.coleccion} ${o.tipoNombre}`);
+  const grupos = {};
+  for (const o of preventas) (grupos[nombreEs(o.coleccion)] ||= []).push(o);
+  const ordenGrupos = Object.entries(grupos).sort((a, b) => {
+    const fa = Math.min(...a[1].map((o) => o.fecha ? fechaLocal(o.fecha).getTime() : Infinity));
+    const fb = Math.min(...b[1].map((o) => o.fecha ? fechaLocal(o.fecha).getTime() : Infinity));
+    return fa - fb || a[0].localeCompare(b[0]);
+  });
+
+  const fila = (l) => {
+    const f = fechaLocal(l.fecha), c = cuentaAtras(l);
+    return `<li class="lanz${diasHasta(l.fecha) < 0 ? " pasado" : ""}" data-lanz="${esc(l.slug)}">
+      <time class="dia" datetime="${esc(l.fecha)}"><span>${MESES[f.getMonth()]}</span><b>${f.getDate()}</b></time>
+      <div class="info">
+        <div class="cuenta-atras ${c.clase}">${c.texto}</div>
+        <h3>${esc(nombreEs(l.nombre))}</h3>
+        <div class="s">${esc(l.tipo)}</div>
+        <div class="es">${resumenEspanol({ ...l, ofertas: l.ofertas.filter((o) => !estado.ocultas.has(o.tienda)) })}</div>
+      </div>
+      <div class="mini">${imagen(l.img ? { url: l.foto ? URL_FOTOS + l.foto : l.img, orig: l.img, prep: !!l.foto } : null)}</div>
+    </li>`;
+  };
+  const filaPreventa = (o) => `<li class="fila">
+      <div class="mini">${imagen(fotoDe(o))}</div>
+      <div class="info">
+        <div class="titulo">${esc(NOMBRE_TIPO[o.tipo] || o.tipoNombre)}</div>
+        <div class="tienda">${esc(o.tienda)}${o.fecha ? ` · sale el ${fechaLocal(o.fecha).getDate()} ${MESES[fechaLocal(o.fecha).getMonth()]}` : ""}</div>
+      </div>
+      <div class="lado">
+        <span class="precio num">${euros(o.precio, o.moneda)}</span>
+        <a class="btn" href="${esc(o.url)}" target="_blank" rel="noopener">Reservar</a>
+      </div>
+    </li>`;
+
+  v.innerHTML = `<section class="seccion">
+      <div class="seccion-cab"><h2>Próximos lanzamientos</h2><span class="cuenta num">${proximos.length}</span></div>
+      ${proximos.length ? `<ul class="calendario">${proximos.map(fila).join("")}</ul>`
+        : `<div class="sin-novedades">${icono("calendario")}<div><b>${estado.texto ? "Ningún lanzamiento coincide con la búsqueda" : "No hay lanzamientos anunciados"}</b>El calendario sale de StockTCG y se revisa cada 6 horas.</div></div>`}
+      ${recientes.length ? `<div class="grupo-cab"><h3>Recién salidos</h3><span>últimos 14 días</span></div><ul class="calendario">${recientes.map(fila).join("")}</ul>` : ""}
+    </section>
+    <section class="seccion">
+      <div class="seccion-cab"><h2>Preventas en español</h2><span class="cuenta num">${preventas.length}</span></div>
+      <p class="texto-vista" style="margin:0 0 4px">De cualquier colección, aunque no esté en tus filtros. Te aviso al móvil cuando abre una nueva.</p>
+      ${ordenGrupos.length ? ordenGrupos.map(([col, lista]) => `
+        <div class="grupo-cab"><h3>${esc(col)}</h3><span>${lista.length} ${lista.length === 1 ? "preventa" : "preventas"}</span></div>
+        <ul class="filas">${lista.sort((a, b) => a.precio - b.precio).map(filaPreventa).join("")}</ul>`).join("")
+        : `<div class="sin-novedades">${icono("campana")}<div><b>Ahora mismo no hay preventas en español</b>En cuanto una tienda abra una, te llegará un aviso.</div></div>`}
+    </section>`;
+}
+
+function abrirLanzamiento(slug, desdeHistorial) {
+  const l = estado.lanz?.lanzamientos.find((x) => x.slug === slug);
+  if (!l) return;
+  const f = fechaLocal(l.fecha), c = cuentaAtras(l);
+  const ofertas = l.ofertas.filter((o) => !estado.ocultas.has(o.tienda));
+  $("#ficha-contenido").innerHTML = `
+    <div class="ficha-cab">
+      <div class="ficha-foto">${imagen(l.img ? { url: l.foto ? URL_FOTOS + l.foto : l.img, orig: l.img, prep: !!l.foto } : null)}</div>
+      <div>
+        <h2 id="ficha-titulo">${esc(nombreEs(l.nombre))}</h2>
+        <div class="sub">${esc(l.tipo)}</div>
+        <div class="mejor">${l.fechaConfirmada ? "" : "Fecha aproximada: "}${f.getDate()} de ${MESES_LARGOS[f.getMonth()]} · <span class="cuenta-atras ${c.clase}">${c.texto}</span></div>
+      </div>
+      <div class="ficha-acciones"><button class="btn-icono" data-accion="cerrar" aria-label="Cerrar">${icono("x")}</button></div>
+    </div>
+    <div class="ficha-cuerpo">
+      ${ofertas.length ? `<div class="ofertas-cab"><b>${ofertas.length} ${ofertas.length === 1 ? "oferta" : "ofertas"} en español</b><span>de menor a mayor precio</span></div>
+      <ul class="ofertas">${ofertas.map((o) => `<li class="oferta con-foto">
+        <div class="mini">${imagen(fotoDe(o))}</div>
+        <div class="tienda"><span>${esc(o.tienda)}</span><span class="idioma">ES</span></div>
+        <div class="lado"><div><span class="precio num">${euros(o.precio, o.moneda)}</span></div>
+          <a class="btn" href="${esc(o.url)}" target="_blank" rel="noopener">${o.preventa ? "Reservar" : "Ir a la tienda"}</a></div>
+        <div class="titulo">${esc(o.titulo)}</div>
+        <div class="ets">${o.preventa ? `<span class="et preventa">Preventa</span>` : `<span class="et nuevo">Disponible</span>`}</div>
+      </li>`).join("")}</ul>`
+      : `<div class="nota" style="padding-top:16px">${icono("info")}Todavía no hay ninguna oferta en español. Te avisaré al móvil en cuanto una tienda abra la preventa.</div>`}
+      <div class="ficha-pie"><a href="https://stocktcg.net/lanzamientos/${esc(l.slug)}" target="_blank" rel="noopener">Ver el lanzamiento en StockTCG ${icono("salir")}</a></div>
+    </div>`;
+  const dlg = $("#ficha");
+  estado.abierto = null;
+  if (!dlg.open) {
+    dlg.showModal();
+    if (!desdeHistorial) history.pushState({ ficha: "lz:" + slug }, "", location.href);
+  }
+  dlg.querySelector(".ficha-cuerpo").scrollTop = 0;
+}
+
 // ---------------- favoritos ----------------
 function pintarFavoritos() {
   const v = $("#vista-favoritos");
@@ -1346,12 +1509,17 @@ document.addEventListener("click", (e) => {
   if (accion === "cerrar-ajustes") return $("#ajustes").close();
   if (accion === "guardar-token") return guardarToken();
   if (accion === "desconectar") { estado.token = ""; try { localStorage.removeItem("stk-token"); } catch {} $("#ajustes").close(); aviso("Desconectado de GitHub"); return pintar(); }
+  const lz = e.target.closest("[data-lanz]");
+  if (lz && !e.target.closest("dialog")) return abrirLanzamiento(lz.dataset.lanz);
   const g = e.target.closest("[data-grupo]");
   if (g && !e.target.closest("dialog")) abrirFicha(g.dataset.grupo);
 });
 
 // Abrir una colección desde la notificación (#Nombre)
-function leerHash() { if (location.hash) estado.coleccion = decodeURIComponent(location.hash.slice(1)); }
+function leerHash() {
+  if (location.hash === "#lanzamientos") estado.vista = "lanzamientos";
+  else if (location.hash) estado.coleccion = decodeURIComponent(location.hash.slice(1));
+}
 leerHash();
 window.addEventListener("hashchange", () => { leerHash(); if (estado.datos) pintar(); });
 
