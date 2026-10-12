@@ -30,7 +30,7 @@ Fuente del sistema (system-ui), una sola familia. Escala fija: 12 / 13 / 14 / 15
 
 ## Componentes
 
-- **Barra superior fija:** icono + "Stock TCG", estado "Comprobado hace X min" (punto verde; ámbar si pasan más de 30 min o no hay conexión), actualizar; buscador en campo gris de 42 px; pestañas de colección subrayadas con contador.
+- **Barra superior fija:** logo del 30 aniversario (`logo-30.png`, 32 px de alto, fondo transparente) + "Stock TCG", estado "Comprobado hace X min" (punto verde; ámbar si pasan más de 30 min o no hay conexión), actualizar; buscador en campo gris de 42 px; pestañas de colección subrayadas con contador.
 - **Novedades:** filas (miniatura 64 px, evento con icono y hora, producto, colección · tienda, precio, botón Comprar). 4 visibles y "Ver todas". En escritorio, 2 columnas.
 - **Herramientas:** select de orden con forma de chip, separador y chips de tipo (activo = relleno de color texto). Scroll horizontal en móvil; en ≥900 px pasan a varias líneas.
 - **Tarjeta de producto:** foto 1:1 en pozo gris con radio 12, una sola etiqueta (prioridad Nuevo > −X % > Bajo Cardmarket > Preventa), "desde" + precio, nombre del tipo y "N tiendas · colección". Rejilla de 2/3/4/5 columnas (0/600/900/1180 px).

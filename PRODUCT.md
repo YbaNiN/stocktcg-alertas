@@ -34,7 +34,7 @@ No es una tienda ni otro agregador general: es su propio vigilante, limitado a l
 
 ## Brand Commitments
 
-- Nombre: "Stock TCG". Icono existente: `docs/icon-*.png` (cartas sobre azul noche con un check verde).
+- Nombre: "Stock TCG". Logo elegido por el usuario: el logo del 30 aniversario de Pokémon (Pikachu con el "30"). `docs/logo-30.png` (fondo transparente, cabecera) y `docs/icono-30-*.png` (iconos de la app sobre blanco). Es un logo oficial de Pokémon, de uso personal.
 - Referencias elegidas por el usuario para la calidad y la forma de uso: **Wallapop / Vinted** (cuadrícula de fotos, precio destacado, filtros en chips) e **Idealo / PriceRunner** (ficha por producto, "desde X €", tiendas ordenadas por precio). Camino convencional del sector, ejecutado con su nivel de acabado.
 - Idioma: español de España, tono directo.
 
