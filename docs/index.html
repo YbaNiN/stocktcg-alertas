@@ -125,7 +125,27 @@
   }
 
   /* ---------------- secciones ---------------- */
-  main { padding-bottom: calc(40px + env(safe-area-inset-bottom)); }
+  main { padding-bottom: calc(96px + env(safe-area-inset-bottom)); }
+  @media (min-width: 900px) { main { padding-bottom: 48px; } }
+
+  /* navegación entre vistas: barra inferior en el móvil, en la cabecera en escritorio */
+  .vistas {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: flex;
+    background: var(--bg); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom);
+  }
+  .vista-btn {
+    flex: 1; border: 0; background: none; display: flex; flex-direction: column; align-items: center; gap: 3px;
+    padding: 8px 0 7px; font-size: 11.5px; font-weight: 600; color: var(--faint);
+  }
+  .vista-btn svg { width: 23px; height: 23px; }
+  .vista-btn[aria-current="page"] { color: var(--text); }
+  .vista-btn[aria-current="page"] svg { stroke-width: 2.2; }
+  @media (min-width: 900px) {
+    .vistas { position: static; border: 0; padding: 0; background: none; margin-left: 20px; gap: 2px; }
+    .vista-btn { flex: none; flex-direction: row; gap: 7px; padding: 8px 12px; border-radius: 10px; font-size: 14px; }
+    .vista-btn svg { width: 19px; height: 19px; }
+    .vista-btn[aria-current="page"] { background: var(--chip); }
+  }
   .seccion { padding-top: 22px; }
   .seccion-cab { display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px; }
   .seccion-cab h2 { margin: 0; font-size: 19px; letter-spacing: -.015em; }
@@ -283,6 +303,101 @@
   .instalar { display: none; }
   .instalar.visible { display: inline-flex; }
 
+  /* favoritos */
+  .tarjeta { position: relative; }
+  .corazon {
+    position: absolute; top: 6px; right: 6px; z-index: 1; width: 36px; height: 36px; border-radius: 50%; border: 0;
+    background: rgba(255, 255, 255, .94); color: #16181d; display: grid; place-items: center;
+    box-shadow: 0 1px 4px rgba(16, 18, 21, .16); transition: transform .15s;
+  }
+  .corazon:active { transform: scale(.88); }
+  .corazon svg { width: 19px; height: 19px; stroke-width: 2; }
+  .corazon[aria-pressed="true"], .ficha-fav[aria-pressed="true"] { color: #e5484d; }
+  .corazon[aria-pressed="true"] svg, .ficha-fav[aria-pressed="true"] svg { fill: currentColor; }
+  .ficha-acciones { display: flex; margin: -6px -8px 0 0; }
+  .estado-sync {
+    display: flex; gap: 12px; align-items: center; padding: 14px; border-radius: var(--radius);
+    background: var(--well); font-size: 14px; color: var(--muted); margin-bottom: 18px;
+  }
+  .estado-sync b { color: var(--text); display: block; font-weight: 600; }
+  .estado-sync > div { flex: 1; }
+  .estado-sync.ok { padding: 10px 14px; }
+  .estado-sync.ok svg { color: var(--accent); }
+  .btn.suave { background: var(--chip); color: var(--text); }
+  .lista-simple { list-style: none; margin: 0; padding: 0; }
+  .lista-simple li { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 12px 0; border-bottom: 1px solid var(--line); align-items: center; }
+  .lista-simple li:last-child { border-bottom: 0; }
+  .lista-simple .t { font-weight: 600; font-size: 14.5px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .lista-simple .s { font-size: 13px; color: var(--muted); grid-column: 1; }
+  .lista-simple .d { grid-row: 1 / span 2; grid-column: 2; text-align: right; font-size: 13px; color: var(--muted); }
+  .lista-simple .d b { display: block; color: var(--text); font-size: 15px; }
+  .lista-simple .d .vivo { color: var(--new-fg); font-weight: 600; }
+  .subtitulo { font-size: 16px; margin: 26px 0 6px; letter-spacing: -.01em; }
+
+  /* gráficos */
+  .bloque { padding-top: 20px; }
+  .bloque h3 { margin: 0 0 4px; font-size: 15px; }
+  .bloque .resumen { margin: 0 0 12px; font-size: 13.5px; color: var(--muted); }
+  .bloque .resumen b { color: var(--text); }
+  .bloque .resumen b.bien { color: var(--new-fg); }
+  .grafico { position: relative; }
+  .grafico svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .grafico .rejilla-g { stroke: var(--line); stroke-width: 1; }
+  .grafico .linea { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
+  .grafico .area { fill: color-mix(in srgb, var(--accent) 9%, transparent); }
+  .grafico .punto { fill: var(--accent); stroke: var(--raised); stroke-width: 2; }
+  .grafico text { font-size: 11px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+  .grafico .zona { fill: transparent; }
+  .grafico .zona:hover + .marca, .grafico .zona.activa + .marca { opacity: 1; }
+  .grafico .marca { opacity: 0; stroke: var(--muted); stroke-width: 1; stroke-dasharray: 2 3; pointer-events: none; }
+  .columnas { display: flex; align-items: flex-end; gap: 2px; height: 96px; }
+  .columnas .col { flex: 1; height: 100%; display: flex; align-items: flex-end; cursor: default; }
+  .columnas .col i { display: block; width: 100%; min-height: 2px; background: var(--accent); border-radius: 4px 4px 0 0; }
+  .columnas .col.vacia i { background: var(--line); }
+  .ejes { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); margin-top: 5px; font-variant-numeric: tabular-nums; }
+  .ejes.dias span { flex: 1; text-align: center; }
+  .barras { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .barras li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; font-size: 14px; }
+  .barras .nombre-b { font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .barras .valor { color: var(--muted); font-size: 13px; text-align: right; font-variant-numeric: tabular-nums; }
+  .barras .pista { grid-column: 1 / -1; height: 8px; border-radius: 4px; background: var(--well); overflow: hidden; }
+  .barras .pista i { display: block; height: 100%; background: var(--accent); border-radius: 0 4px 4px 0; }
+  .texto-vista { font-size: 14.5px; color: var(--muted); margin: 4px 0 0; max-width: 62ch; }
+  .texto-vista b { color: var(--text); }
+  @media (min-width: 900px) { .dos-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; } }
+
+  /* tooltip compartido */
+  .tip {
+    position: fixed; z-index: 60; transform: translate(-50%, calc(-100% - 8px)); pointer-events: none;
+    background: var(--text); color: var(--bg); font-size: 12.5px; font-weight: 600; padding: 5px 9px; border-radius: 7px;
+    white-space: nowrap; box-shadow: var(--shadow-pop); opacity: 0; transition: opacity .12s;
+  }
+  .tip.visible { opacity: 1; }
+
+  /* aviso flotante */
+  .toast {
+    position: fixed; left: 50%; bottom: calc(76px + env(safe-area-inset-bottom)); z-index: 70; transform: translate(-50%, 12px);
+    background: var(--text); color: var(--bg); font-size: 14px; font-weight: 500; padding: 10px 16px; border-radius: 10px;
+    box-shadow: var(--shadow-pop); opacity: 0; transition: opacity .2s, transform .2s; max-width: calc(100% - 32px); pointer-events: none;
+  }
+  .toast.visible { opacity: 1; transform: translate(-50%, 0); }
+  @media (min-width: 900px) { .toast { bottom: 24px; } }
+
+  /* ajustes */
+  .pasos { margin: 8px 0 0; padding-left: 20px; font-size: 14px; color: var(--muted); display: grid; gap: 6px; }
+  .pasos b { color: var(--text); }
+  .pasos a { color: var(--accent); font-weight: 600; }
+  .campo { display: grid; gap: 6px; margin-top: 16px; font-size: 13.5px; font-weight: 600; }
+  .campo input {
+    height: 44px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); padding: 0 12px;
+    font-size: 15px; font-weight: 400; outline: 0;
+  }
+  .campo input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent); }
+  .mensaje { font-size: 13.5px; margin-top: 10px; min-height: 1.4em; }
+  .mensaje.error { color: var(--drop-fg); }
+  .mensaje.ok { color: var(--new-fg); }
+  .fila-botones { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+
   /* Las fotos de producto vienen sobre blanco: en modo oscuro se muestran sobre una base clara, como en las tiendas */
   @media (prefers-color-scheme: dark) {
     .foto, .fila .mini, .oferta .mini, .ficha-foto { background: #eceef1; }
@@ -307,13 +422,22 @@
   <symbol id="i-campana" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l1.5 2h-15L6 16Z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></symbol>
   <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></symbol>
   <symbol id="i-descargar" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></symbol>
-  <symbol id="i-avion" viewBox="0 0 24 24"><path d="M4 12h12M12 6l6 6-6 6"/></symbol>
+  <symbol id="i-inicio" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol>
+  <symbol id="i-corazon" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></symbol>
+  <symbol id="i-grafico" viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M7 16v-5M12 16V7M17 16v-8"/></symbol>
+  <symbol id="i-llave" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 8-8M16 7l2 2M14 9l2 2"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8.5 12.2 2.4 2.4 4.8-5"/></symbol>
 </svg>
 
 <header class="bar" id="bar">
   <div class="wrap">
     <div class="bar-top">
       <a class="marca" href="./" aria-label="Stock TCG, inicio"><img src="logo-30.png" alt="" width="160" height="118"><b>Stock TCG</b></a>
+      <nav class="vistas" id="vistas" aria-label="Secciones">
+        <button class="vista-btn" data-vista="stock" aria-current="page"><svg class="i"><use href="#i-inicio"/></svg>Stock</button>
+        <button class="vista-btn" data-vista="favoritos"><svg class="i"><use href="#i-corazon"/></svg>Favoritos</button>
+        <button class="vista-btn" data-vista="reposiciones"><svg class="i"><use href="#i-grafico"/></svg>Reposiciones</button>
+      </nav>
       <div class="frescura" id="frescura" role="status"><i class="dot"></i><span>Cargando…</span></div>
       <button class="btn-icono instalar" id="instalar" aria-label="Instalar como app" title="Instalar como app"><svg class="i"><use href="#i-descargar"/></svg></button>
       <button class="btn-icono" id="recargar" aria-label="Actualizar" title="Actualizar"><svg class="i"><use href="#i-recargar"/></svg></button>
@@ -329,6 +453,7 @@
 </header>
 
 <main class="wrap">
+ <div id="vista-stock">
   <section class="seccion" id="novedades" aria-labelledby="t-novedades">
     <div class="seccion-cab">
       <h2 id="t-novedades">Novedades</h2>
@@ -360,7 +485,18 @@
     <div class="rejilla" id="rejilla" aria-live="polite"></div>
     <div id="aviso-red"></div>
   </section>
+ </div>
+ <div id="vista-favoritos" hidden></div>
+ <div id="vista-reposiciones" hidden></div>
 </main>
+
+<div class="tip" id="tip" role="tooltip"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<dialog class="ficha" id="ajustes" aria-labelledby="ajustes-titulo">
+  <div class="asa" aria-hidden="true"></div>
+  <div id="ajustes-contenido" style="display:contents"></div>
+</dialog>
 
 <dialog class="ficha" id="ficha" aria-labelledby="ficha-titulo">
   <div class="asa" aria-hidden="true"></div>
@@ -389,6 +525,13 @@ const USUARIO = enPages ? location.hostname.split(".")[0] : "ybanin";
 const REPO = enPages ? location.pathname.split("/")[1] : "stocktcg-alertas";
 const URL_DATOS = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/stock.json` : "../datos/stock.json";
 const URL_RUNS = `https://api.github.com/repos/${USUARIO}/${REPO}/actions/workflows/monitor.yml/runs?per_page=1&status=success`;
+const URL_HIST = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/historial.json` : "../datos/historial.json";
+// Los favoritos viven en un repositorio aparte: la clave de la app solo puede escribir ahí
+const FAV_REPO = "stocktcg-favoritos";
+const URL_FAVS = `https://raw.githubusercontent.com/${USUARIO}/${FAV_REPO}/main/favoritos.json`;
+const API_FAVS = `https://api.github.com/repos/${USUARIO}/${FAV_REPO}/contents/favoritos.json`;
+const DIAS_STATS = 30;
+const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -412,7 +555,19 @@ const estado = {
   datos: null, grupos: [], comprobado: null,
   coleccion: "__todas", tipo: "__todos", orden: leer("orden") || "novedades", texto: "",
   verTodasNovedades: false, abierto: null,
+  vista: "stock", hist: null,
+  favs: new Set(JSON.parse(leer("favs") || "[]")), token: leer("token") || "",
 };
+const fecha = (f) => { const d = new Date(f); return `${d.getDate()} ${MESES[d.getMonth()]}`; };
+const fechaHora = (f) => { const d = new Date(f); return `${fecha(f)}, ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`; };
+function duracion(min) {
+  if (min < 5) return "menos de 5 min";
+  if (min < 60) return `${Math.round(min)} min`;
+  if (min < 48 * 60) { const h = Math.floor(min / 60), m = Math.round(min % 60); return m ? `${h} h ${m} min` : `${h} h`; }
+  return `${Math.round(min / 1440)} días`;
+}
+const minutosEntre = (a, b) => (new Date(b) - new Date(a)) / 60000;
+const mediana = (xs) => { if (!xs.length) return null; const v = xs.slice().sort((a, b) => a - b), m = v.length >> 1; return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2; };
 
 // ---------------- datos ----------------
 window.sinFoto = (img) => { const s = document.createElement("span"); s.className = "placeholder"; s.innerHTML = icono("carta"); img.replaceWith(s); };
@@ -467,6 +622,8 @@ async function cargar() {
     estado.datos = await r.json();
     estado.grupos = construirGrupos(estado.datos);
     estado.errorRed = false;
+    const h = await fetch(URL_HIST + "?t=" + Math.floor(Date.now() / 60000), { cache: "no-store" }).catch(() => null);
+    if (h?.ok) estado.hist = await h.json().catch(() => estado.hist);
   } catch {
     estado.errorRed = true;
   } finally {
@@ -474,6 +631,7 @@ async function cargar() {
   }
   if (estado.datos) pintar(); else pintarError();
   comprobarFrescura();
+  cargarFavoritos();
 }
 
 let ultimaConsulta = 0;
@@ -508,14 +666,34 @@ function gruposVisibles() {
 }
 
 function pintar() {
+  document.querySelectorAll(".vista-btn").forEach((b) => b.toggleAttribute("aria-current", b.dataset.vista === estado.vista));
+  document.querySelectorAll(".vista-btn[aria-current]").forEach((b) => b.setAttribute("aria-current", "page"));
+  for (const v of ["stock", "favoritos", "reposiciones"]) $("#vista-" + v).hidden = v !== estado.vista;
+  $(".buscar").hidden = estado.vista === "reposiciones";
+  if (!estado.datos) return;
+  if (estado.vista === "favoritos") { pintarPestanas(); pintarFavoritos(); return pintarFrescura(); }
+  if (estado.vista === "reposiciones") { pintarPestanas(); pintarReposiciones(); return pintarFrescura(); }
+  pintarStock();
+}
+
+function pintarPestanas() {
+  const colecciones = estado.datos.colecciones.map((c) => c.nombre);
+  if (estado.coleccion !== "__todas" && !colecciones.includes(estado.coleccion)) estado.coleccion = "__todas";
+  const cuenta = (nombre) => {
+    if (estado.vista === "reposiciones") return reposicionesRecientes(nombre).length;
+    const g = estado.grupos.filter((x) => nombre === "__todas" || x.filtro === nombre);
+    return estado.vista === "favoritos" ? g.filter((x) => estado.favs.has(x.id)).length : g.length;
+  };
+  $("#tabs").innerHTML = ["__todas", ...colecciones].map((c) =>
+    `<button class="tab" role="tab" data-col="${esc(c)}" aria-selected="${c === estado.coleccion}">${c === "__todas" ? "Todo" : esc(c)}<span class="n num">${cuenta(c)}</span></button>`).join("");
+}
+
+function pintarStock() {
   const d = estado.datos;
   const colecciones = d.colecciones.map((c) => c.nombre);
   if (estado.coleccion !== "__todas" && !colecciones.includes(estado.coleccion)) estado.coleccion = "__todas";
 
-  // pestañas
-  const cuenta = (nombre) => estado.grupos.filter((g) => nombre === "__todas" || g.filtro === nombre).length;
-  $("#tabs").innerHTML = ["__todas", ...colecciones].map((c) =>
-    `<button class="tab" role="tab" data-col="${esc(c)}" aria-selected="${c === estado.coleccion}">${c === "__todas" ? "Todo" : esc(c)}<span class="n num">${cuenta(c)}</span></button>`).join("");
+  pintarPestanas();
 
   const base = gruposVisibles();
   pintarNovedades(base);
@@ -594,7 +772,9 @@ function etiquetaGrupo(g) {
 
 function tarjeta(g) {
   const tiendas = g.tiendas === 1 ? g.ofertas[0].tienda : `${g.tiendas} tiendas`;
-  return `<article>
+  const fav = estado.favs.has(g.id);
+  return `<article class="tarjeta">
+    <button class="corazon" data-fav="${esc(g.id)}" aria-pressed="${fav}" aria-label="${fav ? "Quitar de favoritos" : "Añadir a favoritos"}">${icono("corazon")}</button>
     <button class="producto" data-grupo="${esc(g.id)}" aria-label="${esc(`${g.nombre}, ${g.coleccion}, desde ${euros(g.precio, g.moneda)}, ${tiendas}`)}">
       <div class="foto">${imagen(g.img)}${etiquetaGrupo(g)}</div>
       <div class="datos">
@@ -659,12 +839,17 @@ function abrirFicha(id, desdeHistorial) {
         <div class="sub">${esc(g.coleccion)} · ${esc(idiomasGrupo(g))}</div>
         <div class="mejor">${g.ofertas.length > 1 ? "desde " : ""}<b class="num">${euros(g.precio, g.moneda)}</b> en ${esc(g.ofertas[0].tienda)}</div>
       </div>
-      <button class="btn-icono cerrar" data-accion="cerrar" aria-label="Cerrar">${icono("x")}</button>
+      <div class="ficha-acciones">
+        <button class="btn-icono ficha-fav" data-fav="${esc(g.id)}" aria-pressed="${estado.favs.has(g.id)}" aria-label="${estado.favs.has(g.id) ? "Quitar de favoritos" : "Añadir a favoritos"}">${icono("corazon")}</button>
+        <button class="btn-icono" data-accion="cerrar" aria-label="Cerrar">${icono("x")}</button>
+      </div>
     </div>
     <div class="ficha-cuerpo">
       ${g.variosModelos ? `<div class="nota">${icono("info")}Aquí hay varios modelos distintos de ${esc(g.nombre.toLowerCase())}: cada oferta indica el suyo.</div>` : ""}
       <div class="ofertas-cab"><b>${g.ofertas.length} ${g.ofertas.length === 1 ? "oferta" : "ofertas"}</b><span>de menor a mayor precio</span></div>
       <ul class="ofertas">${ofertas}</ul>
+      ${bloquePrecios(g)}
+      ${bloqueReposicionesProducto(g)}
       ${cm || st ? `<div class="ficha-pie">${cm}${st}</div>` : ""}
     </div>`;
   const dlg = $("#ficha");
@@ -674,6 +859,317 @@ function abrirFicha(id, desdeHistorial) {
   }
   dlg.querySelector(".ficha-cuerpo").scrollTop = 0;
 }
+// ---------------- historial de precios ----------------
+function seriePrecios(id) {
+  const dias = estado.hist?.precios?.[id];
+  return dias ? Object.entries(dias).sort((a, b) => a[0].localeCompare(b[0])).slice(-60).map(([d, v]) => ({ d, v })) : [];
+}
+
+function bloquePrecios(g) {
+  const serie = seriePrecios(g.id);
+  if (serie.length < 2) {
+    return `<section class="bloque"><h3>Historial de precios</h3><p class="resumen">${serie.length
+      ? `Empezó a registrarse el ${fecha(serie[0].d)}. En unos días verás aquí cómo ha cambiado el precio.`
+      : "Todavía no hay historial de este producto."}</p></section>`;
+  }
+  const anteriores = serie.slice(0, -1);
+  const minAnt = anteriores.reduce((m, x) => (x.v < m.v ? x : m));
+  const dias = Math.round((new Date(serie.at(-1).d) - new Date(serie[0].d)) / 864e5) + 1;
+  const veredicto = g.precio <= minAnt.v
+    ? `<b class="bien">Es el precio más bajo</b> de los últimos ${dias} días.`
+    : `Ha estado más barato: <b class="num">${euros(minAnt.v)}</b> el ${fecha(minAnt.d)}.`;
+  return `<section class="bloque"><h3>Historial de precios</h3><p class="resumen">${veredicto} Precio más bajo de cada día, todas las tiendas.</p>${graficoLinea(serie)}</section>`;
+}
+
+function graficoLinea(serie) {
+  const W = Math.round(Math.min(innerWidth, 560) - 32), H = 140, arriba = 10, abajo = 22, derecha = 46;
+  const t0 = new Date(serie[0].d).getTime(), t1 = new Date(serie.at(-1).d).getTime();
+  const vs = serie.map((x) => x.v), min = Math.min(...vs), max = Math.max(...vs), pad = (max - min) * 0.15 || max * 0.05;
+  const lo = min - pad, hi = max + pad;
+  const x = (d) => ((new Date(d).getTime() - t0) / (t1 - t0 || 1)) * (W - derecha);
+  const y = (v) => arriba + (1 - (v - lo) / (hi - lo)) * (H - arriba - abajo);
+  // Escalones: el precio mínimo del día se mantiene hasta el día siguiente
+  let d = `M${x(serie[0].d)},${y(serie[0].v)}`;
+  for (let i = 1; i < serie.length; i++) d += ` H${x(serie[i].d)} V${y(serie[i].v)}`;
+  const area = `${d} V${H - abajo} H0 Z`;
+  const ultimo = serie.at(-1);
+  const zonas = serie.map((p, i) => {
+    const a = i ? (x(serie[i - 1].d) + x(p.d)) / 2 : 0, b = i < serie.length - 1 ? (x(p.d) + x(serie[i + 1].d)) / 2 : W - derecha;
+    return `<rect class="zona" x="${a}" y="0" width="${Math.max(b - a, 1)}" height="${H - abajo}" data-tip="${esc(`${fecha(p.d)}: ${euros(p.v)}`)}"/><line class="marca" x1="${x(p.d)}" x2="${x(p.d)}" y1="${arriba}" y2="${H - abajo}"/>`;
+  }).join("");
+  return `<div class="grafico"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(`Precio más bajo por día, de ${euros(min)} a ${euros(max)}`)}">
+    <line class="rejilla-g" x1="0" x2="${W - derecha}" y1="${y(max)}" y2="${y(max)}"/>
+    <line class="rejilla-g" x1="0" x2="${W - derecha}" y1="${y(min)}" y2="${y(min)}"/>
+    <line class="rejilla-g" x1="0" x2="${W - derecha}" y1="${H - abajo}" y2="${H - abajo}"/>
+    <path class="area" d="${area}"/><path class="linea" d="${d}" vector-effect="non-scaling-stroke"/>
+    <circle class="punto" cx="${x(ultimo.d)}" cy="${y(ultimo.v)}" r="4" vector-effect="non-scaling-stroke"/>
+    <text x="${W - derecha + 6}" y="${y(max) + 4}">${esc(euros(max).replace(/,00/, ""))}</text>
+    ${max !== min ? `<text x="${W - derecha + 6}" y="${y(min) + 4}">${esc(euros(min).replace(/,00/, ""))}</text>` : ""}
+    <text x="0" y="${H - 6}">${fecha(serie[0].d)}</text>
+    <text x="${W - derecha}" y="${H - 6}" text-anchor="end">${fecha(ultimo.d)}</text>
+    ${zonas}
+  </svg></div>`;
+}
+
+// ---------------- reposiciones ----------------
+function reposicionesRecientes(filtro = estado.coleccion) {
+  const limite = Date.now() - DIAS_STATS * 864e5;
+  return (estado.hist?.reposiciones || []).filter((r) =>
+    new Date(r.entrada).getTime() >= limite && (filtro === "__todas" || r.filtro === filtro));
+}
+
+function nombreDeGrupo(id) {
+  const g = estado.grupos.find((x) => x.id === id);
+  if (g) return { nombre: g.nombre, coleccion: g.coleccion };
+  const [filtro, url = ""] = id.split("|");
+  const tipo = (url.split("/p/")[1] || "").split("--")[1];
+  return { nombre: NOMBRE_TIPO[tipo] || (tipo ? tipo.replace(/-/g, " ") : "Producto"), coleccion: filtro };
+}
+
+function bloqueReposicionesProducto(g) {
+  const lista = (estado.hist?.reposiciones || []).filter((r) => r.grupo === g.id).sort((a, b) => b.entrada.localeCompare(a.entrada));
+  if (!lista.length) return "";
+  const cerradas = lista.filter((r) => r.salida).map((r) => minutosEntre(r.entrada, r.salida));
+  const med = mediana(cerradas);
+  return `<section class="bloque"><h3>Reposiciones</h3>
+    <p class="resumen">Se ha repuesto <b>${lista.length} ${lista.length === 1 ? "vez" : "veces"}</b>${med != null ? `; normalmente se agota en <b>${duracion(med)}</b>` : ""}.</p>
+    <ul class="lista-simple">${lista.slice(0, 6).map((r) => filaReposicion(r)).join("")}</ul></section>`;
+}
+
+function filaReposicion(r, conProducto) {
+  const dur = r.salida ? `Se agotó en ${duracion(minutosEntre(r.entrada, r.salida))}` : `<span class="vivo">Sigue en stock</span>`;
+  const prod = conProducto ? nombreDeGrupo(r.grupo) : null;
+  return `<li${conProducto && estado.grupos.some((x) => x.id === r.grupo) ? ` data-grupo="${esc(r.grupo)}" style="cursor:pointer"` : ""}>
+    <span class="t">${prod ? `${esc(prod.nombre)} · ${esc(prod.coleccion)}` : esc(r.tienda)}</span>
+    <span class="d"><b class="num">${euros(r.precio)}</b>${dur}</span>
+    <span class="s">${prod ? `${esc(r.tienda)} · ` : ""}${fechaHora(r.entrada)}</span>
+  </li>`;
+}
+
+function pintarReposiciones() {
+  const lista = reposicionesRecientes();
+  const v = $("#vista-reposiciones");
+  const donde = estado.coleccion === "__todas" ? "de tus colecciones" : `de ${esc(estado.coleccion)}`;
+  const inicio = (estado.hist?.reposiciones || []).reduce((m, r) => (!m || r.entrada < m ? r.entrada : m), null);
+  if (!lista.length) {
+    v.innerHTML = `<section class="seccion"><div class="seccion-cab"><h2>Reposiciones</h2></div>
+      <div class="sin-novedades">${icono("grafico")}<div><b>Aún no hay reposiciones registradas ${donde}</b>
+      El monitor las registra desde el 12 oct. Con unos días de datos verás qué tiendas reponen más, a qué horas y cuánto tardan en agotarse.</div></div></section>`;
+    return;
+  }
+  const cerradas = lista.filter((r) => r.salida).map((r) => minutosEntre(r.entrada, r.salida));
+  const med = mediana(cerradas);
+  const horas24 = Array(24).fill(0), dias7 = Array(7).fill(0), tiendas = {};
+  for (const r of lista) {
+    const d = new Date(r.entrada);
+    horas24[d.getHours()]++; dias7[(d.getDay() + 6) % 7]++;
+    (tiendas[r.tienda] ||= { n: 0, dur: [] }).n++;
+    if (r.salida) tiendas[r.tienda].dur.push(minutosEntre(r.entrada, r.salida));
+  }
+  const pico = horas24.indexOf(Math.max(...horas24));
+  const diaPico = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"][dias7.indexOf(Math.max(...dias7))];
+  const ranking = Object.entries(tiendas).sort((a, b) => b[1].n - a[1].n).slice(0, 8);
+  const maxT = ranking[0][1].n, maxH = Math.max(...horas24), maxD = Math.max(...dias7);
+  const desde = inicio && new Date(inicio).getTime() > Date.now() - DIAS_STATS * 864e5 ? `desde el ${fecha(inicio)}` : `en los últimos ${DIAS_STATS} días`;
+
+  v.innerHTML = `<section class="seccion">
+    <div class="seccion-cab"><h2>Reposiciones</h2><span class="cuenta">${desde}</span></div>
+    <p class="texto-vista"><b>${lista.length} ${lista.length === 1 ? "reposición" : "reposiciones"}</b> ${donde}.
+      ${med != null ? `La mitad se agotaron en menos de <b>${duracion(med)}</b>.` : "Todavía no se ha agotado ninguna."}
+      La hora con más movimiento es de <b>${pico}:00 a ${pico + 1}:00</b>${lista.length >= 5 ? ` y el día, el <b>${diaPico}</b>` : ""}.</p>
+    <div class="dos-col">
+      <div class="bloque"><h3>Tiendas que más reponen</h3>
+        <ul class="barras">${ranking.map(([t, x]) => {
+          const m = mediana(x.dur);
+          return `<li><span class="nombre-b">${esc(t)}</span><span class="valor">${x.n} ${x.n === 1 ? "vez" : "veces"}${m != null ? ` · se agota en ${duracion(m)}` : ""}</span>
+            <span class="pista"><i style="width:${(x.n / maxT) * 100}%"></i></span></li>`;
+        }).join("")}</ul>
+      </div>
+      <div>
+        <div class="bloque"><h3>A qué hora</h3>
+          <div class="columnas" role="img" aria-label="Reposiciones por hora del día">${horas24.map((n, h) =>
+            `<div class="col${n ? "" : " vacia"}" data-tip="${h}:00–${h + 1}:00 · ${n} ${n === 1 ? "reposición" : "reposiciones"}"><i style="height:${n ? Math.max((n / maxH) * 100, 4) : 2}%"></i></div>`).join("")}</div>
+          <div class="ejes"><span>0 h</span><span>6 h</span><span>12 h</span><span>18 h</span><span>23 h</span></div>
+        </div>
+        <div class="bloque"><h3>Qué día</h3>
+          <div class="columnas" style="height:72px;gap:6px">${dias7.map((n, i) =>
+            `<div class="col${n ? "" : " vacia"}" data-tip="${["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"][i]} · ${n}"><i style="height:${n ? Math.max((n / maxD) * 100, 6) : 3}%"></i></div>`).join("")}</div>
+          <div class="ejes dias">${["L", "M", "X", "J", "V", "S", "D"].map((d) => `<span>${d}</span>`).join("")}</div>
+        </div>
+      </div>
+    </div>
+    <h3 class="subtitulo">Últimas reposiciones</h3>
+    <ul class="lista-simple">${lista.slice().sort((a, b) => b.entrada.localeCompare(a.entrada)).slice(0, 25).map((r) => filaReposicion(r, true)).join("")}</ul>
+  </section>`;
+}
+
+// ---------------- favoritos ----------------
+function pintarFavoritos() {
+  const v = $("#vista-favoritos");
+  const enColeccion = (id) => estado.coleccion === "__todas" || id.startsWith(estado.coleccion + "|");
+  let favs = [...estado.favs].filter(enColeccion);
+  const q = estado.texto ? norm(estado.texto).split(/\s+/).filter(Boolean) : [];
+  const enStock = estado.grupos.filter((g) => favs.includes(g.id) && q.every((w) => g.busqueda.includes(w)))
+    .sort((a, b) => (b.nuevo - a.nuevo) || (b.ultimo - a.ultimo) || a.precio - b.precio);
+  const sinStock = favs.filter((id) => !estado.grupos.some((g) => g.id === id));
+
+  const sync = estado.token
+    ? `<div class="estado-sync ok">${icono("check")}<div>Avisos prioritarios activados: los avisos de tus favoritos llegan como urgentes.</div><button class="link" data-accion="ajustes">Ajustes</button></div>`
+    : `<div class="estado-sync">${icono("llave")}<div><b>Activa los avisos prioritarios</b>Tus favoritos solo se guardan en este móvil. Conecta GitHub para que el monitor los conozca y te avise de ellos como urgentes.</div><button class="btn" data-accion="ajustes">Activar</button></div>`;
+
+  if (!estado.favs.size) {
+    v.innerHTML = `<section class="seccion"><div class="seccion-cab"><h2>Favoritos</h2></div>${sync}
+      <div class="vacio" style="padding-top:24px"><b>Aún no tienes favoritos</b>Toca el corazón de un producto para seguirlo de cerca: saldrá aquí y sus avisos tendrán prioridad.</div></section>`;
+    return;
+  }
+  const ultimoPrecio = (id) => { const s = seriePrecios(id).at(-1); return s ? `${euros(s.v)} el ${fecha(s.d)}` : null; };
+  v.innerHTML = `<section class="seccion">
+    <div class="seccion-cab"><h2>Favoritos</h2><span class="cuenta num">${enStock.length} en stock</span></div>
+    ${sync}
+    ${enStock.length ? `<div class="rejilla">${enStock.map(tarjeta).join("")}</div>`
+      : `<div class="sin-novedades">${icono("campana")}<div><b>Ninguno de tus favoritos está en stock ahora</b>Te avisaremos con prioridad en cuanto entre.</div></div>`}
+    ${sinStock.length ? `<h3 class="subtitulo">Sin stock ahora</h3><ul class="lista-simple">${sinStock.map((id) => {
+      const n = nombreDeGrupo(id), up = ultimoPrecio(id);
+      return `<li><span class="t">${esc(n.nombre)} · ${esc(n.coleccion)}</span>
+        <span class="d"><button class="btn-icono ficha-fav" data-fav="${esc(id)}" aria-pressed="true" aria-label="Quitar de favoritos" style="margin-right:-8px">${icono("corazon")}</button></span>
+        <span class="s">${up ? `Último precio visto: ${up}` : "Sin precio registrado"}</span></li>`;
+    }).join("")}</ul>` : ""}
+  </section>`;
+}
+
+function guardarFavsLocal() {
+  guardar("favs", JSON.stringify([...estado.favs]));
+  guardar("favs-t", String(Date.now()));
+}
+
+function alternarFavorito(id) {
+  const ahora = !estado.favs.has(id);
+  ahora ? estado.favs.add(id) : estado.favs.delete(id);
+  guardarFavsLocal();
+  document.querySelectorAll(`[data-fav="${CSS.escape(id)}"]`).forEach((b) => {
+    b.setAttribute("aria-pressed", ahora);
+    b.setAttribute("aria-label", ahora ? "Quitar de favoritos" : "Añadir a favoritos");
+  });
+  aviso(ahora ? (estado.token ? "Añadido a favoritos: te avisará con prioridad" : "Añadido a favoritos") : "Quitado de favoritos");
+  if (estado.vista === "favoritos") pintar();
+  if (estado.token) programarSync();
+}
+
+let temporizadorSync = null;
+function programarSync() { clearTimeout(temporizadorSync); temporizadorSync = setTimeout(() => sincronizarFavoritos(), 900); }
+
+const utf8b64 = (txt) => btoa(String.fromCharCode(...new TextEncoder().encode(txt)));
+async function sincronizarFavoritos(intento = 1) {
+  const cab = { Authorization: `Bearer ${estado.token}`, Accept: "application/vnd.github+json" };
+  try {
+    const r = await fetch(API_FAVS, { headers: cab, cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    const actual = await r.json();
+    const cuerpo = JSON.stringify({ favoritos: [...estado.favs].sort() }, null, 2) + "\n";
+    const w = await fetch(API_FAVS, {
+      method: "PUT", headers: { ...cab, "Content-Type": "application/json" },
+      body: JSON.stringify({ message: "Actualizar favoritos desde la app", content: utf8b64(cuerpo), sha: actual.sha }),
+    });
+    if (w.status === 409 && intento < 3) return sincronizarFavoritos(intento + 1);
+    if (!w.ok) throw new Error(w.status);
+    return true;
+  } catch (e) {
+    aviso(String(e.message).match(/40[134]/) ? "No se pudo guardar en GitHub: revisa la clave en Ajustes" : "No se pudo guardar en GitHub: se reintentará");
+    return false;
+  }
+}
+
+async function cargarFavoritos() {
+  // Sin clave, los favoritos son solo de este móvil. Con clave, manda lo que hay en GitHub
+  // (salvo que acabes de cambiar algo aquí y GitHub aún no lo muestre).
+  if (!estado.token) return;
+  if (Date.now() - Number(leer("favs-t") || 0) < 10 * 60000) return;
+  try {
+    const r = await fetch(URL_FAVS + "?t=" + Math.floor(Date.now() / 60000), { cache: "no-store" });
+    if (!r.ok) return;
+    const remotos = new Set((await r.json()).favoritos || []);
+    const iguales = remotos.size === estado.favs.size && [...remotos].every((x) => estado.favs.has(x));
+    if (!iguales) { estado.favs = remotos; guardar("favs", JSON.stringify([...remotos])); pintar(); }
+  } catch {}
+}
+
+// ---------------- ajustes (clave de GitHub para los favoritos) ----------------
+function abrirAjustes() {
+  const conectado = !!estado.token;
+  $("#ajustes-contenido").innerHTML = `
+    <div class="ficha-cab" style="grid-template-columns:1fr auto">
+      <div><h2 id="ajustes-titulo">Avisos prioritarios</h2><div class="sub">${conectado ? "Conectado con GitHub" : "Conecta la app con GitHub"}</div></div>
+      <div class="ficha-acciones"><button class="btn-icono" data-accion="cerrar-ajustes" aria-label="Cerrar">${icono("x")}</button></div>
+    </div>
+    <div class="ficha-cuerpo">
+      <p class="texto-vista" style="margin-top:14px">Para que el monitor sepa cuáles son tus favoritos, la app los guarda en tu repositorio
+        <b>${FAV_REPO}</b>. Necesita una clave que <b>solo</b> puede escribir en ese repositorio, así que no puede tocar nada más.</p>
+      ${conectado ? `<div class="fila-botones"><button class="btn suave grande" data-accion="desconectar">Desconectar</button></div>` : `
+      <ol class="pasos">
+        <li>Abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">crear clave en GitHub</a>.</li>
+        <li><b>Token name:</b> Stock TCG favoritos. <b>Expiration:</b> la más larga.</li>
+        <li><b>Repository access:</b> Only select repositories → <b>${FAV_REPO}</b>.</li>
+        <li><b>Permissions → Contents:</b> Read and write.</li>
+        <li>Pulsa <b>Generate token</b>, cópiala y pégala aquí.</li>
+      </ol>
+      <label class="campo">Clave de GitHub<input id="campo-token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…"></label>
+      <div class="fila-botones"><button class="btn grande" data-accion="guardar-token">Guardar y comprobar</button></div>`}
+      <div class="mensaje" id="mensaje-ajustes"></div>
+      <p class="resumen" style="font-size:12.5px;color:var(--faint);margin-top:16px">La clave se guarda solo en este navegador.</p>
+    </div>`;
+  const d = $("#ajustes");
+  if (!d.open) d.showModal();
+}
+
+async function guardarToken() {
+  const token = $("#campo-token").value.trim();
+  const msg = $("#mensaje-ajustes");
+  if (!token) { msg.className = "mensaje error"; msg.textContent = "Pega la clave primero."; return; }
+  msg.className = "mensaje"; msg.textContent = "Comprobando…";
+  try {
+    const r = await fetch(`https://api.github.com/repos/${USUARIO}/${FAV_REPO}`, { headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" } });
+    const info = r.ok ? await r.json() : null;
+    if (!info?.permissions?.push) throw new Error(r.ok ? "permiso" : r.status);
+    estado.token = token; guardar("token", token);
+    // Al conectar se juntan los favoritos de este móvil con los que ya hubiera en GitHub
+    const rem = await fetch(URL_FAVS + "?t=" + Date.now(), { cache: "no-store" }).then((x) => x.json()).catch(() => ({}));
+    (rem.favoritos || []).forEach((id) => estado.favs.add(id));
+    guardarFavsLocal();
+    const ok = await sincronizarFavoritos();
+    msg.className = ok ? "mensaje ok" : "mensaje error";
+    msg.textContent = ok ? "Conectado. Tus favoritos ya avisan con prioridad." : "La clave es válida, pero no se pudieron guardar los favoritos.";
+    if (ok) setTimeout(() => { $("#ajustes").close(); pintar(); }, 1200);
+  } catch (e) {
+    msg.className = "mensaje error";
+    msg.textContent = e.message === "permiso"
+      ? `La clave no tiene permiso de escritura en ${FAV_REPO}. Revisa el paso 4.`
+      : "GitHub no acepta esta clave. Comprueba que la has copiado entera.";
+  }
+}
+
+// ---------------- tooltip y avisos ----------------
+let tipTemporizador = null;
+function mostrarTip(el) {
+  const t = $("#tip"), r = el.getBoundingClientRect();
+  t.textContent = el.dataset.tip;
+  t.style.left = Math.min(Math.max(r.left + r.width / 2, 70), innerWidth - 70) + "px";
+  t.style.top = r.top + "px";
+  t.classList.add("visible");
+  document.querySelectorAll(".zona.activa").forEach((z) => z.classList.remove("activa"));
+  if (el.classList.contains("zona")) el.classList.add("activa");
+  clearTimeout(tipTemporizador); tipTemporizador = setTimeout(ocultarTip, 2500);
+}
+function ocultarTip() { $("#tip").classList.remove("visible"); document.querySelectorAll(".zona.activa").forEach((z) => z.classList.remove("activa")); }
+document.addEventListener("pointerover", (e) => { const el = e.target.closest?.("[data-tip]"); if (el && e.pointerType === "mouse") mostrarTip(el); });
+document.addEventListener("pointerout", (e) => { if (e.target.closest?.("[data-tip]") && e.pointerType === "mouse") ocultarTip(); });
+document.addEventListener("scroll", ocultarTip, { passive: true, capture: true });
+
+let avisoTemporizador = null;
+function aviso(texto) {
+  const t = $("#toast"); t.textContent = texto; t.classList.add("visible");
+  clearTimeout(avisoTemporizador); avisoTemporizador = setTimeout(() => t.classList.remove("visible"), 2600);
+}
+
 function idiomasGrupo(g) {
   const nombres = { es: "Español", en: "Inglés", ja: "Japonés", fr: "Francés", it: "Italiano", de: "Alemán", pt: "Portugués" };
   const l = [...new Set(g.ofertas.flatMap((o) => (o.idioma || "").split(",")).filter(Boolean))];
@@ -689,6 +1185,14 @@ $("#ficha").addEventListener("click", (e) => {
   if (e.target.closest("[data-accion=cerrar]")) cerrarFicha();
 });
 $("#ficha").addEventListener("cancel", (e) => { e.preventDefault(); cerrarFicha(); });
+$("#ajustes").addEventListener("click", (e) => { if (e.target === e.currentTarget) $("#ajustes").close(); });
+
+$("#vistas").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-vista]"); if (!b) return;
+  estado.vista = b.dataset.vista;
+  pintar();
+  window.scrollTo({ top: 0 });
+});
 
 // ---------------- eventos ----------------
 $("#tabs").addEventListener("click", (e) => {
@@ -713,9 +1217,17 @@ $("#novedades-mas").addEventListener("click", () => { estado.verTodasNovedades =
 $("#recargar").addEventListener("click", () => { cargar(); comprobarFrescura(true); });
 document.addEventListener("click", (e) => {
   if (e.target.closest("a")) return; // los enlaces a la tienda funcionan solos
+  const tip = e.target.closest("[data-tip]");
+  if (tip) return mostrarTip(tip);
+  const fav = e.target.closest("[data-fav]");
+  if (fav) return alternarFavorito(fav.dataset.fav);
   const accion = e.target.closest("[data-accion]")?.dataset.accion;
   if (accion === "limpiar") return limpiarBusqueda();
   if (accion === "reintentar") return cargar();
+  if (accion === "ajustes") return abrirAjustes();
+  if (accion === "cerrar-ajustes") return $("#ajustes").close();
+  if (accion === "guardar-token") return guardarToken();
+  if (accion === "desconectar") { estado.token = ""; try { localStorage.removeItem("stk-token"); } catch {} $("#ajustes").close(); aviso("Desconectado de GitHub"); return pintar(); }
   const g = e.target.closest("[data-grupo]");
   if (g && !e.target.closest("dialog")) abrirFicha(g.dataset.grupo);
 });

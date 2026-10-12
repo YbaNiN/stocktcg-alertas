@@ -37,12 +37,17 @@ DIR = Path(__file__).parent
 FILTROS = DIR / "filtros.toml"
 ESTADO = DIR / "estado" / "estado.json"
 DATOS_WEB = DIR / "datos" / "stock.json"
+HISTORIAL = DIR / "datos" / "historial.json"
+DIAS_HISTORIAL = 120  # días de historial de precios y reposiciones que se guardan
 
 # Enlaces en GitHub (GitHub Actions define estas variables)
 REPO = os.environ.get("GITHUB_REPOSITORY")
 URL_LISTA = (f"https://{REPO.split('/')[0].lower()}.github.io/{REPO.split('/')[1]}/" if REPO
              else f"{BASE}/stock")
 URL_ACTIONS = f"https://github.com/{REPO}/actions" if REPO else BASE
+# Favoritos: viven en un repositorio aparte (stocktcg-favoritos) que la web puede modificar
+DUENO = REPO.split("/")[0] if REPO else "YbaNiN"
+URL_FAVORITOS = f"https://raw.githubusercontent.com/{DUENO}/stocktcg-favoritos/main/favoritos.json"
 
 MAX_AVISOS_SUELTOS = 8   # si hay más avisos a la vez, el resto va en un resumen
 MAX_LINEAS_RESUMEN = 30  # líneas por notificación de resumen
@@ -244,7 +249,23 @@ def linea_cardmarket(item):
     return f"Cardmarket: {item['cmTrend']:.2f} €" + (f" ({pct:+.0f}%)" if pct is not None else "")
 
 
-def aviso_producto(tipo, item, alerta, precio_antes=None):
+def grupo_de(item, alerta):
+    """Identificador de producto que usa la web: filtro + página de StockTCG (o la url si no tiene)."""
+    return f"{alerta.get('nombre', 'sin nombre')}|{BASE + item['ppage'] if item.get('ppage') else item['url']}"
+
+
+def cargar_favoritos():
+    try:
+        req = urllib.request.Request(f"{URL_FAVORITOS}?t={int(datetime.now().timestamp() // 60)}",
+                                     headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return set(json.loads(resp.read()).get("favoritos", []))
+    except Exception as e:  # sin favoritos no pasa nada: se avisa igual, sin prioridad
+        print("  (no se han podido leer los favoritos:", e, ")")
+        return set()
+
+
+def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False):
     """tipo: 'reposicion', 'bajada', 'chollo' o 'filtro'"""
     producto = f"{item.get('setName')} · {item.get('fmtName')}"
     chollo = " 🔥" if es_chollo(item) else ""
@@ -270,10 +291,10 @@ def aviso_producto(tipo, item, alerta, precio_antes=None):
 
     lineas = [primera, item.get("title") or "", linea_cardmarket(item), f"Filtro: {alerta.get('nombre', 'sin nombre')}"]
     mensaje = {
-        "title": titulo,
+        "title": ("❤️ " if favorito else "") + titulo,
         "message": "\n".join(l for l in lineas if l),
         "click": item["url"],
-        "priority": 4,
+        "priority": 5 if favorito else 4,  # 5 = urgente: ntfy la hace sonar con más insistencia
         "tags": [etiqueta],
         "actions": [{"action": "view", "label": "Comprar", "url": item["url"]}],
     }
@@ -305,10 +326,13 @@ def enviar_resumen(grupos, motivo):
     print(f"Resumen enviado ({motivo}).")
 
 
-def enviar_eventos(eventos):
-    for tipo, item, alerta, precio_antes in eventos[:MAX_AVISOS_SUELTOS]:
-        print(f"  -> [{tipo}] {item.get('setName')} · {item.get('fmtName')} · {formatear_precio(item)} · {item.get('store')}")
-        enviar_ntfy(aviso_producto(tipo, item, alerta, precio_antes))
+def enviar_eventos(eventos, favoritos=frozenset()):
+    es_fav = lambda ev: grupo_de(ev[1], ev[2]) in favoritos
+    eventos = sorted(eventos, key=lambda ev: not es_fav(ev))  # favoritos primero
+    for ev in eventos[:MAX_AVISOS_SUELTOS]:
+        tipo, item, alerta, precio_antes = ev
+        print(f"  -> [{tipo}{' ❤' if es_fav(ev) else ''}] {item.get('setName')} · {item.get('fmtName')} · {formatear_precio(item)} · {item.get('store')}")
+        enviar_ntfy(aviso_producto(tipo, item, alerta, precio_antes, es_fav(ev)))
 
     resto = eventos[MAX_AVISOS_SUELTOS:]
     if resto:
@@ -353,6 +377,53 @@ def escribir_datos_web(grupos, info, ts_catalogo):
     DATOS_WEB.parent.mkdir(exist_ok=True)
     DATOS_WEB.write_text(json.dumps({"actualizado": ts_catalogo, **contenido}, ensure_ascii=False, indent=1),
                          encoding="utf-8")
+    return True
+
+
+def actualizar_historial(coinciden, eventos, disponibles, obsoletas, ahora):
+    """Guarda en datos/historial.json el precio mínimo de cada día por producto y cada reposición
+    (cuándo entró y cuándo se agotó). Solo reescribe el archivo si algo ha cambiado."""
+    try:
+        hist = json.loads(HISTORIAL.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        hist = {}
+    precios = hist.setdefault("precios", {})
+    reposiciones = hist.setdefault("reposiciones", [])
+    antes = json.dumps(hist, sort_keys=True)
+    hoy = ahora[:10]
+
+    for item, alerta in coinciden:
+        euros = precio_euros(item)
+        if euros is None:
+            continue
+        dias = precios.setdefault(grupo_de(item, alerta), {})
+        dias[hoy] = round(min(euros, dias.get(hoy, euros)), 2)
+
+    abiertas = {r["id"] for r in reposiciones if not r.get("salida")}
+    for tipo, item, alerta, _ in eventos:
+        if tipo == "reposicion" and clave(item) not in abiertas:
+            reposiciones.append({"id": clave(item), "grupo": grupo_de(item, alerta), "filtro": alerta.get("nombre"),
+                                 "tienda": item["store"], "precio": item["price"], "titulo": item.get("title"),
+                                 "entrada": ahora, "salida": None})
+
+    # Agotados: reposiciones abiertas cuyo producto ya no está disponible (si la tienda tiene datos al día)
+    en_stock = {clave(i) for i in disponibles}
+    for r in reposiciones:
+        if not r.get("salida") and r["id"] not in en_stock and r["tienda"] not in obsoletas:
+            r["salida"] = ahora
+
+    # Limpiar lo más antiguo
+    limite = (datetime.now(MADRID) - timedelta(days=DIAS_HISTORIAL)).isoformat()[:10]
+    for k in list(precios):
+        precios[k] = {d: v for d, v in precios[k].items() if d >= limite}
+        if not precios[k]:
+            del precios[k]
+    hist["reposiciones"] = [r for r in reposiciones if r["entrada"][:10] >= limite]
+
+    if json.dumps(hist, sort_keys=True) == antes:
+        return False
+    HISTORIAL.parent.mkdir(exist_ok=True)
+    HISTORIAL.write_text(json.dumps(hist, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     return True
 
 
@@ -434,13 +505,16 @@ def comprobar(solo_resumen, anterior):
 
     nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0}
 
+    if actualizar_historial(coinciden, eventos if misma_config else [], disponibles, obsoletas, ahora):
+        print("datos/historial.json actualizado.")
+
     if not misma_config:
         # Primera vez o filtros cambiados: resumen de lo que ya hay (y no se avisa como reposición)
         enviar_resumen(grupos, "primera ejecución" if anterior is None else "filtros cambiados")
         return nuevo_estado
 
     print(f"Avisos: {len(eventos)}")
-    enviar_eventos(eventos)
+    enviar_eventos(eventos, cargar_favoritos() if eventos else frozenset())
     return nuevo_estado
 
 
