@@ -254,15 +254,17 @@ def grupo_de(item, alerta):
     return f"{alerta.get('nombre', 'sin nombre')}|{BASE + item['ppage'] if item.get('ppage') else item['url']}"
 
 
-def cargar_favoritos():
+def cargar_preferencias():
+    """Favoritos y tiendas ocultas que el usuario marca en la web (repositorio stocktcg-favoritos)."""
     try:
         req = urllib.request.Request(f"{URL_FAVORITOS}?t={int(datetime.now().timestamp() // 60)}",
                                      headers={"User-Agent": USER_AGENT})
         with urllib.request.urlopen(req, timeout=20) as resp:
-            return set(json.loads(resp.read()).get("favoritos", []))
-    except Exception as e:  # sin favoritos no pasa nada: se avisa igual, sin prioridad
+            datos = json.loads(resp.read())
+        return set(datos.get("favoritos", [])), {normalizar(t) for t in datos.get("tiendas_ocultas", [])}
+    except Exception as e:  # sin preferencias no pasa nada: se avisa igual, sin prioridad
         print("  (no se han podido leer los favoritos:", e, ")")
-        return set()
+        return set(), set()
 
 
 def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False):
@@ -513,8 +515,11 @@ def comprobar(solo_resumen, anterior):
         enviar_resumen(grupos, "primera ejecución" if anterior is None else "filtros cambiados")
         return nuevo_estado
 
+    favoritos, ocultas = cargar_preferencias() if eventos else (set(), set())
+    if ocultas:
+        eventos = [ev for ev in eventos if normalizar(ev[1]["store"]) not in ocultas]
     print(f"Avisos: {len(eventos)}")
-    enviar_eventos(eventos, cargar_favoritos() if eventos else frozenset())
+    enviar_eventos(eventos, favoritos)
     return nuevo_estado
 
 

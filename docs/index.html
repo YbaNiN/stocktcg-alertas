@@ -86,7 +86,7 @@
   .bar-top { display: flex; align-items: center; gap: 10px; height: 52px; }
   .marca { display: flex; align-items: center; gap: 9px; text-decoration: none; min-width: 0; }
   .marca img { width: auto; height: 32px; }
-  .marca b { font-size: 17px; letter-spacing: -.01em; }
+  .marca b { font-size: 17px; letter-spacing: -.01em; white-space: nowrap; }
   .frescura {
     margin-left: auto; display: flex; align-items: center; gap: 6px; min-width: 0;
     font-size: 12.5px; color: var(--muted); white-space: nowrap;
@@ -366,6 +366,21 @@
   .texto-vista b { color: var(--text); }
   @media (min-width: 900px) { .dos-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; } }
 
+  /* precio por sobre */
+  .por-sobre { font-size: 12.5px; color: var(--muted); margin-top: 1px; font-variant-numeric: tabular-nums; }
+  .oferta .por-sobre { text-align: right; margin-top: -4px; }
+  .acciones-oferta { grid-column: 1; display: flex; gap: 14px; margin-top: 6px; }
+  .oferta.con-foto .acciones-oferta { grid-column: 2; }
+  .accion-texto { border: 0; background: none; padding: 2px 0; font-size: 12.5px; font-weight: 600; color: var(--muted); display: inline-flex; align-items: center; gap: 4px; }
+  .accion-texto svg { width: 14px; height: 14px; }
+  .accion-texto:active { color: var(--text); }
+  .toast.con-accion { pointer-events: auto; display: flex; align-items: center; gap: 14px; }
+  .toast button { border: 0; background: none; color: #6fdcb2; font-weight: 700; padding: 0; }
+  @media (prefers-color-scheme: dark) { .toast button { color: #0a6649; } }
+  .ajustes-seccion { padding-top: 18px; }
+  .ajustes-seccion + .ajustes-seccion { margin-top: 18px; border-top: 1px solid var(--line); }
+  .ajustes-seccion h3 { margin: 0 0 4px; font-size: 15px; }
+
   /* tooltip compartido */
   .tip {
     position: fixed; z-index: 60; transform: translate(-50%, calc(-100% - 8px)); pointer-events: none;
@@ -426,6 +441,9 @@
   <symbol id="i-corazon" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></symbol>
   <symbol id="i-grafico" viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M7 16v-5M12 16V7M17 16v-8"/></symbol>
   <symbol id="i-llave" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 8-8M16 7l2 2M14 9l2 2"/></symbol>
+  <symbol id="i-ajustes" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></symbol>
+  <symbol id="i-compartir" viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="m8.2 10.9 7.6-4.3M8.2 13.1l7.6 4.3"/></symbol>
+  <symbol id="i-ojo-no" viewBox="0 0 24 24"><path d="M3 3l18 18"/><path d="M10.6 6.2A9.7 9.7 0 0 1 12 6c5 0 9 6 9 6a15 15 0 0 1-2.6 3.1M6.6 7.7C4.4 9.3 3 12 3 12s4 6 9 6a8.8 8.8 0 0 0 3.7-.8"/><path d="M9.9 10a3 3 0 0 0 4.1 4.1"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8.5 12.2 2.4 2.4 4.8-5"/></symbol>
 </svg>
 
@@ -437,6 +455,7 @@
         <button class="vista-btn" data-vista="stock" aria-current="page"><svg class="i"><use href="#i-inicio"/></svg>Stock</button>
         <button class="vista-btn" data-vista="favoritos"><svg class="i"><use href="#i-corazon"/></svg>Favoritos</button>
         <button class="vista-btn" data-vista="reposiciones"><svg class="i"><use href="#i-grafico"/></svg>Reposiciones</button>
+        <button class="vista-btn" data-accion="ajustes"><svg class="i"><use href="#i-ajustes"/></svg>Ajustes</button>
       </nav>
       <div class="frescura" id="frescura" role="status"><i class="dot"></i><span>Cargando…</span></div>
       <button class="btn-icono instalar" id="instalar" aria-label="Instalar como app" title="Instalar como app"><svg class="i"><use href="#i-descargar"/></svg></button>
@@ -475,6 +494,7 @@
           <option value="novedades">Novedades primero</option>
           <option value="barato">Más barato</option>
           <option value="caro">Más caro</option>
+          <option value="sobre">Mejor precio por sobre</option>
           <option value="tiendas">Más tiendas</option>
         </select>
         <svg class="i"><use href="#i-chevron"/></svg>
@@ -557,7 +577,26 @@ const estado = {
   verTodasNovedades: false, abierto: null,
   vista: "stock", hist: null,
   favs: new Set(JSON.parse(leer("favs") || "[]")), token: leer("token") || "",
+  ocultas: new Set(JSON.parse(leer("ocultas") || "[]")),
 };
+
+// ---------------- precio por sobre ----------------
+// Contenido habitual cuando la tienda no lo indica en el título
+const SOBRES_TIPO = { "etb": 9, "booster-bundle": 6, "booster-box": 36, "mini-tin": 2, "mini-tin-display": 20, "booster-pack": 1 };
+function sobresDe(o) {
+  const t = norm(o.titulo);
+  const m = t.match(/(?<!\d)(\d{1,2})\s*(?:x\s*)?(?:sobres?|packs?|booster packs?)\b/);
+  if (m && +m[1] > 0) return { n: +m[1], estimado: false };
+  const latas = t.match(/(?<!\d)(\d{1,2})\s*mini\s*(?:latas?|tins?)/);
+  if (latas && o.tipo === "mini-tin-display") return { n: +latas[1] * 2, estimado: true };
+  return SOBRES_TIPO[o.tipo] ? { n: SOBRES_TIPO[o.tipo], estimado: true } : null;
+}
+function porSobre(o) {
+  const s = sobresDe(o);
+  return s && s.n > 1 ? { precio: o.precio / s.n, ...s } : null;
+}
+const textoPorSobre = (ps, moneda) => `${ps.estimado ? "≈ " : ""}${euros(ps.precio, moneda)}/sobre`;
+const ayudaPorSobre = (ps) => `${ps.n} sobres${ps.estimado ? " (contenido habitual; la tienda no lo indica)" : " según la tienda"}`;
 const fecha = (f) => { const d = new Date(f); return `${d.getDate()} ${MESES[d.getMonth()]}`; };
 const fechaHora = (f) => { const d = new Date(f); return `${fecha(f)}, ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`; };
 function duracion(min) {
@@ -580,6 +619,7 @@ function construirGrupos(datos) {
   const grupos = new Map();
   for (const col of datos.colecciones) {
     for (const o of col.productos) {
+      if (estado.ocultas.has(o.tienda)) continue;
       const id = col.nombre + "|" + (o.stocktcg || o.url);
       if (!grupos.has(id)) grupos.set(id, { id, filtro: col.nombre, coleccion: nombreColeccion(o.coleccion), tipo: o.tipo, tipoNombre: o.tipoNombre, ofertas: [] });
       grupos.get(id).ofertas.push(o);
@@ -598,6 +638,7 @@ function construirGrupos(datos) {
     g.ofertas.sort((a, b) => a.precio - b.precio);
     const m = g.ofertas[0];
     g.precio = m.precio; g.moneda = m.moneda;
+    g.porSobre = g.ofertas.map(porSobre).filter(Boolean).sort((a, b) => a.precio - b.precio)[0] || null;
     g.img = (g.ofertas.find((o) => o.img) || {}).img;
     g.variosModelos = VARIOS_MODELOS.has(g.tipo) && g.ofertas.length > 1;
     g.nombre = (g.variosModelos && NOMBRE_TIPO_VARIOS[g.tipo]) || NOMBRE_TIPO[g.tipo] || g.tipoNombre;
@@ -712,6 +753,7 @@ function pintarStock() {
     barato: (a, b) => a.precio - b.precio,
     caro: (a, b) => b.precio - a.precio,
     tiendas: (a, b) => b.ofertas.length - a.ofertas.length || a.precio - b.precio,
+    sobre: (a, b) => (a.porSobre ? a.porSobre.precio : Infinity) - (b.porSobre ? b.porSobre.precio : Infinity) || a.precio - b.precio,
     novedades: (a, b) => (b.nuevo - a.nuevo) || ((b.bajada > 0) - (a.bajada > 0)) || (b.ultimo - a.ultimo) || (porTipo(a) - porTipo(b)) || (a.precio - b.precio),
   }[estado.orden];
   lista.sort(orden);
@@ -779,6 +821,7 @@ function tarjeta(g) {
       <div class="foto">${imagen(g.img)}${etiquetaGrupo(g)}</div>
       <div class="datos">
         <div><span class="desde">${g.ofertas.length > 1 ? "desde" : ""}</span><span class="precio num">${euros(g.precio, g.moneda)}</span></div>
+        ${g.porSobre ? `<div class="por-sobre" title="${esc(ayudaPorSobre(g.porSobre))}">${textoPorSobre(g.porSobre, g.moneda)}</div>` : ""}
         <div class="nombre">${esc(g.nombre)}</div>
         <div class="meta">${esc(tiendas)}${estado.coleccion === "__todas" ? ` · ${esc(g.coleccion)}` : ""}</div>
       </div>
@@ -822,10 +865,15 @@ function abrirFicha(id, desdeHistorial) {
       <div class="tienda"><span>${esc(o.tienda)}</span>${idiomas ? `<span class="idioma">${esc(idiomas)}</span>` : ""}</div>
       <div class="lado">
         <div><span class="precio num">${euros(o.precio, o.moneda)}</span>${o.precioAntes && horas(o.bajadaDesde) < BAJADA_H ? `<s class="antes num">${euros(o.precioAntes, o.moneda)}</s>` : ""}</div>
+        ${porSobre(o) ? `<div class="por-sobre" title="${esc(ayudaPorSobre(porSobre(o)))}">${textoPorSobre(porSobre(o), o.moneda)}</div>` : ""}
         <a class="btn" href="${esc(o.url)}" target="_blank" rel="noopener">Ir a la tienda</a>
       </div>
       <div class="titulo">${esc(o.titulo)}</div>
       ${ets.length ? `<div class="ets">${ets.join("")}</div>` : ""}
+      <div class="acciones-oferta">
+        <button class="accion-texto" data-compartir="${esc(o.url)}" data-grupo-c="${esc(g.id)}">${icono("compartir")}Compartir</button>
+        <button class="accion-texto" data-ocultar="${esc(o.tienda)}">${icono("ojo-no")}Ocultar tienda</button>
+      </div>
     </li>`;
   }).join("");
 
@@ -838,8 +886,10 @@ function abrirFicha(id, desdeHistorial) {
         <h2 id="ficha-titulo">${esc(g.nombre)}</h2>
         <div class="sub">${esc(g.coleccion)} · ${esc(idiomasGrupo(g))}</div>
         <div class="mejor">${g.ofertas.length > 1 ? "desde " : ""}<b class="num">${euros(g.precio, g.moneda)}</b> en ${esc(g.ofertas[0].tienda)}</div>
+        ${g.porSobre ? `<div class="por-sobre" title="${esc(ayudaPorSobre(g.porSobre))}">Mejor precio por sobre: ${textoPorSobre(g.porSobre, g.moneda)}</div>` : ""}
       </div>
       <div class="ficha-acciones">
+        <button class="btn-icono" data-compartir="${esc(g.ofertas[0].url)}" data-grupo-c="${esc(g.id)}" aria-label="Compartir" title="Compartir">${icono("compartir")}</button>
         <button class="btn-icono ficha-fav" data-fav="${esc(g.id)}" aria-pressed="${estado.favs.has(g.id)}" aria-label="${estado.favs.has(g.id) ? "Quitar de favoritos" : "Añadir a favoritos"}">${icono("corazon")}</button>
         <button class="btn-icono" data-accion="cerrar" aria-label="Cerrar">${icono("x")}</button>
       </div>
@@ -914,7 +964,7 @@ function graficoLinea(serie) {
 // ---------------- reposiciones ----------------
 function reposicionesRecientes(filtro = estado.coleccion) {
   const limite = Date.now() - DIAS_STATS * 864e5;
-  return (estado.hist?.reposiciones || []).filter((r) =>
+  return (estado.hist?.reposiciones || []).filter((r) => !estado.ocultas.has(r.tienda) &&
     new Date(r.entrada).getTime() >= limite && (filtro === "__todas" || r.filtro === filtro));
 }
 
@@ -1039,7 +1089,31 @@ function pintarFavoritos() {
 
 function guardarFavsLocal() {
   guardar("favs", JSON.stringify([...estado.favs]));
+  guardar("ocultas", JSON.stringify([...estado.ocultas]));
   guardar("favs-t", String(Date.now()));
+}
+
+function ocultarTienda(tienda, ocultar = true) {
+  ocultar ? estado.ocultas.add(tienda) : estado.ocultas.delete(tienda);
+  guardarFavsLocal();
+  estado.grupos = construirGrupos(estado.datos);
+  if (estado.token) programarSync();
+  if ($("#ficha").open) { const id = estado.abierto; estado.grupos.some((g) => g.id === id) ? abrirFicha(id, true) : cerrarFicha(); }
+  if ($("#ajustes").open) abrirAjustes();
+  pintar();
+}
+
+async function compartir(url, grupoId) {
+  const g = estado.grupos.find((x) => x.id === grupoId);
+  const o = g?.ofertas.find((x) => x.url === url) || g?.ofertas[0];
+  const texto = g ? `${g.nombre} de ${g.coleccion}: ${euros(o.precio, o.moneda)} en ${o.tienda}` : "Mira esto";
+  try {
+    if (navigator.share) return await navigator.share({ title: g ? g.nombre : "Stock TCG", text: texto, url });
+    await navigator.clipboard.writeText(`${texto} ${url}`);
+    aviso("Enlace copiado");
+  } catch (e) {
+    if (e?.name !== "AbortError") aviso("No se ha podido compartir");
+  }
 }
 
 function alternarFavorito(id) {
@@ -1065,7 +1139,7 @@ async function sincronizarFavoritos(intento = 1) {
     const r = await fetch(API_FAVS, { headers: cab, cache: "no-store" });
     if (!r.ok) throw new Error(r.status);
     const actual = await r.json();
-    const cuerpo = JSON.stringify({ favoritos: [...estado.favs].sort() }, null, 2) + "\n";
+    const cuerpo = JSON.stringify({ favoritos: [...estado.favs].sort(), tiendas_ocultas: [...estado.ocultas].sort() }, null, 2) + "\n";
     const w = await fetch(API_FAVS, {
       method: "PUT", headers: { ...cab, "Content-Type": "application/json" },
       body: JSON.stringify({ message: "Actualizar favoritos desde la app", content: utf8b64(cuerpo), sha: actual.sha }),
@@ -1087,9 +1161,15 @@ async function cargarFavoritos() {
   try {
     const r = await fetch(URL_FAVS + "?t=" + Math.floor(Date.now() / 60000), { cache: "no-store" });
     if (!r.ok) return;
-    const remotos = new Set((await r.json()).favoritos || []);
-    const iguales = remotos.size === estado.favs.size && [...remotos].every((x) => estado.favs.has(x));
-    if (!iguales) { estado.favs = remotos; guardar("favs", JSON.stringify([...remotos])); pintar(); }
+    const datos = await r.json();
+    const remotos = new Set(datos.favoritos || []), ocultas = new Set(datos.tiendas_ocultas || []);
+    const igual = (a, b) => a.size === b.size && [...a].every((x) => b.has(x));
+    if (!igual(remotos, estado.favs) || !igual(ocultas, estado.ocultas)) {
+      estado.favs = remotos; estado.ocultas = ocultas;
+      guardar("favs", JSON.stringify([...remotos])); guardar("ocultas", JSON.stringify([...ocultas]));
+      estado.grupos = construirGrupos(estado.datos);
+      pintar();
+    }
   } catch {}
 }
 
@@ -1098,11 +1178,19 @@ function abrirAjustes() {
   const conectado = !!estado.token;
   $("#ajustes-contenido").innerHTML = `
     <div class="ficha-cab" style="grid-template-columns:1fr auto">
-      <div><h2 id="ajustes-titulo">Avisos prioritarios</h2><div class="sub">${conectado ? "Conectado con GitHub" : "Conecta la app con GitHub"}</div></div>
+      <div><h2 id="ajustes-titulo">Ajustes</h2><div class="sub">Se guardan en este móvil${conectado ? " y en GitHub" : ""}</div></div>
       <div class="ficha-acciones"><button class="btn-icono" data-accion="cerrar-ajustes" aria-label="Cerrar">${icono("x")}</button></div>
     </div>
     <div class="ficha-cuerpo">
-      <p class="texto-vista" style="margin-top:14px">Para que el monitor sepa cuáles son tus favoritos, la app los guarda en tu repositorio
+     <section class="ajustes-seccion">
+      <h3>Tiendas ocultas</h3>
+      ${estado.ocultas.size ? `<p class="resumen" style="margin:0">No aparecen en la app${conectado ? " ni te avisan" : ". Para que tampoco te avisen, activa los avisos prioritarios"}.</p>
+      <ul class="lista-simple">${[...estado.ocultas].sort().map((t) => `<li><span class="t">${esc(t)}</span><span class="d"><button class="btn suave" data-mostrar="${esc(t)}">Mostrar</button></span></li>`).join("")}</ul>`
+      : `<p class="resumen" style="margin:0">No has ocultado ninguna. Para ocultar una tienda, abre un producto y toca «Ocultar tienda» en su oferta.</p>`}
+     </section>
+     <section class="ajustes-seccion">
+      <h3>Avisos prioritarios ${conectado ? `<span class="et nuevo" style="vertical-align:2px">Activados</span>` : ""}</h3>
+      <p class="texto-vista" style="margin-top:6px">Para que el monitor sepa cuáles son tus favoritos, la app los guarda en tu repositorio
         <b>${FAV_REPO}</b>. Necesita una clave que <b>solo</b> puede escribir en ese repositorio, así que no puede tocar nada más.</p>
       ${conectado ? `<div class="fila-botones"><button class="btn suave grande" data-accion="desconectar">Desconectar</button></div>` : `
       <ol class="pasos">
@@ -1116,6 +1204,7 @@ function abrirAjustes() {
       <div class="fila-botones"><button class="btn grande" data-accion="guardar-token">Guardar y comprobar</button></div>`}
       <div class="mensaje" id="mensaje-ajustes"></div>
       <p class="resumen" style="font-size:12.5px;color:var(--faint);margin-top:16px">La clave se guarda solo en este navegador.</p>
+     </section>
     </div>`;
   const d = $("#ajustes");
   if (!d.open) d.showModal();
@@ -1134,6 +1223,7 @@ async function guardarToken() {
     // Al conectar se juntan los favoritos de este móvil con los que ya hubiera en GitHub
     const rem = await fetch(URL_FAVS + "?t=" + Date.now(), { cache: "no-store" }).then((x) => x.json()).catch(() => ({}));
     (rem.favoritos || []).forEach((id) => estado.favs.add(id));
+    (rem.tiendas_ocultas || []).forEach((t) => estado.ocultas.add(t));
     guardarFavsLocal();
     const ok = await sincronizarFavoritos();
     msg.className = ok ? "mensaje ok" : "mensaje error";
@@ -1165,9 +1255,18 @@ document.addEventListener("pointerout", (e) => { if (e.target.closest?.("[data-t
 document.addEventListener("scroll", ocultarTip, { passive: true, capture: true });
 
 let avisoTemporizador = null;
-function aviso(texto) {
-  const t = $("#toast"); t.textContent = texto; t.classList.add("visible");
-  clearTimeout(avisoTemporizador); avisoTemporizador = setTimeout(() => t.classList.remove("visible"), 2600);
+function aviso(texto, accion) {
+  const t = $("#toast");
+  t.textContent = texto;
+  t.classList.toggle("con-accion", !!accion);
+  if (accion) {
+    const b = document.createElement("button");
+    b.textContent = accion.texto;
+    b.onclick = () => { t.classList.remove("visible"); accion.hacer(); };
+    t.append(b);
+  }
+  t.classList.add("visible");
+  clearTimeout(avisoTemporizador); avisoTemporizador = setTimeout(() => t.classList.remove("visible"), accion ? 5000 : 2600);
 }
 
 function idiomasGrupo(g) {
@@ -1221,6 +1320,16 @@ document.addEventListener("click", (e) => {
   if (tip) return mostrarTip(tip);
   const fav = e.target.closest("[data-fav]");
   if (fav) return alternarFavorito(fav.dataset.fav);
+  const comp = e.target.closest("[data-compartir]");
+  if (comp) return compartir(comp.dataset.compartir, comp.dataset.grupoC);
+  const ocu = e.target.closest("[data-ocultar]");
+  if (ocu) {
+    const tienda = ocu.dataset.ocultar;
+    ocultarTienda(tienda, true);
+    return aviso(`${tienda} oculta`, { texto: "Deshacer", hacer: () => ocultarTienda(tienda, false) });
+  }
+  const mos = e.target.closest("[data-mostrar]");
+  if (mos) return ocultarTienda(mos.dataset.mostrar, false);
   const accion = e.target.closest("[data-accion]")?.dataset.accion;
   if (accion === "limpiar") return limpiarBusqueda();
   if (accion === "reintentar") return cargar();
