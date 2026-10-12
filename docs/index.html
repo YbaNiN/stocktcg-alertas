@@ -161,8 +161,8 @@
   }
   .fila:last-child { border-bottom: 0; }
   @media (min-width: 900px) { .fila:nth-last-child(2):nth-child(odd) { border-bottom: 0; } }
-  .fila .mini { width: 64px; height: 64px; border-radius: 10px; background: var(--well); display: grid; place-items: center; overflow: hidden; }
-  .fila .mini img { width: 100%; height: 100%; object-fit: contain; padding: 5px; mix-blend-mode: multiply; }
+  .fila .mini { width: 64px; height: 64px; border-radius: 10px; background: #fff; border: 1px solid var(--line); display: grid; place-items: center; overflow: hidden; }
+  .fila .mini img { width: 100%; height: 100%; object-fit: contain; padding: 5px; }
   .fila .info { min-width: 0; }
   .fila .evento { display: flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; margin-bottom: 2px; }
   .fila .evento.nuevo { color: var(--new-fg); }
@@ -213,8 +213,8 @@
   @media (min-width: 1180px) { .rejilla { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
 
   .producto { display: block; border: 0; padding: 0; background: none; text-align: left; width: 100%; color: inherit; }
-  .foto { position: relative; aspect-ratio: 1; border-radius: var(--radius); background: var(--well); display: grid; place-items: center; overflow: hidden; }
-  .foto img { width: 100%; height: 100%; object-fit: contain; padding: 12%; mix-blend-mode: multiply; transition: transform .25s ease-out; }
+  .foto { position: relative; aspect-ratio: 1; border-radius: var(--radius); background: #fff; border: 1px solid var(--line); display: grid; place-items: center; overflow: hidden; }
+  .foto img { width: 100%; height: 100%; object-fit: contain; padding: 10%; transition: transform .25s ease-out; }
   @media (hover: hover) { .producto:hover .foto img { transform: scale(1.035); } }
   .placeholder { color: var(--faint); }
   .placeholder svg { width: 34px; height: 34px; stroke-width: 1.4; }
@@ -267,8 +267,8 @@
   }
   .asa { width: 36px; height: 4px; border-radius: 2px; background: var(--line); margin: 8px auto 0; flex: none; }
   .ficha-cab { display: grid; grid-template-columns: 88px 1fr auto; gap: 14px; align-items: start; padding: 14px 16px 16px; border-bottom: 1px solid var(--line); flex: none; }
-  .ficha-foto { width: 88px; height: 88px; border-radius: 12px; background: var(--well); display: grid; place-items: center; overflow: hidden; }
-  .ficha-foto img { width: 100%; height: 100%; object-fit: contain; padding: 8px; mix-blend-mode: multiply; }
+  .ficha-foto { width: 88px; height: 88px; border-radius: 12px; background: #fff; border: 1px solid var(--line); display: grid; place-items: center; overflow: hidden; }
+  .ficha-foto img { width: 100%; height: 100%; object-fit: contain; padding: 8px; }
   .ficha-cab h2 { margin: 0; font-size: 18px; line-height: 1.25; letter-spacing: -.015em; }
   .ficha-cab .sub { color: var(--muted); font-size: 13.5px; margin-top: 2px; }
   .ficha-cab .mejor { margin-top: 8px; font-size: 14px; }
@@ -283,8 +283,10 @@
   .oferta { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 14px 0; border-bottom: 1px solid var(--line); }
   .oferta:last-child { border-bottom: 0; }
   .oferta.con-foto { grid-template-columns: 52px 1fr auto; }
-  .oferta .mini { grid-row: span 2; width: 52px; height: 52px; border-radius: 9px; background: var(--well); display: grid; place-items: center; overflow: hidden; }
-  .oferta .mini img { width: 100%; height: 100%; object-fit: contain; padding: 4px; mix-blend-mode: multiply; }
+  .oferta .mini { grid-row: span 2; width: 52px; height: 52px; border-radius: 9px; background: #fff; border: 1px solid var(--line); display: grid; place-items: center; overflow: hidden; }
+  .oferta .mini img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
+  /* Miniaturas preparadas por el monitor: ya traen su margen blanco uniforme */
+  .foto img.prep, .fila .mini img.prep, .oferta .mini img.prep, .ficha-foto img.prep { padding: 0; }
   .oferta .tienda { font-weight: 650; font-size: 15px; display: flex; align-items: center; gap: 6px; min-width: 0; }
   .oferta .tienda span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .idioma { flex: none; font-size: 10.5px; font-weight: 700; color: var(--muted); border: 1px solid var(--line); border-radius: 5px; padding: 1px 4px; letter-spacing: .02em; }
@@ -415,7 +417,7 @@
 
   /* Las fotos de producto vienen sobre blanco: en modo oscuro se muestran sobre una base clara, como en las tiendas */
   @media (prefers-color-scheme: dark) {
-    .foto, .fila .mini, .oferta .mini, .ficha-foto { background: #eceef1; }
+    .foto, .fila .mini, .oferta .mini, .ficha-foto { background: #fff; border-color: transparent; }
     .foto .placeholder, .mini .placeholder, .ficha-foto .placeholder { color: #8a9099; }
   }
 
@@ -609,10 +611,17 @@ const minutosEntre = (a, b) => (new Date(b) - new Date(a)) / 60000;
 const mediana = (xs) => { if (!xs.length) return null; const v = xs.slice().sort((a, b) => a - b), m = v.length >> 1; return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2; };
 
 // ---------------- datos ----------------
-window.sinFoto = (img) => { const s = document.createElement("span"); s.className = "placeholder"; s.innerHTML = icono("carta"); img.replaceWith(s); };
+window.sinFoto = (img) => {
+  // Si falla la miniatura preparada, se prueba con la foto original de la tienda
+  if (img.dataset.orig && img.src !== img.dataset.orig) { img.classList.remove("prep"); img.src = img.dataset.orig; return; }
+  const s = document.createElement("span"); s.className = "placeholder"; s.innerHTML = icono("carta"); img.replaceWith(s);
+};
+const URL_FOTOS = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/` : "../datos/";
+// Foto de una oferta: la miniatura uniforme del monitor si existe, si no la original
+const fotoDe = (o) => o ? { url: o.foto ? URL_FOTOS + o.foto : o.img, orig: o.img, prep: !!o.foto } : null;
 const nombreColeccion = (setName) => (setName || "").split(" / ").pop().replace(/\s*\((sv|m)\w*\)$/, "");
-const imagen = (url, clase = "") => url
-  ? `<img src="${esc(url)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="${clase}" onerror="sinFoto(this)">`
+const imagen = (f) => f?.url
+  ? `<img src="${esc(f.url)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${f.prep ? ` class="prep" data-orig="${esc(f.orig || "")}"` : ""} onerror="sinFoto(this)">`
   : `<span class="placeholder">${icono("carta")}</span>`;
 
 function construirGrupos(datos) {
@@ -639,7 +648,7 @@ function construirGrupos(datos) {
     const m = g.ofertas[0];
     g.precio = m.precio; g.moneda = m.moneda;
     g.porSobre = g.ofertas.map(porSobre).filter(Boolean).sort((a, b) => a.precio - b.precio)[0] || null;
-    g.img = (g.ofertas.find((o) => o.img) || {}).img;
+    g.img = fotoDe(g.ofertas.find((o) => o.foto) || g.ofertas.find((o) => o.img));
     g.variosModelos = VARIOS_MODELOS.has(g.tipo) && g.ofertas.length > 1;
     g.nombre = (g.variosModelos && NOMBRE_TIPO_VARIOS[g.tipo]) || NOMBRE_TIPO[g.tipo] || g.tipoNombre;
     g.tiendas = new Set(g.ofertas.map((o) => o.tienda)).size;
@@ -790,7 +799,7 @@ function pintarNovedades(grupos) {
     const pct = e.tipo === "bajada" ? Math.round((1 - o.precio / o.precioAntes) * 100) : 0;
     const texto = e.tipo === "nuevo" ? `Entró ${hace(e.cuando)}` : `−${pct} % · ${hace(e.cuando)}`;
     return `<li class="fila" data-grupo="${esc(g.id)}" data-url="${esc(o.url)}">
-      <div class="mini">${imagen(o.img || g.img)}</div>
+      <div class="mini">${imagen(o.img ? fotoDe(o) : g.img)}</div>
       <div class="info">
         <div class="evento ${e.tipo}">${icono(e.tipo === "nuevo" ? "reloj" : "baja")}${texto}</div>
         <div class="titulo">${esc(g.nombre)}</div>
@@ -861,7 +870,7 @@ function abrirFicha(id, desdeHistorial) {
     if (o.preventa) ets.push(`<span class="et preventa">Preventa</span>`);
     const idiomas = (o.idioma || "").split(",").map((l) => IDIOMAS[l] || l.toUpperCase()).join("/");
     return `<li class="oferta${conFoto ? " con-foto" : ""}">
-      ${conFoto ? `<div class="mini">${imagen(o.img)}</div>` : ""}
+      ${conFoto ? `<div class="mini">${imagen(fotoDe(o))}</div>` : ""}
       <div class="tienda"><span>${esc(o.tienda)}</span>${idiomas ? `<span class="idioma">${esc(idiomas)}</span>` : ""}</div>
       <div class="lado">
         <div><span class="precio num">${euros(o.precio, o.moneda)}</span>${o.precioAntes && horas(o.bajadaDesde) < BAJADA_H ? `<s class="antes num">${euros(o.precioAntes, o.moneda)}</s>` : ""}</div>

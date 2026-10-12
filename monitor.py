@@ -16,6 +16,7 @@ Variables de entorno:
 
 import gzip
 import hashlib
+import io
 import json
 import os
 import re
@@ -39,6 +40,9 @@ ESTADO = DIR / "estado" / "estado.json"
 DATOS_WEB = DIR / "datos" / "stock.json"
 HISTORIAL = DIR / "datos" / "historial.json"
 DIAS_HISTORIAL = 120  # días de historial de precios y reposiciones que se guardan
+FOTOS = DIR / "datos" / "fotos"  # miniaturas uniformes de las fotos de producto (las usa la web)
+TAM_FOTO = 480       # px del cuadrado
+MARGEN_FOTO = 0.07   # margen blanco alrededor del producto
 
 # Enlaces en GitHub (GitHub Actions define estas variables)
 REPO = os.environ.get("GITHUB_REPOSITORY")
@@ -347,9 +351,79 @@ def enviar_eventos(eventos, favoritos=frozenset()):
                      "click": URL_LISTA, "priority": 4, "tags": ["rotating_light"]})
 
 
+# ---------------------------------------------------------------- fotos
+
+def generar_miniatura(url, ruta):
+    """Descarga la foto de la tienda y la deja como un cuadrado blanco con el producto centrado.
+    Si el fondo es claro (blanco, blanco roto, gris muy claro) se recorta el margen sobrante y el
+    fondo se pasa a blanco puro; si es una foto con fondo de color se deja entera."""
+    from PIL import Image, ImageChops, ImageFilter, ImageOps
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; stocktcg-alertas)"})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        im = Image.open(io.BytesIO(resp.read()))
+        im.load()
+    im = ImageOps.exif_transpose(im)
+    if im.mode in ("RGBA", "LA", "P"):
+        im = im.convert("RGBA")
+        fondo = Image.new("RGBA", im.size, (255, 255, 255, 255))
+        fondo.alpha_composite(im)
+        im = fondo
+    im = im.convert("RGB")
+
+    w, h = im.size
+    puntos = [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1), (w // 2, 0), (w // 2, h - 1), (0, h // 2), (w - 1, h // 2)]
+    borde = [im.getpixel(pt) for pt in puntos]
+    claro = sum(min(c) >= 222 and max(c) - min(c) <= 20 for c in borde) >= 6  # casi todo el borde es claro y neutro
+    if claro:
+        color = tuple(sorted(c[i] for c in borde)[len(borde) // 2] for i in range(3))  # color de fondo (mediana)
+        distinto = ImageChops.difference(im, Image.new("RGB", im.size, color)).convert("L")
+        contenido = distinto.point(lambda v: 255 if v > 24 else 0).filter(ImageFilter.MedianFilter(3))
+        caja = contenido.getbbox()
+        if caja:
+            # El fondo pasa a blanco puro (con borde suave para no dejar halo) y se recorta lo que sobra
+            mascara = contenido.filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.GaussianBlur(1.2))
+            im = Image.composite(im, Image.new("RGB", im.size, (255, 255, 255)), mascara).crop(caja)
+
+    area = round(TAM_FOTO * (1 - 2 * MARGEN_FOTO))
+    escala = min(area / im.width, area / im.height)
+    im = im.resize((max(1, round(im.width * escala)), max(1, round(im.height * escala))), Image.LANCZOS)
+    lienzo = Image.new("RGB", (TAM_FOTO, TAM_FOTO), (255, 255, 255))
+    lienzo.paste(im, ((TAM_FOTO - im.width) // 2, (TAM_FOTO - im.height) // 2))
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    lienzo.save(ruta, "JPEG", quality=78, optimize=True, progressive=True)
+
+
+def preparar_fotos(urls):
+    """Genera las miniaturas que falten y borra las que ya no se usan. Devuelve {url original: ruta en datos/}."""
+    try:
+        import PIL  # noqa: F401
+    except ImportError:
+        print("  (sin Pillow: la web usará las fotos originales)")
+        return {}
+    mapa, nuevas = {}, 0
+    for url in sorted(urls):
+        nombre = hashlib.sha1(url.encode()).hexdigest()[:16] + ".jpg"
+        ruta = FOTOS / nombre
+        if not ruta.exists():
+            try:
+                generar_miniatura(url, ruta)
+                nuevas += 1
+            except Exception as e:  # una foto que falla no debe parar el monitor
+                print(f"  (foto no preparada: {url[:70]} · {e})")
+                continue
+        mapa[url] = f"fotos/{nombre}"
+    usadas = set(mapa.values())
+    for f in FOTOS.glob("*.jpg"):
+        if f"fotos/{f.name}" not in usadas:
+            f.unlink()
+    if nuevas:
+        print(f"Fotos preparadas: {nuevas} nuevas ({len(mapa)} en total).")
+    return mapa
+
+
 # ---------------------------------------------------------------- datos para la web
 
-def escribir_datos_web(grupos, info, ts_catalogo):
+def escribir_datos_web(grupos, info, ts_catalogo, fotos=None):
     """Escribe datos/stock.json para la web. Solo lo reescribe si algo ha cambiado (así no hay commits de más)."""
     colecciones = []
     for nombre, items in grupos.items():
@@ -360,6 +434,7 @@ def escribir_datos_web(grupos, info, ts_catalogo):
                 "titulo": i.get("title"), "coleccion": i.get("setName"), "tipo": i.get("fmt"),
                 "tipoNombre": i.get("fmtName"), "precio": i.get("price"), "moneda": i.get("currency") or "EUR",
                 "tienda": i.get("store"), "idioma": i.get("langs"), "url": i["url"], "img": i.get("img"),
+                "foto": (fotos or {}).get(i.get("img")),
                 "preventa": bool(i.get("preorder")), "cardmarket": i.get("cmTrend"),
                 "cardmarketPct": i.get("cmPctTrend"), "chollo": es_chollo(i),
                 "stocktcg": BASE + i["ppage"] if i.get("ppage") else None,
@@ -485,7 +560,8 @@ def comprobar(solo_resumen, anterior):
         seguidos[k] = [item["price"], item.get("cmTier"), item["store"], desde, precio_antes, ts_bajada]
         info[k] = (desde, precio_antes, ts_bajada)
 
-    if escribir_datos_web(grupos, info, datos.get("ts")):
+    fotos = preparar_fotos({i["img"] for i, _ in coinciden if i.get("img")})
+    if escribir_datos_web(grupos, info, datos.get("ts"), fotos):
         print("datos/stock.json actualizado.")
 
     if solo_resumen:

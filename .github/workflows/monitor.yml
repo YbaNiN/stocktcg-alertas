@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Instalar Pillow (para preparar las fotos)
+        run: pip install --quiet --disable-pip-version-check pillow
+
       - name: Recuperar estado anterior
         uses: actions/cache/restore@v4
         with:
