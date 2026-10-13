@@ -1530,7 +1530,19 @@ document.addEventListener("visibilitychange", () => { if (document.visibilitySta
 setInterval(pintarFrescura, 30000);
 
 // ---------------- instalar como app ----------------
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+if ("serviceWorker" in navigator) {
+  // Al volver a abrir la app se busca una versión nueva; si la hay, se instala y la página se recarga sola
+  const habiaVersion = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then((reg) => {
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") reg.update().catch(() => {}); });
+  }).catch(() => {});
+  let recargando = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!habiaVersion || recargando) return;
+    recargando = true;
+    location.reload();
+  });
+}
 let promptInstalar = null;
 window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); promptInstalar = e; $("#instalar").classList.add("visible"); });
 $("#instalar").addEventListener("click", async () => {

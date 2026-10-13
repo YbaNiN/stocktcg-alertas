@@ -1,6 +1,6 @@
 // Service worker: permite instalar la web como app y abrirla aunque no haya conexión
 // (mostrando los últimos datos que se cargaron). Siempre intenta primero la red.
-const CACHE = "stock-tcg-v7";
+const CACHE = "stock-tcg-v8";
 const BASE = ["./", "index.html", "manifest.webmanifest", "icono-30-192.png", "icono-30-512.png", "logo-30.png"];
 
 self.addEventListener("install", (e) => {
@@ -22,8 +22,12 @@ self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET" || !(propio || datos)) return; // fotos de las tiendas: sin tocar
 
   const clave = datos ? "datos" : e.request;
+  // La página y sus archivos se piden siempre al servidor (sin la caché del navegador) para no ver versiones viejas
+  const peticion = e.request.mode === "navigate"
+    ? fetch(e.request.url, { cache: "no-cache", credentials: "same-origin" })
+    : fetch(propio ? new Request(e.request, { cache: "no-cache" }) : e.request);
   e.respondWith(
-    fetch(e.request)
+    peticion
       .then((r) => {
         if (r.ok) { const copia = r.clone(); caches.open(CACHE).then((c) => c.put(clave, copia)); }
         return r;
