@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T00:03:37",
+ "actualizado": "2026-10-14T00:09:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -518,7 +518,7 @@
      "coleccion": "Prismatic Evolutions",
      "tipo": "booster-bundle",
      "tipoNombre": "Booster Bundle",
-     "precio": 84.9,
+     "precio": 79.9,
      "moneda": "EUR",
      "tienda": "FlashStore",
      "idioma": "es",
@@ -527,12 +527,12 @@
      "foto": "fotos/0830eaa68252f3b0.jpg",
      "preventa": false,
      "cardmarket": 81.52,
-     "cardmarketPct": 4,
+     "cardmarketPct": -2,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
      "desde": "2026-10-13T14:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
+     "precioAntes": 84.9,
+     "bajadaDesde": "2026-10-14T00:10+02:00"
     },
     {
      "titulo": "Pokémon TCG: Prismatic Evolutions Pokémon Booster Bundle (Display 10 unidades) - Sellado — Español",
