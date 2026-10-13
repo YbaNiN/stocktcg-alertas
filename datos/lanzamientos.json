@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T12:13:35",
+ "actualizado": "2026-10-13T17:15:16",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -910,6 +910,23 @@
    "fecha": null
   },
   {
+   "titulo": "Deck Crafter's Collection 2026 — Español",
+   "coleccion": "Deck Crafter's Collection",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 19.9,
+   "moneda": "EUR",
+   "tienda": "Pokemillon",
+   "idioma": "es",
+   "url": "https://pokemillon.com/products/deck-crafters-collection-2026?variant=54771082854723",
+   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/deck-crafters-collection-2026.png?v=1788134709&width=400",
+   "foto": "fotos/f4ab69dc84f8f265.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/deck-crafters-collection--collection-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "Booster Box de Rivales Predestinados - Español",
    "coleccion": "Destined Rivals",
    "tipo": "booster-box",
@@ -942,6 +959,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "RESERVA – Caja de Sobres Reinado Delta (18 sobres) en Castellano",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 100.0,
+   "moneda": "EUR",
+   "tienda": "Monarka TCG",
+   "idioma": "es",
+   "url": "https://monarkatcg.store/p/reserva-caja-de-sobres-reinado-delta-18-sobres-en-castellano/",
+   "img": "https://i0.wp.com/monarkatcg.store/wp-content/uploads/2026/10/img_6918.jpeg?fit=960%2C960&ssl=1",
+   "foto": null,
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokemon TCG: Caja de 36 sobres – Dominio Delta (Español) – RESERVA",
@@ -1263,40 +1297,6 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "RESERVA – Caja de Sobres Reinado Delta (18 sobres) en Castellano",
-   "coleccion": "Otros",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 100.0,
-   "moneda": "EUR",
-   "tienda": "Monarka TCG",
-   "idioma": "es",
-   "url": "https://monarkatcg.store/p/reserva-caja-de-sobres-reinado-delta-18-sobres-en-castellano/",
-   "img": "https://i0.wp.com/monarkatcg.store/wp-content/uploads/2026/10/img_6918.jpeg?fit=960%2C960&ssl=1",
-   "foto": null,
-   "preventa": true,
-   "stocktcg": null,
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Deck Crafter's Collection 2026 — Español",
-   "coleccion": "Otros",
-   "tipo": "collection-box",
-   "tipoNombre": "Collection Box",
-   "precio": 19.9,
-   "moneda": "EUR",
-   "tienda": "Pokemillon",
-   "idioma": "es",
-   "url": "https://pokemillon.com/products/deck-crafters-collection-2026?variant=54771082854723",
-   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/deck-crafters-collection-2026.png?v=1788134709&width=400",
-   "foto": "fotos/f4ab69dc84f8f265.jpg",
-   "preventa": true,
-   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
