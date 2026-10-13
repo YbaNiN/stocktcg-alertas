@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-13T17:15:16",
+ "actualizado": "2026-10-13T19:34:53",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
-   "nombre": "30 Aniversario Oleada 2: Mini Latas Día y Noche, Binder y Booster Bundle",
+   "nombre": "30 Aniversario Oleada 2: Mini Latas Día y Noche y Booster Bundle",
    "tipo": "Mini latas / Bundle (30th Celebration)",
    "fecha": "2026-10-02",
    "fechaConfirmada": true,
@@ -50,6 +50,36 @@
      "tienda": "TopDeck",
      "idioma": "es",
      "url": "https://topdeck.es/tienda-de-cartas-coleccionables/mini-lata-celebracion-30-aniversario-espanol/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
+     "foto": "fotos/bfcc5b3249610bf5.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin"
+    },
+    {
+     "titulo": "Pokemon Celebración 30 Aniversario – Mini Lata",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "mini-tin",
+     "tipoNombre": "Mini Tin",
+     "precio": 19.95,
+     "moneda": "EUR",
+     "tienda": "Júpiter Juegos",
+     "idioma": "es",
+     "url": "https://jupiterjuegos.com/producto/pokemon-celebracion-30-aniversario-mini-lata/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
+     "foto": "fotos/bfcc5b3249610bf5.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin"
+    },
+    {
+     "titulo": "Celebraciones 30th Mini Lata - ESPAÑOL",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "mini-tin",
+     "tipoNombre": "Mini Tin",
+     "precio": 23.95,
+     "moneda": "EUR",
+     "tienda": "Elite Store TCG",
+     "idioma": "es",
+     "url": "https://elitestoretcg.com/products/celebraciones-30th-mini-lata-espanol",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
      "foto": "fotos/bfcc5b3249610bf5.jpg",
      "preventa": false,
@@ -416,21 +446,6 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin"
     },
     {
-     "titulo": "Binder Collection Trainer Box Celebración 30° Aniversario — Español",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "trainer-collection",
-     "tipoNombre": "Trainer Collection",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/elite-trainer-box-celebracion-30-aniversario-copia?variant=54811151434066",
-     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/rn-image_picker_lib_temp_193f6833-9813-420d-a15c-929930e9bdb8.png?v=1790143085&width=400",
-     "foto": "fotos/2b11bad12b2130f0.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--trainer-collection"
-    },
-    {
      "titulo": "Pokémon - 30 Aniversario: Bundle (6 Sobres) Español",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -489,6 +504,32 @@
      "foto": "fotos/2705a58d832c0fc0.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin-display"
+    }
+   ]
+  },
+  {
+   "slug": "deck-crafters-collection",
+   "nombre": "Deck Crafter's Collection",
+   "tipo": "Colección de cartas de entrenador para mazos",
+   "fecha": "2026-10-23",
+   "fechaConfirmada": true,
+   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/deck-crafters-collection-2026.png?v=1788134709&width=400",
+   "foto": "fotos/f4ab69dc84f8f265.jpg",
+   "ofertas": [
+    {
+     "titulo": "Deck Crafter's Collection 2026 — Español",
+     "coleccion": "Deck Crafter's Collection",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 19.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/deck-crafters-collection-2026?variant=54771082854723",
+     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/deck-crafters-collection-2026.png?v=1788134709&width=400",
+     "foto": "fotos/f4ab69dc84f8f265.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/deck-crafters-collection--collection-box"
     }
    ]
   },
@@ -735,14 +776,49 @@
    ]
   },
   {
+   "slug": "special-deck-set-mega-jp",
+   "nombre": "Special Deck Set Mega Feraligatr ex · Mega Dragonite ex · Mega Gengar ex (edición japonesa)",
+   "tipo": "Deck set japonés (Mega Evolution)",
+   "fecha": "2026-11-13",
+   "fechaConfirmada": false,
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/648394_in_400x400.jpg",
+   "foto": "fotos/c6ca04c992d88956.jpg",
+   "ofertas": []
+  },
+  {
+   "slug": "aura-seeker-jp",
+   "nombre": "Aura Seeker (edición japonesa, M7)",
+   "tipo": "Set principal japonés (Mega Evolution)",
+   "fecha": "2026-11-27",
+   "fechaConfirmada": false,
+   "img": null,
+   "foto": null,
+   "ofertas": []
+  },
+  {
    "slug": "30-aniversario-oleada-5",
-   "nombre": "30 Aniversario Oleada 5: Latas Sylveon ex y Greninja ex",
-   "tipo": "Latas (30th Celebration)",
+   "nombre": "30 Aniversario Oleada 5: Latas Sylveon ex y Greninja ex y Binder Collection",
+   "tipo": "Latas y Binder Collection (30th Celebration)",
    "fecha": "2026-12-04",
    "fechaConfirmada": true,
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "Pokemon Celebración 30Th Aniversario Latas",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 21.95,
+     "moneda": "EUR",
+     "tienda": "EpicDeck",
+     "idioma": "es",
+     "url": "https://epicdeck.es/products/pokemon-celebracion-30th-aniversario-mini-latas",
+     "img": "https://cdn.shopify.com/s/files/1/0942/3509/9523/files/0196214159082_11.jpg?v=1791507818&width=400",
+     "foto": "fotos/14241726fd0d791f.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
     {
      "titulo": "Lata 30 Aniversario Greninja | Español | POKÉMON",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -789,6 +865,21 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
     {
+     "titulo": "Binder Collection Trainer Box Celebración 30° Aniversario — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "trainer-collection",
+     "tipoNombre": "Trainer Collection",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/elite-trainer-box-celebracion-30-aniversario-copia?variant=54811151434066",
+     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/rn-image_picker_lib_temp_193f6833-9813-420d-a15c-929930e9bdb8.png?v=1790143085&width=400",
+     "foto": "fotos/2b11bad12b2130f0.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--trainer-collection"
+    },
+    {
      "titulo": "Lata 4 Sobres Pokemon 30 Aniversario Sylveon EX Y Greninja EX Sorpresa Espanol",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "tin",
@@ -804,6 +895,16 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     }
    ]
+  },
+  {
+   "slug": "mega-x-mega-parade-jp",
+   "nombre": "MEGA×MEGA Parade (edición japonesa)",
+   "tipo": "Set japonés (Mega Evolution)",
+   "fecha": "2027-02-19",
+   "fechaConfirmada": false,
+   "img": null,
+   "foto": null,
+   "ofertas": []
   }
  ],
  "preventas": [
@@ -923,8 +1024,8 @@
    "foto": "fotos/f4ab69dc84f8f265.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/deck-crafters-collection--collection-box",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "deck-crafters-collection",
+   "fecha": "2026-10-23"
   },
   {
    "titulo": "Booster Box de Rivales Predestinados - Español",
@@ -1059,23 +1160,6 @@
    "foto": "fotos/6cb54c5c3b7d16c3.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "[PRE-VENTA] Blister Colección de Sobres Pokemon TCG First Partner #3 ESPAÑOL",
-   "coleccion": "First Partner",
-   "tipo": "blister",
-   "tipoNombre": "Blister",
-   "precio": 31.95,
-   "moneda": "EUR",
-   "tienda": "CanaryPop",
-   "idioma": "es",
-   "url": "https://canarypop.es/products/pre-venta-blister-coleccion-de-sobres-pokemon-tcg-first-partner-3-espanol",
-   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/First-Partner-Illustration-Collection-Series-3-copy.jpg?v=1779380976&width=400",
-   "foto": "fotos/a8b115909c92bb1c.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/first-partner--blister",
    "lanzamiento": null,
    "fecha": null
   },
