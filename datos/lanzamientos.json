@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T00:25:29",
+ "actualizado": "2026-10-14T01:34:50",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -446,6 +446,21 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin"
     },
     {
+     "titulo": "30 Aniversario Booster Bundle",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/30-aniversario-booster-bundle-pokemon-tcg/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle"
+    },
+    {
      "titulo": "Pokémon - 30 Aniversario: Bundle (6 Sobres) Español",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -541,7 +556,23 @@
    "fechaConfirmada": true,
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
-   "ofertas": []
+   "ofertas": [
+    {
+     "titulo": "30th Celebration Umbreon Battle Deck Celebraciones 30 Aniversario — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 54.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/30th-celebration-umbreon-battle-deck-celebraciones-30-aniversario-1?variant=54908753772867",
+     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/895563.png?v=1791924700&width=400",
+     "foto": "fotos/dfd3299a2039a1e1.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    }
+   ]
   },
   {
    "slug": "30-aniversario-oleada-4",
@@ -973,8 +1004,8 @@
    "foto": "fotos/dfd3299a2039a1e1.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-3",
+   "fecha": "2026-10-30"
   },
   {
    "titulo": "RESERVA Premium Starter Set Espeon & Umbreon 30th CELEBRATION",
