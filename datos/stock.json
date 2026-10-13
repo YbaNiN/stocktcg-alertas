@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T02:44:46",
+ "actualizado": "2026-10-13T11:50:13",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1510,27 +1510,6 @@
   {
    "nombre": "30 Aniversario",
    "productos": [
-    {
-     "titulo": "Pokémon 30 Aniversario – Caja de Entrenador Élite –",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 140.0,
-     "moneda": "EUR",
-     "tienda": "Homelands",
-     "idioma": "es",
-     "url": "https://www.homelands.es/producto/pokemon-30-aniversario-caja-de-entrenador-elite-%f0%9f%87%aa%f0%9f%87%b8/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 130.53,
-     "cardmarketPct": 7,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "Pokemon JCC Caja De Entrenador Elite De Celebracion 30 Aniversario Castellano",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
