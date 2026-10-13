@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T21:38:20",
+ "actualizado": "2026-10-13T23:23:42",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -531,27 +531,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
      "desde": "2026-10-13T14:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Booster Bundle Pokémon Prismatic Evolutions y Evoluciones Prismáticas — Español",
-     "coleccion": "Prismatic Evolutions",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 84.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/booster-bundle-pokemon-prismatic-evolutions-y-evoluciones-prismaticas?variant=51872559169874",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/600518_in_400x400.jpg",
-     "foto": "fotos/0830eaa68252f3b0.jpg",
-     "preventa": false,
-     "cardmarket": 81.52,
-     "cardmarketPct": 4,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
