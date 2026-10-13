@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T12:03:36",
+ "actualizado": "2026-10-13T12:08:47",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -859,19 +859,19 @@
    "fecha": null
   },
   {
-   "titulo": "Pokémon TCG - Booster Bundle 30th Celebration (Inglés & Español) — Español",
+   "titulo": "Pokémon TCG — 30th Celebration battle deck Espeon Ex | (Español)",
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "booster-bundle",
-   "tipoNombre": "Booster Bundle",
-   "precio": 39.98,
+   "tipo": "deck",
+   "tipoNombre": "Deck",
+   "precio": 32.98,
    "moneda": "EUR",
    "tienda": "JJCollection",
    "idioma": "es",
-   "url": "https://jjcollection.es/products/pokemon-tcg-booster-bundle-30th-celebration-ingles-espanol?variant=55006246699337",
-   "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-   "foto": "fotos/91a213f34f133eae.jpg",
+   "url": "https://jjcollection.es/products/pokemon-tcg-30th-celebration-battle-deck-espeon-ex-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-Photoroom_6.png?v=1788446394&width=400",
+   "foto": "fotos/b2391f8ca596954c.jpg",
    "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
    "lanzamiento": null,
    "fecha": null
   },
