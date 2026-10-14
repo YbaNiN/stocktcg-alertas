@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T10:33:41",
+ "actualizado": "2026-10-14T11:20:26",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -489,21 +489,6 @@
      "foto": "fotos/91a213f34f133eae.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle"
-    },
-    {
-     "titulo": "Celebración 30.º Aniversario: Mini latas",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "mini-tin",
-     "tipoNombre": "Mini Tin",
-     "precio": 200.0,
-     "moneda": "EUR",
-     "tienda": "Cards Hunters",
-     "idioma": "es",
-     "url": "https://cardshunters.es/products/celebracion-30-º-aniversario-mini-latas",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
-     "foto": "fotos/bfcc5b3249610bf5.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin"
     },
     {
      "titulo": "Pokémon TCG 30th Anniversary Mini Tins - Spanish — Sealed Display (10 Mini Tins)",
