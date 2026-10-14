@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T12:03:40",
+ "actualizado": "2026-10-14T12:08:49",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -956,23 +956,6 @@
    "foto": "fotos/ad0e7cf022b19a6e.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-pack",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Pokémon TCG — 30th Celebration Mini Tin | Día y Noche (Español)",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "mini-tin",
-   "tipoNombre": "Mini Tin",
-   "precio": 15.98,
-   "moneda": "EUR",
-   "tienda": "JJCollection",
-   "idioma": "es",
-   "url": "https://jjcollection.es/products/pokemon-tcg-30th-celebration-mini-tin-dia-y-noche-espanol",
-   "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
-   "foto": "fotos/bfcc5b3249610bf5.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
    "lanzamiento": null,
    "fecha": null
   },
