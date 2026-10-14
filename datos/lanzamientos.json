@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T22:41:53",
+ "actualizado": "2026-10-15T00:40:14",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -877,23 +877,6 @@
    "foto": "fotos/d7937037e1d0bb2c.jpg",
    "preventa": true,
    "stocktcg": null,
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Booster bundle chaos rising",
-   "coleccion": "Chaos Rising / Caos Creciente",
-   "tipo": "booster-bundle",
-   "tipoNombre": "Booster Bundle",
-   "precio": 49.9,
-   "moneda": "EUR",
-   "tienda": "Freak Kingdom",
-   "idioma": "es",
-   "url": "https://www.freakkingdom.net/product-page/booster-bundle-chaos-rising",
-   "img": "https://tcgplayer-cdn.tcgplayer.com/product/684456_in_400x400.jpg",
-   "foto": "fotos/e262d0d1dab118f4.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-bundle",
    "lanzamiento": null,
    "fecha": null
   },
