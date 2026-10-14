@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T15:59:19",
+ "actualizado": "2026-10-14T18:05:24",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -514,6 +514,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Caja de entrenador elite Evoluciones Prismaticas",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 320.0,
+     "moneda": "EUR",
+     "tienda": "Gremio de Dragones",
+     "idioma": "es",
+     "url": "https://gremiodedragones.es/product/caja-de-entrenador-elite-evoluciones-prismaticas/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/593355_in_400x400.jpg",
+     "foto": "fotos/98c0e250c082a672.jpg",
+     "preventa": false,
+     "cardmarket": 149.9,
+     "cardmarketPct": 113,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--etb",
+     "desde": "2026-10-14T18:05+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Evoluciones Prismaticas Booster Bundle",
      "coleccion": "Prismatic Evolutions",
      "tipo": "booster-bundle",
@@ -552,6 +573,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
      "desde": "2026-10-14T05:55+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster bundle Prismatic evolutions",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 180.0,
+     "moneda": "EUR",
+     "tienda": "Gremio de Dragones",
+     "idioma": "es",
+     "url": "https://gremiodedragones.es/product/booster-bundle-prismatic-evolutions/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/600518_in_400x400.jpg",
+     "foto": "fotos/0830eaa68252f3b0.jpg",
+     "preventa": false,
+     "cardmarket": 82.45,
+     "cardmarketPct": 118,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
+     "desde": "2026-10-14T18:05+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
