@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T15:29:00",
+ "actualizado": "2026-10-14T15:59:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -43,27 +43,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB POKEMON FUEGOS FANTASMALES ELITE TRAINER BOX (ESPAÑOL)",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 79.9,
-     "moneda": "EUR",
-     "tienda": "SunnyStore",
-     "idioma": "es",
-     "url": "https://sunnystore.es/products/etb-pokemon-phantasmal-flames-fuegos-fantasmales-elite-trainer-box-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
-     "foto": "fotos/f07ecea19094f29d.jpg",
-     "preventa": false,
-     "cardmarket": 91.21,
-     "cardmarketPct": -12,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
-     "desde": "2026-10-13T17:50+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
