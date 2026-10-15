@@ -41,6 +41,7 @@ ESTADO = DIR / "estado" / "estado.json"
 DATOS_WEB = DIR / "datos" / "stock.json"
 HISTORIAL = DIR / "datos" / "historial.json"
 DIAS_HISTORIAL = 120  # días de historial de precios y reposiciones que se guardan
+MINUTOS_RELAMPAGO = 10  # una reposición que se agota en esto o menos cuenta como "relámpago"
 LANZAMIENTOS = DIR / "datos" / "lanzamientos.json"
 CALENDARIO_CADA = timedelta(hours=6)  # cada cuánto se vuelve a leer el calendario de StockTCG
 DIAS_YA_LANZADO = 14                  # los lanzamientos de hace menos de esto siguen apareciendo
@@ -56,6 +57,8 @@ URL_ACTIONS = f"https://github.com/{REPO}/actions" if REPO else BASE
 # Favoritos: viven en un repositorio aparte (stocktcg-favoritos) que la web puede modificar
 DUENO = REPO.split("/")[0] if REPO else "YbaNiN"
 URL_FAVORITOS = f"https://raw.githubusercontent.com/{DUENO}/stocktcg-favoritos/main/favoritos.json"
+# Los filtros de avisos se editan desde la app y se guardan en el mismo repositorio (filtros.toml queda de respaldo)
+URL_FILTROS_APP = f"https://raw.githubusercontent.com/{DUENO}/stocktcg-favoritos/main/filtros.json"
 
 MAX_AVISOS_SUELTOS = 8   # si hay más avisos a la vez, el resto va en un resumen
 MAX_LINEAS_RESUMEN = 30  # líneas por notificación de resumen
@@ -147,19 +150,61 @@ def validar_catalogo(datos):
 
 # ---------------------------------------------------------------- filtros
 
-def cargar_filtros():
+def limpiar_alerta(a):
+    """Valida un filtro que viene de la app: solo campos conocidos y con el tipo correcto."""
+    if not isinstance(a, dict) or not str(a.get("nombre", "")).strip():
+        return None
+    listas = ("palabras", "excluir", "colecciones", "formatos", "idiomas", "tiendas")
+    limpio = {"nombre": str(a["nombre"]).strip()[:60], "activa": bool(a.get("activa", True))}
+    for k in listas:
+        if isinstance(a.get(k), list):
+            limpio[k] = [str(x).strip() for x in a[k] if str(x).strip()][:30]
+    for k in ("precio_max", "precio_min", "max_sobreprecio"):
+        if isinstance(a.get(k), (int, float)) and not isinstance(a.get(k), bool) and a[k] >= 0:
+            limpio[k] = a[k]
+    if isinstance(a.get("preventas"), bool):
+        limpio["preventas"] = a["preventas"]
+    return limpio
+
+
+def filtros_de_la_app():
+    """Filtros guardados desde la web (stocktcg-favoritos/filtros.json). None si no hay o no se pueden leer."""
+    try:
+        req = urllib.request.Request(f"{URL_FILTROS_APP}?t={int(datetime.now().timestamp() // 60)}",
+                                     headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            datos = json.loads(resp.read())
+        alertas = [x for x in (limpiar_alerta(a) for a in datos.get("alertas", [])) if x]
+        return alertas or None
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None
+        raise
+    except Exception as e:
+        print("  (no se han podido leer los filtros de la app:", e, ")")
+        raise
+
+
+def cargar_filtros(anterior=None):
+    """Devuelve (general, alertas activas, todas las alertas, alertas de la app).
+    Manda lo que se edita en la app; si nunca se ha usado, filtros.toml. Si la app no responde,
+    se usan los últimos filtros de la app que se leyeron bien (guardados en el estado)."""
     try:
         with open(FILTROS, "rb") as f:
             cfg = tomllib.load(f)
     except tomllib.TOMLDecodeError as e:
         raise RuntimeError(f"Hay un error al escribir filtros.toml: {e}. Revisa el último cambio que hiciste.") from e
     general = cfg.get("general", {})
-    alertas = [a for a in cfg.get("alerta", []) if a.get("activa", True)]
-    return general, alertas
+    try:
+        de_app = filtros_de_la_app()
+    except Exception:
+        de_app = (anterior or {}).get("alertas_app")
+    todas = de_app or cfg.get("alerta", [])
+    return general, [a for a in todas if a.get("activa", True)], todas, de_app
 
 
-def huella_filtros():
-    return hashlib.sha1(FILTROS.read_bytes()).hexdigest()[:12]
+def huella_filtros(general, todas):
+    return hashlib.sha1(json.dumps({"general": general, "alertas": todas}, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
 
 
 def coincide(item, alerta, general):
@@ -257,6 +302,22 @@ def linea_cardmarket(item):
     return f"Cardmarket: {item['cmTrend']:.2f} €" + (f" ({pct:+.0f}%)" if pct is not None else "")
 
 
+def tiendas_relampago():
+    """Tiendas cuyo stock se agota casi siempre en minutos (según el historial de reposiciones)."""
+    try:
+        hist = json.loads(HISTORIAL.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        return set()
+    stats = {}
+    for r in hist.get("reposiciones", []):
+        if not r.get("salida"):
+            continue
+        minutos = (datetime.fromisoformat(r["salida"]) - datetime.fromisoformat(r["entrada"])).total_seconds() / 60
+        n, rapidas = stats.get(r["tienda"], (0, 0))
+        stats[r["tienda"]] = (n + 1, rapidas + (minutos <= MINUTOS_RELAMPAGO))
+    return {t for t, (n, rapidas) in stats.items() if n >= 3 and rapidas / n >= 0.6}
+
+
 def grupo_de(item, alerta):
     """Identificador de producto que usa la web: filtro + página de StockTCG (o la url si no tiene)."""
     return f"{alerta.get('nombre', 'sin nombre')}|{BASE + item['ppage'] if item.get('ppage') else item['url']}"
@@ -275,7 +336,7 @@ def cargar_preferencias():
         return set(), set()
 
 
-def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False):
+def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False, relampago=False):
     """tipo: 'reposicion', 'bajada', 'chollo' o 'filtro'"""
     producto = f"{item.get('setName')} · {item.get('fmtName')}"
     chollo = " 🔥" if es_chollo(item) else ""
@@ -307,6 +368,7 @@ def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False):
         etiqueta = "dart"
 
     lineas = [primera, item.get("title") or "", linea_cardmarket(item),
+              "⚡ En esta tienda suele agotarse en minutos: date prisa" if relampago else "",
               "Fuera de tus filtros: te aviso porque es una preventa en español" if tipo == "preventa_es"
               else f"Filtro: {alerta.get('nombre', 'sin nombre')}"]
     mensaje = {
@@ -347,12 +409,13 @@ def enviar_resumen(grupos, motivo):
 
 
 def enviar_eventos(eventos, favoritos=frozenset()):
+    relampago = tiendas_relampago() if eventos else set()
     es_fav = lambda ev: grupo_de(ev[1], ev[2]) in favoritos
     eventos = sorted(eventos, key=lambda ev: not es_fav(ev))  # favoritos primero
     for ev in eventos[:MAX_AVISOS_SUELTOS]:
         tipo, item, alerta, precio_antes = ev
         print(f"  -> [{tipo}{' ❤' if es_fav(ev) else ''}] {item.get('setName')} · {item.get('fmtName')} · {formatear_precio(item)} · {item.get('store')}")
-        enviar_ntfy(aviso_producto(tipo, item, alerta, precio_antes, es_fav(ev)))
+        enviar_ntfy(aviso_producto(tipo, item, alerta, precio_antes, es_fav(ev), item["store"] in relampago))
 
     resto = eventos[MAX_AVISOS_SUELTOS:]
     if resto:
@@ -648,7 +711,7 @@ def actualizar_historial(coinciden, eventos, disponibles, obsoletas, ahora):
 
 def comprobar(solo_resumen, anterior):
     """Hace una comprobación completa. Devuelve el nuevo estado a guardar (o None si no hay que guardarlo)."""
-    general, alertas = cargar_filtros()
+    general, alertas, todas_alertas, alertas_app = cargar_filtros(anterior)
     print(f"Filtros activos: {len(alertas)}")
 
     datos = descargar_json(STOCK_URL)
@@ -663,7 +726,7 @@ def comprobar(solo_resumen, anterior):
     for nombre, lista in grupos.items():
         print(f"  {nombre}: {len(lista)} en stock")
 
-    huella = huella_filtros()
+    huella = huella_filtros(general, todas_alertas)
     misma_config = anterior is not None and anterior.get("filtros") == huella
     antes = {k for claves in anterior["tiendas"].values() for k in claves} if anterior else set()
     seguidos_antes = (anterior or {}).get("seguidos")  # None si el estado es de una versión antigua
@@ -741,7 +804,8 @@ def comprobar(solo_resumen, anterior):
                 eventos.append(("preventa_es", i, {"nombre": "Preventas en español"}, None))
 
     nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0,
-                    "preventas_es": sorted({clave(i) for i in preventas_es}), "calendario": calendario}
+                    "preventas_es": sorted({clave(i) for i in preventas_es}), "calendario": calendario,
+                    "alertas_app": alertas_app}
 
     if actualizar_historial(coinciden, eventos if misma_config else [], disponibles, obsoletas, ahora):
         print("datos/historial.json actualizado.")

@@ -14,8 +14,9 @@ La web está en `docs/` y los datos que muestra en `datos/stock.json`, que se ac
 
 ## Cambiar lo que te avisa
 
-Edita [`filtros.toml`](filtros.toml). Puedes hacerlo desde la propia web de GitHub (icono del lápiz)
-o desde la app de GitHub en el móvil. Los cambios se aplican en la siguiente comprobación.
+Desde la app: **Ajustes → Mis avisos** (necesita la clave de GitHub de la app). Se guardan en
+`stocktcg-favoritos/filtros.json` y se aplican en la siguiente comprobación. Las opciones generales
+(idioma por defecto, bajadas, chollos, preventas en español) siguen en [`filtros.toml`](filtros.toml).
 
 ## Pedir un resumen del stock actual
 

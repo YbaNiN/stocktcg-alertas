@@ -1,6 +1,10 @@
 # ============================================================
-#  FILTROS DE ALERTAS  —  edita este archivo para elegir qué te avisa
+#  FILTROS DE ALERTAS
 # ============================================================
+#
+# IMPORTANTE: los filtros ([[alerta]]) se editan ahora desde la app (Ajustes → Mis avisos)
+# y se guardan en el repositorio stocktcg-favoritos (filtros.json). Los de este archivo solo
+# se usan si aquel no existe. La sección [general] de aquí sí se sigue usando siempre.
 #
 # Cada bloque [[alerta]] es un filtro. Te llega una notificación cuando un
 # producto VUELVE a estar en stock (o aparece nuevo) y cumple TODO lo que

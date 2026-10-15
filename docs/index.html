@@ -437,6 +437,40 @@
   .patron svg { width: 16px; height: 16px; margin-top: 1px; color: var(--accent); }
   .patron b { color: var(--text); }
 
+  /* presupuesto */
+  .presupuesto { margin-top: 10px; padding: 12px 16px 14px; border-radius: var(--radius); border: 1px solid var(--line); font-size: 14px; }
+  .presupuesto .fila-p { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .presupuesto .fila-p b { font-variant-numeric: tabular-nums; }
+  .presupuesto .pista { height: 8px; border-radius: 4px; background: var(--well); overflow: hidden; margin: 8px 0 6px; }
+  .presupuesto .pista i { display: block; height: 100%; border-radius: 4px; background: var(--accent); }
+  .presupuesto.cerca .pista i { background: var(--warn); }
+  .presupuesto.pasado .pista i { background: var(--drop-fg); }
+  .presupuesto .estado-p { font-size: 13px; color: var(--muted); }
+  .presupuesto.pasado .estado-p { color: var(--drop-fg); font-weight: 600; }
+  .acciones-col { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 14px; }
+
+  /* filtros (formulario) */
+  .chips-form { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .chips-form label { position: relative; }
+  .chips-form input { position: absolute; opacity: 0; pointer-events: none; }
+  .chips-form span {
+    display: inline-flex; align-items: center; height: 32px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line);
+    font-size: 13.5px; font-weight: 500; cursor: pointer; color: var(--text); background: var(--bg);
+  }
+  .chips-form input:checked + span { background: var(--text); border-color: var(--text); color: var(--bg); }
+  .chips-form input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .campo .ayuda { font-weight: 400; font-size: 12.5px; color: var(--muted); }
+  .interruptor { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; font-size: 14px; font-weight: 600; }
+  .interruptor input { width: 44px; height: 26px; appearance: none; -webkit-appearance: none; border-radius: 999px; background: var(--line); position: relative; cursor: pointer; transition: background .15s; flex: none; }
+  .interruptor input::after { content: ""; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.25); transition: transform .15s; }
+  .interruptor input:checked { background: var(--accent); }
+  .interruptor input:checked::after { transform: translateX(18px); }
+  .lista-filtros li { cursor: pointer; }
+  .lista-filtros .t.off { color: var(--faint); text-decoration: line-through; }
+
+  /* stock relámpago */
+  .et.relampago { background: var(--deal-bg); color: var(--deal-fg); }
+
   /* tooltip compartido */
   .tip {
     position: fixed; z-index: 60; transform: translate(-50%, calc(-100% - 8px)); pointer-events: none;
@@ -504,6 +538,8 @@
   <symbol id="i-mio" viewBox="0 0 24 24"><rect x="7" y="3.5" width="12" height="16" rx="2"/><path d="M5 7.5v11a2 2 0 0 0 2 2h9"/><path d="M13 9.6c-.9-1-2.6-.3-2.6 1 0 1.6 2.6 3 2.6 3s2.6-1.4 2.6-3c0-1.3-1.7-2-2.6-1Z"/></symbol>
   <symbol id="i-mas" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
   <symbol id="i-bolsa" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 10V7a3 3 0 0 1 6 0v3"/></symbol>
+  <symbol id="i-rayo" viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6l1-7Z"/></symbol>
+  <symbol id="i-tabla" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9.5h16M4 15h16M10 4v16"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8.5 12.2 2.4 2.4 4.8-5"/></symbol>
 </svg>
 
@@ -620,6 +656,14 @@ const URL_FAVS = `https://raw.githubusercontent.com/${USUARIO}/${FAV_REPO}/main/
 const API_FAVS = `https://api.github.com/repos/${USUARIO}/${FAV_REPO}/contents/favoritos.json`;
 // La colección (lo que compras) va en un repositorio PRIVADO aparte
 const COL_REPO = "stocktcg-coleccion";
+const URL_FILTROS = `https://raw.githubusercontent.com/${USUARIO}/${FAV_REPO}/main/filtros.json`;
+const API_FILTROS = `https://api.github.com/repos/${USUARIO}/${FAV_REPO}/contents/filtros.json`;
+const MINUTOS_RELAMPAGO = 10;
+const TIPOS_FILTRO = [["etb", "Elite Trainer Box"], ["booster-box", "Booster Box"], ["booster-bundle", "Booster Bundle"],
+  ["booster-pack", "Sobres"], ["blister", "Blísters"], ["tin", "Latas"], ["mini-tin", "Mini latas"], ["mini-tin-display", "Display de mini latas"],
+  ["collection-box", "Collection Box"], ["premium-collection", "Premium Collection"], ["ultra-premium-collection", "Ultra Premium Collection"],
+  ["deck", "Barajas"], ["build-battle", "Build & Battle"], ["pin-collection", "Pin Collection"], ["otros", "Otros"]];
+const IDIOMAS_FILTRO = [["es", "Español"], ["en", "Inglés"], ["ja", "Japonés"], ["fr", "Francés"], ["it", "Italiano"], ["de", "Alemán"]];
 const API_COL = `https://api.github.com/repos/${USUARIO}/${COL_REPO}/contents/coleccion.json`;
 const DIAS_STATS = 30;
 const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
@@ -649,6 +693,7 @@ const estado = {
   vista: "stock", hist: null,
   favs: new Set(JSON.parse(leer("favs") || "[]")), token: leer("token") || "",
   ocultas: new Set(JSON.parse(leer("ocultas") || "[]")),
+  presupuesto: Number(leer("presupuesto")) || null, filtros: null,
   compras: JSON.parse(leer("compras") || "[]"), subvista: leer("subvista") || "coleccion", colAcceso: null,
 };
 
@@ -755,6 +800,16 @@ async function cargar() {
   comprobarFrescura();
   cargarFavoritos();
   cargarColeccion();
+  cargarFiltros();
+}
+
+async function cargarFiltros() {
+  try {
+    const r = await fetch(URL_FILTROS + "?t=" + Math.floor(Date.now() / 60000), { cache: "no-store" });
+    if (r.ok && Date.now() - Number(leer("filtros-t") || 0) > 10 * 60000) estado.filtros = await r.json();
+    else if (!estado.filtros) estado.filtros = JSON.parse(leer("filtros") || "null");
+  } catch {}
+  if ($("#ajustes").open) abrirAjustes();
 }
 
 let ultimaConsulta = 0;
@@ -945,6 +1000,7 @@ function abrirFicha(id, desdeHistorial) {
     if (o.precioAntes && horas(o.bajadaDesde) < BAJADA_H) ets.push(`<span class="et bajada">−${Math.round((1 - o.precio / o.precioAntes) * 100)} %</span>`);
     if (o.chollo) ets.push(`<span class="et chollo">Bajo Cardmarket</span>`);
     if (o.preventa) ets.push(`<span class="et preventa">Preventa</span>`);
+    if (esRelampago(o.tienda)) ets.push(`<span class="et relampago" title="En esta tienda el stock suele agotarse en ${MINUTOS_RELAMPAGO} minutos o menos">${icono("rayo")}Se agota en minutos</span>`);
     const idiomas = (o.idioma || "").split(",").map((l) => IDIOMAS[l] || l.toUpperCase()).join("/");
     return `<li class="oferta${conFoto ? " con-foto" : ""}">
       ${conFoto ? `<div class="mini">${imagen(fotoDe(o))}</div>` : ""}
@@ -1063,6 +1119,19 @@ function nombreDeGrupo(id) {
   return { nombre: NOMBRE_TIPO[tipo] || (tipo ? tipo.replace(/-/g, " ") : "Producto"), coleccion: filtro };
 }
 
+// ---------------- stock relámpago ----------------
+function statsRelampago() {
+  const stats = {};
+  for (const r of estado.hist?.reposiciones || []) {
+    if (!r.salida) continue;
+    const x = (stats[r.tienda] ||= { n: 0, rapidas: 0 });
+    x.n++;
+    if (minutosEntre(r.entrada, r.salida) <= MINUTOS_RELAMPAGO) x.rapidas++;
+  }
+  return stats;
+}
+const esRelampago = (tienda) => { const x = statsRelampago()[tienda]; return !!x && x.n >= 3 && x.rapidas / x.n >= 0.6; };
+
 // ---------------- cuándo suele reponer ----------------
 const FRANJAS = [[0, 8, "de madrugada"], [8, 14, "por la mañana"], [14, 20, "por la tarde"], [20, 24, "por la noche"]];
 const DIAS_PLURAL = ["los lunes", "los martes", "los miércoles", "los jueves", "los viernes", "los sábados", "los domingos"];
@@ -1169,6 +1238,17 @@ function pintarReposiciones() {
         </div>
       </div>
     </div>
+    ${(() => {
+      const st = Object.entries(statsRelampago()).filter(([t, x]) => !estado.ocultas.has(t) && x.n >= 3).sort((a, b) => b[1].rapidas / b[1].n - a[1].rapidas / a[1].n);
+      const rel = st.filter(([, x]) => x.rapidas / x.n >= 0.6);
+      return `<div class="bloque"><h3>Stock relámpago</h3>
+        <p class="resumen">Tiendas donde lo que reponen se agota casi siempre en ${MINUTOS_RELAMPAGO} minutos o menos: ahí hay que ir rápido (o no merece la pena correr).</p>
+        ${rel.length ? `<ul class="lista-simple">${rel.map(([t, x]) => `<li><span class="t">${icono("rayo", 'style="width:15px;height:15px;vertical-align:-2px;color:var(--deal-fg)"')} ${esc(t)}</span>
+          <span class="d"><b class="num">${Math.round((x.rapidas / x.n) * 100)} %</b>en minutos</span>
+          <span class="s">${x.rapidas} de ${x.n} reposiciones se agotaron en ${MINUTOS_RELAMPAGO} min o menos</span></li>`).join("")}</ul>`
+          : `<p class="resumen" style="margin:0">${st.length ? "Ninguna tienda lo cumple por ahora." : "Aún no hay datos suficientes: hace falta que cada tienda haya repuesto y agotado algo al menos 3 veces."}</p>`}
+      </div>`;
+    })()}
     <h3 class="subtitulo">Últimas reposiciones</h3>
     <ul class="lista-simple">${lista.slice().sort((a, b) => b.entrada.localeCompare(a.entrada)).slice(0, 25).map((r) => filaReposicion(r, true)).join("")}</ul>
   </section>`;
@@ -1361,11 +1441,75 @@ function pintarColeccion() {
   v.innerHTML = `${segmento()}<section class="seccion">
     <div class="seccion-cab"><h2>Mi colección</h2><button class="link" data-accion="nueva-compra">${icono("mas", 'style="width:16px;height:16px;vertical-align:-3px"')} Añadir compra</button></div>
     ${avisoSync}
-    ${compras.length ? `${balance}<ul class="filas" style="margin-top:8px">${compras.map(fila).join("")}</ul>`
+    ${bloquePresupuesto()}
+    ${compras.length ? `${balance}<ul class="filas" style="margin-top:8px">${compras.map(fila).join("")}</ul>
+      <div class="acciones-col"><button class="accion-texto" data-accion="exportar-excel">${icono("tabla")}Exportar a Excel</button></div>`
       : `<div class="vacio" style="padding-top:20px"><b>${estado.texto || estado.coleccion !== "__todas" ? "No hay compras que coincidan" : "Aún no has apuntado ninguna compra"}</b>
         Abre un producto y toca «Lo he comprado» en la tienda donde lo compraste, o añádela a mano.<br>
         <button class="btn grande" data-accion="nueva-compra">Añadir compra</button></div>`}
   </section>`;
+}
+
+const MESES_NOMBRE = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+function gastadoEsteMes() {
+  const mes = hoyISO().slice(0, 7);
+  return estado.compras.filter((c) => (c.fecha || "").startsWith(mes)).reduce((t, c) => t + c.precio * (Number(c.cantidad) || 1), 0);
+}
+
+function bloquePresupuesto() {
+  const mes = MESES_NOMBRE[new Date().getMonth()];
+  if (!estado.presupuesto) return `<div class="acciones-col" style="margin-top:10px"><button class="accion-texto" data-accion="presupuesto">${icono("mas")}Poner un presupuesto mensual</button></div>`;
+  const gastado = gastadoEsteMes(), p = estado.presupuesto, pct = gastado / p;
+  const clase = pct > 1 ? "pasado" : pct >= 0.8 ? "cerca" : "";
+  const estadoTxt = pct > 1 ? `Te has pasado ${euros(gastado - p)}` : `Te quedan ${euros(p - gastado)}`;
+  return `<div class="presupuesto ${clase}">
+    <div class="fila-p"><span>Presupuesto de ${mes}</span><button class="link" data-accion="presupuesto" style="padding:0">Cambiar</button></div>
+    <div class="pista" role="img" aria-label="${esc(`Gastado ${euros(gastado)} de ${euros(p)}`)}"><i style="width:${Math.min(pct, 1) * 100}%"></i></div>
+    <div class="fila-p"><span><b>${euros(gastado)}</b> de ${euros(p)}</span><span class="estado-p">${estadoTxt}</span></div>
+  </div>`;
+}
+
+function abrirFormPresupuesto() {
+  $("#compra-contenido").innerHTML = `
+    <div class="ficha-cab" style="grid-template-columns:1fr auto">
+      <div><h2 id="compra-titulo">Presupuesto mensual</h2><div class="sub">Cuánto quieres gastar como máximo cada mes</div></div>
+      <div class="ficha-acciones"><button class="btn-icono" data-accion="cerrar-compra" aria-label="Cerrar">${icono("x")}</button></div>
+    </div>
+    <form class="ficha-cuerpo" id="form-presupuesto" autocomplete="off">
+      <label class="campo">Presupuesto (€ al mes)<input name="presupuesto" type="number" inputmode="decimal" min="0" step="1" value="${estado.presupuesto || ""}" placeholder="150"></label>
+      <p class="resumen" style="margin-top:10px">Se cuenta lo que apuntas en Mi colección con fecha de este mes. Si una compra te hace pasarte, te lo diré al apuntarla.</p>
+      <div class="fila-botones">
+        <button class="btn grande" type="submit">Guardar</button>
+        ${estado.presupuesto ? `<button class="btn suave grande" type="button" data-accion="quitar-presupuesto">Quitar presupuesto</button>` : ""}
+      </div>
+    </form>`;
+  const d = $("#hoja-compra");
+  if (!d.open) d.showModal();
+}
+
+function guardarPresupuesto(valor) {
+  estado.presupuesto = valor > 0 ? Math.round(valor * 100) / 100 : null;
+  guardar("presupuesto", estado.presupuesto || "");
+  $("#hoja-compra").close();
+  aviso(estado.presupuesto ? `Presupuesto: ${euros(estado.presupuesto)} al mes` : "Presupuesto quitado");
+  sincronizarColeccion();
+  pintar();
+}
+
+function exportarExcel() {
+  // CSV con punto y coma y coma decimal: así lo abre bien el Excel en español
+  const num = (n) => n == null ? "" : n.toFixed(2).replace(".", ",");
+  const celda = (v) => { const t = String(v ?? ""); return /[";\n]/.test(t) ? `"${t.replace(/"/g, '""')}"` : t; };
+  const filas = [["Fecha", "Producto", "Colección", "Tienda", "Cantidad", "Precio por unidad (€)", "Total pagado (€)", "Valor hoy por unidad (€)", "Valor hoy total (€)", "Diferencia (€)", "De dónde sale el valor"]];
+  for (const c of estado.compras.slice().sort((a, b) => (a.fecha || "").localeCompare(b.fecha || ""))) {
+    const u = Number(c.cantidad) || 1, v = valorActual(c);
+    filas.push([c.fecha, c.nombre, c.coleccion, c.tienda, u, num(c.precio), num(c.precio * u),
+      num(v?.valor), num(v ? v.valor * u : null), num(v ? (v.valor - c.precio) * u : null), v?.fuente || "sin referencia"]);
+  }
+  const csv = "\ufeff" + filas.map((f) => f.map(celda).join(";")).join("\r\n");
+  const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" })), download: `mi-coleccion-${hoyISO()}.csv` });
+  a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  aviso("Colección exportada");
 }
 
 function abrirFormCompra(c) {
@@ -1424,7 +1568,9 @@ function guardarCompra(form) {
   const i = estado.compras.findIndex((x) => x.id === compra.id);
   i >= 0 ? estado.compras.splice(i, 1, compra) : estado.compras.push(compra);
   $("#hoja-compra").close();
-  aviso(i >= 0 ? "Compra actualizada" : "Añadido a tu colección");
+  const pasado = estado.presupuesto && compra.fecha.startsWith(hoyISO().slice(0, 7)) ? gastadoEsteMes() - estado.presupuesto : 0;
+  aviso(pasado > 0 ? `Con esta compra te pasas del presupuesto de ${MESES_NOMBRE[new Date().getMonth()]} por ${euros(pasado)}`
+    : (i >= 0 ? "Compra actualizada" : "Añadido a tu colección"));
   sincronizarColeccion();
   pintar();
 }
@@ -1447,7 +1593,7 @@ async function sincronizarColeccion(intento = 1) {
     if (r.status === 404 || r.status === 403) { estado.colAcceso = false; pintar(); return false; }
     if (!r.ok) throw new Error(r.status);
     const actual = await r.json();
-    const cuerpo = JSON.stringify({ compras: estado.compras }, null, 2) + "\n";
+    const cuerpo = JSON.stringify({ compras: estado.compras, presupuesto: estado.presupuesto }, null, 2) + "\n";
     const w = await fetch(API_COL, {
       method: "PUT", headers: { ...cabGit(), "Content-Type": "application/json" },
       body: JSON.stringify({ message: "Actualizar colección desde la app", content: utf8b64(cuerpo), sha: actual.sha }),
@@ -1471,15 +1617,17 @@ async function cargarColeccion() {
     if (!r.ok) return;
     estado.colAcceso = true;
     if (leer("compras-pend") === "1") { await sincronizarColeccion(); return pintar(); } // lo de este móvil manda
-    const remotas = JSON.parse(b64utf8((await r.json()).content)).compras || [];
-    if (JSON.stringify(remotas) !== JSON.stringify(estado.compras)) {
-      estado.compras = remotas; guardar("compras", JSON.stringify(remotas)); pintar();
+    const remoto = JSON.parse(b64utf8((await r.json()).content));
+    const remotas = remoto.compras || [], presupuesto = Number(remoto.presupuesto) || null;
+    if (JSON.stringify(remotas) !== JSON.stringify(estado.compras) || presupuesto !== estado.presupuesto) {
+      estado.compras = remotas; estado.presupuesto = presupuesto;
+      guardar("compras", JSON.stringify(remotas)); guardar("presupuesto", presupuesto || ""); pintar();
     }
   } catch {}
 }
 
 function descargarCopia() {
-  const blob = new Blob([JSON.stringify({ compras: estado.compras }, null, 2)], { type: "application/json" });
+  const blob = new Blob([JSON.stringify({ compras: estado.compras, presupuesto: estado.presupuesto }, null, 2)], { type: "application/json" });
   const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: `mi-coleccion-${hoyISO()}.json` });
   a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
@@ -1613,6 +1761,117 @@ async function cargarFavoritos() {
   } catch {}
 }
 
+// ---------------- filtros de avisos (editables desde la app) ----------------
+function resumenFiltro(a) {
+  const partes = [];
+  if (a.palabras?.length) partes.push(a.palabras.join(", "));
+  if (a.formatos?.length) partes.push(a.formatos.map((f) => (TIPOS_FILTRO.find(([k]) => k === f) || [f, f])[1]).join(", "));
+  else partes.push("todos los tipos");
+  if (a.idiomas) partes.push(a.idiomas.length ? a.idiomas.map((l) => l.toUpperCase()).join("/") : "cualquier idioma");
+  if (a.precio_max) partes.push(`hasta ${euros(a.precio_max)}`);
+  if (a.excluir?.length) partes.push(`sin: ${a.excluir.join(", ")}`);
+  return partes.join(" · ");
+}
+
+function seccionFiltros(conectado) {
+  const lista = estado.filtros?.alertas;
+  if (!lista) return `<p class="resumen" style="margin:0">Cargando tus filtros…</p>`;
+  return `<p class="resumen" style="margin:0">Qué productos te avisan al móvil. Los cambios se aplican en la siguiente comprobación (unos 5 minutos) y te llegará un resumen.</p>
+    <ul class="lista-simple lista-filtros">${lista.map((a, i) => `<li data-filtro="${i}">
+      <span class="t${a.activa === false ? " off" : ""}">${esc(a.nombre)}</span>
+      <span class="d">${a.activa === false ? "apagado" : ""}</span>
+      <span class="s">${esc(resumenFiltro(a))}</span></li>`).join("")}</ul>
+    ${conectado ? `<div class="fila-botones"><button class="btn suave" data-accion="nuevo-filtro">${icono("mas", 'style="width:15px;height:15px"')} Añadir filtro</button></div>`
+      : `<p class="resumen" style="margin:8px 0 0">Para cambiarlos desde aquí, conecta GitHub (abajo, en Avisos prioritarios).</p>`}`;
+}
+
+function abrirFormFiltro(i) {
+  if (!estado.token) { aviso("Conecta GitHub en Ajustes para editar tus filtros"); return; }
+  const a = i == null ? { nombre: "", palabras: [], activa: true } : estado.filtros.alertas[i];
+  const sel = new Set(a.formatos || []), idi = a.idiomas == null ? null : new Set(a.idiomas);
+  $("#compra-contenido").innerHTML = `
+    <div class="ficha-cab" style="grid-template-columns:1fr auto">
+      <div><h2 id="compra-titulo">${i == null ? "Nuevo filtro" : "Editar filtro"}</h2><div class="sub">Te aviso de lo que cumpla todo esto</div></div>
+      <div class="ficha-acciones"><button class="btn-icono" data-accion="cerrar-compra" aria-label="Cerrar">${icono("x")}</button></div>
+    </div>
+    <form class="ficha-cuerpo" id="form-filtro" data-i="${i ?? ""}" autocomplete="off">
+      <label class="campo">Nombre<input name="nombre" required maxlength="60" value="${esc(a.nombre)}" placeholder="Dominio Delta"></label>
+      <label class="campo">Buscar <span class="ayuda">Separa con comas; basta con que coincida una. Mejor en español e inglés.</span>
+        <input name="palabras" value="${esc((a.palabras || []).join(", "))}" placeholder="dominio delta, delta reign"></label>
+      <div class="campo">Tipos de producto <span class="ayuda">Sin marcar ninguno = todos</span>
+        <div class="chips-form">${TIPOS_FILTRO.map(([k, n]) => `<label><input type="checkbox" name="formatos" value="${k}"${sel.has(k) ? " checked" : ""}><span>${n}</span></label>`).join("")}</div></div>
+      <div class="campo">Idioma <span class="ayuda">Sin marcar = el general (español)</span>
+        <div class="chips-form">${IDIOMAS_FILTRO.map(([k, n]) => `<label><input type="checkbox" name="idiomas" value="${k}"${idi?.has(k) ? " checked" : ""}><span>${n}</span></label>`).join("")}</div></div>
+      <div class="dos-campos">
+        <label class="campo">Precio máximo (€)<input name="precio_max" type="number" inputmode="decimal" min="0" step="0.01" value="${a.precio_max ?? ""}" placeholder="Sin límite"></label>
+        <label class="campo">No incluir <span class="ayuda">palabras</span><input name="excluir" value="${esc((a.excluir || []).join(", "))}" placeholder="latino"></label>
+      </div>
+      <label class="interruptor">Filtro activo<input type="checkbox" name="activa"${a.activa === false ? "" : " checked"}></label>
+      <div class="fila-botones">
+        <button class="btn grande" type="submit">Guardar</button>
+        ${i == null ? "" : `<button class="btn suave grande" type="button" data-accion="borrar-filtro">Borrar</button>`}
+      </div>
+      <div class="mensaje" id="mensaje-filtro"></div>
+    </form>`;
+  const d = $("#hoja-compra");
+  if (!d.open) d.showModal();
+}
+
+async function guardarFiltros(alertas, texto) {
+  const msg = $("#mensaje-filtro");
+  if (msg) { msg.className = "mensaje"; msg.textContent = "Guardando…"; }
+  try {
+    const r = await fetch(API_FILTROS, { headers: cabGit(), cache: "no-store" });
+    if (!r.ok && r.status !== 404) throw new Error(r.status);
+    const sha = r.ok ? (await r.json()).sha : undefined;
+    const cuerpo = JSON.stringify({ alertas }, null, 2) + "\n";
+    const w = await fetch(API_FILTROS, {
+      method: "PUT", headers: { ...cabGit(), "Content-Type": "application/json" },
+      body: JSON.stringify({ message: "Actualizar filtros desde la app", content: utf8b64(cuerpo), sha }),
+    });
+    if (!w.ok) throw new Error(w.status);
+    estado.filtros = { alertas };
+    guardar("filtros", JSON.stringify(estado.filtros)); guardar("filtros-t", String(Date.now()));
+    $("#hoja-compra").close();
+    aviso(texto);
+    if ($("#ajustes").open) abrirAjustes();
+  } catch (e) {
+    if (msg) { msg.className = "mensaje error"; msg.textContent = String(e.message).match(/40[134]/) ? "GitHub no deja guardar: revisa tu clave en Ajustes." : "No se ha podido guardar. Prueba otra vez."; }
+  }
+}
+
+function guardarFiltro(form) {
+  const f = new FormData(form);
+  const lista = (v) => String(v || "").split(",").map((x) => x.trim()).filter(Boolean);
+  const nombre = String(f.get("nombre")).trim();
+  const palabras = lista(f.get("palabras"));
+  const formatos = f.getAll("formatos");
+  if (!nombre) return;
+  if (!palabras.length && !formatos.length) {
+    const m = $("#mensaje-filtro"); m.className = "mensaje error"; m.textContent = "Pon algo que buscar o elige algún tipo de producto."; return;
+  }
+  const alerta = { nombre, activa: f.get("activa") === "on" };
+  if (palabras.length) alerta.palabras = palabras;
+  if (formatos.length) alerta.formatos = formatos;
+  if (f.getAll("idiomas").length) alerta.idiomas = f.getAll("idiomas");
+  const pm = parseFloat(String(f.get("precio_max")).replace(",", "."));
+  if (pm > 0) alerta.precio_max = pm;
+  if (lista(f.get("excluir")).length) alerta.excluir = lista(f.get("excluir"));
+  const i = form.dataset.i === "" ? null : Number(form.dataset.i);
+  const previo = i == null ? {} : estado.filtros.alertas[i];
+  for (const k of ["tiendas", "precio_min", "max_sobreprecio", "preventas"]) if (previo[k] != null) alerta[k] = previo[k];  // campos que la app no edita
+  const alertas = (estado.filtros?.alertas || []).slice();
+  i == null ? alertas.push(alerta) : alertas.splice(i, 1, alerta);
+  guardarFiltros(alertas, i == null ? "Filtro añadido: se aplica en unos minutos" : "Filtro guardado: se aplica en unos minutos");
+}
+
+function borrarFiltro(form) {
+  const i = Number(form.dataset.i);
+  const alertas = estado.filtros.alertas.slice();
+  const [quitado] = alertas.splice(i, 1);
+  guardarFiltros(alertas, `Filtro «${quitado.nombre}» borrado`);
+}
+
 // ---------------- ajustes (clave de GitHub para los favoritos) ----------------
 function abrirAjustes() {
   const conectado = !!estado.token;
@@ -1622,6 +1881,10 @@ function abrirAjustes() {
       <div class="ficha-acciones"><button class="btn-icono" data-accion="cerrar-ajustes" aria-label="Cerrar">${icono("x")}</button></div>
     </div>
     <div class="ficha-cuerpo">
+     <section class="ajustes-seccion">
+      <h3>Mis avisos</h3>
+      ${seccionFiltros(conectado)}
+     </section>
      <section class="ajustes-seccion">
       <h3>Tiendas ocultas</h3>
       ${estado.ocultas.size ? `<p class="resumen" style="margin:0">No aparecen en la app${conectado ? " ni te avisan" : ". Para que tampoco te avisen, activa los avisos prioritarios"}.</p>
@@ -1741,7 +2004,13 @@ $("#ficha").addEventListener("click", (e) => {
 $("#ficha").addEventListener("cancel", (e) => { e.preventDefault(); cerrarFicha(); });
 $("#ajustes").addEventListener("click", (e) => { if (e.target === e.currentTarget) $("#ajustes").close(); });
 $("#hoja-compra").addEventListener("click", (e) => { if (e.target === e.currentTarget) $("#hoja-compra").close(); });
-$("#hoja-compra").addEventListener("submit", (e) => { e.preventDefault(); guardarCompra(e.target); });
+$("#hoja-compra").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const f = e.target;
+  if (f.id === "form-filtro") return guardarFiltro(f);
+  if (f.id === "form-presupuesto") return guardarPresupuesto(parseFloat(String(new FormData(f).get("presupuesto")).replace(",", ".")));
+  guardarCompra(f);
+});
 
 $("#vistas").addEventListener("click", (e) => {
   const b = e.target.closest("[data-vista]"); if (!b) return;
@@ -1795,6 +2064,8 @@ document.addEventListener("click", (e) => {
     const o = g?.ofertas.find((x) => x.url === com.dataset.comprado);
     if (g && o) return abrirFormCompra({ grupo: g.id, nombre: g.nombre, coleccion: g.coleccion, tipo: g.tipo, img: o.img || g.img?.orig, foto: o.foto, tienda: o.tienda, precio: o.precio, cantidad: 1, fecha: hoyISO() });
   }
+  const fl = e.target.closest("[data-filtro]");
+  if (fl) return abrirFormFiltro(Number(fl.dataset.filtro));
   const fc = e.target.closest("[data-compra]");
   if (fc) return abrirFormCompra(estado.compras.find((x) => x.id === fc.dataset.compra));
   const accion = e.target.closest("[data-accion]")?.dataset.accion;
@@ -1804,6 +2075,11 @@ document.addEventListener("click", (e) => {
   if (accion === "cerrar-ajustes") return $("#ajustes").close();
   if (accion === "guardar-token") return guardarToken();
   if (accion === "nueva-compra") return abrirFormCompra({ cantidad: 1, fecha: hoyISO() });
+  if (accion === "presupuesto") return abrirFormPresupuesto();
+  if (accion === "quitar-presupuesto") return guardarPresupuesto(0);
+  if (accion === "exportar-excel") return exportarExcel();
+  if (accion === "nuevo-filtro") return abrirFormFiltro(null);
+  if (accion === "borrar-filtro") return borrarFiltro($("#form-filtro"));
   if (accion === "cerrar-compra") return $("#hoja-compra").close();
   if (accion === "borrar-compra") return borrarCompra(estado.compraEnCurso?.id);
   if (accion === "copia-coleccion") return descargarCopia();
@@ -1818,6 +2094,8 @@ document.addEventListener("click", (e) => {
 // Abrir una colección desde la notificación (#Nombre)
 function leerHash() {
   if (location.hash === "#lanzamientos") estado.vista = "lanzamientos";
+  else if (location.hash === "#reposiciones") estado.vista = "reposiciones";
+  else if (location.hash === "#coleccion" || location.hash === "#favoritos") { estado.vista = "favoritos"; estado.subvista = location.hash.slice(1); }
   else if (location.hash) estado.coleccion = decodeURIComponent(location.hash.slice(1));
 }
 leerHash();

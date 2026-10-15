@@ -26,5 +26,43 @@
       "type": "image/png",
       "purpose": "maskable"
     }
+  ],
+  "shortcuts": [
+    {
+      "name": "Calendario de lanzamientos",
+      "short_name": "Calendario",
+      "url": "./#lanzamientos",
+      "icons": [
+        {
+          "src": "icono-30-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Mi colección",
+      "short_name": "Mi colección",
+      "url": "./#coleccion",
+      "icons": [
+        {
+          "src": "icono-30-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Reposiciones",
+      "short_name": "Reposiciones",
+      "url": "./#reposiciones",
+      "icons": [
+        {
+          "src": "icono-30-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
   ]
 }
