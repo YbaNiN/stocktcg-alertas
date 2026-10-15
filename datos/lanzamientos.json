@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T20:05:26",
+ "actualizado": "2026-10-16T01:39:57",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -654,21 +654,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--build-battle"
     },
     {
-     "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 44.95,
-     "moneda": "EUR",
-     "tienda": "Pokezilla",
-     "idioma": "es",
-     "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs-preventa-copia?variant=44113679581274",
-     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-bundle_700x700_1.webp?v=1789657834&width=400",
-     "foto": "fotos/ac802b96055743eb.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
      "titulo": "Pokémon TCG: Caja de Entrenador de Élite / Elite Trainer Box – Dominio Delta (Español) – RESERVA",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1062,23 +1047,6 @@
    "foto": "fotos/e755b9cddcc19bb0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-bundle",
-   "tipoNombre": "Booster Bundle",
-   "precio": 44.95,
-   "moneda": "EUR",
-   "tienda": "Pokezilla",
-   "idioma": "es",
-   "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs-preventa-copia?variant=44113679581274",
-   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-bundle_700x700_1.webp?v=1789657834&width=400",
-   "foto": "fotos/ac802b96055743eb.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
   },
