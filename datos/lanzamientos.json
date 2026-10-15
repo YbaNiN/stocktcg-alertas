@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T16:38:16",
+ "actualizado": "2026-10-15T19:33:51",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -50,6 +50,21 @@
      "tienda": "Júpiter Juegos",
      "idioma": "es",
      "url": "https://jupiterjuegos.com/producto/pokemon-celebracion-30-aniversario-mini-lata/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
+     "foto": "fotos/bfcc5b3249610bf5.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin"
+    },
+    {
+     "titulo": "Mini latas 30 aniversario - Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "mini-tin",
+     "tipoNombre": "Mini Tin",
+     "precio": 22.99,
+     "moneda": "EUR",
+     "tienda": "TCG VAL",
+     "idioma": "es",
+     "url": "https://www.tcgval.com/products/mini-lata-30-aniversario-espanol",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
      "foto": "fotos/bfcc5b3249610bf5.jpg",
      "preventa": false,
@@ -551,6 +566,21 @@
      "foto": "fotos/0dc6b8b3032fe56e.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
+    {
+     "titulo": "Celebraciones 30th Premium Set Espeon Umbreon",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 188.95,
+     "moneda": "EUR",
+     "tienda": "Otakuya",
+     "idioma": "es",
+     "url": "https://tcg.otakuya.es/products/celebraciones-30th-premium-set-espeon-umbreon",
+     "img": "https://cdn.shopify.com/s/files/1/0965/4019/7241/files/tcg-pokemon-umbreon-espeon-japones-30-aniversario.webp?v=1791475101&width=400",
+     "foto": "fotos/49096136ae73aeb4.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     }
    ]
   },
@@ -741,6 +771,21 @@
      "url": "https://epicdeck.es/products/pokemon-celebracion-30th-aniversario-mini-latas",
      "img": "https://cdn.shopify.com/s/files/1/0942/3509/9523/files/0196214159082_11.jpg?v=1791507818&width=400",
      "foto": "fotos/14241726fd0d791f.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "Pokémon TCG: 30th Celebration – Tin (Sylveon)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 49.95,
+     "moneda": "EUR",
+     "tienda": "HeroFreaks",
+     "idioma": "es",
+     "url": "https://herofreaks.com/comprar/juegos-de-cartas/pokemon-jcc/pokemon-tcg-30th-celebration-tin-1u-assorted/",
+     "img": "https://herofreaks.com/wp-content/uploads/2026/09/Pokemon-JCC-Celebracion-30-Aniversario-Coleccion-Lata.jpg",
+     "foto": "fotos/0287057323c5e16d.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
