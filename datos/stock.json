@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T12:08:54",
+ "actualizado": "2026-10-15T12:14:15",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -106,6 +106,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-10-14T14:10+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Fuegos Fantasmales | Élite Phantasmal Flames — Español",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 109.95,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/etb-fuegos-fantasmales?variant=53646951547203",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
+     "foto": "fotos/f07ecea19094f29d.jpg",
+     "preventa": false,
+     "cardmarket": 91.21,
+     "cardmarketPct": 21,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
+     "desde": "2026-10-15T12:15+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -1678,6 +1699,27 @@
   {
    "nombre": "30 Aniversario",
    "productos": [
+    {
+     "titulo": "ETB Celebraciones 30 Aniversario | Élite Celebrations 30th — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 139.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/etb-30th?variant=54195933905219",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
+     "foto": "fotos/3475a6f4a57ec163.jpg",
+     "preventa": false,
+     "cardmarket": 131.52,
+     "cardmarketPct": 6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
+     "desde": "2026-10-15T12:15+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
     {
      "titulo": "Pokemon JCC Caja De Entrenador Elite De Celebracion 30 Aniversario Castellano",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
