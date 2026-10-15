@@ -409,6 +409,34 @@
   .grupo-cab span { font-size: 13px; color: var(--muted); }
   @media (prefers-color-scheme: dark) { .lanz .mini { border-color: transparent; } }
 
+  /* lo mío: pestañas internas */
+  .segmento { display: flex; gap: 4px; padding: 4px; margin-top: 18px; background: var(--chip); border-radius: 12px; }
+  .segmento button {
+    flex: 1; height: 38px; border: 0; border-radius: 9px; background: transparent; font-size: 14.5px; font-weight: 600; color: var(--muted);
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  }
+  .segmento button[aria-selected="true"] { background: var(--bg); color: var(--text); box-shadow: 0 1px 3px rgba(16, 18, 21, .12); }
+  .segmento .n { font-weight: 500; color: var(--faint); font-variant-numeric: tabular-nums; }
+  @media (min-width: 900px) { .segmento { max-width: 420px; } }
+
+  /* mi colección */
+  .balance { padding: 14px 16px; border-radius: var(--radius); background: var(--well); font-size: 15px; line-height: 1.5; }
+  .balance b { font-variant-numeric: tabular-nums; }
+  .balance .sube { color: var(--new-fg); }
+  .balance .baja { color: var(--drop-fg); }
+  .balance small { display: block; margin-top: 4px; font-size: 12.5px; color: var(--muted); line-height: 1.4; }
+  .compra { cursor: pointer; }
+  .compra .lado { gap: 2px; }
+  .compra .hoy { font-size: 12.5px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+  .compra .dif { font-size: 12.5px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .dif.sube { color: var(--new-fg); }
+  .dif.baja { color: var(--drop-fg); }
+  .dos-campos { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; }
+  .campo input[type="date"] { min-width: 0; }
+  .patron { margin: 0 0 12px; padding: 10px 12px; border-radius: 10px; background: var(--well); font-size: 13.5px; color: var(--muted); display: flex; gap: 8px; align-items: flex-start; }
+  .patron svg { width: 16px; height: 16px; margin-top: 1px; color: var(--accent); }
+  .patron b { color: var(--text); }
+
   /* tooltip compartido */
   .tip {
     position: fixed; z-index: 60; transform: translate(-50%, calc(-100% - 8px)); pointer-events: none;
@@ -473,6 +501,9 @@
   <symbol id="i-compartir" viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="m8.2 10.9 7.6-4.3M8.2 13.1l7.6 4.3"/></symbol>
   <symbol id="i-ojo-no" viewBox="0 0 24 24"><path d="M3 3l18 18"/><path d="M10.6 6.2A9.7 9.7 0 0 1 12 6c5 0 9 6 9 6a15 15 0 0 1-2.6 3.1M6.6 7.7C4.4 9.3 3 12 3 12s4 6 9 6a8.8 8.8 0 0 0 3.7-.8"/><path d="M9.9 10a3 3 0 0 0 4.1 4.1"/></symbol>
   <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></symbol>
+  <symbol id="i-mio" viewBox="0 0 24 24"><rect x="7" y="3.5" width="12" height="16" rx="2"/><path d="M5 7.5v11a2 2 0 0 0 2 2h9"/><path d="M13 9.6c-.9-1-2.6-.3-2.6 1 0 1.6 2.6 3 2.6 3s2.6-1.4 2.6-3c0-1.3-1.7-2-2.6-1Z"/></symbol>
+  <symbol id="i-mas" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-bolsa" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 10V7a3 3 0 0 1 6 0v3"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8.5 12.2 2.4 2.4 4.8-5"/></symbol>
 </svg>
 
@@ -482,7 +513,7 @@
       <a class="marca" href="./" aria-label="Stock TCG, inicio"><img src="logo-30.png" alt="" width="160" height="118"><b>Stock TCG</b></a>
       <nav class="vistas" id="vistas" aria-label="Secciones">
         <button class="vista-btn" data-vista="stock" aria-current="page"><svg class="i"><use href="#i-inicio"/></svg>Stock</button>
-        <button class="vista-btn" data-vista="favoritos"><svg class="i"><use href="#i-corazon"/></svg>Favoritos</button>
+        <button class="vista-btn" data-vista="favoritos"><svg class="i"><use href="#i-mio"/></svg>Lo mío</button>
         <button class="vista-btn" data-vista="lanzamientos"><svg class="i"><use href="#i-calendario"/></svg>Calendario</button>
         <button class="vista-btn" data-vista="reposiciones"><svg class="i"><use href="#i-grafico"/></svg>Reposiciones</button>
         <button class="vista-btn" data-accion="ajustes"><svg class="i"><use href="#i-ajustes"/></svg>Ajustes</button>
@@ -544,6 +575,11 @@
 <div class="tip" id="tip" role="tooltip"></div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+<dialog class="ficha" id="hoja-compra" aria-labelledby="compra-titulo">
+  <div class="asa" aria-hidden="true"></div>
+  <div id="compra-contenido" style="display:contents"></div>
+</dialog>
+
 <dialog class="ficha" id="ajustes" aria-labelledby="ajustes-titulo">
   <div class="asa" aria-hidden="true"></div>
   <div id="ajustes-contenido" style="display:contents"></div>
@@ -582,6 +618,9 @@ const URL_HIST = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}
 const FAV_REPO = "stocktcg-favoritos";
 const URL_FAVS = `https://raw.githubusercontent.com/${USUARIO}/${FAV_REPO}/main/favoritos.json`;
 const API_FAVS = `https://api.github.com/repos/${USUARIO}/${FAV_REPO}/contents/favoritos.json`;
+// La colección (lo que compras) va en un repositorio PRIVADO aparte
+const COL_REPO = "stocktcg-coleccion";
+const API_COL = `https://api.github.com/repos/${USUARIO}/${COL_REPO}/contents/coleccion.json`;
 const DIAS_STATS = 30;
 const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 
@@ -610,6 +649,7 @@ const estado = {
   vista: "stock", hist: null,
   favs: new Set(JSON.parse(leer("favs") || "[]")), token: leer("token") || "",
   ocultas: new Set(JSON.parse(leer("ocultas") || "[]")),
+  compras: JSON.parse(leer("compras") || "[]"), subvista: leer("subvista") || "coleccion", colAcceso: null,
 };
 
 // ---------------- precio por sobre ----------------
@@ -714,6 +754,7 @@ async function cargar() {
   if (estado.datos) pintar(); else pintarError();
   comprobarFrescura();
   cargarFavoritos();
+  cargarColeccion();
 }
 
 let ultimaConsulta = 0;
@@ -765,6 +806,8 @@ function pintarPestanas() {
   if (estado.coleccion !== "__todas" && !colecciones.includes(estado.coleccion)) estado.coleccion = "__todas";
   const cuenta = (nombre) => {
     if (estado.vista === "reposiciones") return reposicionesRecientes(nombre).length;
+    if (estado.vista === "favoritos" && estado.subvista === "coleccion")
+      return estado.compras.filter((c) => nombre === "__todas" || c.grupo?.startsWith(nombre + "|")).reduce((t, c) => t + (Number(c.cantidad) || 1), 0);
     const g = estado.grupos.filter((x) => nombre === "__todas" || x.filtro === nombre);
     return estado.vista === "favoritos" ? g.filter((x) => estado.favs.has(x.id)).length : g.length;
   };
@@ -915,6 +958,7 @@ function abrirFicha(id, desdeHistorial) {
       ${ets.length ? `<div class="ets">${ets.join("")}</div>` : ""}
       <div class="acciones-oferta">
         <button class="accion-texto" data-compartir="${esc(o.url)}" data-grupo-c="${esc(g.id)}">${icono("compartir")}Compartir</button>
+        <button class="accion-texto" data-comprado="${esc(o.url)}" data-grupo-c="${esc(g.id)}">${icono("bolsa")}Lo he comprado</button>
         <button class="accion-texto" data-ocultar="${esc(o.tienda)}">${icono("ojo-no")}Ocultar tienda</button>
       </div>
     </li>`;
@@ -1019,6 +1063,39 @@ function nombreDeGrupo(id) {
   return { nombre: NOMBRE_TIPO[tipo] || (tipo ? tipo.replace(/-/g, " ") : "Producto"), coleccion: filtro };
 }
 
+// ---------------- cuándo suele reponer ----------------
+const FRANJAS = [[0, 8, "de madrugada"], [8, 14, "por la mañana"], [14, 20, "por la tarde"], [20, 24, "por la noche"]];
+const DIAS_PLURAL = ["los lunes", "los martes", "los miércoles", "los jueves", "los viernes", "los sábados", "los domingos"];
+const reposicionesDe = (id) => (estado.hist?.reposiciones || []).filter((r) => r.grupo === id && !estado.ocultas.has(r.tienda));
+
+function patron(lista) {
+  const n = lista.length;
+  if (n < 3) return null;
+  const dia = (r) => (new Date(r.entrada).getDay() + 6) % 7;
+  const franja = (r) => { const h = new Date(r.entrada).getHours(); return FRANJAS.findIndex(([a, b]) => h >= a && h < b); };
+  const cuenta = (f, k) => lista.filter((r) => f(r) === k).length;
+  const mejor = (f, total) => { let k = 0; for (let i = 1; i < total; i++) if (cuenta(f, i) > cuenta(f, k)) k = i; return k; };
+  const d = mejor(dia, 7), fr = mejor(franja, 4);
+  const okDia = cuenta(dia, d) >= 2 && cuenta(dia, d) / n >= 0.4;
+  const okFranja = cuenta(franja, fr) >= 2 && cuenta(franja, fr) / n >= 0.5;
+  const ambos = lista.filter((r) => dia(r) === d && franja(r) === fr).length;
+  const tiendas = {};
+  lista.forEach((r) => { tiendas[r.tienda] = (tiendas[r.tienda] || 0) + 1; });
+  const [tienda, vecesTienda] = Object.entries(tiendas).sort((a, b) => b[1] - a[1])[0];
+  const enTienda = vecesTienda >= 2 && vecesTienda / n >= 0.5 ? tienda : null;
+  if (!okDia && !okFranja) return { claro: false, n, enTienda, texto: `Sin un patrón claro todavía (${n} reposiciones)` };
+  if (okDia && okFranja && ambos >= 2) return { claro: true, n, veces: ambos, enTienda, texto: `Suele reponerse ${DIAS_PLURAL[d]} ${FRANJAS[fr][2]}` };
+  if (okDia && (!okFranja || cuenta(dia, d) >= cuenta(franja, fr))) return { claro: true, n, veces: cuenta(dia, d), enTienda, texto: `Suele reponerse ${DIAS_PLURAL[d]}` };
+  return { claro: true, n, veces: cuenta(franja, fr), enTienda, texto: `Suele reponerse ${FRANJAS[fr][2]}` };
+}
+
+function textoPatron(lista) {
+  const pt = patron(lista);
+  if (!pt) return `Con 3 reposiciones o más verás aquí cuándo suele reponerse (llevamos ${lista.length}).`;
+  const tienda = pt.enTienda ? `, sobre todo en <b>${esc(pt.enTienda)}</b>` : "";
+  return pt.claro ? `<b>${pt.texto}</b> (${pt.veces} de ${pt.n} veces)${tienda}.` : `${pt.texto}${tienda}.`;
+}
+
 function bloqueReposicionesProducto(g) {
   const lista = (estado.hist?.reposiciones || []).filter((r) => r.grupo === g.id).sort((a, b) => b.entrada.localeCompare(a.entrada));
   if (!lista.length) return "";
@@ -1026,6 +1103,7 @@ function bloqueReposicionesProducto(g) {
   const med = mediana(cerradas);
   return `<section class="bloque"><h3>Reposiciones</h3>
     <p class="resumen">Se ha repuesto <b>${lista.length} ${lista.length === 1 ? "vez" : "veces"}</b>${med != null ? `; normalmente se agota en <b>${duracion(med)}</b>` : ""}.</p>
+    <div class="patron">${icono("reloj")}<span>${textoPatron(lista.filter((r) => !estado.ocultas.has(r.tienda)))}</span></div>
     <ul class="lista-simple">${lista.slice(0, 6).map((r) => filaReposicion(r)).join("")}</ul></section>`;
 }
 
@@ -1225,8 +1303,198 @@ function abrirLanzamiento(slug, desdeHistorial) {
   dlg.querySelector(".ficha-cuerpo").scrollTop = 0;
 }
 
+// ---------------- mi colección ----------------
+const cabGit = () => ({ Authorization: `Bearer ${estado.token}`, Accept: "application/vnd.github+json" });
+const b64utf8 = (b) => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\n/g, "")), (c) => c.charCodeAt(0)));
+const hoyISO = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+
+function valorActual(c) {
+  const g = c.grupo && estado.grupos.find((x) => x.id === c.grupo);
+  if (g?.cardmarket) return { valor: g.cardmarket, fuente: "precio medio de Cardmarket" };
+  if (g) return { valor: g.precio, fuente: "precio más bajo hoy en tiendas" };
+  const ultimo = c.grupo && seriePrecios(c.grupo).at(-1);
+  if (ultimo) return { valor: ultimo.v, fuente: `último precio visto (${fecha(ultimo.d)})` };
+  return null;
+}
+
+function pintarColeccion() {
+  const v = $("#vista-favoritos");
+  let compras = estado.compras.slice();
+  if (estado.coleccion !== "__todas") compras = compras.filter((c) => c.grupo?.startsWith(estado.coleccion + "|"));
+  compras = filtrarTexto(compras, (c) => `${c.nombre} ${c.coleccion} ${c.tienda}`).sort((a, b) => (b.fecha || "").localeCompare(a.fecha || ""));
+
+  const unidades = (c) => Number(c.cantidad) || 1;
+  const gastado = compras.reduce((t, c) => t + c.precio * unidades(c), 0);
+  const conValor = compras.map((c) => ({ c, v: valorActual(c) })).filter((x) => x.v);
+  const valorHoy = conValor.reduce((t, x) => t + x.v.valor * unidades(x.c), 0);
+  const gastadoConValor = conValor.reduce((t, x) => t + x.c.precio * unidades(x.c), 0);
+  const dif = valorHoy - gastadoConValor;
+  const nUnidades = compras.reduce((t, c) => t + unidades(c), 0);
+
+  const avisoSync = !estado.token
+    ? `<div class="estado-sync">${icono("llave")}<div><b>Tu colección solo está en este móvil</b>Conecta GitHub en Ajustes para guardarla en tu repositorio privado y no perderla.</div><button class="btn" data-accion="ajustes">Ajustes</button></div>`
+    : estado.colAcceso === false
+      ? `<div class="estado-sync">${icono("llave")}<div><b>Falta un paso para guardarla en GitHub</b>Tu clave aún no tiene acceso al repositorio privado <b>${COL_REPO}</b>. Mientras tanto se guarda en este móvil.</div><button class="btn" data-accion="ajustes">Cómo</button></div>`
+      : "";
+
+  const balance = compras.length ? `<div class="balance">Has gastado <b>${euros(gastado)}</b> en <b>${nUnidades} ${nUnidades === 1 ? "producto" : "productos"}</b>.
+      ${conValor.length ? `Hoy valen unos <b>${euros(valorHoy)}</b>${gastadoConValor ? ` (<b class="${dif >= 0 ? "sube" : "baja"}">${dif >= 0 ? "+" : "−"}${euros(Math.abs(dif))}, ${dif >= 0 ? "+" : "−"}${Math.abs(Math.round((dif / gastadoConValor) * 100))} %</b>)` : ""}.` : ""}
+      <small>${conValor.length < compras.length ? `El valor de hoy se calcula con ${conValor.length} de ${compras.length} compras; el resto no tiene precio de referencia. ` : ""}Valor según Cardmarket cuando lo hay; si no, el precio más bajo en tiendas.</small></div>` : "";
+
+  const fila = (c) => {
+    const val = valorActual(c), u = unidades(c);
+    const d = val ? (val.valor - c.precio) * u : null;
+    return `<li class="fila compra" data-compra="${esc(c.id)}">
+      <div class="mini">${imagen(c.img ? { url: c.foto ? URL_FOTOS + c.foto : c.img, orig: c.img, prep: !!c.foto } : null)}</div>
+      <div class="info">
+        <div class="titulo">${u > 1 ? `${u} × ` : ""}${esc(c.nombre)}</div>
+        <div class="tienda">${esc(c.coleccion || "")}${c.coleccion ? " · " : ""}${esc(c.tienda || "")}${c.fecha ? ` · ${fecha(c.fecha)}` : ""}</div>
+      </div>
+      <div class="lado">
+        <span class="precio num">${euros(c.precio * u)}</span>
+        ${val ? `<span class="hoy" title="${esc(val.fuente)}">hoy ${euros(val.valor * u)}</span>
+          <span class="dif ${d >= 0 ? "sube" : "baja"}">${d >= 0 ? "+" : "−"}${euros(Math.abs(d))}</span>` : `<span class="hoy">sin referencia</span>`}
+      </div>
+    </li>`;
+  };
+
+  v.innerHTML = `${segmento()}<section class="seccion">
+    <div class="seccion-cab"><h2>Mi colección</h2><button class="link" data-accion="nueva-compra">${icono("mas", 'style="width:16px;height:16px;vertical-align:-3px"')} Añadir compra</button></div>
+    ${avisoSync}
+    ${compras.length ? `${balance}<ul class="filas" style="margin-top:8px">${compras.map(fila).join("")}</ul>`
+      : `<div class="vacio" style="padding-top:20px"><b>${estado.texto || estado.coleccion !== "__todas" ? "No hay compras que coincidan" : "Aún no has apuntado ninguna compra"}</b>
+        Abre un producto y toca «Lo he comprado» en la tienda donde lo compraste, o añádela a mano.<br>
+        <button class="btn grande" data-accion="nueva-compra">Añadir compra</button></div>`}
+  </section>`;
+}
+
+function abrirFormCompra(c) {
+  const editando = estado.compras.some((x) => x.id === c.id);
+  const productos = [...new Map(estado.grupos.map((g) => [`${g.nombre} · ${g.coleccion}`, g])).keys()].sort();
+  const tiendas = [...new Set(estado.grupos.flatMap((g) => g.ofertas.map((o) => o.tienda)))].sort();
+  const nombreCompleto = c.nombre ? `${c.nombre}${c.coleccion ? ` · ${c.coleccion}` : ""}` : "";
+  $("#compra-contenido").innerHTML = `
+    <div class="ficha-cab" style="grid-template-columns:1fr auto">
+      <div><h2 id="compra-titulo">${editando ? "Editar compra" : "Añadir a mi colección"}</h2><div class="sub">Precio por unidad, lo que pagaste</div></div>
+      <div class="ficha-acciones"><button class="btn-icono" data-accion="cerrar-compra" aria-label="Cerrar">${icono("x")}</button></div>
+    </div>
+    <form class="ficha-cuerpo" id="form-compra" data-id="${esc(c.id)}" data-grupo="${esc(c.grupo || "")}" data-original="${esc(nombreCompleto)}" autocomplete="off">
+      <label class="campo">Producto<input name="producto" list="lista-productos" required value="${esc(nombreCompleto)}" placeholder="Elite Trainer Box · Fuegos Fantasmales"></label>
+      <datalist id="lista-productos">${productos.map((x) => `<option value="${esc(x)}">`).join("")}</datalist>
+      <label class="campo">Tienda<input name="tienda" list="lista-tiendas" value="${esc(c.tienda || "")}" placeholder="Dónde lo compraste"></label>
+      <datalist id="lista-tiendas">${tiendas.map((x) => `<option value="${esc(x)}">`).join("")}</datalist>
+      <div class="dos-campos">
+        <label class="campo">Precio pagado (€)<input name="precio" type="number" inputmode="decimal" min="0" step="0.01" required value="${c.precio ?? ""}"></label>
+        <label class="campo">Cantidad<input name="cantidad" type="number" inputmode="numeric" min="1" step="1" required value="${c.cantidad || 1}"></label>
+      </div>
+      <label class="campo">Fecha de compra<input name="fecha" type="date" value="${esc(c.fecha || hoyISO())}"></label>
+      <div class="fila-botones">
+        <button class="btn grande" type="submit">${editando ? "Guardar cambios" : "Añadir"}</button>
+        ${editando ? `<button class="btn suave grande" type="button" data-accion="borrar-compra">Borrar</button>` : ""}
+      </div>
+      <div class="mensaje" id="mensaje-compra"></div>
+    </form>`;
+  estado.compraEnCurso = c;
+  const d = $("#hoja-compra");
+  if (!d.open) d.showModal();
+}
+
+function guardarCompra(form) {
+  const f = new FormData(form);
+  const precio = parseFloat(String(f.get("precio")).replace(",", "."));
+  const cantidad = Math.max(1, parseInt(f.get("cantidad"), 10) || 1);
+  const texto = String(f.get("producto")).trim();
+  if (!texto || !(precio >= 0)) { $("#mensaje-compra").className = "mensaje error"; $("#mensaje-compra").textContent = "Indica el producto y el precio."; return; }
+  const base = estado.compraEnCurso || {};
+  // Si eliges un producto de la lista, la compra queda unida a él (para saber cuánto vale hoy)
+  const g = estado.grupos.find((x) => `${x.nombre} · ${x.coleccion}` === texto);
+  const mismo = texto === form.dataset.original;
+  const [nombre, ...resto] = texto.split(" · ");
+  const compra = {
+    id: base.id || `c${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`,
+    grupo: g ? g.id : (mismo ? base.grupo || null : null),
+    nombre: g ? g.nombre : (mismo ? base.nombre : nombre),
+    coleccion: g ? g.coleccion : (mismo ? base.coleccion : resto.join(" · ")),
+    tipo: g ? g.tipo : (mismo ? base.tipo : null),
+    img: g ? g.img?.orig || null : (mismo ? base.img : null),
+    foto: g ? (g.ofertas.find((o) => o.foto) || {}).foto || null : (mismo ? base.foto : null),
+    tienda: String(f.get("tienda")).trim(), precio: Math.round(precio * 100) / 100, cantidad,
+    fecha: String(f.get("fecha")) || hoyISO(),
+  };
+  const i = estado.compras.findIndex((x) => x.id === compra.id);
+  i >= 0 ? estado.compras.splice(i, 1, compra) : estado.compras.push(compra);
+  $("#hoja-compra").close();
+  aviso(i >= 0 ? "Compra actualizada" : "Añadido a tu colección");
+  sincronizarColeccion();
+  pintar();
+}
+
+function borrarCompra(id) {
+  const i = estado.compras.findIndex((x) => x.id === id);
+  if (i < 0) return;
+  const [quitada] = estado.compras.splice(i, 1);
+  $("#hoja-compra").close();
+  sincronizarColeccion(); pintar();
+  aviso("Compra borrada", { texto: "Deshacer", hacer: () => { estado.compras.splice(i, 0, quitada); sincronizarColeccion(); pintar(); } });
+}
+
+async function sincronizarColeccion(intento = 1) {
+  guardar("compras", JSON.stringify(estado.compras));
+  guardar("compras-pend", "1");
+  if (!estado.token || estado.colAcceso === false) return false;
+  try {
+    const r = await fetch(API_COL, { headers: cabGit(), cache: "no-store" });
+    if (r.status === 404 || r.status === 403) { estado.colAcceso = false; pintar(); return false; }
+    if (!r.ok) throw new Error(r.status);
+    const actual = await r.json();
+    const cuerpo = JSON.stringify({ compras: estado.compras }, null, 2) + "\n";
+    const w = await fetch(API_COL, {
+      method: "PUT", headers: { ...cabGit(), "Content-Type": "application/json" },
+      body: JSON.stringify({ message: "Actualizar colección desde la app", content: utf8b64(cuerpo), sha: actual.sha }),
+    });
+    if (w.status === 409 && intento < 3) return sincronizarColeccion(intento + 1);
+    if (!w.ok) throw new Error(w.status);
+    estado.colAcceso = true;
+    guardar("compras-pend", "0");
+    return true;
+  } catch {
+    aviso("No se pudo guardar la colección en GitHub: se reintentará");
+    return false;
+  }
+}
+
+async function cargarColeccion() {
+  if (!estado.token) return;
+  try {
+    const r = await fetch(API_COL, { headers: cabGit(), cache: "no-store" });
+    if (r.status === 404 || r.status === 403) { estado.colAcceso = false; return pintar(); }
+    if (!r.ok) return;
+    estado.colAcceso = true;
+    if (leer("compras-pend") === "1") { await sincronizarColeccion(); return pintar(); } // lo de este móvil manda
+    const remotas = JSON.parse(b64utf8((await r.json()).content)).compras || [];
+    if (JSON.stringify(remotas) !== JSON.stringify(estado.compras)) {
+      estado.compras = remotas; guardar("compras", JSON.stringify(remotas)); pintar();
+    }
+  } catch {}
+}
+
+function descargarCopia() {
+  const blob = new Blob([JSON.stringify({ compras: estado.compras }, null, 2)], { type: "application/json" });
+  const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: `mi-coleccion-${hoyISO()}.json` });
+  a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
 // ---------------- favoritos ----------------
+function segmento() {
+  const n = estado.compras.reduce((t, c) => t + (Number(c.cantidad) || 1), 0);
+  return `<div class="segmento" role="tablist">
+    <button role="tab" data-sub="coleccion" aria-selected="${estado.subvista === "coleccion"}">Mi colección${n ? `<span class="n">${n}</span>` : ""}</button>
+    <button role="tab" data-sub="favoritos" aria-selected="${estado.subvista === "favoritos"}">Favoritos${estado.favs.size ? `<span class="n">${estado.favs.size}</span>` : ""}</button>
+  </div>`;
+}
+
 function pintarFavoritos() {
+  if (estado.subvista === "coleccion") return pintarColeccion();
   const v = $("#vista-favoritos");
   const enColeccion = (id) => estado.coleccion === "__todas" || id.startsWith(estado.coleccion + "|");
   let favs = [...estado.favs].filter(enColeccion);
@@ -1240,12 +1508,12 @@ function pintarFavoritos() {
     : `<div class="estado-sync">${icono("llave")}<div><b>Activa los avisos prioritarios</b>Tus favoritos solo se guardan en este móvil. Conecta GitHub para que el monitor los conozca y te avise de ellos como urgentes.</div><button class="btn" data-accion="ajustes">Activar</button></div>`;
 
   if (!estado.favs.size) {
-    v.innerHTML = `<section class="seccion"><div class="seccion-cab"><h2>Favoritos</h2></div>${sync}
+    v.innerHTML = `${segmento()}<section class="seccion"><div class="seccion-cab"><h2>Favoritos</h2></div>${sync}
       <div class="vacio" style="padding-top:24px"><b>Aún no tienes favoritos</b>Toca el corazón de un producto para seguirlo de cerca: saldrá aquí y sus avisos tendrán prioridad.</div></section>`;
     return;
   }
   const ultimoPrecio = (id) => { const s = seriePrecios(id).at(-1); return s ? `${euros(s.v)} el ${fecha(s.d)}` : null; };
-  v.innerHTML = `<section class="seccion">
+  v.innerHTML = `${segmento()}<section class="seccion">
     <div class="seccion-cab"><h2>Favoritos</h2><span class="cuenta num">${enStock.length} en stock</span></div>
     ${sync}
     ${enStock.length ? `<div class="rejilla">${enStock.map(tarjeta).join("")}</div>`
@@ -1254,7 +1522,7 @@ function pintarFavoritos() {
       const n = nombreDeGrupo(id), up = ultimoPrecio(id);
       return `<li><span class="t">${esc(n.nombre)} · ${esc(n.coleccion)}</span>
         <span class="d"><button class="btn-icono ficha-fav" data-fav="${esc(id)}" aria-pressed="true" aria-label="Quitar de favoritos" style="margin-right:-8px">${icono("corazon")}</button></span>
-        <span class="s">${up ? `Último precio visto: ${up}` : "Sin precio registrado"}</span></li>`;
+        <span class="s">${up ? `Último precio visto: ${up}` : "Sin precio registrado"}${(() => { const pt = patron(reposicionesDe(id)); return pt?.claro ? ` · ${pt.texto.toLowerCase()}` : ""; })()}</span></li>`;
     }).join("")}</ul>` : ""}
   </section>`;
 }
@@ -1361,6 +1629,19 @@ function abrirAjustes() {
       : `<p class="resumen" style="margin:0">No has ocultado ninguna. Para ocultar una tienda, abre un producto y toca «Ocultar tienda» en su oferta.</p>`}
      </section>
      <section class="ajustes-seccion">
+      <h3>Mi colección ${estado.colAcceso ? `<span class="et nuevo" style="vertical-align:2px">Guardada en GitHub</span>` : ""}</h3>
+      ${!conectado ? `<p class="resumen" style="margin:0">Ahora se guarda solo en este móvil. Conecta GitHub (abajo) para guardarla en tu repositorio privado <b>${COL_REPO}</b>.</p>`
+        : estado.colAcceso ? `<p class="resumen" style="margin:0">Se guarda en tu repositorio privado <b>${COL_REPO}</b>: solo tú puedes verla.</p>`
+        : `<p class="resumen" style="margin:0">Tu clave aún no puede entrar en el repositorio privado <b>${COL_REPO}</b>. Añádelo a la clave que ya tienes (no hace falta crear otra ni volver a pegarla):</p>
+      <ol class="pasos">
+        <li>Abre <a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">tus claves de GitHub</a> y entra en <b>Stock TCG favoritos</b>.</li>
+        <li>Pulsa <b>Edit</b> → <b>Repository access</b> y añade <b>${COL_REPO}</b>.</li>
+        <li>Comprueba que <b>Contents</b> sigue en Read and write y pulsa <b>Update</b>.</li>
+      </ol>
+      <div class="fila-botones"><button class="btn grande" data-accion="comprobar-coleccion">Ya lo he hecho, comprobar</button></div>`}
+      <div class="fila-botones"><button class="btn suave" data-accion="copia-coleccion" ${estado.compras.length ? "" : "disabled"}>Descargar copia</button></div>
+     </section>
+     <section class="ajustes-seccion">
       <h3>Avisos prioritarios ${conectado ? `<span class="et nuevo" style="vertical-align:2px">Activados</span>` : ""}</h3>
       <p class="texto-vista" style="margin-top:6px">Para que el monitor sepa cuáles son tus favoritos, la app los guarda en tu repositorio
         <b>${FAV_REPO}</b>. Necesita una clave que <b>solo</b> puede escribir en ese repositorio, así que no puede tocar nada más.</p>
@@ -1398,6 +1679,8 @@ async function guardarToken() {
     (rem.tiendas_ocultas || []).forEach((t) => estado.ocultas.add(t));
     guardarFavsLocal();
     const ok = await sincronizarFavoritos();
+    estado.colAcceso = null;
+    cargarColeccion();
     msg.className = ok ? "mensaje ok" : "mensaje error";
     msg.textContent = ok ? "Conectado. Tus favoritos ya avisan con prioridad." : "La clave es válida, pero no se pudieron guardar los favoritos.";
     if (ok) setTimeout(() => { $("#ajustes").close(); pintar(); }, 1200);
@@ -1449,7 +1732,7 @@ function idiomasGrupo(g) {
 function cerrarFicha() {
   if (history.state?.ficha) history.back(); else $("#ficha").close();
 }
-window.addEventListener("popstate", () => { const d = $("#ficha"); if (d.open) d.close(); });
+window.addEventListener("popstate", () => { for (const id of ["#hoja-compra", "#ficha"]) { const d = $(id); if (d.open) d.close(); } });
 $("#ficha").addEventListener("close", () => { estado.abierto = null; });
 $("#ficha").addEventListener("click", (e) => {
   if (e.target === e.currentTarget) return cerrarFicha(); // toque en el fondo
@@ -1457,6 +1740,8 @@ $("#ficha").addEventListener("click", (e) => {
 });
 $("#ficha").addEventListener("cancel", (e) => { e.preventDefault(); cerrarFicha(); });
 $("#ajustes").addEventListener("click", (e) => { if (e.target === e.currentTarget) $("#ajustes").close(); });
+$("#hoja-compra").addEventListener("click", (e) => { if (e.target === e.currentTarget) $("#hoja-compra").close(); });
+$("#hoja-compra").addEventListener("submit", (e) => { e.preventDefault(); guardarCompra(e.target); });
 
 $("#vistas").addEventListener("click", (e) => {
   const b = e.target.closest("[data-vista]"); if (!b) return;
@@ -1502,12 +1787,27 @@ document.addEventListener("click", (e) => {
   }
   const mos = e.target.closest("[data-mostrar]");
   if (mos) return ocultarTienda(mos.dataset.mostrar, false);
+  const sub = e.target.closest("[data-sub]");
+  if (sub) { estado.subvista = sub.dataset.sub; guardar("subvista", estado.subvista); return pintar(); }
+  const com = e.target.closest("[data-comprado]");
+  if (com) {
+    const g = estado.grupos.find((x) => x.id === com.dataset.grupoC);
+    const o = g?.ofertas.find((x) => x.url === com.dataset.comprado);
+    if (g && o) return abrirFormCompra({ grupo: g.id, nombre: g.nombre, coleccion: g.coleccion, tipo: g.tipo, img: o.img || g.img?.orig, foto: o.foto, tienda: o.tienda, precio: o.precio, cantidad: 1, fecha: hoyISO() });
+  }
+  const fc = e.target.closest("[data-compra]");
+  if (fc) return abrirFormCompra(estado.compras.find((x) => x.id === fc.dataset.compra));
   const accion = e.target.closest("[data-accion]")?.dataset.accion;
   if (accion === "limpiar") return limpiarBusqueda();
   if (accion === "reintentar") return cargar();
   if (accion === "ajustes") return abrirAjustes();
   if (accion === "cerrar-ajustes") return $("#ajustes").close();
   if (accion === "guardar-token") return guardarToken();
+  if (accion === "nueva-compra") return abrirFormCompra({ cantidad: 1, fecha: hoyISO() });
+  if (accion === "cerrar-compra") return $("#hoja-compra").close();
+  if (accion === "borrar-compra") return borrarCompra(estado.compraEnCurso?.id);
+  if (accion === "copia-coleccion") return descargarCopia();
+  if (accion === "comprobar-coleccion") { estado.colAcceso = null; return cargarColeccion().then(() => { abrirAjustes(); aviso(estado.colAcceso ? "Colección conectada" : "Todavía sin acceso: revisa los pasos"); }); }
   if (accion === "desconectar") { estado.token = ""; try { localStorage.removeItem("stk-token"); } catch {} $("#ajustes").close(); aviso("Desconectado de GitHub"); return pintar(); }
   const lz = e.target.closest("[data-lanz]");
   if (lz && !e.target.closest("dialog")) return abrirLanzamiento(lz.dataset.lanz);
