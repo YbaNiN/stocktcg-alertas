@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T00:40:14",
+ "actualizado": "2026-10-15T10:48:56",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -538,7 +538,7 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
-     "titulo": "RESERVA Premium Starter Set Espeon & Umbreon 30th CELEBRATION",
+     "titulo": "Premium Starter Set Espeon & Umbreon 30th CELEBRATION",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "premium-collection",
      "tipoNombre": "Premium Collection",
@@ -549,7 +549,7 @@
      "url": "https://lanavetcg.com/products/reserva-premium-starter-set-espeon-umbreon-30th-celebration",
      "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/udec.png?v=1791206664&width=400",
      "foto": "fotos/7ca0a463e7a262de.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
@@ -896,23 +896,6 @@
    "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-pack",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "RESERVA Premium Starter Set Espeon & Umbreon 30th CELEBRATION",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "premium-collection",
-   "tipoNombre": "Premium Collection",
-   "precio": 164.9,
-   "moneda": "EUR",
-   "tienda": "La Nave TCG",
-   "idioma": "es",
-   "url": "https://lanavetcg.com/products/reserva-premium-starter-set-espeon-umbreon-30th-celebration",
-   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/udec.png?v=1791206664&width=400",
-   "foto": "fotos/7ca0a463e7a262de.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
-   "lanzamiento": "30-aniversario-oleada-4",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Lumiose City Mini Tin (Español) — Tin aleatoria",
