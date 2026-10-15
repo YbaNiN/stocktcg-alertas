@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T11:30:18",
+ "actualizado": "2026-10-15T13:34:42",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -50,6 +50,21 @@
      "tienda": "Júpiter Juegos",
      "idioma": "es",
      "url": "https://jupiterjuegos.com/producto/pokemon-celebracion-30-aniversario-mini-lata/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
+     "foto": "fotos/bfcc5b3249610bf5.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin"
+    },
+    {
+     "titulo": "TINS - MINI TINS CELEBRACIÓN 30º ANIVERSARIO [ES]",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "mini-tin",
+     "tipoNombre": "Mini Tin",
+     "precio": 21.95,
+     "moneda": "EUR",
+     "tienda": "UNSOBREMAS",
+     "idioma": "es",
+     "url": "https://unsobremas.com/products/tins-mini-tins-celebracion-30º-aniversario-es",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
      "foto": "fotos/bfcc5b3249610bf5.jpg",
      "preventa": false,
