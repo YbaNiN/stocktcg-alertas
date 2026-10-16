@@ -48,6 +48,7 @@ DIAS_YA_LANZADO = 14                  # los lanzamientos de hace menos de esto s
 FOTOS = DIR / "datos" / "fotos"  # miniaturas uniformes de las fotos de producto (las usa la web)
 TAM_FOTO = 480       # px del cuadrado
 MARGEN_FOTO = 0.07   # margen blanco alrededor del producto
+MAX_FOTOS_NUEVAS = 40  # por comprobación, para no pasarse de tiempo; las demás se preparan en las siguientes
 
 # Enlaces en GitHub (GitHub Actions define estas variables)
 REPO = os.environ.get("GITHUB_REPOSITORY")
@@ -608,6 +609,8 @@ def preparar_fotos(urls):
         nombre = hashlib.sha1(url.encode()).hexdigest()[:16] + ".jpg"
         ruta = FOTOS / nombre
         if not ruta.exists():
+            if nuevas >= MAX_FOTOS_NUEVAS:
+                continue  # la web usará la foto original hasta la próxima comprobación
             try:
                 generar_miniatura(url, ruta)
                 nuevas += 1
