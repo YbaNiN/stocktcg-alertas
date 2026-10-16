@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T07:33:42",
+ "actualizado": "2026-10-16T08:13:58",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -384,21 +384,6 @@
      "foto": "fotos/bfcc5b3249610bf5.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin"
-    },
-    {
-     "titulo": "Pokemon Celebración 30Th Aniversario Booster Bundle",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 45.95,
-     "moneda": "EUR",
-     "tienda": "EpicDeck",
-     "idioma": "es",
-     "url": "https://epicdeck.es/products/pokemon-celebracion-30th-aniversario-booster-bundle",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle"
     },
     {
      "titulo": "30 Aniversario Booster Bundle",
