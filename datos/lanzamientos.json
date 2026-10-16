@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T19:34:53",
+ "actualizado": "2026-10-16T19:44:32",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-2",
@@ -669,21 +669,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
-     "titulo": "Pokemon TCG: Caja de 36 sobres – Dominio Delta (Español) – RESERVA",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 174.95,
-     "moneda": "EUR",
-     "tienda": "CardCrack",
-     "idioma": "es",
-     "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-tcg-caja-de-36-sobres-dominio-delta-espanol-reserva/",
-     "img": "https://cardcrack.com/wp-content/uploads/2026/10/dominiodeltacaja.webp",
-     "foto": "fotos/56c1e1ba05940822.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
      "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1000,23 +985,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "Pokemon TCG: Caja de 36 sobres – Dominio Delta (Español) – RESERVA",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 174.95,
-   "moneda": "EUR",
-   "tienda": "CardCrack",
-   "idioma": "es",
-   "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-tcg-caja-de-36-sobres-dominio-delta-espanol-reserva/",
-   "img": "https://cardcrack.com/wp-content/uploads/2026/10/dominiodeltacaja.webp",
-   "foto": "fotos/56c1e1ba05940822.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
