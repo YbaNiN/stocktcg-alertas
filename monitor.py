@@ -165,6 +165,9 @@ def limpiar_alerta(a):
             limpio[k] = a[k]
     if isinstance(a.get("preventas"), bool):
         limpio["preventas"] = a["preventas"]
+    if isinstance(a.get("precio_min_tipo"), dict):  # p. ej. {"booster-box": 120}: precio mínimo solo para ese tipo
+        limpio["precio_min_tipo"] = {str(k): v for k, v in a["precio_min_tipo"].items()
+                                     if isinstance(v, (int, float)) and not isinstance(v, bool) and v >= 0}
     return limpio
 
 
@@ -246,6 +249,9 @@ def coincide(item, alerta, general):
         if "precio_max" in alerta and euros > alerta["precio_max"]:
             return False
         if "precio_min" in alerta and euros < alerta["precio_min"]:
+            return False
+        minimo_tipo = (alerta.get("precio_min_tipo") or {}).get(item.get("fmt"))
+        if minimo_tipo is not None and euros < minimo_tipo:
             return False
 
     if "max_sobreprecio" in alerta and item.get("cmPctTrend") is not None:

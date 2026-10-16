@@ -1769,6 +1769,7 @@ function resumenFiltro(a) {
   else partes.push("todos los tipos");
   if (a.idiomas) partes.push(a.idiomas.length ? a.idiomas.map((l) => l.toUpperCase()).join("/") : "cualquier idioma");
   if (a.precio_max) partes.push(`hasta ${euros(a.precio_max)}`);
+  for (const [tipo, min] of Object.entries(a.precio_min_tipo || {})) partes.push(`${((TIPOS_FILTRO.find(([k]) => k === tipo) || [tipo, tipo])[1]).toLowerCase()} desde ${euros(min)}`);
   if (a.excluir?.length) partes.push(`sin: ${a.excluir.join(", ")}`);
   return partes.join(" · ");
 }
@@ -1859,7 +1860,7 @@ function guardarFiltro(form) {
   if (lista(f.get("excluir")).length) alerta.excluir = lista(f.get("excluir"));
   const i = form.dataset.i === "" ? null : Number(form.dataset.i);
   const previo = i == null ? {} : estado.filtros.alertas[i];
-  for (const k of ["tiendas", "precio_min", "max_sobreprecio", "preventas"]) if (previo[k] != null) alerta[k] = previo[k];  // campos que la app no edita
+  for (const k of ["tiendas", "precio_min", "precio_min_tipo", "max_sobreprecio", "preventas"]) if (previo[k] != null) alerta[k] = previo[k];  // campos que la app no edita
   const alertas = (estado.filtros?.alertas || []).slice();
   i == null ? alertas.push(alerta) : alertas.splice(i, 1, alerta);
   guardarFiltros(alertas, i == null ? "Filtro añadido: se aplica en unos minutos" : "Filtro guardado: se aplica en unos minutos");
