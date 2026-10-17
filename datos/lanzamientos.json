@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T13:23:21",
+ "actualizado": "2026-10-17T13:33:10",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -77,6 +77,36 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
+     "titulo": "Caja Colección con Figura - 30th Anniversary [ENG] — Mewtwo",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 109.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/caja-coleccion-con-figura-mega-lucario-ex-esp-copia?variant=54349968015707",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mewtwo.webp?v=1791923668&width=400",
+     "foto": "fotos/66ef12a8cf200eba.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Caja Colección con Figura - 30th Anniversary [ENG] — Mew",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 109.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/caja-coleccion-con-figura-mega-lucario-ex-esp-copia?variant=54349968048475",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mew.webp?v=1791923668&width=400",
+     "foto": "fotos/ec48bbd59868d31d.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
      "titulo": "Premium Starter Set Espeon & Umbreon 30th CELEBRATION",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "premium-collection",
@@ -135,6 +165,36 @@
      "foto": "fotos/49096136ae73aeb4.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
+     "titulo": "Colección Ultra Premium - 30th Anniversary [ENG] — Espeon",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 459.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/coleccion-ultra-premium-30th-anniversary-eng?variant=54349822230875",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/upc_30aniv_espeon.webp?v=1791922124&width=400",
+     "foto": "fotos/c6cd5a7e32b34ea4.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
+     "titulo": "Colección Ultra Premium - 30th Anniversary [ENG] — Umbreon",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 549.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/coleccion-ultra-premium-30th-anniversary-eng?variant=54349822198107",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/upc_30aniv_umbreon.webp?v=1791922124&width=400",
+     "foto": "fotos/e4cfe6bae89e3970.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     }
    ]
   },
@@ -144,8 +204,8 @@
    "tipo": "Set principal (Mega Evolution)",
    "fecha": "2026-11-06",
    "fechaConfirmada": true,
-   "img": "https://cdn.shopify.com/s/files/1/0885/4087/3050/files/BlackBox-2026-08-21T014926.713.png?v=1787249575&width=400",
-   "foto": "fotos/d5634f54b7881cef.jpg",
+   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/30_aniversario_banner_movil.webp?v=1792103700&width=400",
+   "foto": "fotos/57f0d2c8636a2361.jpg",
    "ofertas": [
     {
      "titulo": "Pokemon TCG: Sobre Dominio Delta (Español)",
@@ -469,8 +529,8 @@
    "foto": "fotos/66ef12a8cf200eba.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-4",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Caja Colección con Figura - 30th Anniversary [ENG] — Mew",
@@ -486,8 +546,8 @@
    "foto": "fotos/ec48bbd59868d31d.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-4",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG 30.º Aniversario - Mini Tin Coleccionable (ES)",
@@ -520,8 +580,8 @@
    "foto": "fotos/c6cd5a7e32b34ea4.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-4",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Colección Ultra Premium - 30th Anniversary [ENG] — Umbreon",
@@ -537,8 +597,8 @@
    "foto": "fotos/e4cfe6bae89e3970.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-4",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Lumiose City Mini Tin (Español) — Tin aleatoria",
