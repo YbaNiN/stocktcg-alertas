@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T09:50:01",
+ "actualizado": "2026-10-17T11:05:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4207,27 +4207,6 @@
      "preventa": false,
      "cardmarket": 182.94,
      "cardmarketPct": -7,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Display (36 sobres) - Oscuridad Absoluta [ESP]",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 174.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/display-36-sobres-oscuridad-absoluta-esp",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
-     "foto": "fotos/2d95d5c132a0c8f0.jpg",
-     "preventa": false,
-     "cardmarket": 182.94,
-     "cardmarketPct": -4,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
      "desde": null,
