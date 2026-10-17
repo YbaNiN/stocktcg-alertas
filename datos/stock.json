@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T11:05:19",
+ "actualizado": "2026-10-17T13:00:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2835,6 +2835,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "[PKM] Caja de entrenador élite Pokémon ETB - Caos Creciente (Castellano)",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Shark Games Center",
+     "idioma": "es",
+     "url": "https://sharkgamescenter.es/products/pkm-caja-de-entrenador-elite-pokemon-caos-crecienet-castellano",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 63.11,
+     "cardmarketPct": 11,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-10-17T13:01+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
