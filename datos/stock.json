@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T23:00:45",
+ "actualizado": "2026-10-17T23:08:22",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3348,6 +3348,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Caja 36 Sobres Equilibrio Perfecto | Perfect Order — Español",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/orden-perfecta-perfect-order?variant=54068366442819",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
+     "foto": "fotos/a28fe6709aa672ea.jpg",
+     "preventa": false,
+     "cardmarket": 180.65,
+     "cardmarketPct": 11,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
+     "desde": "2026-10-17T23:10+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Pkm Mega Evolution Perfect Order Booster Display 36 En",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "booster-box",
@@ -6089,6 +6110,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box 36 Sobres Rivales Predestinados | Destined Rivals — Español",
+     "coleccion": "Destined Rivals",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 229.99,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/rivales-predestinados-36?variant=53380315251011",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
+     "foto": "fotos/fe01e654f615e5f0.jpg",
+     "preventa": false,
+     "cardmarket": 297.09,
+     "cardmarketPct": -23,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
+     "desde": "2026-10-17T23:10+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
