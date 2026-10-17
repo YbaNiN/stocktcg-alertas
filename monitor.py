@@ -43,6 +43,8 @@ HISTORIAL = DIR / "datos" / "historial.json"
 DIAS_HISTORIAL = 120  # días de historial de precios y reposiciones que se guardan
 MINUTOS_RELAMPAGO = 10  # una reposición que se agota en esto o menos cuenta como "relámpago"
 LANZAMIENTOS = DIR / "datos" / "lanzamientos.json"
+AMAZON = DIR / "datos" / "amazon.json"
+AMAZON_CADA = timedelta(minutes=30)  # cada cuánto se vuelve a leer la página de invitaciones de Amazon
 CALENDARIO_CADA = timedelta(hours=6)  # cada cuánto se vuelve a leer el calendario de StockTCG
 DIAS_YA_LANZADO = 14                  # los lanzamientos de hace menos de esto siguen apareciendo
 FOTOS = DIR / "datos" / "fotos"  # miniaturas uniformes de las fotos de producto (las usa la web)
@@ -207,7 +209,7 @@ def cargar_filtros(anterior=None):
     return general, [a for a in todas if a.get("activa", True)], todas, de_app
 
 
-NO_SON_FILTROS = {"caducidad_clave_cronjob"}
+NO_SON_FILTROS = {"caducidad_clave_cronjob", "avisar_amazon"}
 
 
 def huella_filtros(general, todas):
@@ -373,6 +375,11 @@ def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False, relamp
         sale = f" · sale el {int(lanz['fecha'][8:])}/{int(lanz['fecha'][5:7])}" if lanz else ""
         primera = f"{formatear_precio(item)} en {item.get('store')}{sale}"
         etiqueta = "date"
+    elif tipo == "amazon":
+        producto = f"{nombre_es(item.get('setName'))} · {item.get('fmtName')}"
+        titulo = f"📨 Invitación de Amazon abierta: {producto}"
+        primera = f"{formatear_precio(item)} en Amazon (precio oficial) · pide la invitación antes de que cierre"
+        etiqueta = "envelope"
     else:  # 'filtro': ya estaba en stock pero ahora cumple tu filtro (p. ej. ha bajado de tu precio máximo)
         titulo = f"🎯 Ahora cumple tu filtro: {producto}"
         primera = f"{formatear_precio(item)} {lugar}"
@@ -380,6 +387,7 @@ def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False, relamp
 
     lineas = [primera, item.get("title") or "", linea_cardmarket(item),
               "⚡ En esta tienda suele agotarse en minutos: date prisa" if relampago else "",
+              "Pedirla es gratis y no te compromete: Amazon reparte las invitaciones por email días después." if tipo == "amazon" else "",
               "Fuera de tus filtros: te aviso porque es una preventa en español" if tipo == "preventa_es"
               else f"Filtro: {alerta.get('nombre', 'sin nombre')}"]
     mensaje = {
@@ -388,12 +396,15 @@ def aviso_producto(tipo, item, alerta, precio_antes=None, favorito=False, relamp
         "click": item["url"],
         "priority": 5 if favorito else 4,  # 5 = urgente: ntfy la hace sonar con más insistencia
         "tags": [etiqueta],
-        "actions": [{"action": "view", "label": "Reservar" if tipo == "preventa_es" else "Comprar", "url": item["url"]}],
+        "actions": [{"action": "view", "label": {"preventa_es": "Reservar", "amazon": "Pedir invitación"}.get(tipo, "Comprar"), "url": item["url"]}],
     }
-    if item.get("ppage"):
+    if tipo == "amazon":
+        mensaje["actions"].append({"action": "view", "label": "StockTCG", "url": f"{BASE}/amazon"})
+    elif item.get("ppage"):
         mensaje["actions"].append({"action": "view", "label": "StockTCG", "url": BASE + item["ppage"]})
     mensaje["actions"].append({"action": "view", "label": "Ver en la app",
-                               "url": f"{URL_LISTA}#lanzamientos" if tipo == "preventa_es" else url_coleccion(alerta.get("nombre", ""))})
+                               "url": f"{URL_LISTA}#lanzamientos" if tipo == "preventa_es" else f"{URL_LISTA}#amazon" if tipo == "amazon"
+                               else url_coleccion(alerta.get("nombre", ""))})
     if item.get("img"):
         mensaje["attach"] = item["img"]
     return mensaje
@@ -430,7 +441,7 @@ def enviar_eventos(eventos, favoritos=frozenset()):
 
     resto = eventos[MAX_AVISOS_SUELTOS:]
     if resto:
-        iconos = {"reposicion": "🟢", "bajada": "📉", "chollo": "🔥", "filtro": "🎯", "preventa_es": "🗓️"}
+        iconos = {"reposicion": "🟢", "bajada": "📉", "chollo": "🔥", "filtro": "🎯", "preventa_es": "🗓️", "amazon": "📨"}
         lineas = [f"{iconos[t]} {i.get('setName')} · {i.get('fmtName')} · {formatear_precio(i)} · {i.get('store')}"
                   for t, i, _, _ in resto[:15]]
         if len(resto) > 15:
@@ -496,6 +507,76 @@ def leer_calendario():
             print(f"  (no se ha podido leer la ficha de {l['slug']}: {e})")
             l["urls"] = []
     return lanzamientos
+
+
+def leer_amazon():
+    """Campañas de Amazon por invitación abiertas (https://stocktcg.net/amazon). Cada una con la forma
+    de un producto del catálogo para poder aplicarle los filtros. Los enlaces se dejan como vienen de
+    StockTCG (con su código de afiliado: es como se financia el servicio)."""
+    pagina = descargar_html(f"{BASE}/amazon")
+    if "invitaci" not in pagina.lower():
+        raise RuntimeError("la página de Amazon no tiene el formato esperado (¿ha cambiado la web?)")
+    campanas = []
+    for bloque in re.findall(r'<article class="ccard[^"]*">(.*?)</article>', pagina, re.S):
+        if 'class="invite"' not in bloque:
+            continue
+        url = re.search(r'<a class="cbuy" href="([^"]+)"', bloque) or re.search(r'<a class="cimg" href="([^"]+)"', bloque)
+        precio = re.search(r'<div class="cprice"><b>([\d.,]+)', bloque)
+        if not (url and precio):
+            continue
+        slug = re.search(r'data-producto="([^"]*)"', bloque)
+        slug = slug.group(1) if slug else ""
+        coleccion = re.search(r'<a class="cset"[^>]*>(.*?)</a>', bloque, re.S)
+        meta = re.search(r'<div class="cmeta"><span>(.*?)</span><span class="badge">(.*?)</span>', bloque, re.S)
+        titulo = re.search(r'<div class="cmeta ctitle">(.*?)</div>', bloque, re.S)
+        img = re.search(r'<img src="([^"]+)"', bloque)
+        campanas.append({
+            "store": "Amazon", "url": html_lib.unescape(url.group(1)), "available": True, "preorder": False,
+            "title": texto_html(titulo.group(1)) if titulo else "", "setName": texto_html(coleccion.group(1)) if coleccion else "",
+            "fmt": slug.split("--")[-1] if "--" in slug else "otros", "fmtName": texto_html(meta.group(1)) if meta else "",
+            "langs": texto_html(meta.group(2)).lower() if meta else "es", "currency": "EUR",
+            "price": float(precio.group(1).replace(".", "").replace(",", ".")),
+            "img": html_lib.unescape(img.group(1)) if img else None, "ppage": f"/p/{slug}" if slug else "",
+        })
+    return campanas
+
+
+def obtener_amazon(anterior):
+    """Campañas de Amazon guardadas en el estado; se renuevan cada AMAZON_CADA."""
+    guardado = (anterior or {}).get("amazon") or {}
+    try:
+        viejo = datetime.now(MADRID) - datetime.fromisoformat(guardado["ts"]) > AMAZON_CADA
+    except (KeyError, ValueError, TypeError):
+        viejo = True
+    if not viejo:
+        return guardado
+    try:
+        campanas = leer_amazon()
+        print(f"Invitaciones de Amazon: {len(campanas)} campañas abiertas.")
+        return {"ts": datetime.now(MADRID).isoformat(timespec="minutes"), "campanas": campanas}
+    except Exception as e:  # sin Amazon el monitor sigue funcionando
+        print(f"  (no se ha podido leer la página de Amazon: {e})")
+        return guardado or {"ts": None, "campanas": []}
+
+
+def escribir_amazon(campanas, filtro_de, fotos, ts):
+    contenido = {"campanas": [{
+        "titulo": c["title"], "coleccion": c["setName"], "tipo": c["fmt"], "tipoNombre": c["fmtName"],
+        "precio": c["price"], "idioma": c["langs"], "url": c["url"], "img": c.get("img"),
+        "foto": (fotos or {}).get(c.get("img")), "stocktcg": BASE + c["ppage"] if c.get("ppage") else None,
+        "filtro": filtro_de.get(c["url"]),
+    } for c in campanas]}
+    if AMAZON.exists():
+        try:
+            viejo = json.loads(AMAZON.read_text(encoding="utf-8"))
+            viejo.pop("actualizado", None)
+            if viejo == contenido:
+                return False
+        except ValueError:
+            pass
+    AMAZON.parent.mkdir(exist_ok=True)
+    AMAZON.write_text(json.dumps({"actualizado": ts, **contenido}, ensure_ascii=False, indent=1), encoding="utf-8")
+    return True
 
 
 def obtener_calendario(anterior):
@@ -777,15 +858,21 @@ def comprobar(solo_resumen, anterior):
         info[k] = (desde, precio_antes, ts_bajada)
 
     calendario = obtener_calendario(anterior)
+    amazon = obtener_amazon(anterior)
+    campanas = amazon.get("campanas", [])
+    filtro_amazon = {c["url"]: a for c in campanas if (a := primer_filtro(c, alertas, general))}
     lanzamientos, preventas_es = cruzar_lanzamientos(calendario, disponibles)
 
     imagenes = {i["img"] for i, _ in coinciden if i.get("img")}
     imagenes |= {i["img"] for i in preventas_es if i.get("img")}
     imagenes |= {i["img"] for l in lanzamientos for i in l["items"] if i.get("img")}
     imagenes |= {l["img"] for l in lanzamientos if l.get("img")}
+    imagenes |= {c["img"] for c in campanas if c.get("img")}
     fotos = preparar_fotos(imagenes)
     if escribir_datos_web(grupos, info, datos.get("ts"), fotos):
         print("datos/stock.json actualizado.")
+    if escribir_amazon(campanas, {u: a.get("nombre") for u, a in filtro_amazon.items()}, fotos, amazon.get("ts")):
+        print("datos/amazon.json actualizado.")
     if escribir_lanzamientos(lanzamientos, preventas_es, fotos, datos.get("ts")):
         print("datos/lanzamientos.json actualizado.")
 
@@ -816,9 +903,18 @@ def comprobar(solo_resumen, anterior):
             if k not in vistas_antes and k not in en_filtros and i["store"] not in obsoletas:
                 eventos.append(("preventa_es", i, {"nombre": "Preventas en español"}, None))
 
+    # Campañas de Amazon por invitación nuevas que cumplen tus filtros
+    if anterior and anterior.get("amazon_vistas") is not None and general.get("avisar_amazon", True):
+        vistas_amazon = set(anterior["amazon_vistas"])
+        for c in campanas:
+            if c["url"] in filtro_amazon and c["url"] not in vistas_amazon:
+                eventos.append(("amazon", c, filtro_amazon[c["url"]], None))
+
     nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0,
                     "preventas_es": sorted({clave(i) for i in preventas_es}), "calendario": calendario,
-                    "alertas_app": alertas_app}
+                    "alertas_app": alertas_app, "amazon": amazon,
+                    # si la página nunca se ha podido leer, no se toca la lista (así no llegan avisos de todas de golpe)
+                    "amazon_vistas": sorted(c["url"] for c in campanas) if amazon.get("ts") else (anterior or {}).get("amazon_vistas")}
 
     if actualizar_historial(coinciden, eventos if misma_config else [], disponibles, obsoletas, ahora):
         print("datos/historial.json actualizado.")

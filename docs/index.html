@@ -480,6 +480,22 @@
   .salud .s { font-size: 13px; color: var(--muted); }
   .salud li.mal .s { color: var(--text); }
 
+  /* amazon por invitación */
+  .amazon-intro { margin: 0 0 6px; }
+  .amazon-intro summary { cursor: pointer; color: var(--accent); font-weight: 600; font-size: 13.5px; margin-top: 4px; list-style: none; }
+  .amazon-intro summary::-webkit-details-marker { display: none; }
+  .amazon-intro p { font-size: 13.5px; color: var(--muted); margin: 6px 0 0; max-width: 62ch; }
+  .fila.pedida .titulo { color: var(--muted); }
+  .pedir-acciones { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+  .marcar-pedida { border: 0; background: none; padding: 0; font-size: 12px; font-weight: 600; color: var(--muted); display: inline-flex; align-items: center; gap: 4px; }
+  .marcar-pedida svg { width: 14px; height: 14px; }
+  .marcar-pedida[aria-pressed="true"] { color: var(--new-fg); }
+  .amazon-ficha { display: flex; gap: 12px; align-items: center; margin: 14px 0 2px; padding: 12px 14px; border-radius: var(--radius); background: var(--well); font-size: 14px; }
+  .amazon-ficha svg { width: 22px; height: 22px; color: var(--accent); flex: none; }
+  .amazon-ficha div { flex: 1; min-width: 0; }
+  .amazon-ficha b { display: block; }
+  .amazon-ficha span { color: var(--muted); font-size: 13px; }
+
   /* tooltip compartido */
   .tip {
     position: fixed; z-index: 60; transform: translate(-50%, calc(-100% - 8px)); pointer-events: none;
@@ -549,6 +565,7 @@
   <symbol id="i-bolsa" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 10V7a3 3 0 0 1 6 0v3"/></symbol>
   <symbol id="i-rayo" viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6l1-7Z"/></symbol>
   <symbol id="i-tabla" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9.5h16M4 15h16M10 4v16"/></symbol>
+  <symbol id="i-sobre" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8.5 12.2 2.4 2.4 4.8-5"/></symbol>
 </svg>
 
@@ -657,6 +674,7 @@ const USUARIO = enPages ? location.hostname.split(".")[0] : "ybanin";
 const REPO = enPages ? location.pathname.split("/")[1] : "stocktcg-alertas";
 const URL_DATOS = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/stock.json` : "../datos/stock.json";
 const URL_RUNS = `https://api.github.com/repos/${USUARIO}/${REPO}/actions/workflows/monitor.yml/runs?per_page=1&status=success`;
+const URL_AMAZON = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/amazon.json` : "../datos/amazon.json";
 const URL_LANZ = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/lanzamientos.json` : "../datos/lanzamientos.json";
 const URL_HIST = enPages ? `https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/datos/historial.json` : "../datos/historial.json";
 // Los favoritos viven en un repositorio aparte: la clave de la app solo puede escribir ahí
@@ -797,7 +815,8 @@ async function cargar() {
     estado.grupos = construirGrupos(estado.datos);
     estado.errorRed = false;
     const minuto = Math.floor(Date.now() / 60000);
-    const [h, l] = await Promise.all([URL_HIST, URL_LANZ].map((u) => fetch(u + "?t=" + minuto, { cache: "no-store" }).catch(() => null)));
+    const [h, l, az] = await Promise.all([URL_HIST, URL_LANZ, URL_AMAZON].map((u) => fetch(u + "?t=" + minuto, { cache: "no-store" }).catch(() => null)));
+    if (az?.ok) estado.amazon = await az.json().catch(() => estado.amazon);
     if (h?.ok) estado.hist = await h.json().catch(() => estado.hist);
     if (l?.ok) estado.lanz = await l.json().catch(() => estado.lanz);
   } catch {
@@ -859,7 +878,11 @@ function pintar() {
   $(".buscar").hidden = estado.vista === "reposiciones";
   $("#tabs").hidden = estado.vista === "lanzamientos";
   if (!estado.datos) return;
-  if (estado.vista === "lanzamientos") { pintarLanzamientos(); return pintarFrescura(); }
+  if (estado.vista === "lanzamientos") {
+    pintarLanzamientos();
+    if (location.hash === "#amazon" && estado.amazon && !estado.yaBajadoAmazon) { estado.yaBajadoAmazon = true; $("#amazon")?.scrollIntoView({ block: "start" }); }
+    return pintarFrescura();
+  }
   if (estado.vista === "favoritos") { pintarPestanas(); pintarFavoritos(); return pintarFrescura(); }
   if (estado.vista === "reposiciones") { pintarPestanas(); pintarReposiciones(); return pintarFrescura(); }
   pintarStock();
@@ -1050,6 +1073,7 @@ function abrirFicha(id, desdeHistorial) {
       ${g.variosModelos ? `<div class="nota">${icono("info")}Aquí hay varios modelos distintos de ${esc(g.nombre.toLowerCase())}: cada oferta indica el suyo.</div>` : ""}
       <div class="ofertas-cab"><b>${g.ofertas.length} ${g.ofertas.length === 1 ? "oferta" : "ofertas"}</b><span>de menor a mayor precio</span></div>
       <ul class="ofertas">${ofertas}</ul>
+      ${(() => { const c = amazonDeGrupo(g); return c ? `<div class="amazon-ficha">${icono("sobre")}<div><b>En Amazon por invitación a ${euros(c.precio)}</b><span>Precio oficial. ${pedidas.has(c.url) ? "Ya la pediste." : "Pide la invitación antes de que cierre."}</span></div>${pedidas.has(c.url) ? "" : `<a class="btn" href="${esc(c.url)}" target="_blank" rel="noopener sponsored">Pedir</a>`}</div>` : ""; })()}
       ${bloquePrecios(g)}
       ${bloqueReposicionesProducto(g)}
       ${cm || st ? `<div class="ficha-pie">${cm}${st}</div>` : ""}
@@ -1345,6 +1369,7 @@ function pintarLanzamientos() {
         : `<div class="sin-novedades">${icono("calendario")}<div><b>${estado.texto ? "Ningún lanzamiento coincide con la búsqueda" : "No hay lanzamientos anunciados"}</b>El calendario sale de StockTCG y se revisa cada 6 horas.</div></div>`}
       ${recientes.length ? `<div class="grupo-cab"><h3>Recién salidos</h3><span>últimos 14 días</span></div><ul class="calendario">${recientes.map(fila).join("")}</ul>` : ""}
     </section>
+    ${seccionAmazon()}
     <section class="seccion">
       <div class="seccion-cab"><h2>Preventas en español</h2><span class="cuenta num">${preventas.length}</span></div>
       <p class="texto-vista" style="margin:0 0 4px">De cualquier colección, aunque no esté en tus filtros. Te aviso al móvil cuando abre una nueva.</p>
@@ -1353,6 +1378,57 @@ function pintarLanzamientos() {
         <ul class="filas">${lista.sort((a, b) => a.precio - b.precio).map(filaPreventa).join("")}</ul>`).join("")
         : `<div class="sin-novedades">${icono("campana")}<div><b>Ahora mismo no hay preventas en español</b>En cuanto una tienda abra una, te llegará un aviso.</div></div>`}
     </section>`;
+}
+
+// ---------------- amazon por invitación ----------------
+const pedidas = new Set(JSON.parse(leer("amazon-pedidas") || "[]"));
+function alternarPedida(url) {
+  pedidas.has(url) ? pedidas.delete(url) : pedidas.add(url);
+  guardar("amazon-pedidas", JSON.stringify([...pedidas]));
+  aviso(pedidas.has(url) ? "Marcada como pedida" : "Marca quitada");
+  pintar();
+}
+
+function filaAmazon(c) {
+  const pedida = pedidas.has(c.url);
+  return `<li class="fila${pedida ? " pedida" : ""}">
+    <div class="mini">${imagen(c.img ? { url: c.foto ? URL_FOTOS + c.foto : c.img, orig: c.img, prep: !!c.foto } : null)}</div>
+    <div class="info">
+      <div class="titulo">${esc((() => { const n = c.tipo === "booster-box" ? sobresDe(c) : null; return n && !n.estimado && n.n !== 36 ? `Display de ${n.n} sobres` : NOMBRE_TIPO[c.tipo] || c.tipoNombre; })())}</div>
+      <div class="tienda" title="${esc(c.titulo)}">${esc(c.filtro || nombreEs(c.coleccion))} · Amazon</div>
+    </div>
+    <div class="lado pedir-acciones">
+      <span class="precio num">${euros(c.precio)}</span>
+      ${pedida ? "" : `<a class="btn" href="${esc(c.url)}" target="_blank" rel="noopener sponsored">Pedir invitación</a>`}
+      <button class="marcar-pedida" data-pedida="${esc(c.url)}" aria-pressed="${pedida}">${icono("check")}${pedida ? "Ya la pedí" : "Marcar pedida"}</button>
+    </div>
+  </li>`;
+}
+
+function seccionAmazon() {
+  const campanas = filtrarTexto(estado.amazon?.campanas || [], (c) => `${c.titulo} ${c.coleccion} ${c.tipoNombre}`);
+  if (!estado.amazon) return "";
+  const mias = campanas.filter((c) => c.filtro), otras = campanas.filter((c) => !c.filtro);
+  const grupos = {};
+  for (const c of otras) (grupos[nombreEs(c.coleccion)] ||= []).push(c);
+  const pendientes = mias.filter((c) => !pedidas.has(c.url)).length;
+  return `<section class="seccion" id="amazon">
+    <div class="seccion-cab"><h2>Amazon por invitación</h2><span class="cuenta num">${campanas.length} abiertas</span></div>
+    <details class="amazon-intro"><summary>¿Cómo funciona?</summary>
+      <p>Amazon vende parte del Pokémon en español solo por invitación, al precio oficial. Pides la invitación (gratis, no te compromete), Amazon la reparte días después por email y tienes un plazo para comprar. Pídela antes de que la campaña cierre. Los enlaces son los de StockTCG, que se financia con ellos; a ti no te cuesta nada más.</p>
+    </details>
+    ${campanas.length ? `
+      ${mias.length ? `<div class="grupo-cab"><h3>De tus colecciones</h3><span>${pendientes ? `${pendientes} sin pedir` : "todas pedidas"}</span></div>
+        <ul class="filas">${mias.sort((a, b) => pedidas.has(a.url) - pedidas.has(b.url) || ORDEN_TIPOS.indexOf(a.tipo) - ORDEN_TIPOS.indexOf(b.tipo) || a.precio - b.precio).map(filaAmazon).join("")}</ul>` : ""}
+      ${Object.entries(grupos).map(([col, lista]) => `<div class="grupo-cab"><h3>${esc(col)}</h3><span>${lista.length}</span></div>
+        <ul class="filas">${lista.sort((a, b) => a.precio - b.precio).map(filaAmazon).join("")}</ul>`).join("")}`
+      : `<div class="sin-novedades">${icono("sobre")}<div><b>Ahora mismo no hay campañas abiertas</b>Cuando Amazon abra una de tus colecciones te llegará un aviso.</div></div>`}
+  </section>`;
+}
+
+function amazonDeGrupo(g) {
+  const pagina = g.ofertas[0]?.stocktcg;
+  return pagina ? (estado.amazon?.campanas || []).find((c) => c.stocktcg === pagina && c.filtro === g.filtro) : null;
 }
 
 function abrirLanzamiento(slug, desdeHistorial) {
@@ -2120,6 +2196,8 @@ document.addEventListener("click", (e) => {
     const o = g?.ofertas.find((x) => x.url === com.dataset.comprado);
     if (g && o) return abrirFormCompra({ grupo: g.id, nombre: g.nombre, coleccion: g.coleccion, tipo: g.tipo, img: o.img || g.img?.orig, foto: o.foto, tienda: o.tienda, precio: o.precio, cantidad: 1, fecha: hoyISO() });
   }
+  const pd = e.target.closest("[data-pedida]");
+  if (pd) return alternarPedida(pd.dataset.pedida);
   const fl = e.target.closest("[data-filtro]");
   if (fl) return abrirFormFiltro(Number(fl.dataset.filtro));
   const fc = e.target.closest("[data-compra]");
@@ -2149,7 +2227,7 @@ document.addEventListener("click", (e) => {
 
 // Abrir una colección desde la notificación (#Nombre)
 function leerHash() {
-  if (location.hash === "#lanzamientos") estado.vista = "lanzamientos";
+  if (location.hash === "#lanzamientos" || location.hash === "#amazon") estado.vista = "lanzamientos";
   else if (location.hash === "#reposiciones") estado.vista = "reposiciones";
   else if (location.hash === "#coleccion" || location.hash === "#favoritos") { estado.vista = "favoritos"; estado.subvista = location.hash.slice(1); }
   else if (location.hash) estado.coleccion = decodeURIComponent(location.hash.slice(1));
