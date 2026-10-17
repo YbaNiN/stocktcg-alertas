@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T13:15:11",
+ "actualizado": "2026-10-17T13:23:21",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -20,27 +20,6 @@
      "cardmarket": 295.34,
      "cardmarketPct": -39,
      "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "[PKM] Booster box Fuegos Fantasmales Caja 36 Castellano",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 279.95,
-     "moneda": "EUR",
-     "tienda": "Shark Games Center",
-     "idioma": "es",
-     "url": "https://sharkgamescenter.es/products/pkm-booster-box-fuegos-fantasmales-caja-36-castellano",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654137_in_400x400.jpg",
-     "foto": "fotos/8f0a966da8ed1bec.jpg",
-     "preventa": false,
-     "cardmarket": 295.34,
-     "cardmarketPct": -5,
-     "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--booster-box",
      "desde": null,
      "precioAntes": null,
