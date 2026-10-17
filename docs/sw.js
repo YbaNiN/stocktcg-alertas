@@ -1,6 +1,6 @@
 // Service worker: permite instalar la web como app y abrirla aunque no haya conexión
 // (mostrando los últimos datos que se cargaron). Siempre intenta primero la red.
-const CACHE = "stock-tcg-v12";
+const CACHE = "stock-tcg-v13";
 const BASE = ["./", "index.html", "manifest.webmanifest", "icono-30-192.png", "icono-30-512.png", "logo-30.png"];
 
 self.addEventListener("install", (e) => {
