@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T19:05:10",
+ "actualizado": "2026-10-17T19:13:47",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6173,27 +6173,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Destined Rivals",
-     "coleccion": "Destined Rivals",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 109.99,
-     "moneda": "EUR",
-     "tienda": "Darizard9",
-     "idioma": "es",
-     "url": "https://www.darizard9.com/products/elite-trainer-destind-rivals",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624676_in_400x400.jpg",
-     "foto": "fotos/930ea7e3a90b7459.jpg",
-     "preventa": false,
-     "cardmarket": 126.92,
-     "cardmarketPct": -13,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/destined-rivals--etb",
-     "desde": "2026-10-17T19:05+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
