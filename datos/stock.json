@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T19:13:47",
+ "actualizado": "2026-10-17T21:18:45",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -85,27 +85,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-10-14T14:10+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Fuegos Fantasmales | Élite Phantasmal Flames — Español",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 109.95,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/etb-fuegos-fantasmales?variant=53646951547203",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
-     "foto": "fotos/f07ecea19094f29d.jpg",
-     "preventa": false,
-     "cardmarket": 90.21,
-     "cardmarketPct": 22,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
-     "desde": "2026-10-15T12:15+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
