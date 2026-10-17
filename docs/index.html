@@ -471,6 +471,15 @@
   /* stock relámpago */
   .et.relampago { background: var(--deal-bg); color: var(--deal-fg); }
 
+  /* estado del sistema (ajustes) */
+  .salud { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 10px; }
+  .salud li { display: grid; grid-template-columns: 20px 1fr; gap: 2px 10px; font-size: 14px; }
+  .salud li svg { width: 18px; height: 18px; grid-row: span 2; margin-top: 1px; }
+  .salud li.ok svg { color: var(--accent); }
+  .salud li.mal svg { color: var(--warn); }
+  .salud .s { font-size: 13px; color: var(--muted); }
+  .salud li.mal .s { color: var(--text); }
+
   /* tooltip compartido */
   .tip {
     position: fixed; z-index: 60; transform: translate(-50%, calc(-100% - 8px)); pointer-events: none;
@@ -1883,6 +1892,10 @@ function abrirAjustes() {
     </div>
     <div class="ficha-cuerpo">
      <section class="ajustes-seccion">
+      <h3>Estado del sistema</h3>
+      <div id="estado-sistema"><p class="resumen" style="margin:0">Comprobando…</p></div>
+     </section>
+     <section class="ajustes-seccion">
       <h3>Mis avisos</h3>
       ${seccionFiltros(conectado)}
      </section>
@@ -1925,6 +1938,48 @@ function abrirAjustes() {
     </div>`;
   const d = $("#ajustes");
   if (!d.open) d.showModal();
+  pintarEstadoSistema();
+}
+
+// ---------------- estado del sistema ----------------
+let saludCache = null;
+async function cargarSalud() {
+  if (saludCache && Date.now() - saludCache.t < 60000) return saludCache;
+  const [runs, toml] = await Promise.all([
+    fetch(`https://api.github.com/repos/${USUARIO}/${REPO}/actions/workflows/monitor.yml/runs?per_page=40&status=completed`,
+      { headers: { Accept: "application/vnd.github+json" } }).then((r) => r.ok ? r.json() : null).catch(() => null),
+    fetch(`https://raw.githubusercontent.com/${USUARIO}/${REPO}/main/filtros.toml?t=${Math.floor(Date.now() / 60000)}`).then((r) => r.ok ? r.text() : "").catch(() => ""),
+  ]);
+  const lista = runs?.workflow_runs || [];
+  const ultima = (evento) => lista.find((r) => r.event === evento && r.conclusion === "success")?.updated_at || null;
+  const cad = toml.match(/^\s*caducidad_clave_cronjob\s*=\s*"(\d{4}-\d{2}-\d{2})"/m)?.[1] || null;
+  saludCache = { t: Date.now(), cron: ultima("workflow_dispatch"), respaldo: ultima("schedule"), caduca: cad, ok: !!runs };
+  return saludCache;
+}
+
+async function pintarEstadoSistema() {
+  const caja = $("#estado-sistema");
+  if (!caja) return;
+  const x = await cargarSalud();
+  if (!$("#estado-sistema")) return;
+  if (!x.ok) { $("#estado-sistema").innerHTML = `<p class="resumen" style="margin:0">No se ha podido consultar GitHub ahora mismo.</p>`; return; }
+  const minutos = (f) => f ? (Date.now() - new Date(f).getTime()) / 60000 : Infinity;
+  const cronOk = minutos(x.cron) <= 20;
+  const fila = (ok, titulo, detalle) => `<li class="${ok ? "ok" : "mal"}">${icono(ok ? "check" : "info")}<span>${titulo}</span><span class="s">${detalle}</span></li>`;
+  let clave = "";
+  if (x.caduca) {
+    const dias = diasHasta(x.caduca), f = fechaLocal(x.caduca);
+    const cuando = `${f.getDate()} de ${MESES_LARGOS[f.getMonth()]} de ${f.getFullYear()}`;
+    clave = fila(dias > 7, "Clave de cron-job.org",
+      dias < 0 ? `Caducó el ${cuando}. Renuévala en GitHub y pégala en cron-job.org.`
+        : `Caduca el ${cuando} (${dias === 0 ? "hoy" : dias === 1 ? "mañana" : `en ${dias} días`}). Te avisaré 7, 3 y 1 días antes.`);
+  }
+  $("#estado-sistema").innerHTML = `<ul class="salud">
+    ${fila(cronOk, "Comprobaciones cada 5 minutos (cron-job.org)",
+      x.cron ? `Última ${hace(x.cron)}.${cronOk ? "" : " Parece parado: los avisos pueden llegar con hasta 30 min de retraso. Revisa la tarea en cron-job.org."}` : "Sin datos todavía.")}
+    ${fila(minutos(x.respaldo) <= 120, "Respaldo de GitHub (cada 30 minutos)", x.respaldo ? `Último ${hace(x.respaldo)}. GitHub a veces lo retrasa; solo importa si cron-job.org se para.` : "Sin datos todavía.")}
+    ${clave}
+  </ul>`;
 }
 
 async function guardarToken() {

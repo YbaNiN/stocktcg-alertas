@@ -51,6 +51,7 @@ Fuente del sistema (system-ui), una sola familia. Escala fija: 12 / 13 / 14 / 15
 - **Presupuesto mensual (Mi colección):** caja con borde de 1 px: "Presupuesto de <mes>" + "Cambiar", barra de 8 px (acento; ámbar desde el 80 %; rojo al pasarse) y "X de Y" con "Te quedan…" / "Te has pasado…" (en rojo). Sin presupuesto, un enlace de texto para ponerlo. "Exportar a Excel" como acción de texto bajo la lista (CSV con ; y coma decimal).
 - **Mis avisos (Ajustes):** lista de filtros (nombre; resumen de palabras, tipos, idioma y precio; tachado si está apagado). El formulario usa chips con casilla para tipos e idiomas (marcado = relleno color texto), dos campos en fila (precio máximo, no incluir) e interruptor de 44×26 px para activarlo.
 - **Stock relámpago:** etiqueta ámbar con icono de rayo "Se agota en minutos" en las ofertas de esas tiendas, y bloque en Reposiciones con el porcentaje de reposiciones agotadas en 10 minutos o menos (mínimo 3 reposiciones y 60 %).
+- **Estado del sistema (Ajustes, primera sección):** lista con icono de check verde o de información ámbar: comprobaciones de cron-job.org (ámbar si pasan más de 20 min), respaldo de GitHub (ámbar a partir de 2 h) y caducidad de la clave de cron-job.org (ámbar a 7 días o menos).
 - **Tooltip** (fondo color texto, 12,5 px) y **aviso flotante** encima de la barra inferior; puede llevar una acción ("Deshacer") en verde claro, y entonces dura 5 s.
 - **Etiquetas:** 22 px de alto, radio 6, 12 px en 650.
 - **Botones:** 34 px (42 px el grande), radio 9–10, acento sólido.

@@ -61,6 +61,10 @@ avisar_chollos = true
 # Aviso cuando abre una preventa en español de cualquier colección (aunque no esté en tus filtros).
 avisar_preventas_es = true
 
+# Fecha en que caduca la clave de GitHub que usa cron-job.org (cron-job stocktcg).
+# El monitor te avisa 7, 3 y 1 días antes. Cuando la renueves, pon aquí la nueva fecha.
+caducidad_clave_cronjob = "2027-01-09"
+
 
 # ---------------- TUS FILTROS ----------------
 # Se busca por nombre en inglés y en español para no perder productos

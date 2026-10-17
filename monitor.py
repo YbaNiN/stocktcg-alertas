@@ -27,7 +27,7 @@ import traceback
 import unicodedata
 import urllib.parse
 import urllib.request
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
@@ -207,8 +207,12 @@ def cargar_filtros(anterior=None):
     return general, [a for a in todas if a.get("activa", True)], todas, de_app
 
 
+NO_SON_FILTROS = {"caducidad_clave_cronjob"}
+
+
 def huella_filtros(general, todas):
-    return hashlib.sha1(json.dumps({"general": general, "alertas": todas}, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
+    general = {k: v for k, v in general.items() if k not in NO_SON_FILTROS}
+    return hashlib.sha1(json.dumps({"general": general, "alertas": todas}, sort_keys=True, ensure_ascii=False, default=str).encode()).hexdigest()[:12]
 
 
 def coincide(item, alerta, general):
@@ -832,6 +836,66 @@ def comprobar(solo_resumen, anterior):
     return nuevo_estado
 
 
+# ---------------------------------------------------------------- vigilante del propio sistema
+
+CRONJOB_PARADO = timedelta(minutes=20)    # sin lanzamientos de cron-job.org durante esto = parado
+REPETIR_PARADO = timedelta(hours=6)       # recordatorio mientras siga parado
+AVISOS_CADUCIDAD = (7, 3, 1, 0)           # días antes de que caduque la clave de cron-job.org
+
+
+def caducidad_clave():
+    try:
+        with open(FILTROS, "rb") as f:
+            valor = tomllib.load(f).get("general", {}).get("caducidad_clave_cronjob")
+        return date.fromisoformat(str(valor)) if valor else None
+    except (ValueError, OSError, tomllib.TOMLDecodeError):
+        return None
+
+
+def vigilar_sistema(anterior, nuevo):
+    """Avisa si cron-job.org deja de lanzar las comprobaciones (solo queda el respaldo de GitHub, cada 30 min)
+    y recuerda renovar la clave de GitHub que usa cron-job.org antes de que caduque."""
+    ahora = datetime.now(MADRID)
+    evento = os.environ.get("GITHUB_EVENT_NAME", "")  # workflow_dispatch = cron-job.org (o a mano); schedule = respaldo
+    previo = anterior or {}
+    ultima = previo.get("ultima_cronjob")
+    nuevo["ultima_cronjob"] = ahora.isoformat(timespec="minutes") if evento == "workflow_dispatch" else ultima
+    nuevo["cronjob_caido"] = previo.get("cronjob_caido")
+    nuevo["aviso_caducidad"] = previo.get("aviso_caducidad")
+    caduca = caducidad_clave()
+    dias = (caduca - ahora.date()).days if caduca else None
+    fecha_txt = f"{caduca.day}/{caduca.month}/{caduca.year}" if caduca else ""
+    renovar = ("1) En github.com/settings/personal-access-tokens abre «cron-job stocktcg» y pulsa Regenerate token. "
+               "2) En cron-job.org, en tu tarea, cambia el encabezado Authorization por «Bearer» + la clave nueva. "
+               "3) Pon la nueva fecha de caducidad en filtros.toml (caducidad_clave_cronjob) o pídemelo.")
+
+    if evento == "workflow_dispatch" and previo.get("cronjob_caido"):
+        enviar_ntfy({"title": "✅ cron-job.org vuelve a lanzar las comprobaciones",
+                     "message": "Vuelves a tener comprobaciones cada 5 minutos.", "click": URL_LISTA, "tags": ["white_check_mark"]})
+        nuevo["cronjob_caido"] = None
+    elif evento == "schedule" and ultima:
+        parado = ahora - datetime.fromisoformat(ultima)
+        ultimo_aviso = previo.get("cronjob_caido")
+        if parado > CRONJOB_PARADO and (not ultimo_aviso or ahora - datetime.fromisoformat(ultimo_aviso) > REPETIR_PARADO):
+            causa = (f"La clave de GitHub que usa caducó el {fecha_txt}: seguramente es eso. {renovar}" if dias is not None and dias < 0
+                     else "Abre la tarea en cron-job.org y mira su historial: si responde 401, la clave de GitHub ha caducado o se ha borrado; "
+                          "si la tarea está desactivada, actívala.")
+            enviar_ntfy({"title": "⚠️ cron-job.org ha dejado de lanzar las comprobaciones",
+                         "message": f"Lleva {round(parado.total_seconds() / 3600, 1)} h sin lanzarlas. Solo funciona el respaldo de GitHub "
+                                    f"(cada 30 min), así que los avisos pueden llegar con retraso.\n{causa}",
+                         "click": "https://console.cron-job.org/jobs", "priority": 4, "tags": ["warning"]})
+            nuevo["cronjob_caido"] = ahora.isoformat(timespec="minutes")
+            print("Aviso: cron-job.org parece parado.")
+
+    if dias is not None and dias in AVISOS_CADUCIDAD and nuevo.get("aviso_caducidad") != ahora.date().isoformat():
+        cuando = "hoy" if dias == 0 else ("mañana" if dias == 1 else f"en {dias} días")
+        enviar_ntfy({"title": f"🔑 La clave de cron-job.org caduca {cuando} ({fecha_txt})",
+                     "message": f"Si caduca, las comprobaciones pasarán de cada 5 a cada 30 minutos. Para renovarla:\n{renovar}",
+                     "click": "https://github.com/settings/personal-access-tokens", "priority": 4, "tags": ["key"]})
+        nuevo["aviso_caducidad"] = ahora.date().isoformat()
+        print(f"Aviso: la clave de cron-job.org caduca {cuando}.")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     solo_resumen = "--resumen" in sys.argv
@@ -863,6 +927,10 @@ def main():
             enviar_ntfy({"title": "✅ El monitor de stock vuelve a funcionar",
                          "message": f"Ha estado fallando unos {errores_antes * 5} minutos. Ya vuelves a recibir avisos.",
                          "click": URL_LISTA, "tags": ["white_check_mark"]})
+        try:
+            vigilar_sistema(anterior, nuevo)
+        except Exception as e:  # el vigilante nunca debe romper la comprobación
+            print("  (vigilante del sistema:", e, ")")
         ESTADO.parent.mkdir(exist_ok=True)
         ESTADO.write_text(json.dumps(nuevo))
 
