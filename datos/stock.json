@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T00:00:25",
+ "actualizado": "2026-10-19T00:03:28",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -93,7 +93,7 @@
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "tin",
      "tipoNombre": "Tin",
-     "precio": 38.5,
+     "precio": 38.95,
      "moneda": "EUR",
      "tienda": "Pidopop",
      "idioma": "es",
@@ -1851,7 +1851,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
      "tipoNombre": "Booster Bundle",
-     "precio": 88.26,
+     "precio": 88.95,
      "moneda": "EUR",
      "tienda": "Pidopop",
      "idioma": "es",
@@ -1860,7 +1860,7 @@
      "foto": "fotos/91a213f34f133eae.jpg",
      "preventa": false,
      "cardmarket": 70.75,
-     "cardmarketPct": 25,
+     "cardmarketPct": 26,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
      "desde": null,
