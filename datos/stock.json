@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T15:34:13",
+ "actualizado": "2026-10-18T16:18:42",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3490,27 +3490,6 @@
      "cardmarketPct": 26,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG - Elite Trainer Box Perfect order (Ingles & Español) — Español",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 49.3,
-     "moneda": "EUR",
-     "tienda": "JJCollection",
-     "idioma": "es",
-     "url": "https://jjcollection.es/products/pokemon-tcg-elite-trainer-box-perfect-order-ingles-espanol?variant=53720034771273",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": true,
-     "cardmarket": 60.21,
-     "cardmarketPct": -18,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
