@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T21:10+02:00",
+ "actualizado": "2026-10-18T22:10+02:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -349,6 +349,19 @@
    "url": "https://www.amazon.es/dp/B0GYSKFHBY?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/71HUTp5EwfL._AC_SL500_.jpg",
    "foto": "fotos/b5ef9bb86b24d223.jpg",
+   "stocktcg": "https://stocktcg.net/p/lumiose-city--mini-tin",
+   "filtro": null
+  },
+  {
+   "titulo": "Minilata Ciudad Luminalia: Meganium y Meowstic",
+   "coleccion": "Lumiose City / Ciudad Luminalia",
+   "tipo": "mini-tin",
+   "tipoNombre": "Mini Tin",
+   "precio": 10.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0GYSKSSTH?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/71vEyJFZ5dL._AC_SL500_.jpg",
+   "foto": "fotos/a6243db71ba41b8f.jpg",
    "stocktcg": "https://stocktcg.net/p/lumiose-city--mini-tin",
    "filtro": null
   },
