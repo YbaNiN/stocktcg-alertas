@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T16:18:42",
+ "actualizado": "2026-10-18T19:33:33",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -373,6 +373,21 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "Pokemon Celebración 30Th Aniversario Latas",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 21.95,
+     "moneda": "EUR",
+     "tienda": "EpicDeck",
+     "idioma": "es",
+     "url": "https://epicdeck.es/products/pokemon-celebracion-30th-aniversario-mini-latas",
+     "img": "https://cdn.shopify.com/s/files/1/0942/3509/9523/files/0196214159082_11.jpg?v=1791507818&width=400",
+     "foto": "fotos/14241726fd0d791f.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
     {
      "titulo": "Lata 30 Aniversario Greninja | Español | POKÉMON",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
