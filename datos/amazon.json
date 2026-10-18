@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T22:10+02:00",
+ "actualizado": "2026-10-18T23:10+02:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -337,6 +337,19 @@
    "img": "https://m.media-amazon.com/images/I/81E3LkEGGXL._AC_UL320_.jpg",
    "foto": "fotos/f20ce9fcec6954d5.jpg",
    "stocktcg": "https://stocktcg.net/p/mega-evolution--premium-collection",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Colección Ilustración Primer Compañero Serie 3 (3 Cartas de promoción,",
+   "coleccion": "First Partner",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 21.37,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H5KLFD8M?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81Rhj6LDKEL._AC_SL500_.jpg",
+   "foto": "fotos/277789001a3041ad.jpg",
+   "stocktcg": "https://stocktcg.net/p/first-partner--collection-box",
    "filtro": null
   },
   {
