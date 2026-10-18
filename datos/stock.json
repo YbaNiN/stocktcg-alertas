@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T00:05:21",
+ "actualizado": "2026-10-18T08:13:33",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1700,6 +1700,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Pokémon TCG 30.º Aniversario Booster Bundle – (ES)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 59.95,
+     "moneda": "EUR",
+     "tienda": "Madrid Norte TCG",
+     "idioma": "es",
+     "url": "https://madridnortetcg.com/products/pokemon-30-aniversario-booster-bundle-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": true,
+     "cardmarket": 73.4,
+     "cardmarketPct": -18,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-10-17T13:15+02:00",
+     "precioAntes": 64.95,
+     "bajadaDesde": "2026-10-18T08:15+02:00"
+    },
+    {
      "titulo": "Pokemon Celebración 30 Aniversario – Lote de Sobres de Mejora (6)",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -1719,27 +1740,6 @@
      "desde": "2026-10-13T16:20+02:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG 30.º Aniversario Booster Bundle – (ES)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 64.95,
-     "moneda": "EUR",
-     "tienda": "Madrid Norte TCG",
-     "idioma": "es",
-     "url": "https://madridnortetcg.com/products/pokemon-30-aniversario-booster-bundle-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": true,
-     "cardmarket": 73.4,
-     "cardmarketPct": -12,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-10-17T13:15+02:00",
-     "precioAntes": 69.95,
-     "bajadaDesde": "2026-10-17T15:01+02:00"
     },
     {
      "titulo": "Pokémon TCG - Celebración 30.º Aniversario - Lote de sobres de mejora (Español)",
