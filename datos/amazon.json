@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T23:40+02:00",
+ "actualizado": "2026-10-18T21:10+02:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -145,19 +145,6 @@
    "filtro": null
   },
   {
-   "titulo": "Lote de 6 Sobres de Mejora Megaevolución: Oscuridad Absoluta",
-   "coleccion": "Pitch Black / Oscuridad Absoluta",
-   "tipo": "booster-bundle",
-   "tipoNombre": "Booster Bundle",
-   "precio": 29.94,
-   "idioma": "es",
-   "url": "https://www.amazon.es/dp/B0GZL2WPMF?tag=ikerjimenezcl-21",
-   "img": "https://m.media-amazon.com/images/I/81LmiHJbKpL._AC_SL500_.jpg",
-   "foto": "fotos/b8df9ad519502716.jpg",
-   "stocktcg": "https://stocktcg.net/p/pitch-black--booster-bundle",
-   "filtro": null
-  },
-  {
    "titulo": "Blister de 3 Sobres Megaevolución: Oscuridad Absoluta",
    "coleccion": "Pitch Black / Oscuridad Absoluta",
    "tipo": "blister",
@@ -279,7 +266,7 @@
    "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
    "tipo": "booster-bundle",
    "tipoNombre": "Booster Bundle",
-   "precio": 26.72,
+   "precio": 27.67,
    "idioma": "es",
    "url": "https://www.amazon.es/dp/B0FTG3C43P?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/613pmnExqFL._AC_SL500_.jpg",
