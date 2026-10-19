@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T00:03:28",
+ "actualizado": "2026-10-19T08:38:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2730,27 +2730,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": "2026-10-18T20:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "POKEMON TCG – CAOS CRECIENTE – ELITE TRAINER BOX [ESPAÑOL]",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.9,
-     "moneda": "EUR",
-     "tienda": "Manavortex",
-     "idioma": "es",
-     "url": "https://manavortex.es/product/pokemon-tcg-caos-creciente-elite-trainer-box-espanol/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 63.04,
-     "cardmarketPct": 3,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
