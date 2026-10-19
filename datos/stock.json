@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T18:00:35",
+ "actualizado": "2026-10-19T18:35:32",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1014,6 +1014,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--mini-tin",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Sobre Evoluciones Prismaticas",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 12.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/sobre-evoluciones-prismaticas-pokemon-jcc/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/593294_in_400x400.jpg",
+     "foto": "fotos/618ff1aa01a1d283.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-pack",
+     "desde": "2026-10-19T18:35+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     }
