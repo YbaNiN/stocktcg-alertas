@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T11:04:01",
+ "actualizado": "2026-10-19T11:14:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1082,6 +1082,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Bundle Pokémon Héroes Ascendentes y Ascended Heroes — Español",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/booster-bundle-pokemon-fuegos-fantasmales-y-phantasmal-flames-813356008?variant=53009008525650",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_400x400.jpg",
+     "foto": "fotos/e15177c559cd820c.jpg",
+     "preventa": false,
+     "cardmarket": 74.19,
+     "cardmarketPct": -6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
+     "desde": "2026-10-19T11:15+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -6719,6 +6740,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Elite Trainer Destined Rivals",
+     "coleccion": "Destined Rivals",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 109.99,
+     "moneda": "EUR",
+     "tienda": "Darizard9",
+     "idioma": "es",
+     "url": "https://www.darizard9.com/products/elite-traner-destined-rivals",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624676_in_400x400.jpg",
+     "foto": "fotos/930ea7e3a90b7459.jpg",
+     "preventa": false,
+     "cardmarket": 125.27,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/destined-rivals--etb",
+     "desde": "2026-10-19T11:15+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
