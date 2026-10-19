@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T08:38:53",
+ "actualizado": "2026-10-19T09:02:38",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4335,27 +4335,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Caja Entrenador Elite Pokemon Equilibrio Perfecto Espanol",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-equilibrio-perfecto-espanol-89960.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 60.21,
-     "cardmarketPct": 16,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": null,
-     "precioAntes": 80.95,
-     "bajadaDesde": "2026-10-18T09:10+02:00"
-    },
-    {
      "titulo": "[PKM] Caja de entrenador élite Pokémon ETB - Equilibrio perfecto (Castellano)",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
@@ -4412,6 +4391,27 @@
      "preventa": false,
      "cardmarket": 60.21,
      "cardmarketPct": 26,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja Entrenador Elite Pokemon Equilibrio Perfecto Espanol",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 80.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-equilibrio-perfecto-espanol-89960.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 60.21,
+     "cardmarketPct": 34,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
