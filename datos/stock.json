@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T17:35:08",
+ "actualizado": "2026-10-20T18:09:16",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3873,7 +3873,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Equilibrio Perfecto | Perfect Order ETB​",
+     "titulo": "ETB Equilibrio Perfecto",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -4979,27 +4979,6 @@
      "tienda": "GrilleCards",
      "idioma": "es",
      "url": "https://grillecards.com/products/etb-oscuridad-absoluta-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 70.06,
-     "cardmarketPct": -14,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "POKEMON - ETB Oscuridad Absoluta - Español",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 59.95,
-     "moneda": "EUR",
-     "tienda": "Factory Cards",
-     "idioma": "es",
-     "url": "https://factorycardstcg.com/products/pokemon-oscuridad-absoluta-etb-caja-entrenador-pokemon",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
      "foto": "fotos/0a158a6c5402619f.jpg",
      "preventa": false,
