@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T15:39:53",
+ "actualizado": "2026-10-20T16:44:47",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1061,27 +1061,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon - ETB Héroes Ascendentes (ESP)",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 149.95,
-     "moneda": "EUR",
-     "tienda": "GranCards",
-     "idioma": "es",
-     "url": "https://grancards.com/products/reserva-pokemon-etb-heroes-ascendentes-esp",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668496_in_400x400.jpg",
-     "foto": "fotos/40799851c627c011.jpg",
-     "preventa": false,
-     "cardmarket": 131.01,
-     "cardmarketPct": 14,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
-     "desde": "2026-10-20T14:10+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
