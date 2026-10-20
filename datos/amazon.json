@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T22:10+02:00",
+ "actualizado": "2026-10-20T23:10+02:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -32,25 +32,12 @@
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
    "tipo": "blister",
    "tipoNombre": "Blister",
-   "precio": 14.28,
+   "precio": 14.25,
    "idioma": "es",
    "url": "https://www.amazon.es/dp/B0H8SZ9F99?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/61cSXQ+rr1L._AC_SL500_.jpg",
    "foto": "fotos/68ae8e95c33dd35c.jpg",
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--blister",
-   "filtro": null
-  },
-  {
-   "titulo": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Exe",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "collection-box",
-   "tipoNombre": "Collection Box",
-   "precio": 18.99,
-   "idioma": "es",
-   "url": "https://www.amazon.es/dp/B0H8SZX85C?tag=ikerjimenezcl-21",
-   "img": "https://m.media-amazon.com/images/I/91maWpFfy2L._AC_SL500_.jpg",
-   "foto": "fotos/2e47bbe5448a6e5b.jpg",
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
    "filtro": null
   },
   {
@@ -115,19 +102,6 @@
    "url": "https://www.amazon.es/dp/B0H8SZMC6L?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/71eiKJrTcPL._AC_SL500_.jpg",
    "foto": "fotos/51fb307c935ae6fa.jpg",
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
-   "filtro": null
-  },
-  {
-   "titulo": "Pokémon: Minilata Celebración 30.º Aniversario: Pikachu de JCC Pokémon (1 Pegati",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "mini-tin",
-   "tipoNombre": "Mini Tin",
-   "precio": 13.99,
-   "idioma": "es",
-   "url": "https://www.amazon.es/dp/B0H8T2GBBX?tag=ikerjimenezcl-21",
-   "img": "https://m.media-amazon.com/images/I/71yqk1EeeHL._AC_SL500_.jpg",
-   "foto": "fotos/c0df73453369ad51.jpg",
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
    "filtro": null
   },
@@ -461,7 +435,7 @@
    "coleccion": "First Partner",
    "tipo": "collection-box",
    "tipoNombre": "Collection Box",
-   "precio": 21.37,
+   "precio": 20.97,
    "idioma": "es",
    "url": "https://www.amazon.es/dp/B0H5KLFD8M?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/81Rhj6LDKEL._AC_SL500_.jpg",
