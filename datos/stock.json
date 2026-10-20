@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T14:08:08",
+ "actualizado": "2026-10-20T14:24:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2181,27 +2181,6 @@
      "preventa": false,
      "cardmarket": 182.01,
      "cardmarketPct": 8,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "POKEMON TCG: CAJA DE SOBRES - CAOS CRECIENTE - ESPAÑOL",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.95,
-     "moneda": "EUR",
-     "tienda": "Saruman Games",
-     "idioma": "es",
-     "url": "https://sarumangames.es/products/pokemon-tcg-caja-de-sobres-caos-creciente-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_400x400.jpg",
-     "foto": "fotos/596314aad285ec6d.jpg",
-     "preventa": false,
-     "cardmarket": 182.01,
-     "cardmarketPct": 10,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
      "desde": null,
