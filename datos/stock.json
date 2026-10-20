@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T01:58:28",
+ "actualizado": "2026-10-20T07:59:46",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -294,27 +294,6 @@
      "cardmarketPct": null,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--blister",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Blister cartas Special Collection Fuegos Fantasmales Pokemon español - Día de Pokémon 2026",
-     "coleccion": "Pokémon Day",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 23.99,
-     "moneda": "EUR",
-     "tienda": "Alfriki",
-     "idioma": "es",
-     "url": "https://alfriki.com/products/pokemon-tcg-caja-coleccion-mimikyu-ex-castellano-copia",
-     "img": "https://cdn.shopify.com/s/files/1/0555/8452/2579/files/img_426820_57cd1a7dd30b8f91cfd54784d957fe86_1.jpg?v=1769876341&width=400",
-     "foto": "fotos/99ab73cf4f333f66.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pokemon-day--blister",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
