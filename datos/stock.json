@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T18:09:16",
+ "actualizado": "2026-10-20T18:29:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1464,48 +1464,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Blister 3 Sobres Héroes Ascendentes | POKÉMON | Español — Gastly",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 27.99,
-     "moneda": "EUR",
-     "tienda": "TodoHits",
-     "idioma": "es",
-     "url": "https://todohits.com/products/blister-3-sobres-heroes-ascendentes-pokemon-espanol?variant=52815219491153",
-     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blisters_3_Sobres_Heroes_Ascendentes_POK_MON_Espa_ol.jpg?v=1770725312&width=400",
-     "foto": "fotos/8641240897bae7c7.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--blister",
-     "desde": "2026-10-18T18:45+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Blister 3 Sobres Héroes Ascendentes | POKÉMON | Español — Charmander",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 27.99,
-     "moneda": "EUR",
-     "tienda": "TodoHits",
-     "idioma": "es",
-     "url": "https://todohits.com/products/blister-3-sobres-heroes-ascendentes-pokemon-espanol?variant=52815219458385",
-     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_3_Heroes_Ascendentes_POK_MON_Espa_ol.jpg?v=1770725312&width=400",
-     "foto": "fotos/d22732314dd848e0.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--blister",
-     "desde": "2026-10-18T18:45+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Pokémon TCG Héroes Ascendentes Blíster Surtido",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "blister",
@@ -2713,7 +2671,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Chaos Rising​ | Caos Creciente",
+     "titulo": "ETB Caos Creciente",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
      "tipoNombre": "ETB",
