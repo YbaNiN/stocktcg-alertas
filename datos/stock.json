@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T22:00:51",
+ "actualizado": "2026-10-21T00:00:04",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -93,7 +93,7 @@
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "tin",
      "tipoNombre": "Tin",
-     "precio": 38.95,
+     "precio": 38.5,
      "moneda": "EUR",
      "tienda": "Pidopop",
      "idioma": "es",
@@ -4318,7 +4318,7 @@
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 80.95,
+     "precio": 80.23,
      "moneda": "EUR",
      "tienda": "Pidopop",
      "idioma": "es",
@@ -4327,7 +4327,7 @@
      "foto": "fotos/6cb54c5c3b7d16c3.jpg",
      "preventa": false,
      "cardmarket": 59.86,
-     "cardmarketPct": 35,
+     "cardmarketPct": 34,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
