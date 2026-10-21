@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19T02:14:51",
+ "actualizado": "2026-10-21T12:33:36",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -818,23 +818,6 @@
    "foto": "fotos/a1171413f38dd177.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/mega-evolution--tin",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Mega Forces Lata",
-   "coleccion": "Mega Forces",
-   "tipo": "tin",
-   "tipoNombre": "Tin",
-   "precio": 27.9,
-   "moneda": "EUR",
-   "tienda": "FlashStore",
-   "idioma": "es",
-   "url": "https://flashstore.es/producto/mega-forces-lata/",
-   "img": "https://flashstore.es/wp-content/uploads/2026/06/megaforces.jpg",
-   "foto": "fotos/a1d2755baa5b2fdb.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/mega-forces--tin",
    "lanzamiento": null,
    "fecha": null
   },
