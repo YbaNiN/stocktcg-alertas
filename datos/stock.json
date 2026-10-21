@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T11:10:19",
+ "actualizado": "2026-10-21T11:19:31",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6156,27 +6156,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box Rivales Predestinados | POKÉMON | Español — x1 Booster Box",
-     "coleccion": "Destined Rivals",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 189.99,
-     "moneda": "EUR",
-     "tienda": "TodoHits",
-     "idioma": "es",
-     "url": "https://todohits.com/products/booster-box-rivales-predestinados-pokemon-espanol?variant=54394024165713",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
-     "foto": "fotos/fe01e654f615e5f0.jpg",
-     "preventa": false,
-     "cardmarket": 299.89,
-     "cardmarketPct": -37,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
-     "desde": "2026-10-18T18:45+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "POKEMON TCG – SV10: DESTINED RIVALS – BOOSTER BOX SET [ESPAÑOL]",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
@@ -6299,6 +6278,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box Rivales Predestinados | POKÉMON | Español — x1 Booster Box",
+     "coleccion": "Destined Rivals",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.99,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/booster-box-rivales-predestinados-pokemon-espanol?variant=54394024165713",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
+     "foto": "fotos/fe01e654f615e5f0.jpg",
+     "preventa": false,
+     "cardmarket": 299.89,
+     "cardmarketPct": -33,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
+     "desde": "2026-10-18T18:45+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
