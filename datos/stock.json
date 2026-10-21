@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T12:58:54",
+ "actualizado": "2026-10-21T13:18:18",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1784,6 +1784,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Pack 6 Sobres Pokemon 30 Aniversario Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 79.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/pack-6-sobres-pokemon-30-aniversario-espanol-93256.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 69.73,
+     "cardmarketPct": 15,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": null,
+     "precioAntes": 88.95,
+     "bajadaDesde": "2026-10-21T13:20+02:00"
+    },
+    {
      "titulo": "Pokémon 30th Anniversary – Booster Bundle –",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -1801,27 +1822,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
      "desde": "2026-10-20T12:20+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pack 6 Sobres Pokemon 30 Aniversario Español",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 88.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/pack-6-sobres-pokemon-30-aniversario-espanol-93256.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 69.73,
-     "cardmarketPct": 28,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     }
