@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T17:15:00",
+ "actualizado": "2026-10-21T19:00:39",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -594,6 +594,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
      "desde": "2026-10-21T17:15+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Super Premium Collection Evoluciones Prismáticas | Prismatic Evolutions — Español",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "ultra-premium-collection",
+     "tipoNombre": "Ultra Premium Collection",
+     "precio": 203.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/super-prismatic?variant=53559714120003",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/622770_in_400x400.jpg",
+     "foto": "fotos/26394aeaba23de96.jpg",
+     "preventa": true,
+     "cardmarket": 198.56,
+     "cardmarketPct": 3,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
+     "desde": "2026-10-21T19:01+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
