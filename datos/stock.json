@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T05:23:13",
+ "actualizado": "2026-10-21T07:19:42",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4798,6 +4798,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador de Elite Pokémon Oscuridad Absoluta y Pitch Black — Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 58.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-de-entrenador-de-elite-pokemon-oscuridad-absoluta-y-pitch-black?variant=53973451866450",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 70.06,
+     "cardmarketPct": -16,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-10-21T07:20+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
