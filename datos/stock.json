@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T02:08:25",
+ "actualizado": "2026-10-21T05:23:13",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1543,27 +1543,6 @@
      "cardmarketPct": null,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-pack",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Heroes Ascendentes First Partners Deluxe Pin Collection",
-     "coleccion": "First Partner",
-     "tipo": "pin-collection",
-     "tipoNombre": "Pin Collection",
-     "precio": 36.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/heroes-ascendentes-first-partners-deluxe-pin-collection/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672391_in_400x400.jpg",
-     "foto": "fotos/855188e1cba371e9.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/first-partner--pin-collection",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
