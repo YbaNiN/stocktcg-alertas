@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T07:44:21",
+ "actualizado": "2026-10-21T10:04:03",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2482,6 +2482,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Caos Creciente – Español Elite Trainer Box",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 59.99,
+     "moneda": "EUR",
+     "tienda": "TopDeck",
+     "idioma": "es",
+     "url": "https://topdeck.es/tienda-de-cartas-coleccionables/etb-chaos-rising-caos-creciente/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 62.6,
+     "cardmarketPct": -4,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": null,
+     "precioAntes": 69.99,
+     "bajadaDesde": "2026-10-21T10:05+02:00"
+    },
+    {
      "titulo": "Pokémon TCG: Caos Creciente | Caja de Entrenador Élite ETB (Español)",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -2835,27 +2856,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": "2026-10-17T13:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Caos Creciente – Español Elite Trainer Box",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "TopDeck",
-     "idioma": "es",
-     "url": "https://topdeck.es/tienda-de-cartas-coleccionables/etb-chaos-rising-caos-creciente/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 62.6,
-     "cardmarketPct": 12,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
