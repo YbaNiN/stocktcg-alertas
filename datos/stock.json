@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T10:54:42",
+ "actualizado": "2026-10-21T11:10:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1944,7 +1944,7 @@
      "moneda": "EUR",
      "tienda": "GrilleCards",
      "idioma": "es",
-     "url": "https://grillecards.com/products/caja-36-sobres-mega-evoluciones-caos-creciente-espanol",
+     "url": "https://grillecards.com/products/caja-36-sobres-caos-creciente-espanol",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_400x400.jpg",
      "foto": "fotos/596314aad285ec6d.jpg",
      "preventa": false,
@@ -1952,7 +1952,7 @@
      "cardmarketPct": -1,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
-     "desde": null,
+     "desde": "2026-10-21T11:10+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
