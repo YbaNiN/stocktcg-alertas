@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T13:25:29",
+ "actualizado": "2026-10-21T14:29:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1229,27 +1229,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Mega Emboar Box Collection Héroes Ascendentes | Ascended Heroes — Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 49.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/mega-emboar-box-collection-heroes-ascendentes-ascended-heroes-copia?variant=54560992690499",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
-     "foto": "fotos/60d3327244e384a3.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
-     "desde": "2026-10-14T12:20+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
