@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T12:10:13",
+ "actualizado": "2026-10-21T12:23:34",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1334,6 +1334,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Heroes Ascendentes Premium Poster Collection Lucario",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 139.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/heroes-ascendentes-premium-poster-collection-lucario/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
+     "foto": "fotos/60d3327244e384a3.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
+     "desde": "2026-10-21T12:25+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
