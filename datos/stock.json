@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T12:05:33",
+ "actualizado": "2026-10-21T12:10:13",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6597,27 +6597,6 @@
      "cardmarketPct": 33,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box Pokémon Llamas Obsidianas - Español",
-     "coleccion": "Obsidian Flames",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 239.0,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-llamas-obsidianas-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501264_in_400x400.jpg",
-     "foto": "fotos/5ee03bd88bde175e.jpg",
-     "preventa": false,
-     "cardmarket": 233.72,
-     "cardmarketPct": 2,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/obsidian-flames--etb",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
