@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T00:03:30",
+ "actualizado": "2026-10-21T02:08:25",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4196,7 +4196,7 @@
      "moneda": "EUR",
      "tienda": "Micelion Games",
      "idioma": "es",
-     "url": "https://miceliongames.com/juegos/juegos-tcg/etb-caja-de-entrenador-elite-equilibrio-perfecto/",
+     "url": "https://miceliongames.com/juegos/juegos-tcg/pokemon/etb-caja-de-entrenador-elite-equilibrio-perfecto/",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
      "foto": "fotos/6cb54c5c3b7d16c3.jpg",
      "preventa": false,
@@ -4204,7 +4204,7 @@
      "cardmarketPct": 17,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": null,
+     "desde": "2026-10-21T02:10+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -5062,7 +5062,7 @@
      "moneda": "EUR",
      "tienda": "Micelion Games",
      "idioma": "es",
-     "url": "https://miceliongames.com/juegos/juegos-tcg/etb-oscuridad-absoluta-pokemon-caja-entrenador-elite/",
+     "url": "https://miceliongames.com/juegos/juegos-tcg/pokemon/etb-oscuridad-absoluta-pokemon-caja-entrenador-elite/",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
      "foto": "fotos/0a158a6c5402619f.jpg",
      "preventa": false,
@@ -5070,7 +5070,7 @@
      "cardmarketPct": -7,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
+     "desde": "2026-10-21T02:10+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
