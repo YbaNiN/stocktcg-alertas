@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T19:00:39",
+ "actualizado": "2026-10-21T19:08:20",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -602,7 +602,7 @@
      "coleccion": "Prismatic Evolutions",
      "tipo": "ultra-premium-collection",
      "tipoNombre": "Ultra Premium Collection",
-     "precio": 203.9,
+     "precio": 201.9,
      "moneda": "EUR",
      "tienda": "Pokemillon",
      "idioma": "es",
@@ -611,7 +611,7 @@
      "foto": "fotos/26394aeaba23de96.jpg",
      "preventa": true,
      "cardmarket": 198.56,
-     "cardmarketPct": 3,
+     "cardmarketPct": 2,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
      "desde": "2026-10-21T19:01+02:00",
