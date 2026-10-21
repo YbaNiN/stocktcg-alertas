@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T15:05:16",
+ "actualizado": "2026-10-21T17:15:00",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -888,6 +888,23 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Evoluciones Prismaticas Super Premium Collection",
+   "coleccion": "Prismatic Evolutions",
+   "tipo": "ultra-premium-collection",
+   "tipoNombre": "Ultra Premium Collection",
+   "precio": 195.9,
+   "moneda": "EUR",
+   "tienda": "FlashStore",
+   "idioma": "es",
+   "url": "https://flashstore.es/producto/evoluciones-prismaticas-super-premium-collection/",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/622770_in_400x400.jpg",
+   "foto": "fotos/26394aeaba23de96.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
    "lanzamiento": null,
    "fecha": null
   }
