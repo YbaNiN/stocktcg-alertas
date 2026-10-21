@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T07:19:42",
+ "actualizado": "2026-10-21T07:29:42",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4163,27 +4163,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Caja de Entrenador Elite Equilibrio Perfecto",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "Micelion Games",
-     "idioma": "es",
-     "url": "https://miceliongames.com/juegos/juegos-tcg/pokemon/etb-caja-de-entrenador-elite-equilibrio-perfecto/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 59.86,
-     "cardmarketPct": 17,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": "2026-10-21T02:10+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
