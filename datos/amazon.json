@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T22:40+02:00",
+ "actualizado": "2026-10-22T21:40+02:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -275,19 +275,6 @@
    "filtro": null
   },
   {
-   "titulo": "Caja de Entrenador Élite Megaevolución: Equilibrio Perfecto",
-   "coleccion": "Perfect Order / Equilibrio Perfecto",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 52.99,
-   "idioma": "es",
-   "url": "https://www.amazon.es/dp/B0GGHXWSDC?tag=ikerjimenezcl-21",
-   "img": "https://m.media-amazon.com/images/I/81gQnDlRmhL._AC_SL500_.jpg",
-   "foto": "fotos/f30e84bc9e5e1549.jpg",
-   "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-   "filtro": "Equilibrio Perfecto"
-  },
-  {
    "titulo": "Expositor de 18 Sobres de Mejora Megaevolución: Equilibrio Perfecto",
    "coleccion": "Perfect Order / Equilibrio Perfecto",
    "tipo": "booster-box",
@@ -357,7 +344,7 @@
    "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
    "tipo": "booster-bundle",
    "tipoNombre": "Booster Bundle",
-   "precio": 27.35,
+   "precio": 27.29,
    "idioma": "es",
    "url": "https://www.amazon.es/dp/B0FTG3C43P?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/613pmnExqFL._AC_SL500_.jpg",
