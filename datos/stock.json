@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T00:29:22",
+ "actualizado": "2026-10-22T10:49:40",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1698,6 +1698,27 @@
      "desde": "2026-10-17T13:15+02:00",
      "precioAntes": 64.95,
      "bajadaDesde": "2026-10-18T08:15+02:00"
+    },
+    {
+     "titulo": "Pokemon Celebración 30 Aniversario – Lote de Sobres de Mejora (6)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 59.95,
+     "moneda": "EUR",
+     "tienda": "Júpiter Juegos",
+     "idioma": "es",
+     "url": "https://jupiterjuegos.com/producto/pokemon-celebracion-30-aniversario-lote-de-sobres-de-mejora-6/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 68.72,
+     "cardmarketPct": -13,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-10-13T16:20+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon TCG - Celebración 30.º Aniversario - Lote de sobres de mejora (Español)",
