@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T21:18:13",
+ "actualizado": "2026-10-22T22:48:15",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4638,7 +4638,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 58.95,
+     "precio": 59.95,
      "moneda": "EUR",
      "tienda": "Kame House Cards",
      "idioma": "es",
@@ -4647,7 +4647,7 @@
      "foto": "fotos/0a158a6c5402619f.jpg",
      "preventa": false,
      "cardmarket": 69.12,
-     "cardmarketPct": -15,
+     "cardmarketPct": -13,
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": "2026-10-21T07:20+02:00",
