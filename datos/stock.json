@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T23:59:49",
+ "actualizado": "2026-10-23T00:02:37",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2965,27 +2965,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Caja Entrenador Élite Caos Creciente",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 84.99,
-     "moneda": "EUR",
-     "tienda": "ELIUS",
-     "idioma": "es",
-     "url": "https://www.eliusweb.com/producto/caja-entrenador-elite-caos-creciente/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 61.57,
-     "cardmarketPct": 38,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ELITE TRAINER BOX CHAOS RISING ENG",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -4083,27 +4062,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Caja Entrenador Elite Pokemon Equilibrio Perfecto Espanol",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 80.23,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-equilibrio-perfecto-espanol-89960.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 58.61,
-     "cardmarketPct": 37,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Pokémon Megaevolución Equilibrio Perfecto, Caja Entrenador Élite +6 años (Unboxing)",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
@@ -4123,6 +4081,27 @@
      "desde": null,
      "precioAntes": 97.11,
      "bajadaDesde": "2026-10-21T13:25+02:00"
+    },
+    {
+     "titulo": "Caja Entrenador Elite Pokemon Equilibrio Perfecto Espanol",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 80.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-equilibrio-perfecto-espanol-89960.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 58.61,
+     "cardmarketPct": 38,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
     }
    ]
   },
@@ -5131,27 +5110,6 @@
      "preventa": false,
      "cardmarket": 69.12,
      "cardmarketPct": 16,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja Entrenador Élite Oscuridad Absoluta",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 84.99,
-     "moneda": "EUR",
-     "tienda": "ELIUS",
-     "idioma": "es",
-     "url": "https://www.eliusweb.com/producto/caja-entrenador-elite-oscuridad-absoluta/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 69.12,
-     "cardmarketPct": 23,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
