@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T22:48:15",
+ "actualizado": "2026-10-22T22:58:46",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1250,27 +1250,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Mega Feraligatr Box Collection Héroes Ascendentes | Ascended Heroes — Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 54.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/mega-box-ascendentes-heroes?variant=54046679728451",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
-     "foto": "fotos/60d3327244e384a3.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
-     "desde": "2026-10-14T12:20+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
