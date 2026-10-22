@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T11:43:39",
+ "actualizado": "2026-10-22T11:48:28",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2314,27 +2314,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box (ETB) de CAOS CRECIENTE - ESP",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 58.95,
-     "moneda": "EUR",
-     "tienda": "Epik Vending",
-     "idioma": "es",
-     "url": "https://epikvending.es/products/elite-trainer-box-etb-de-caos-creciente-esp",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 62.06,
-     "cardmarketPct": -5,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ETB POKEMON CAOS CRECIENTE ELITE TRAINER BOX (ESPAÑOL)",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -3768,27 +3747,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box (ETB) de Equilibrio Perfecto - ESP",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 57.95,
-     "moneda": "EUR",
-     "tienda": "Epik Vending",
-     "idioma": "es",
-     "url": "https://epikvending.es/products/elite-trainer-box-etb-de-equilibrio-perfecto-esp",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 58.79,
-     "cardmarketPct": -1,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ETB Equilibrio Perfecto | Elite Trainer Box | POKÉMON | Español — x1 unidad",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
@@ -4693,27 +4651,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": "2026-10-21T07:20+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box (ETB) de OSCURIDAD ABSOLUTA - ESP",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 59.9,
-     "moneda": "EUR",
-     "tienda": "Epik Vending",
-     "idioma": "es",
-     "url": "https://epikvending.es/products/elite-trainer-box-etb-de-oscuridad-absoluta-esp",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 69.63,
-     "cardmarketPct": -14,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
