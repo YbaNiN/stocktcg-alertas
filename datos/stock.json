@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T15:43:56",
+ "actualizado": "2026-10-22T19:00:48",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9,7 +9,7 @@
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 79.95,
+     "precio": 89.95,
      "moneda": "EUR",
      "tienda": "Mythic Card TCG",
      "idioma": "es",
@@ -18,8 +18,8 @@
      "foto": "fotos/f07ecea19094f29d.jpg",
      "preventa": false,
      "cardmarket": 89.64,
-     "cardmarketPct": -11,
-     "chollo": true,
+     "cardmarketPct": 0,
+     "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": null,
      "precioAntes": null,
