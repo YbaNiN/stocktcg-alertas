@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T05:39:10",
+ "actualizado": "2026-10-23T12:44:28",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3176,6 +3176,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja 36 sobres: Mega evoluciones Equilibrio Perfecto (Español)",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 179.95,
+     "moneda": "EUR",
+     "tienda": "GrilleCards",
+     "idioma": "es",
+     "url": "https://grillecards.com/products/caja-36-sobres-equilibrio-perfecto-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
+     "foto": "fotos/a28fe6709aa672ea.jpg",
+     "preventa": false,
+     "cardmarket": 172.84,
+     "cardmarketPct": 4,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
+     "desde": "2026-10-23T12:45+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
