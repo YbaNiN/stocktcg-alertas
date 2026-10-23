@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T17:35:07",
+ "actualizado": "2026-10-23T17:40:25",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -64,6 +64,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-10-14T14:10+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Lata 4 Sobres Pokemon Fuegos Fantasmales Español",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 38.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/lata-juego-cartas-coleccionables-spring-ex-pokemon-espanol-89368.html",
+     "img": "https://pidopop.com/1065592-large_default/lata-juego-cartas-coleccionables-spring-ex-pokemon-espanol.jpg",
+     "foto": "fotos/a981ab35d21e1b60.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--tin",
+     "desde": "2026-10-23T17:40+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
