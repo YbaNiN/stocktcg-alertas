@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T12:44:28",
+ "actualizado": "2026-10-23T13:29:15",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5075,27 +5075,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 80.39,
-     "moneda": "EUR",
-     "tienda": "Carrefour",
-     "idioma": "es",
-     "url": "https://www.carrefour.es/pokemon-megaevolucion-oscuridad-absoluta-caja-de-entrenador-elite-6-anos/VC4A-34198433/p",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 69.12,
-     "cardmarketPct": 16,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -5110,6 +5089,27 @@
      "preventa": false,
      "cardmarket": 69.12,
      "cardmarketPct": 30,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 91.4,
+     "moneda": "EUR",
+     "tienda": "Carrefour",
+     "idioma": "es",
+     "url": "https://www.carrefour.es/pokemon-megaevolucion-oscuridad-absoluta-caja-de-entrenador-elite-6-anos/VC4A-34198433/p",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 69.12,
+     "cardmarketPct": 32,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
