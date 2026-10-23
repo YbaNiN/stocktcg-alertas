@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T21:19:16",
+ "actualizado": "2026-10-23T21:24:10",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1637,27 +1637,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokémon - Booster Bundle 30th Celebration (ESP)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 54.95,
-     "moneda": "EUR",
-     "tienda": "GranCards",
-     "idioma": "es",
-     "url": "https://grancards.com/products/pokemon-booster-bundle-30th-celebration",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 67.83,
-     "cardmarketPct": -19,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-10-23T21:20+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Pokémon TCG 30.º Aniversario Booster Bundle – (ES)",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -1677,6 +1656,27 @@
      "desde": "2026-10-17T13:15+02:00",
      "precioAntes": 64.95,
      "bajadaDesde": "2026-10-18T08:15+02:00"
+    },
+    {
+     "titulo": "Pokémon - Booster Bundle 30th Celebration (ESP)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 59.95,
+     "moneda": "EUR",
+     "tienda": "GranCards",
+     "idioma": "es",
+     "url": "https://grancards.com/products/pokemon-booster-bundle-30th-celebration",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 67.83,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-10-23T21:20+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "Pokemon Celebración 30 Aniversario – Lote de Sobres de Mejora (6)",
