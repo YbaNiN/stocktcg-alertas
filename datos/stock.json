@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T13:29:15",
+ "actualizado": "2026-10-23T14:24:38",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1061,6 +1061,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Heroes Ascendentes Booster Bundle",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/heroes-ascendentes-booster-bundle/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_400x400.jpg",
+     "foto": "fotos/e15177c559cd820c.jpg",
+     "preventa": false,
+     "cardmarket": 72.75,
+     "cardmarketPct": -4,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
+     "desde": "2026-10-23T14:25+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
