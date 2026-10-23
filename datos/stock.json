@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T23:18:53",
+ "actualizado": "2026-10-24T00:04:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2125,27 +2125,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box Chaos Rising | Español | POKÉMON",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.95,
-     "moneda": "EUR",
-     "tienda": "Tsuki Center",
-     "idioma": "es",
-     "url": "https://tsukicenter.com/producto/booster-box-chaos-rising-espanol-pokemon/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_400x400.jpg",
-     "foto": "fotos/596314aad285ec6d.jpg",
-     "preventa": false,
-     "cardmarket": 179.73,
-     "cardmarketPct": 11,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "[PKM] Caja de 36 Sobres de caos creciente - Castellano",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "booster-box",
@@ -3978,27 +3957,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Perfect Order | Español | POKÉMON",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.99,
-     "moneda": "EUR",
-     "tienda": "Tsuki Center",
-     "idioma": "es",
-     "url": "https://tsukicenter.com/producto/etb-perfect-order-espanol-pokemon/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 58.61,
-     "cardmarketPct": 11,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "[PKM] Caja de entrenador élite Pokémon ETB - Equilibrio perfecto (Castellano)",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
@@ -4445,27 +4403,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box Oscuridad Absoluta | Español | POKÉMON",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.95,
-     "moneda": "EUR",
-     "tienda": "Tsuki Center",
-     "idioma": "es",
-     "url": "https://tsukicenter.com/producto/booster-box-oscuridad-absoluta-espanol-pokemon/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
-     "foto": "fotos/2d95d5c132a0c8f0.jpg",
-     "preventa": false,
-     "cardmarket": 181.49,
-     "cardmarketPct": 10,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Booster Box Sellada – Oscuridad Absoluta – ESPAÑOL",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "booster-box",
@@ -4840,27 +4777,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": "2026-10-21T02:10+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Oscuridad Absoluta | Español | POKÉMON",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.95,
-     "moneda": "EUR",
-     "tienda": "Tsuki Center",
-     "idioma": "es",
-     "url": "https://tsukicenter.com/producto/etb-oscuridad-absoluta-espanol-pokemon/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 69.12,
-     "cardmarketPct": -6,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
