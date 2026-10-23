@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T22:48:15",
+ "actualizado": "2026-10-23T04:48:15",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -533,23 +533,6 @@
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
    "lanzamiento": "30-aniversario-oleada-4",
    "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "Mini Lata - 30 Celebración ESPAÑOL",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "mini-tin",
-   "tipoNombre": "Mini Tin",
-   "precio": 15.95,
-   "moneda": "EUR",
-   "tienda": "CanaryPop",
-   "idioma": "es",
-   "url": "https://canarypop.es/products/mini-tins-30-celebracion-espanol",
-   "img": "https://tcgplayer-cdn.tcgplayer.com/product/704186_in_400x400.jpg",
-   "foto": "fotos/bfcc5b3249610bf5.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
-   "lanzamiento": null,
-   "fecha": null
   },
   {
    "titulo": "Pokémon TCG 30.º Aniversario - Mini Tin Coleccionable (ES)",
