@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T21:24:10",
+ "actualizado": "2026-10-23T22:58:14",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1354,27 +1354,6 @@
      "cardmarketPct": null,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--mini-tin-display",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Mini Tin Héroes Ascendentes",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "mini-tin",
-     "tipoNombre": "Mini Tin",
-     "precio": 22.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/mini-tins-heroes-ascendentes/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668530_in_400x400.jpg",
-     "foto": "fotos/05b1b0b8c754c39d.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--mini-tin",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
