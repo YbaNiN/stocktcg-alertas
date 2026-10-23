@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T04:48:15",
+ "actualizado": "2026-10-23T19:32:51",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -370,6 +370,36 @@
      "url": "https://epicdeck.es/products/pokemon-celebracion-30th-aniversario-mini-latas",
      "img": "https://cdn.shopify.com/s/files/1/0942/3509/9523/files/0196214159082_11.jpg?v=1791507818&width=400",
      "foto": "fotos/14241726fd0d791f.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "30 Aniversario Greninja ex Tin",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 44.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/pokemon-30th-celebration-greninja-ex-tin/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-lata-greninja-scaled.png",
+     "foto": "fotos/5ddb1c510bda1e05.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "30 Aniversario Sylveon ex Tin",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 44.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/pokemon-30th-celebration-sylveon-ex-tin/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-lata-sylveon-scaled.png",
+     "foto": "fotos/9eae4f5a9dc3e937.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
