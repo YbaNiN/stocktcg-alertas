@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T10:45:13",
+ "actualizado": "2026-10-24T11:09:52",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5904,27 +5904,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Rivales Predestinados Caja 36 - ESPAÑOL",
-     "coleccion": "Destined Rivals",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.9,
-     "moneda": "EUR",
-     "tienda": "Elite Store TCG",
-     "idioma": "es",
-     "url": "https://elitestoretcg.com/products/rivales-predestinados-caja-36-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
-     "foto": "fotos/fe01e654f615e5f0.jpg",
-     "preventa": false,
-     "cardmarket": 298.55,
-     "cardmarketPct": -33,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Rivales Predestinados Caja Sobres",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
@@ -5955,6 +5934,27 @@
      "tienda": "Mythic Card TCG",
      "idioma": "es",
      "url": "https://mythocardtcg.com/escartala-y-purpura-/34-booster-box-36-sobres-rivales-predestinados.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
+     "foto": "fotos/fe01e654f615e5f0.jpg",
+     "preventa": false,
+     "cardmarket": 298.55,
+     "cardmarketPct": -33,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Rivales Predestinados Caja 36 - ESPAÑOL",
+     "coleccion": "Destined Rivals",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "Elite Store TCG",
+     "idioma": "es",
+     "url": "https://elitestoretcg.com/products/rivales-predestinados-caja-36-espanol",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
      "foto": "fotos/fe01e654f615e5f0.jpg",
      "preventa": false,
