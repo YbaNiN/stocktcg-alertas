@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T09:14:39",
+ "actualizado": "2026-10-24T10:45:13",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4445,6 +4445,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Oscuridad Absoluta ETB - ESPAÑOL",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 56.95,
+     "moneda": "EUR",
+     "tienda": "Elite Store TCG",
+     "idioma": "es",
+     "url": "https://elitestoretcg.com/products/oscuridad-absoluta-etb-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 69.12,
+     "cardmarketPct": -18,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Elite Trainer Box Oscuridad Absoluta",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -4475,27 +4496,6 @@
      "tienda": "Cards Hunters",
      "idioma": "es",
      "url": "https://cardshunters.es/products/etb-oscuridad-absoluto",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 69.12,
-     "cardmarketPct": -16,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Oscuridad Absoluta ETB - ESPAÑOL",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 57.95,
-     "moneda": "EUR",
-     "tienda": "Elite Store TCG",
-     "idioma": "es",
-     "url": "https://elitestoretcg.com/products/oscuridad-absoluta-etb-espanol",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
      "foto": "fotos/0a158a6c5402619f.jpg",
      "preventa": false,
