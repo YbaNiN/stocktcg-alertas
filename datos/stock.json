@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T17:32:47",
+ "actualizado": "2026-10-24T18:56:11",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3621,27 +3621,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Equilibrio Perfecto (ESP)",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 56.99,
-     "moneda": "EUR",
-     "tienda": "ElBazarTCG",
-     "idioma": "es",
-     "url": "https://elbazartcg.com/products/etb-equilibrio-perfecto",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 58.14,
-     "cardmarketPct": -2,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ETB Equilibrio Perfecto | Elite Trainer Box | POKÉMON | Español — x1 unidad",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
@@ -3777,6 +3756,27 @@
      "tienda": "Pokewoke",
      "idioma": "es",
      "url": "https://pokewoke.store/comprar/1-etb-heroes-ascendentes-espanol-cartas-pokemon-originales-tcg-2/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 58.14,
+     "cardmarketPct": 3,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Equilibrio Perfecto (ESP)",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 59.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/etb-equilibrio-perfecto",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
      "foto": "fotos/6cb54c5c3b7d16c3.jpg",
      "preventa": false,
