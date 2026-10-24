@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T15:45:17",
+ "actualizado": "2026-10-24T15:47:35",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -829,27 +829,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Mini Tins Evoluciones Prismáticas",
-     "coleccion": "Prismatic Evolutions",
-     "tipo": "mini-tin",
-     "tipoNombre": "Mini Tin",
-     "precio": 25.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/mini-tins-evoluciones-prismaticas/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/593455_in_400x400.jpg",
-     "foto": "fotos/dde7990bafc5252c.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--mini-tin",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Mini Latas Pokémon Prismatic Evolutions y Evoluciones Prismáticas — Español / Flareon",
      "coleccion": "Prismatic Evolutions",
      "tipo": "mini-tin",
@@ -943,6 +922,27 @@
      "tienda": "Kame House Cards",
      "idioma": "es",
      "url": "https://kamehousecards.com/products/mini-latas-pokemon-prismatic-evolutions-y-evoluciones-prismaticas?variant=51872562970962",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/593455_in_400x400.jpg",
+     "foto": "fotos/dde7990bafc5252c.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--mini-tin",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Mini Tin Evoluciones Prismáticas",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "mini-tin",
+     "tipoNombre": "Mini Tin",
+     "precio": 28.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/mini-tins-evoluciones-prismaticas/",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/593455_in_400x400.jpg",
      "foto": "fotos/dde7990bafc5252c.jpg",
      "preventa": false,
