@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T00:04:53",
+ "actualizado": "2026-10-24T17:25:00",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -164,21 +164,6 @@
      "img": "https://cdn.shopify.com/s/files/1/0965/4019/7241/files/tcg-pokemon-umbreon-espeon-japones-30-aniversario.webp?v=1791475101&width=400",
      "foto": "fotos/49096136ae73aeb4.jpg",
      "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
-     "titulo": "Colección Ultra Premium - 30th Anniversary [ENG] — Espeon",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 459.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/coleccion-ultra-premium-30th-anniversary-eng?variant=54349822230875",
-     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/upc_30aniv_espeon.webp?v=1791922124&width=400",
-     "foto": "fotos/c6cd5a7e32b34ea4.jpg",
-     "preventa": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     }
    ]
@@ -550,23 +535,6 @@
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "Colección Ultra Premium - 30th Anniversary [ENG] — Espeon",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "premium-collection",
-   "tipoNombre": "Premium Collection",
-   "precio": 459.95,
-   "moneda": "EUR",
-   "tienda": "AllInTCG",
-   "idioma": "es",
-   "url": "https://allintcg.com/products/coleccion-ultra-premium-30th-anniversary-eng?variant=54349822230875",
-   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/upc_30aniv_espeon.webp?v=1791922124&width=400",
-   "foto": "fotos/c6cd5a7e32b34ea4.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
-   "lanzamiento": "30-aniversario-oleada-4",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Lumiose City Mini Tin (Español) — Tin aleatoria",
