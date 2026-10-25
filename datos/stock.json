@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T17:00:03",
+ "actualizado": "2026-10-25T17:18:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4231,6 +4231,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja 36 Sobres Oscuridad Absoluta | Pitch Black — Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/caja-36-sobres-oscuridad-absoluta-pitch-black?variant=54451714752835",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
+     "foto": "fotos/2d95d5c132a0c8f0.jpg",
+     "preventa": false,
+     "cardmarket": 178.05,
+     "cardmarketPct": 7,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+     "desde": "2026-10-25T17:20+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
