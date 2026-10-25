@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T09:08:24",
+ "actualizado": "2026-10-25T09:23:58",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3982,7 +3982,7 @@
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 97.44,
+     "precio": 97.38,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -3991,7 +3991,7 @@
      "foto": "fotos/6cb54c5c3b7d16c3.jpg",
      "preventa": false,
      "cardmarket": 58.14,
-     "cardmarketPct": 68,
+     "cardmarketPct": 67,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
