@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T17:33:38",
+ "actualizado": "2026-10-25T17:43:39",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5080,6 +5080,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Caja de 36 Sobres Juntos de Aventuras ESPAÑOL - Pokémon TCG",
+     "coleccion": "Journey Together",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 164.95,
+     "moneda": "EUR",
+     "tienda": "Cartas Mencey",
+     "idioma": "es",
+     "url": "https://cartasmencey.es/products/reprint-caja-de-36-sobres-juntos-de-aventuras-espanol-pokemon-tcg",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
+     "foto": "fotos/9505a0d4ee21e438.jpg",
+     "preventa": false,
+     "cardmarket": 186.53,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Juntos de Aventuras Caja 36",
      "coleccion": "Journey Together",
      "tipo": "booster-box",
@@ -5152,27 +5173,6 @@
      "tienda": "Elite Store TCG",
      "idioma": "es",
      "url": "https://elitestoretcg.com/products/juntos-de-aventuras-caja-36-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
-     "foto": "fotos/9505a0d4ee21e438.jpg",
-     "preventa": false,
-     "cardmarket": 186.53,
-     "cardmarketPct": -9,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja de 36 Sobres Juntos de Aventuras ESPAÑOL - Pokémon TCG",
-     "coleccion": "Journey Together",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 169.95,
-     "moneda": "EUR",
-     "tienda": "Cartas Mencey",
-     "idioma": "es",
-     "url": "https://cartasmencey.es/products/reprint-caja-de-36-sobres-juntos-de-aventuras-espanol-pokemon-tcg",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
      "foto": "fotos/9505a0d4ee21e438.jpg",
      "preventa": false,
