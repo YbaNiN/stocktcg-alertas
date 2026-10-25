@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T17:00:03",
+ "actualizado": "2026-10-25T17:58:32",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -501,6 +501,40 @@
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
    "lanzamiento": "30-aniversario-oleada-4",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "30th Celebration Espeon Battle Deck Celebraciones 30 Aniversario — Español",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "deck",
+   "tipoNombre": "Deck",
+   "precio": 49.9,
+   "moneda": "EUR",
+   "tienda": "Pokemillon",
+   "idioma": "es",
+   "url": "https://pokemillon.com/products/30th-celebration-espeon-battle-deck-celebraciones-30-aniversario?variant=54597580095811",
+   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Battle_Deck_Espeon_ex_EN-copy-scaled.jpg?v=1782840627&width=400",
+   "foto": "fotos/1e46e9966d731743.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "30th Celebration Umbreon Battle Deck Celebraciones 30 Aniversario — Español",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "deck",
+   "tipoNombre": "Deck",
+   "precio": 54.9,
+   "moneda": "EUR",
+   "tienda": "Pokemillon",
+   "idioma": "es",
+   "url": "https://pokemillon.com/products/30th-celebration-umbreon-battle-deck-celebraciones-30-aniversario-1?variant=54908753772867",
+   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/895563.png?v=1791924700&width=400",
+   "foto": "fotos/dfd3299a2039a1e1.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon TCG 30.º Aniversario - Mini Tin Coleccionable (ES)",
