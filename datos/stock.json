@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T11:29:37",
+ "actualizado": "2026-10-26T11:34:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3491,6 +3491,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "POKEMON - ETB Equilibrio Perfecto - Español",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 55.0,
+     "moneda": "EUR",
+     "tienda": "Factory Cards",
+     "idioma": "es",
+     "url": "https://factorycardstcg.com/products/pokemon-caja-de-enrenador-elite-etb-orden-perfecto-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 59.06,
+     "cardmarketPct": -7,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": "2026-10-26T11:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
