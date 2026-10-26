@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T15:48:40",
+ "actualizado": "2026-10-26T18:34:34",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -35,7 +35,38 @@
    "fechaConfirmada": true,
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
-   "ofertas": []
+   "ofertas": [
+    {
+     "titulo": "Pokémon 30 Aniversario – Baraja Combate Espeon EX –",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 60.0,
+     "moneda": "EUR",
+     "tienda": "Homelands",
+     "idioma": "es",
+     "url": "https://www.homelands.es/producto/pokemon-30-aniversario-baraja-combate-espeon-ex-%f0%9f%87%aa%f0%9f%87%b8/",
+     "img": "https://www.homelands.es/wp-content/uploads/2026/10/BARAJA-COMBATE-CELEBRACION-4.jpg",
+     "foto": "fotos/9f3aec9f842a388a.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
+    {
+     "titulo": "Pokémon 30 Aniversario – Baraja Combate Umbreon EX –",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 60.0,
+     "moneda": "EUR",
+     "tienda": "Homelands",
+     "idioma": "es",
+     "url": "https://www.homelands.es/producto/pokemon-30-aniversario-baraja-combate-umbreon-ex-%f0%9f%87%aa%f0%9f%87%b8/",
+     "img": "https://www.homelands.es/wp-content/uploads/2026/10/BARAJA-COMBATE-CELEBRACION-2.jpg",
+     "foto": "fotos/f5037a6cd741cee1.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    }
+   ]
   },
   {
    "slug": "30-aniversario-oleada-4",
@@ -387,6 +418,21 @@
      "foto": "fotos/4b0d0d6278132f91.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "Binder Collection Trainer Box Celebración 30° Aniversario — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "trainer-collection",
+     "tipoNombre": "Trainer Collection",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/elite-trainer-box-celebracion-30-aniversario-copia?variant=54811151434066",
+     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/rn-image_picker_lib_temp_193f6833-9813-420d-a15c-929930e9bdb8.png?v=1790143085&width=400",
+     "foto": "fotos/2b11bad12b2130f0.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--trainer-collection"
     },
     {
      "titulo": "Lata 4 Sobres Pokemon 30 Aniversario Sylveon EX Y Greninja EX Sorpresa Espanol",
