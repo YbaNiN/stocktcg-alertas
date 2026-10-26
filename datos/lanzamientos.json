@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T13:33:39",
+ "actualizado": "2026-10-26T15:48:40",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -281,21 +281,6 @@
      "foto": "fotos/ecb93ae15d170072.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--build-battle"
-    },
-    {
-     "titulo": "ETB Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.png",
-     "foto": "fotos/86ca565bbb4d8422.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
      "titulo": "Booster Box Reinado Delta",
