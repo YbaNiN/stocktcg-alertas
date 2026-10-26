@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T17:39:04",
+ "actualizado": "2026-10-26T18:29:03",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6119,7 +6119,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box – Llamas Obsidianas",
+     "titulo": "Llamas Obsidianas Booster Box Español | BimbaCards",
      "coleccion": "Obsidian Flames",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -6127,7 +6127,7 @@
      "moneda": "EUR",
      "tienda": "BimbaCards",
      "idioma": "es",
-     "url": "https://bimbacards.com/product/llamas-obsidianas-pokemon-tcg/",
+     "url": "https://bimbacards.com/product/llamas-obsidianas-booster-box-espanol/",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
      "foto": "fotos/1ae5b73e408870a6.jpg",
      "preventa": false,
@@ -6135,7 +6135,7 @@
      "cardmarketPct": -4,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
-     "desde": null,
+     "desde": "2026-10-26T18:30+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
