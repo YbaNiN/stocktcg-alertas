@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T00:10+01:00",
+ "actualizado": "2026-10-26T20:45+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -325,19 +325,6 @@
    "foto": "fotos/94a2442d01b76678.jpg",
    "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
    "filtro": null
-  },
-  {
-   "titulo": "Colección con Póster Prémium Mega-Gardevoir: Héroes Ascendentes",
-   "coleccion": "Ascended Heroes / Héroes Ascendentes",
-   "tipo": "premium-collection",
-   "tipoNombre": "Premium Collection",
-   "precio": 56.99,
-   "idioma": "es",
-   "url": "https://www.amazon.es/dp/B0FX19JX78?tag=ikerjimenezcl-21",
-   "img": "https://m.media-amazon.com/images/I/91w4okXtL-L._AC_SL500_.jpg",
-   "foto": "fotos/965af923a181059f.jpg",
-   "stocktcg": "https://stocktcg.net/p/ascended-heroes--premium-collection",
-   "filtro": "Héroes Ascendentes"
   },
   {
    "titulo": "Minilata Megaevolución-Héroes Ascendentes: Riolu y Darumaka",
