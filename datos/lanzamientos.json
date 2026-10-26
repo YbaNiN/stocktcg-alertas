@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T12:34:42",
+ "actualizado": "2026-10-26T12:45:07",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -494,23 +494,6 @@
    "foto": "fotos/ad0e7cf022b19a6e.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-pack",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Reserva Megaevolucion 4 Caos Creciente Me04 Caja De Entrenador De Elite Espanol Pokemon",
-   "coleccion": "Chaos Rising / Caos Creciente",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 69.99,
-   "moneda": "EUR",
-   "tienda": "Padis Store",
-   "idioma": "es",
-   "url": "https://www.padis-store.com/43076-reserva-megaevolucion-4-caos-creciente-me04-caja-de-entrenador-de-elite-espanol-pokemon.html",
-   "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-   "foto": "fotos/e6d5c1e6ca551409.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
    "lanzamiento": null,
    "fecha": null
   },
