@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T18:34:34",
+ "actualizado": "2026-10-26T19:04:48",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -902,6 +902,23 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokémon TCG — Blister 2 pack Evee | (Español)",
+   "coleccion": "Otros",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 14.98,
+   "moneda": "EUR",
+   "tienda": "JJCollection",
+   "idioma": "es",
+   "url": "https://jjcollection.es/products/pokemon-tcg-blister-2-pack-evee-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/12-Photoroom_1.png?v=1793037174&width=400",
+   "foto": "fotos/88c664bac50fcce0.jpg",
+   "preventa": true,
+   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
