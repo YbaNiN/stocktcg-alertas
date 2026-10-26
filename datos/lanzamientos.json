@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T00:33:55",
+ "actualizado": "2026-10-26T10:14:02",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -311,21 +311,6 @@
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-booster-scaled.png",
      "foto": "fotos/62ba72777116776a.jpg",
      "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 219.95,
-     "moneda": "EUR",
-     "tienda": "Pokezilla",
-     "idioma": "es",
-     "url": "https://pokezilla.com/products/mega-evolution-delta-reign-booster-box-36-packs?variant=44010725179482",
-     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-box-36-booster-packs.webp?v=1788519847&width=400",
-     "foto": "fotos/e755b9cddcc19bb0.jpg",
-     "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     }
    ]
@@ -685,23 +670,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 219.95,
-   "moneda": "EUR",
-   "tienda": "Pokezilla",
-   "idioma": "es",
-   "url": "https://pokezilla.com/products/mega-evolution-delta-reign-booster-box-36-packs?variant=44010725179482",
-   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-box-36-booster-packs.webp?v=1788519847&width=400",
-   "foto": "fotos/e755b9cddcc19bb0.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokemon TCG – Lata Mega Darkrai EX – ESPAÑOL [RESERVA]",
