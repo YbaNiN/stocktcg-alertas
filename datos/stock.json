@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T19:04:48",
+ "actualizado": "2026-10-26T19:13:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1637,6 +1637,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Pokémon TCG. 30th Celebration. Booster Bundle (6)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Júpiter Juegos",
+     "idioma": "es",
+     "url": "https://jupiterjuegos.com/producto/pokemon-tcg-30th-celebration-booster-bundle-6/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 66.29,
+     "cardmarketPct": 6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-10-26T19:05+01:00",
+     "precioAntes": 119.95,
+     "bajadaDesde": "2026-10-26T19:15+01:00"
+    },
+    {
      "titulo": "Pokémon TCG 30th Celebration Booster Bundle Español (6 Sobres) Original Sellado",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -1677,27 +1698,6 @@
      "desde": null,
      "precioAntes": 88.95,
      "bajadaDesde": "2026-10-21T13:20+02:00"
-    },
-    {
-     "titulo": "Pokémon TCG. 30th Celebration. Booster Bundle (6)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 119.95,
-     "moneda": "EUR",
-     "tienda": "Júpiter Juegos",
-     "idioma": "es",
-     "url": "https://jupiterjuegos.com/producto/pokemon-tcg-30th-celebration-booster-bundle-6/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 66.29,
-     "cardmarketPct": 81,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-10-26T19:05+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     }
    ]
   },
@@ -3919,7 +3919,7 @@
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 97.65,
+     "precio": 96.82,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -3928,7 +3928,7 @@
      "foto": "fotos/6cb54c5c3b7d16c3.jpg",
      "preventa": false,
      "cardmarket": 59.49,
-     "cardmarketPct": 64,
+     "cardmarketPct": 63,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
