@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T19:18:54",
+ "actualizado": "2026-10-26T19:35:26",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -560,7 +560,7 @@
      "coleccion": "Prismatic Evolutions",
      "tipo": "ultra-premium-collection",
      "tipoNombre": "Ultra Premium Collection",
-     "precio": 299.0,
+     "precio": 290.0,
      "moneda": "EUR",
      "tienda": "Kame House Cards",
      "idioma": "es",
@@ -569,7 +569,7 @@
      "foto": "fotos/26394aeaba23de96.jpg",
      "preventa": false,
      "cardmarket": 200.38,
-     "cardmarketPct": 49,
+     "cardmarketPct": 45,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
      "desde": null,
