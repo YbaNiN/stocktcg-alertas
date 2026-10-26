@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T20:38:46",
+ "actualizado": "2026-10-26T21:12:43",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -855,6 +855,23 @@
    "fecha": null
   },
   {
+   "titulo": "RESERVA Booster Box Llamas obsidianas ENVIO FINAL NOVIEMBRE",
+   "coleccion": "Obsidian Flames",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 179.9,
+   "moneda": "EUR",
+   "tienda": "La Nave TCG",
+   "idioma": "es",
+   "url": "https://lanavetcg.com/products/reserva-booster-box-llamas-obsidianas-envio-final-noviembre",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
+   "foto": "fotos/1ae5b73e408870a6.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "Blister Premium 3 Sobres – Binacle – Oscuridad Absoluta – ESPAÑOL",
    "coleccion": "Pitch Black / Oscuridad Absoluta",
    "tipo": "blister",
@@ -902,6 +919,23 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "RESERVA Booster Box Evoluciones en paldea ENVIO FINAL NOVIEMBRE",
+   "coleccion": "Paldea Evolved",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 179.9,
+   "moneda": "EUR",
+   "tienda": "La Nave TCG",
+   "idioma": "es",
+   "url": "https://lanavetcg.com/products/reserva-booster-box-evoluciones-en-paldea-envio-final-noviembre",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/493975_in_400x400.jpg",
+   "foto": "fotos/079e0b7a61b6912d.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/paldea-evolved--booster-box",
    "lanzamiento": null,
    "fecha": null
   },

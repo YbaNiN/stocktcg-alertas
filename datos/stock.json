@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T20:38:46",
+ "actualizado": "2026-10-26T21:12:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6055,6 +6055,27 @@
   {
    "nombre": "Llamas Obsidianas",
    "productos": [
+    {
+     "titulo": "RESERVA Booster Box Llamas obsidianas ENVIO FINAL NOVIEMBRE",
+     "coleccion": "Obsidian Flames",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 179.9,
+     "moneda": "EUR",
+     "tienda": "La Nave TCG",
+     "idioma": "es",
+     "url": "https://lanavetcg.com/products/reserva-booster-box-llamas-obsidianas-envio-final-noviembre",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
+     "foto": "fotos/1ae5b73e408870a6.jpg",
+     "preventa": true,
+     "cardmarket": 223.38,
+     "cardmarketPct": -19,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
+     "desde": "2026-10-26T21:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
     {
      "titulo": "Llamas Obsidianas Caja 36",
      "coleccion": "Obsidian Flames",
