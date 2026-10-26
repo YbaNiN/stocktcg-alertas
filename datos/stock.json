@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T19:13:23",
+ "actualizado": "2026-10-26T19:18:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6102,7 +6102,7 @@
      "coleccion": "Obsidian Flames",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
-     "precio": 189.95,
+     "precio": 184.95,
      "moneda": "EUR",
      "tienda": "Kame House Cards",
      "idioma": "es",
@@ -6111,7 +6111,7 @@
      "foto": "fotos/1ae5b73e408870a6.jpg",
      "preventa": false,
      "cardmarket": 223.38,
-     "cardmarketPct": -15,
+     "cardmarketPct": -17,
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
      "desde": null,
