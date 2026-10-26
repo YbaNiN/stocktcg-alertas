@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T14:50:09",
+ "actualizado": "2026-10-26T15:35:25",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5122,7 +5122,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster box – Juntos de Aventuras",
+     "titulo": "Juntos de Aventuras Booster Box",
      "coleccion": "Journey Together",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -5130,7 +5130,7 @@
      "moneda": "EUR",
      "tienda": "BimbaCards",
      "idioma": "es",
-     "url": "https://bimbacards.com/product/booster-box-juntos-de-aventuras-36-sobres/",
+     "url": "https://bimbacards.com/product/juntos-de-aventuras-booster-box/",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
      "foto": "fotos/9505a0d4ee21e438.jpg",
      "preventa": false,
@@ -5138,7 +5138,7 @@
      "cardmarketPct": -6,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
-     "desde": null,
+     "desde": "2026-10-26T15:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
