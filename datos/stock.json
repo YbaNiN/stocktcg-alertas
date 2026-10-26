@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T09:53:24",
+ "actualizado": "2026-10-26T11:29:37",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1974,6 +1974,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "POKEMON - Caos Creciente - Español — Caja sobres",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 190.0,
+     "moneda": "EUR",
+     "tienda": "Factory Cards",
+     "idioma": "es",
+     "url": "https://factorycardstcg.com/products/pokemon-caos-creciente-espanol?variant=57062353961225",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_400x400.jpg",
+     "foto": "fotos/596314aad285ec6d.jpg",
+     "preventa": false,
+     "cardmarket": 185.67,
+     "cardmarketPct": 2,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
+     "desde": "2026-10-26T11:30+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -4441,6 +4462,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "POKEMON - ETB Oscuridad Absoluta - Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 59.95,
+     "moneda": "EUR",
+     "tienda": "Factory Cards",
+     "idioma": "es",
+     "url": "https://factorycardstcg.com/products/pokemon-oscuridad-absoluta-etb-caja-entrenador-pokemon",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 68.28,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-10-26T11:30+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
