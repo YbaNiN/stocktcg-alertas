@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T16:43:22",
+ "actualizado": "2026-10-26T17:13:56",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1023,27 +1023,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Bundle Pokémon Héroes Ascendentes y Ascended Heroes — Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/booster-bundle-pokemon-fuegos-fantasmales-y-phantasmal-flames-813356008?variant=53009008525650",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_400x400.jpg",
-     "foto": "fotos/e15177c559cd820c.jpg",
-     "preventa": false,
-     "cardmarket": 72.61,
-     "cardmarketPct": -4,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
-     "desde": "2026-10-19T13:05+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Caja Primeros Compañeros Serie 2 - Español",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "collection-box",
@@ -1459,27 +1438,6 @@
      "cardmarketPct": null,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-pack",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Deluxe Pin Collection Héroes Ascendentes y Ascended Heroes — Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "pin-collection",
-     "tipoNombre": "Pin Collection",
-     "precio": 54.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/victini-illustration-collection-white-flare-black-bolt-y-llama-blanca-fulgor-negro-813353003?variant=53009009541458",
-     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/rn-image_picker_lib_temp_65d012cd-55d8-4b7e-8f93-d3b744430b00.jpg?v=1774370916&width=400",
-     "foto": "fotos/abe526dcd8258682.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--pin-collection",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
