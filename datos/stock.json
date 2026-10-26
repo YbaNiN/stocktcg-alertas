@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T17:13:56",
+ "actualizado": "2026-10-26T17:39:04",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -489,6 +489,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
      "desde": "2026-10-13T16:50+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon Eevee ex SVP 174 – Carta Promocional Prismatic Evolutions SPC",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "ultra-premium-collection",
+     "tipoNombre": "Ultra Premium Collection",
+     "precio": 16.5,
+     "moneda": "EUR",
+     "tienda": "CanaryPop",
+     "idioma": "es",
+     "url": "https://canarypop.es/products/pokemon-eevee-ex-svp-174-carta-promocional-prismatic-evolutions-spc",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/622770_in_400x400.jpg",
+     "foto": "fotos/26394aeaba23de96.jpg",
+     "preventa": false,
+     "cardmarket": 200.38,
+     "cardmarketPct": -92,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
+     "desde": "2026-10-26T17:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
