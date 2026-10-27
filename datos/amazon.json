@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T20:45+01:00",
+ "actualizado": "2026-10-27T20:50+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -298,6 +298,19 @@
    "img": "https://m.media-amazon.com/images/I/81PT7Xgq3gL._AC_SL500_.jpg",
    "foto": "fotos/50c7c97d61f34d34.jpg",
    "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
+   "filtro": null
+  },
+  {
+   "titulo": "Lote de 6 Sobres de Mejora Megaevolución: Caos Creciente",
+   "coleccion": "Chaos Rising / Caos Creciente",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 29.94,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0GSSQYPK3?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81BZ1qYT8CL._AC_SL500_.jpg",
+   "foto": "fotos/bde32dcb1c959fdf.jpg",
+   "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-bundle",
    "filtro": null
   },
   {
