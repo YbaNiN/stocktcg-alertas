@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T15:48:57",
+ "actualizado": "2026-10-27T18:33:20",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -36,6 +36,36 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "30 Aniversario Battle Deck Espeon ex",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 49.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/30-aniversario-battle-deck-espeon-ex/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-battle-deck-espeon-1-scaled.png",
+     "foto": "fotos/4cda45a279f78b46.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
+    {
+     "titulo": "30 Aniversario Battle Deck Umbreon ex",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 49.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/30-aniversario-battle-deck-umbreon-ex/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-battle-deck-umbreon-scaled.png",
+     "foto": "fotos/e13d124ae117d473.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
     {
      "titulo": "Pokémon 30 Aniversario – Baraja Combate Espeon EX –",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -314,6 +344,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--build-battle"
     },
     {
+     "titulo": "Half Booster Dominio Delta | Español | POKÉMON",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 100.0,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/half-booster-dominio-delta-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-09-at-15.16.28.jpeg",
+     "foto": "fotos/1f89600170446caa.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
      "titulo": "Booster Box Reinado Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -401,6 +446,21 @@
      "url": "https://bimbacards.com/product/pokemon-30th-celebration-sylveon-ex-tin/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-lata-sylveon-scaled.png",
      "foto": "fotos/9eae4f5a9dc3e937.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "Lata 30 Aniversario Greninja | Español | POKÉMON",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 59.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/lata-30-aniversario-greninja-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/09/Llegada-estimada-a-almacen-dia-8-de-Agosto.-31.png",
+     "foto": "fotos/a916ee0596aa8aea.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
