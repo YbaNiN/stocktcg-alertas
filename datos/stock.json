@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T14:02:52",
+ "actualizado": "2026-10-27T14:09:09",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1490,27 +1490,6 @@
    "nombre": "30 Aniversario",
    "productos": [
     {
-     "titulo": "ETB POKEMON 30TH CELEBRACIONES ELITE TRAINER BOX (ESPAÑOL)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 84.9,
-     "moneda": "EUR",
-     "tienda": "SunnyStore",
-     "idioma": "es",
-     "url": "https://sunnystore.es/products/etb-pokemon-3oth-celebraciones-elite-trainer-box-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 130.7,
-     "cardmarketPct": -35,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-10-27T14:05+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "30 Aniversario ETB",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "etb",
@@ -1633,27 +1612,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "BUNDLE 30TH CELEBRACIONES BOOSTER BUNDLE POKEMON TCG (ESPAÑOL)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 45.9,
-     "moneda": "EUR",
-     "tienda": "SunnyStore",
-     "idioma": "es",
-     "url": "https://sunnystore.es/products/bundle-30th-celebraciones-booster-bundle-pokemon-tcg-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 66.29,
-     "cardmarketPct": -31,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-10-27T14:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
