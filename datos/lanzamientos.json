@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T02:28:46",
+ "actualizado": "2026-10-27T12:59:49",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -919,6 +919,40 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "RESERVA .Advanced Gift Box - Flareon",
+   "coleccion": "Otros",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 159.99,
+   "moneda": "EUR",
+   "tienda": "Poke Poke Cards",
+   "idioma": "es",
+   "url": "https://pokepokecards.com/products/advanced-gift-box-flareon",
+   "img": "https://cdn.shopify.com/s/files/1/1011/4102/1001/files/advanced-gift-box-flareon.jpg?v=1793101993&width=400",
+   "foto": "fotos/4344ef3edf6c4372.jpg",
+   "preventa": true,
+   "stocktcg": null,
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "RESERVA. Advanced Gift Box - Jolteon",
+   "coleccion": "Otros",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 159.99,
+   "moneda": "EUR",
+   "tienda": "Poke Poke Cards",
+   "idioma": "es",
+   "url": "https://pokepokecards.com/products/advanced-gift-box-jolteon",
+   "img": "https://cdn.shopify.com/s/files/1/1011/4102/1001/files/advanced-gift-box-jolteon.jpg?v=1793101932&width=400",
+   "foto": "fotos/5320b8cb162774a4.jpg",
+   "preventa": true,
+   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
