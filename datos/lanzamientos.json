@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T18:59:44",
+ "actualizado": "2026-10-27T19:20:31",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -533,23 +533,6 @@
    "tienda": "Poke Poke Cards",
    "idioma": "es",
    "url": "https://pokepokecards.com/products/151-jumbo-ch-box-promo?variant=55754118627657",
-   "img": "https://tcgplayer-cdn.tcgplayer.com/product/502006_in_400x400.jpg",
-   "foto": "fotos/3286bb8a0770d0b7.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/151--collection-box",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "RESERVA. 151 JUMBO CH BOX PROMO — 151 GENGAR PIKACHU",
-   "coleccion": "151",
-   "tipo": "collection-box",
-   "tipoNombre": "Collection Box",
-   "precio": 219.99,
-   "moneda": "EUR",
-   "tienda": "Poke Poke Cards",
-   "idioma": "es",
-   "url": "https://pokepokecards.com/products/151-jumbo-ch-box-promo?variant=55754118562121",
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/502006_in_400x400.jpg",
    "foto": "fotos/3286bb8a0770d0b7.jpg",
    "preventa": true,
