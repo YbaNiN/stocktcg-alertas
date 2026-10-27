@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T21:50+01:00",
+ "actualizado": "2026-10-27T22:50+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -505,19 +505,6 @@
    "url": "https://www.amazon.es/dp/B0GYSDGPBH?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/717zyt41kgL._AC_SL500_.jpg",
    "foto": "fotos/b4475bce94397f89.jpg",
-   "stocktcg": "https://stocktcg.net/p/lumiose-city--mini-tin",
-   "filtro": null
-  },
-  {
-   "titulo": "Minilata Ciudad Luminalia: Gallade y Goomy",
-   "coleccion": "Lumiose City / Ciudad Luminalia",
-   "tipo": "mini-tin",
-   "tipoNombre": "Mini Tin",
-   "precio": 10.99,
-   "idioma": "es",
-   "url": "https://www.amazon.es/dp/B0GYSGQ9R8?tag=ikerjimenezcl-21",
-   "img": "https://m.media-amazon.com/images/I/71fpBFK2PBL._AC_SL500_.jpg",
-   "foto": "fotos/0b7ade7b0cdcb117.jpg",
    "stocktcg": "https://stocktcg.net/p/lumiose-city--mini-tin",
    "filtro": null
   }
