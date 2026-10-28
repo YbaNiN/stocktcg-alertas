@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T08:53:56",
+ "actualizado": "2026-10-28T13:20:31",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -573,6 +573,23 @@
    "foto": "fotos/f93af3630ec07ac8.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/celebrations--premium-collection",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Ditto Premium Box Celebraciones 30 Aniversario | Celebrations 30th — Español",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 99.9,
+   "moneda": "EUR",
+   "tienda": "Pokemillon",
+   "idioma": "es",
+   "url": "https://pokemillon.com/products/ditto-premium-box-30th?variant=54196017856835",
+   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Ditto_Premium_Collection_EN-copy-scaled.jpg?v=1787737290&width=400",
+   "foto": "fotos/05877b5ccc861240.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
    "lanzamiento": null,
    "fecha": null
   },
