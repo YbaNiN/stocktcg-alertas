@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T09:18:01",
+ "actualizado": "2026-10-28T14:07:04",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5871,27 +5871,6 @@
      "preventa": false,
      "cardmarket": 186.53,
      "cardmarketPct": 16,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Booster Box Aventuras Compartidas SV9 Enhanced ESPAÑOL LATINO 36UDS",
-     "coleccion": "Journey Together",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 219.95,
-     "moneda": "EUR",
-     "tienda": "CanaryPop",
-     "idioma": "es",
-     "url": "https://canarypop.es/products/booster-box-aventuras-compartidas-sv9-enhanced-espanol-latino-36uds",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
-     "foto": "fotos/9505a0d4ee21e438.jpg",
-     "preventa": false,
-     "cardmarket": 186.53,
-     "cardmarketPct": 18,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
      "desde": null,
