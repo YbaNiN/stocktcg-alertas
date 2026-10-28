@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T22:44:12",
+ "actualizado": "2026-10-29T00:00:21",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -78,36 +78,6 @@
      "url": "https://bimbacards.com/product/30-aniversario-battle-deck-umbreon-ex/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-battle-deck-umbreon-scaled.png",
      "foto": "fotos/e13d124ae117d473.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
-    },
-    {
-     "titulo": "Pokémon 30 Aniversario – Baraja Combate Espeon EX –",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "deck",
-     "tipoNombre": "Deck",
-     "precio": 60.0,
-     "moneda": "EUR",
-     "tienda": "Homelands",
-     "idioma": "es",
-     "url": "https://www.homelands.es/producto/pokemon-30-aniversario-baraja-combate-espeon-ex-%f0%9f%87%aa%f0%9f%87%b8/",
-     "img": "https://www.homelands.es/wp-content/uploads/2026/10/BARAJA-COMBATE-CELEBRACION-4.jpg",
-     "foto": "fotos/9f3aec9f842a388a.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
-    },
-    {
-     "titulo": "Pokémon 30 Aniversario – Baraja Combate Umbreon EX –",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "deck",
-     "tipoNombre": "Deck",
-     "precio": 60.0,
-     "moneda": "EUR",
-     "tienda": "Homelands",
-     "idioma": "es",
-     "url": "https://www.homelands.es/producto/pokemon-30-aniversario-baraja-combate-umbreon-ex-%f0%9f%87%aa%f0%9f%87%b8/",
-     "img": "https://www.homelands.es/wp-content/uploads/2026/10/BARAJA-COMBATE-CELEBRACION-2.jpg",
-     "foto": "fotos/f5037a6cd741cee1.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
     }
@@ -344,36 +314,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--build-battle"
     },
     {
-     "titulo": "PreRelease Dominio Delta – Sábado 24 de Octubre",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "build-battle",
-     "tipoNombre": "Build & Battle",
-     "precio": 30.0,
-     "moneda": "EUR",
-     "tienda": "Homelands",
-     "idioma": "es",
-     "url": "https://www.homelands.es/producto/prerelease-dominio-delta-sabado-24-de-octubre/",
-     "img": "https://www.homelands.es/wp-content/uploads/2023/06/INSCRIPCION-POKEMON.webp",
-     "foto": "fotos/ecb93ae15d170072.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--build-battle"
-    },
-    {
-     "titulo": "PreRelease Dominio Delta – Viernes 23 de Octubre",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "build-battle",
-     "tipoNombre": "Build & Battle",
-     "precio": 30.0,
-     "moneda": "EUR",
-     "tienda": "Homelands",
-     "idioma": "es",
-     "url": "https://www.homelands.es/producto/prerelease-dominio-delta-viernes-23-de-octubre/",
-     "img": "https://www.homelands.es/wp-content/uploads/2023/06/INSCRIPCION-POKEMON.webp",
-     "foto": "fotos/ecb93ae15d170072.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--build-battle"
-    },
-    {
      "titulo": "ETB Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -506,21 +446,6 @@
      "url": "https://pokemillon.com/products/30th-celebration-pokemon-ex-tin?variant=54602145923395",
      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-07-01235214.png?v=1787737348&width=400",
      "foto": "fotos/2f0e32c95d36c62f.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
-    },
-    {
-     "titulo": "Pokémon 30th Anniversary – Tin EX Collection (Al azar) –",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "tin",
-     "tipoNombre": "Tin",
-     "precio": 60.0,
-     "moneda": "EUR",
-     "tienda": "Homelands",
-     "idioma": "es",
-     "url": "https://www.homelands.es/producto/pokemon-30th-tin-ex-collection-al-azar-%f0%9f%87%ac%f0%9f%87%a7/",
-     "img": "https://www.homelands.es/wp-content/uploads/2026/09/TIN-EX.webp",
-     "foto": "fotos/4b0d0d6278132f91.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
