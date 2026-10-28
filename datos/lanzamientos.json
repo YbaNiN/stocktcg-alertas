@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T22:48:50",
+ "actualizado": "2026-10-28T08:53:56",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -556,6 +556,23 @@
    "foto": "fotos/ad0e7cf022b19a6e.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-pack",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pikachu VMax Premium Collection Celebraciones | Celebrations 25th — Figura solo",
+   "coleccion": "Celebrations / Celebraciones",
+   "tipo": "premium-collection",
+   "tipoNombre": "Premium Collection",
+   "precio": 91.5,
+   "moneda": "EUR",
+   "tienda": "Pokemillon",
+   "idioma": "en,es",
+   "url": "https://pokemillon.com/products/pokemon-figura-pikachu?variant=54756124131651",
+   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/rn-image_picker_lib_temp_867bc788-b2b5-4419-bce0-680bbc190974.jpg?v=1787161942&width=400",
+   "foto": "fotos/f93af3630ec07ac8.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/celebrations--premium-collection",
    "lanzamiento": null,
    "fecha": null
   },
