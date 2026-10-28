@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T15:14:44",
+ "actualizado": "2026-10-28T15:20:18",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4865,7 +4865,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Pitch Black​ | Oscuridad Absoluta",
+     "titulo": "ETB Oscuridad Absoluta",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -6261,11 +6261,11 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Rivales Predestinados Inlgés | Destined Rivals​",
+     "titulo": "ETB Rivales Predestinados",
      "coleccion": "Destined Rivals",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 174.9,
+     "precio": 99.9,
      "moneda": "EUR",
      "tienda": "BimbaCards",
      "idioma": "es",
@@ -6274,12 +6274,12 @@
      "foto": "fotos/930ea7e3a90b7459.jpg",
      "preventa": false,
      "cardmarket": 117.24,
-     "cardmarketPct": 49,
-     "chollo": false,
+     "cardmarketPct": -15,
+     "chollo": true,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
+     "precioAntes": 174.9,
+     "bajadaDesde": "2026-10-28T15:20+01:00"
     }
    ]
   },
