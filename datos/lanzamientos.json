@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T13:20:31",
+ "actualizado": "2026-10-28T18:35:21",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -36,6 +36,21 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "Pokemon TCG: Colección 30 Aniversario – Baraja de Combate (Espeon EX/Umbreon EX) (Español)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 38.99,
+     "moneda": "EUR",
+     "tienda": "EmpireGames",
+     "idioma": "es",
+     "url": "https://www.empiregames.es/producto/pokemon-tcg-coleccion-30-aniversario-baraja-de-combate-espeon-ex-umbreon-ex-espanol",
+     "img": "https://www.empiregames.es/wp-content/uploads/2026/10/196214147317-1.jpg",
+     "foto": "fotos/0a9d814787a59655.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
     {
      "titulo": "30 Aniversario Battle Deck Espeon ex",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -107,6 +122,21 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "Ditto Premium Box Celebraciones 30 Aniversario | Celebrations 30th — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 99.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/ditto-premium-box-30th?variant=54196017856835",
+     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_30th_Celebration_Ditto_Premium_Collection_EN-copy-scaled.jpg?v=1787737290&width=400",
+     "foto": "fotos/05877b5ccc861240.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
     {
      "titulo": "Pokémon TCG: Celebración 30.º Aniversario | Figure Collection Mew V1 (Español)",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -344,6 +374,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--build-battle"
     },
     {
+     "titulo": "ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.png",
+     "foto": "fotos/86ca565bbb4d8422.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Half Booster Dominio Delta | Español | POKÉMON",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -391,8 +436,8 @@
    "tipo": "Set principal japonés (Mega Evolution)",
    "fecha": "2026-11-27",
    "fechaConfirmada": false,
-   "img": null,
-   "foto": null,
+   "img": "https://flashstore.es/wp-content/uploads/2026/10/auraseek.jpg",
+   "foto": "fotos/592caa52c2614bd3.jpg",
    "ofertas": []
   },
   {
@@ -446,6 +491,21 @@
      "url": "https://bimbacards.com/product/pokemon-30th-celebration-sylveon-ex-tin/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-lata-sylveon-scaled.png",
      "foto": "fotos/9eae4f5a9dc3e937.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "Greninja ex Tin Celebraciones 30 Aniversario | Celebrations 30th — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 49.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/30th-celebration-pokemon-ex-tin?variant=54602145923395",
+     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Capturadepantalla2026-07-01235214.png?v=1787737348&width=400",
+     "foto": "fotos/2f0e32c95d36c62f.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
@@ -590,8 +650,8 @@
    "foto": "fotos/05877b5ccc861240.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-4",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Caja Colección con Figura - 30th Anniversary [ENG] — Mewtwo",
