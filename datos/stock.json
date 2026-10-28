@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T08:48:40",
+ "actualizado": "2026-10-28T09:00:21",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2835,6 +2835,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": "2026-10-17T13:01+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Elite Trainer Box Chaos Rising",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "Darizard9",
+     "idioma": "es",
+     "url": "https://www.darizard9.com/products/elite-trainr-box-chaos",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 61.62,
+     "cardmarketPct": 14,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-10-28T09:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
