@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T06:53:56",
+ "actualizado": "2026-10-29T11:50:18",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3953,6 +3953,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador Élite Pokémon",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA200278977-juego-de-cartas-caja-de-entrenador-elite-pokemon%2F",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 59.5,
+     "cardmarketPct": 18,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": "2026-10-29T11:50+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
