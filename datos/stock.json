@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T15:08:57",
+ "actualizado": "2026-10-29T15:38:24",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2984,27 +2984,6 @@
      "preventa": false,
      "cardmarket": 175.28,
      "cardmarketPct": -32,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Perfect Order (Equilibrio perfecto ) Booster box , 36 sobres , Español",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 147.9,
-     "moneda": "EUR",
-     "tienda": "Iberian Collect",
-     "idioma": "es",
-     "url": "https://iberiancollect.com/products/perfect-order-equilibrio-perfecto-booster-box-36-sobres-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 175.28,
-     "cardmarketPct": -16,
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": null,
