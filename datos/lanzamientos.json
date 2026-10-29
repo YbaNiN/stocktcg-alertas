@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T00:08:28",
+ "actualizado": "2026-10-30T00:34:08",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -77,6 +77,36 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "30 Aniversario Colección con Figura Mew",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 64.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/30-aniversario-coleccion-figura-mew/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-mew-scaled.png",
+     "foto": "fotos/a6aa72f43223be13.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "30 Aniversario Colección con Figura Mewtwo",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 64.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/30-aniversario-coleccion-figura-mewtwo/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-mewtwo-scaled.png",
+     "foto": "fotos/89a12cc34966caa9.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
     {
      "titulo": "30 Aniversario Ditto Premium Collection",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
