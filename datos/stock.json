@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T02:39:24",
+ "actualizado": "2026-10-29T03:44:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2895,27 +2895,6 @@
      "preventa": false,
      "cardmarket": 61.77,
      "cardmarketPct": 29,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ELITE TRAINER BOX CHAOS RISING ENG",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 89.95,
-     "moneda": "EUR",
-     "tienda": "Distrito Zero",
-     "idioma": "es",
-     "url": "https://distritozero.es/producto-sellado/83182-elite-trainer-box-chaos-rising-eng-196214139954.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 61.77,
-     "cardmarketPct": 46,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
