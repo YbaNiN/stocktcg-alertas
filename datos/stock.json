@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T12:59:30",
+ "actualizado": "2026-10-29T13:04:51",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5050,6 +5050,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de entrenador Elite Oscuridad Absoluta Pokemon JCC",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA201235760-caja-de-entrenador-elite-oscuridad-absoluta-pokemon-jcc-bandai%2F",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 70.65,
+     "cardmarketPct": -1,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-10-29T13:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
