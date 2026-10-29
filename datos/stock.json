@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T19:50:27",
+ "actualizado": "2026-10-29T20:43:15",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3033,27 +3033,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box Equilibrio Perfecto | Perfect Order",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 159.9,
-     "moneda": "EUR",
-     "tienda": "TopDeck",
-     "idioma": "es",
-     "url": "https://topdeck.es/tienda-de-cartas-coleccionables/booster-box-equilibrio-perfecto-perfect-order/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 174.75,
-     "cardmarketPct": -8,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Equilibrio Perfecto Caja de Sobres",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "booster-box",
@@ -3278,6 +3257,27 @@
      "preventa": false,
      "cardmarket": 174.75,
      "cardmarketPct": 6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box Equilibrio Perfecto | Perfect Order",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.9,
+     "moneda": "EUR",
+     "tienda": "TopDeck",
+     "idioma": "es",
+     "url": "https://topdeck.es/tienda-de-cartas-coleccionables/booster-box-equilibrio-perfecto-perfect-order/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
+     "foto": "fotos/a28fe6709aa672ea.jpg",
+     "preventa": false,
+     "cardmarket": 174.75,
+     "cardmarketPct": 9,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": null,
