@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T20:23:40",
+ "actualizado": "2026-10-29T22:33:34",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -991,6 +991,23 @@
    "foto": "fotos/26394aeaba23de96.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Caja 36 Sobres Fuerzas Temporales | Temporal Forces Booster Box — Español",
+   "coleccion": "Temporal Forces",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 199.9,
+   "moneda": "EUR",
+   "tienda": "Pokemillon",
+   "idioma": "es",
+   "url": "https://pokemillon.com/products/temporal-forces-caja-sobres?variant=53498876690755",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/536225_in_400x400.jpg",
+   "foto": "fotos/47e0dc0ff51e7d9f.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/temporal-forces--booster-box",
    "lanzamiento": null,
    "fecha": null
   }
