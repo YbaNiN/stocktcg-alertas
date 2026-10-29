@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T13:50:19",
+ "actualizado": "2026-10-29T14:04:11",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1105,27 +1105,6 @@
      "desde": null,
      "precioAntes": 34.99,
      "bajadaDesde": "2026-10-23T15:50+02:00"
-    },
-    {
-     "titulo": "Caja Colección ex Megaevolucion Héroes Ascendentes JCC Pokemon",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 34.99,
-     "moneda": "EUR",
-     "tienda": "El Corte Inglés",
-     "idioma": "es",
-     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA200804713-caja-coleccion-ex-megaevolucion-heroes-ascendentes-jcc-pokemon-bandai-modelos-surtidos%2F",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
-     "foto": "fotos/60d3327244e384a3.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
-     "desde": "2026-10-29T13:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon Colección Mega-Emboar ex – Héroes Ascendentes",
@@ -3407,27 +3386,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": "2026-10-17T23:10+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pkm Mega Evolution Perfect Order Booster Display 36 En",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 200.0,
-     "moneda": "EUR",
-     "tienda": "Minas de Moria",
-     "idioma": "es",
-     "url": "https://minasdemoria.com/juegos-de-cartas-coleccionables/10022-pkm-mega-evolution-perfect-order-booster-display-36-en.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 175.28,
-     "cardmarketPct": 14,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
