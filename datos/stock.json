@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T17:30:48",
+ "actualizado": "2026-10-29T17:40:44",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -413,7 +413,7 @@
      "coleccion": "Prismatic Evolutions",
      "tipo": "booster-bundle",
      "tipoNombre": "Booster Bundle",
-     "precio": 79.9,
+     "precio": 74.9,
      "moneda": "EUR",
      "tienda": "FlashStore",
      "idioma": "es",
@@ -422,12 +422,12 @@
      "foto": "fotos/0830eaa68252f3b0.jpg",
      "preventa": false,
      "cardmarket": 75.81,
-     "cardmarketPct": 5,
+     "cardmarketPct": -1,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
      "desde": "2026-10-13T14:01+02:00",
-     "precioAntes": 84.9,
-     "bajadaDesde": "2026-10-14T00:10+02:00"
+     "precioAntes": 79.9,
+     "bajadaDesde": "2026-10-29T17:40+01:00"
     },
     {
      "titulo": "Booster Bundle Pokémon Prismatic Evolutions y Evoluciones Prismáticas — Español",
