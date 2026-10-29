@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T15:04:01",
+ "actualizado": "2026-10-29T15:08:57",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1105,27 +1105,6 @@
      "desde": null,
      "precioAntes": 34.99,
      "bajadaDesde": "2026-10-23T15:50+02:00"
-    },
-    {
-     "titulo": "Caja Colección ex Megaevolucion Héroes Ascendentes JCC Pokemon",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 34.99,
-     "moneda": "EUR",
-     "tienda": "El Corte Inglés",
-     "idioma": "es",
-     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA200804713-caja-coleccion-ex-megaevolucion-heroes-ascendentes-jcc-pokemon-bandai-modelos-surtidos%2F",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
-     "foto": "fotos/60d3327244e384a3.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
-     "desde": "2026-10-29T15:01+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon Colección Mega-Emboar ex – Héroes Ascendentes",
@@ -2629,6 +2608,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Pokémon Caos Creciente (ESPAÑOL)",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 63.9,
+     "moneda": "EUR",
+     "tienda": "Asturcards",
+     "idioma": "es",
+     "url": "https://www.asturcards.com/producto/etb-pokemon-caos-creciente-espanol/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 61.77,
+     "cardmarketPct": 3,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-10-29T15:05+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "ETB Caos Creciente",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -2730,27 +2730,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Pokémon Caos Creciente (ESPAÑOL)",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 65.0,
-     "moneda": "EUR",
-     "tienda": "Asturcards",
-     "idioma": "es",
-     "url": "https://www.asturcards.com/producto/etb-pokemon-caos-creciente-espanol/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 61.77,
-     "cardmarketPct": 5,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": "2026-10-29T15:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
