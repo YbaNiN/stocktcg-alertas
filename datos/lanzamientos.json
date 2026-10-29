@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T10:24:03",
+ "actualizado": "2026-10-29T11:30:29",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -183,6 +183,21 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
     },
     {
+     "titulo": "Celebraciones 30th Premium Set Espeon Umbreon",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 178.95,
+     "moneda": "EUR",
+     "tienda": "Otakuya",
+     "idioma": "es",
+     "url": "https://tcg.otakuya.es/products/celebraciones-30th-premium-set-espeon-umbreon",
+     "img": "https://cdn.shopify.com/s/files/1/0965/4019/7241/files/tcg-pokemon-umbreon-espeon-japones-30-aniversario.webp?v=1791475101&width=400",
+     "foto": "fotos/49096136ae73aeb4.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
      "titulo": "30th Celebration Premium Deck Set Umbreon Espeon Pokemon TCG + Protector",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "deck",
@@ -196,21 +211,6 @@
      "foto": "fotos/0dc6b8b3032fe56e.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
-    },
-    {
-     "titulo": "Celebraciones 30th Premium Set Espeon Umbreon",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 188.95,
-     "moneda": "EUR",
-     "tienda": "Otakuya",
-     "idioma": "es",
-     "url": "https://tcg.otakuya.es/products/celebraciones-30th-premium-set-espeon-umbreon",
-     "img": "https://cdn.shopify.com/s/files/1/0965/4019/7241/files/tcg-pokemon-umbreon-espeon-japones-30-aniversario.webp?v=1791475101&width=400",
-     "foto": "fotos/49096136ae73aeb4.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
      "titulo": "Colección Ultra Premium - 30th Anniversary [ENG] — Espeon",
