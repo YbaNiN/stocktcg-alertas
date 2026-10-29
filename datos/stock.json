@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T14:14:52",
+ "actualizado": "2026-10-29T14:29:52",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3407,6 +3407,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": "2026-10-17T23:10+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pkm Mega Evolution Perfect Order Booster Display 36 En",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 200.0,
+     "moneda": "EUR",
+     "tienda": "Minas de Moria",
+     "idioma": "es",
+     "url": "https://minasdemoria.com/juegos-de-cartas-coleccionables/10022-pkm-mega-evolution-perfect-order-booster-display-36-en.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
+     "foto": "fotos/a28fe6709aa672ea.jpg",
+     "preventa": false,
+     "cardmarket": 175.28,
+     "cardmarketPct": 14,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
+     "desde": "2026-10-29T14:31+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
