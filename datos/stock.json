@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T14:24:10",
+ "actualizado": "2026-10-30T14:35:04",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2604,27 +2604,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": "2026-10-18T20:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Pokémon Caos Creciente (ESPAÑOL)",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 63.9,
-     "moneda": "EUR",
-     "tienda": "Asturcards",
-     "idioma": "es",
-     "url": "https://www.asturcards.com/producto/etb-pokemon-caos-creciente-espanol/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 61.93,
-     "cardmarketPct": 3,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": "2026-10-29T15:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
