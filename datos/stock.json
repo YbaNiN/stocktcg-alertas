@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T18:08:11",
+ "actualizado": "2026-10-30T18:23:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1044,7 +1044,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Héroes Ascendentes | Ascended Heroes Pokémon",
+     "titulo": "ETB Héroes Ascendentes",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -1384,7 +1384,7 @@
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "mini-tin",
      "tipoNombre": "Mini Tin",
-     "precio": 23.9,
+     "precio": 24.9,
      "moneda": "EUR",
      "tienda": "BimbaCards",
      "idioma": "es",
