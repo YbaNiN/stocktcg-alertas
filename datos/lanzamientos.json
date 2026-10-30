@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T13:18:30",
+ "actualizado": "2026-10-30T13:49:32",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -747,23 +747,6 @@
    "foto": "fotos/e755b9cddcc19bb0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 74.95,
-   "moneda": "EUR",
-   "tienda": "Pokezilla",
-   "idioma": "es",
-   "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-pokemon-elite-trainer-box-preventa?variant=44010744840282",
-   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Delta-Reign_Elite_Trainer_Box_1.webp?v=1788519800&width=400",
-   "foto": "fotos/9332f533b5d20c8b.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": null,
    "fecha": null
   },
