@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T17:43:57",
+ "actualizado": "2026-10-30T18:08:11",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5059,27 +5059,6 @@
    "nombre": "Juntos de Aventuras",
    "productos": [
     {
-     "titulo": "CAJA POKEMON 36 SOBRES JUNTOS DE AVENTURAS - ESPAÑOL",
-     "coleccion": "Journey Together",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 164.95,
-     "moneda": "EUR",
-     "tienda": "La Tienda de las Cartas",
-     "idioma": "es",
-     "url": "https://latiendadelascartas.es/products/caja-pokemon-36-sobres-juntos-de-aventuras-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
-     "foto": "fotos/9505a0d4ee21e438.jpg",
-     "preventa": false,
-     "cardmarket": 183.63,
-     "cardmarketPct": -10,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Caja de 36 Sobres Juntos de Aventuras ESPAÑOL - Pokémon TCG",
      "coleccion": "Journey Together",
      "tipo": "booster-box",
@@ -5535,27 +5514,6 @@
      "preventa": false,
      "cardmarket": 183.63,
      "cardmarketPct": 6,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "CAJA POKEMON 36 SOBRES JUNTOS DE AVENTURAS - ESPAÑOL",
-     "coleccion": "Journey Together",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.6,
-     "moneda": "EUR",
-     "tienda": "La Tienda de las Cartas",
-     "idioma": "es",
-     "url": "https://latiendadelascartas.es/products/caja-pokemon-36-sobres-juntos-de-aventuras-espanol-es",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
-     "foto": "fotos/9505a0d4ee21e438.jpg",
-     "preventa": false,
-     "cardmarket": 183.63,
-     "cardmarketPct": 9,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
      "desde": null,
