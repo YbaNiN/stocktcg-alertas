@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T01:25:09",
+ "actualizado": "2026-10-30T01:38:44",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1233,27 +1233,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Caja Colección con Poster Premium Héroes Ascendentes",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 114.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/caja-coleccion-heroes-ascendentes/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
-     "foto": "fotos/60d3327244e384a3.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Premium Poster Collection Héroes Ascendentes y Ascended Heroes — Español / Mega Gardevoir",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "collection-box",
@@ -1284,6 +1263,27 @@
      "tienda": "Kame House Cards",
      "idioma": "es",
      "url": "https://kamehousecards.com/products/colecciones-premium-dialga-origen-v-astro-y-palkia-origen-v-astro-pokemon-813357511?variant=53009009344850",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
+     "foto": "fotos/60d3327244e384a3.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja Colección con Poster Premium Héroes Ascendentes",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 134.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/caja-coleccion-heroes-ascendentes/",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
      "foto": "fotos/60d3327244e384a3.jpg",
      "preventa": false,
