@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T01:38:44",
+ "actualizado": "2026-10-30T09:13:05",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2541,6 +2541,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "POKEMON - Caos Creciente - Español — ETB caja Entrenador Pokemon",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 60.0,
+     "moneda": "EUR",
+     "tienda": "Factory Cards",
+     "idioma": "es",
+     "url": "https://factorycardstcg.com/products/pokemon-caos-creciente-espanol?variant=57062354026761",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 61.93,
+     "cardmarketPct": -3,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-10-30T09:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
