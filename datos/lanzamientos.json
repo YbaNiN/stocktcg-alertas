@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T00:34:08",
+ "actualizado": "2026-10-30T12:33:26",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -36,6 +36,21 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "Pokémon - 30 Aniversario : ​​Baraja Umbreon EX / Espeon EX",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 39.99,
+     "moneda": "EUR",
+     "tienda": "Padis Store",
+     "idioma": "es",
+     "url": "https://www.padis-store.com/44835-2935-pokemon-30-aniversario-baraja-umbreon-ex-espeon-ex.html",
+     "img": "https://www.padis-store.com/65088-thickbox_default/pokemon-30-aniversario-baraja-umbreon-ex-espeon-ex.jpg",
+     "foto": "fotos/33230c9be26615db.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
     {
      "titulo": "30 Aniversario Battle Deck Espeon ex",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
