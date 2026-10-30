@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T18:23:53",
+ "actualizado": "2026-10-30T18:39:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -447,6 +447,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
      "desde": "2026-10-14T05:55+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Bundle Evoluciones Prismáticas",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 94.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/booster-bundle-evoluciones-prismaticas-pokemon-tcg/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/600518_in_400x400.jpg",
+     "foto": "fotos/0830eaa68252f3b0.jpg",
+     "preventa": false,
+     "cardmarket": 74.57,
+     "cardmarketPct": 27,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
+     "desde": "2026-10-30T18:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
