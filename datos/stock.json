@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T14:10:39",
+ "actualizado": "2026-10-30T14:18:51",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3100,7 +3100,7 @@
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
-     "precio": 174.99,
+     "precio": 177.99,
      "moneda": "EUR",
      "tienda": "TodoHits",
      "idioma": "es",
@@ -3109,7 +3109,7 @@
      "foto": "fotos/a28fe6709aa672ea.jpg",
      "preventa": false,
      "cardmarket": 174.75,
-     "cardmarketPct": 0,
+     "cardmarketPct": 2,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": "2026-10-18T18:45+02:00",
