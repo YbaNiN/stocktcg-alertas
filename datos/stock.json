@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T22:49:29",
+ "actualizado": "2026-10-31T23:04:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1147,27 +1147,6 @@
      "desde": null,
      "precioAntes": 34.99,
      "bajadaDesde": "2026-10-23T15:50+02:00"
-    },
-    {
-     "titulo": "Caja Colección ex Megaevolucion Héroes Ascendentes JCC Pokemon",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 34.99,
-     "moneda": "EUR",
-     "tienda": "El Corte Inglés",
-     "idioma": "es",
-     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA200804713-caja-coleccion-ex-megaevolucion-heroes-ascendentes-jcc-pokemon-bandai-modelos-surtidos%2F",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
-     "foto": "fotos/60d3327244e384a3.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
-     "desde": "2026-10-31T22:40+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon Colección Mega-Emboar ex – Héroes Ascendentes",
