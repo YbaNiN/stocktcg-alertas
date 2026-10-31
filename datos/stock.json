@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T13:29:41",
+ "actualizado": "2026-10-31T13:35:03",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5050,6 +5050,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": "2026-10-18T20:01+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Oscuridad Absoluta | Élite Pitch Black — Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 89.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/etb-pitch-black?variant=54451707707715",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 69.04,
+     "cardmarketPct": 30,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-10-31T13:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
