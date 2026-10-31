@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T13:03:12",
+ "actualizado": "2026-10-31T13:29:41",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2377,27 +2377,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Caja de Entrenador Élite Caos Creciente | Español",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 59.9,
-     "moneda": "EUR",
-     "tienda": "Dark Vault",
-     "idioma": "es",
-     "url": "https://darkvault.es/products/reserva-caja-de-entrenador-elite-caos-creciente-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 61.58,
-     "cardmarketPct": -3,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Pokémon TCG Elite Trainer Box ETB Caos Creciente - Español",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -2659,6 +2638,27 @@
      "tienda": "BimbaCards",
      "idioma": "es",
      "url": "https://bimbacards.com/product/etb-caos-creciente/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 61.58,
+     "cardmarketPct": 5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador Élite Caos Creciente | Español",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.9,
+     "moneda": "EUR",
+     "tienda": "Dark Vault",
+     "idioma": "es",
+     "url": "https://darkvault.es/products/reserva-caja-de-entrenador-elite-caos-creciente-espanol",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
      "foto": "fotos/e6d5c1e6ca551409.jpg",
      "preventa": false,
