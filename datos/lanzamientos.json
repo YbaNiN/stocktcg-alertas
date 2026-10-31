@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T13:35:03",
+ "actualizado": "2026-10-31T14:19:45",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -35,23 +35,7 @@
    "fechaConfirmada": true,
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
-   "ofertas": [
-    {
-     "titulo": "30 Aniversario Battle Deck Espeon ex",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "deck",
-     "tipoNombre": "Deck",
-     "precio": 49.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/30-aniversario-battle-deck-espeon-ex/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-battle-deck-espeon-1-scaled.png",
-     "foto": "fotos/4cda45a279f78b46.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
-    }
-   ]
+   "ofertas": []
   },
   {
    "slug": "30-aniversario-oleada-4",
