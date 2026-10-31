@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T14:19:45",
+ "actualizado": "2026-10-31T19:55:25",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -656,6 +656,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "Pokémon - First Partner Serie III (Reserva)",
+   "coleccion": "First Partner",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 29.9,
+   "moneda": "EUR",
+   "tienda": "Solo Hits",
+   "idioma": "es",
+   "url": "https://solohits.es/products/pokemon-first-partner-serie-iii-reserva",
+   "img": "https://cdn.shopify.com/s/files/1/0827/7537/6217/files/primercompaneroseries3.png?v=1785855404&width=400",
+   "foto": "fotos/e172b23785884e65.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/first-partner--blister",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokemon TCG – Lata Mega Darkrai EX – ESPAÑOL [RESERVA]",
