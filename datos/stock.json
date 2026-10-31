@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T08:34:12",
+ "actualizado": "2026-10-31T08:39:09",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1654,6 +1654,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Bundle Celebración 30 Aniversario ESPAÑOL - Pokémon TCG",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 49.95,
+     "moneda": "EUR",
+     "tienda": "Cartas Mencey",
+     "idioma": "es",
+     "url": "https://cartasmencey.es/products/booster-bundle-celebracion-30-aniversario-espanol-pokemon-tcg",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 63.95,
+     "cardmarketPct": -22,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-10-31T08:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
