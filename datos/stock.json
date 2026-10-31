@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T01:11:13",
+ "actualizado": "2026-10-31T07:18:39",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2793,6 +2793,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": "2026-10-17T13:01+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja Elite Megaevolucion Caos Creciente JCC Pokémon",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA200804706-caja-elite-megaevolucion-caos-creciente-jcc-pokemon-bandai%2F",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 61.58,
+     "cardmarketPct": 14,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-10-31T07:20+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
