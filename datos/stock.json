@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T21:33:53",
+ "actualizado": "2026-11-01T21:59:07",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9,7 +9,7 @@
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 89.99,
+     "precio": 86.99,
      "moneda": "EUR",
      "tienda": "Monsters Collectors",
      "idioma": "es",
@@ -18,7 +18,7 @@
      "foto": "fotos/f07ecea19094f29d.jpg",
      "preventa": false,
      "cardmarket": 92.5,
-     "cardmarketPct": -3,
+     "cardmarketPct": -6,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": null,
