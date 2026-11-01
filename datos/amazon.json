@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T22:55+01:00",
+ "actualizado": "2026-11-01T23:55+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
@@ -154,6 +154,19 @@
    "url": "https://www.amazon.es/dp/B0H8STSBQ7?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/714eibqCxQL._AC_SL500_.jpg",
    "foto": "fotos/316f206533d74eb5.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Minilata Celebración 30.º Aniversario: Moltres de JCC Pokémon (1 Pegati",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "mini-tin",
+   "tipoNombre": "Mini Tin",
+   "precio": 13.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8SRZPZJ?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/71vFQQ7WdtL._AC_SL500_.jpg",
+   "foto": "fotos/fa08caf41f787578.jpg",
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
    "filtro": null
   },
@@ -467,6 +480,19 @@
    "img": "https://m.media-amazon.com/images/I/81E3LkEGGXL._AC_UL320_.jpg",
    "foto": "fotos/f20ce9fcec6954d5.jpg",
    "stocktcg": "https://stocktcg.net/p/mega-evolution--premium-collection",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Lata Megapotencia: Mega-Dragonite ex de JCC Pokémon (4 Sobres de Mejora",
+   "coleccion": "Mega Evolution",
+   "tipo": "tin",
+   "tipoNombre": "Tin",
+   "precio": 24.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H9SKZKGV?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/71VIHy1iDIL._AC_SL500_.jpg",
+   "foto": "fotos/2ba2dd2a689982fe.jpg",
+   "stocktcg": "https://stocktcg.net/p/mega-evolution--tin",
    "filtro": null
   },
   {
