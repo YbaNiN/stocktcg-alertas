@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T20:53:00",
+ "actualizado": "2026-11-01T21:00:45",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1043,27 +1043,6 @@
   {
    "nombre": "Héroes Ascendentes",
    "productos": [
-    {
-     "titulo": "Pokémon TCG: Héroes Ascendentes Elite Trainer Box (Spanish Edition) — Spanish",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 70.0,
-     "moneda": "EUR",
-     "tienda": "Universe TCG",
-     "idioma": "es",
-     "url": "https://universetcg.com/products/pokemon-tcg-heroes-ascendentes-etb-es?variant=55616506331477",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668496_in_400x400.jpg",
-     "foto": "fotos/40799851c627c011.jpg",
-     "preventa": false,
-     "cardmarket": 121.58,
-     "cardmarketPct": -42,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
-     "desde": "2026-11-01T20:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "Pokemon Ascenso Heroico Elite Trainer Box LAT",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
