@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T12:49:56",
+ "actualizado": "2026-11-01T15:29:31",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1355,27 +1355,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
      "desde": "2026-10-21T12:25+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Heroes Ascendentes Display Mini Lata",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "mini-tin-display",
-     "tipoNombre": "Display Mini Tins",
-     "precio": 229.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/heroes-ascendentes-display-mini-lata/",
-     "img": "https://flashstore.es/wp-content/uploads/2026/02/heroesinglesmini.jpg",
-     "foto": "fotos/bb84ef36d0af0085.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--mini-tin-display",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
