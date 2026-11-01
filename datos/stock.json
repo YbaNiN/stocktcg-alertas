@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T21:00:45",
+ "actualizado": "2026-11-01T21:08:37",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3873,27 +3873,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokémon TCG: Equilibrio Perfecto Elite Trainer Box (Spanish) — Spanish",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 65.0,
-     "moneda": "EUR",
-     "tienda": "Universe TCG",
-     "idioma": "es",
-     "url": "https://universetcg.com/products/pokemon-equilibrio-perfecto-elite-trainer-box-spanish?variant=55616506462549",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 60.63,
-     "cardmarketPct": 7,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": "2026-11-01T20:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "[PKM] Caja de entrenador élite Pokémon ETB - Equilibrio perfecto (Castellano)",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
@@ -4777,27 +4756,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG Mega Evolution Oscuridad Absoluta Elite Trainer Box - Spanish — Spanish",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.99,
-     "moneda": "EUR",
-     "tienda": "Universe TCG",
-     "idioma": "es",
-     "url": "https://universetcg.com/products/pokemon-tcg-mega-evolution-oscuridad-absoluta-elite-trainer-box-spanish?variant=55616506757461",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 67.41,
-     "cardmarketPct": -4,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-11-01T20:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
