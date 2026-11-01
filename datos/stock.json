@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T00:02:44",
+ "actualizado": "2026-11-01T01:10:34",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5101,6 +5101,27 @@
    "nombre": "Juntos de Aventuras",
    "productos": [
     {
+     "titulo": "Caja 36 Sobres Juntos de Aventura | Journey Together Booster Box sv9 — Español",
+     "coleccion": "Journey Together",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 159.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/journey-together?variant=53378076508483",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
+     "foto": "fotos/9505a0d4ee21e438.jpg",
+     "preventa": false,
+     "cardmarket": 182.37,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
+     "desde": null,
+     "precioAntes": 169.9,
+     "bajadaDesde": "2026-11-01T01:10+01:00"
+    },
+    {
      "titulo": "Caja de 36 Sobres Juntos de Aventuras ESPAÑOL - Pokémon TCG",
      "coleccion": "Journey Together",
      "tipo": "booster-box",
@@ -5131,27 +5152,6 @@
      "tienda": "FlashStore",
      "idioma": "es",
      "url": "https://flashstore.es/producto/juntos-de-aventuras-caja-36/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
-     "foto": "fotos/9505a0d4ee21e438.jpg",
-     "preventa": false,
-     "cardmarket": 182.37,
-     "cardmarketPct": -7,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja 36 Sobres Juntos de Aventura | Journey Together Booster Box sv9 — Español",
-     "coleccion": "Journey Together",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 169.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/journey-together?variant=53378076508483",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
      "foto": "fotos/9505a0d4ee21e438.jpg",
      "preventa": false,
