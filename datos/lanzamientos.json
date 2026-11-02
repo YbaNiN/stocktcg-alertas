@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T12:24:45",
+ "actualizado": "2026-11-02T12:34:58",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -163,6 +163,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
+     "titulo": "Sobre Pokémon Reinado Delta Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 7.99,
+     "moneda": "EUR",
+     "tienda": "Monsters Collectors",
+     "idioma": "es",
+     "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/sobre-pokemon-reinado-delta-espanol/",
+     "img": "https://monsterscollectors.com/wp-content/uploads/2026/10/PKM_MEG_DRE_ES_S-2d751fc0.png",
+     "foto": "fotos/a478e4817c8d3588.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
      "titulo": "Pokemon TCG: Pack de 3 sobres Dominio Delta + Promo (2 Versiones-Español) – RESERVA",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -178,6 +193,36 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
+     "titulo": "Blister 3 sobres Pokémon Reinado Delta de Seel Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 23.99,
+     "moneda": "EUR",
+     "tienda": "Monsters Collectors",
+     "idioma": "es",
+     "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/blister-3-sobres-pokemon-reinado-delta-de-seel-espanol/",
+     "img": "https://monsterscollectors.com/wp-content/uploads/2026/10/PKM_MEG_DRE_ES_BL-26387688.png",
+     "foto": "fotos/797d71470b786f7f.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "Elite Trainer Box Pokémon Reinado Delta Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 68.99,
+     "moneda": "EUR",
+     "tienda": "Monsters Collectors",
+     "idioma": "es",
+     "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/elite-trainer-box-pokemon-reinado-delta-espanol/",
+     "img": "https://monsterscollectors.com/wp-content/uploads/2026/10/PKM_MEG_DRE_ES_ETB-5c4026b6.png",
+     "foto": "fotos/07b07c202aefea47.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Half Booster Dominio Delta | Español | POKÉMON",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -191,6 +236,21 @@
      "foto": "fotos/1f89600170446caa.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Caja de sobres Pokémon Reinado Delta Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.99,
+     "moneda": "EUR",
+     "tienda": "Monsters Collectors",
+     "idioma": "es",
+     "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/caja-de-sobres-pokemon-reinado-delta-espanol/",
+     "img": "https://monsterscollectors.com/wp-content/uploads/2026/10/PKM_MEG_DRE_ES_BB-6ba247f3.png",
+     "foto": "fotos/30c4ce4cba06571b.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
      "titulo": "Booster Box Reinado Delta",
