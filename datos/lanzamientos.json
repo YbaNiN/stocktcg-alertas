@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T16:29:33",
+ "actualizado": "2026-11-02T18:35:26",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -46,6 +46,51 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "30 Aniversario Colección con Figura Mew",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 64.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/30-aniversario-coleccion-figura-mew/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-mew-scaled.png",
+     "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "30 Aniversario Colección con Figura Mewtwo",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 64.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/30-aniversario-coleccion-figura-mewtwo/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-mewtwo-scaled.png",
+     "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "30 Aniversario Ditto Premium Collection",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 99.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/30-aniversario-ditto-premium-collection/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-ditto-scaled.png",
+     "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
     {
      "titulo": "Pokémon TCG: Celebración 30.º Aniversario | Figure Collection Mew V1 (Español)",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
