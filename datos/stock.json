@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T17:33:52",
+ "actualizado": "2026-11-02T18:09:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4714,6 +4714,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Oscuridad Absoluta Pokémon | Caja Entrenador Élite",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.95,
+     "moneda": "EUR",
+     "tienda": "Micelion Games",
+     "idioma": "es",
+     "url": "https://miceliongames.com/juegos/juegos-tcg/pokemon/etb-oscuridad-absoluta-pokemon-caja-entrenador-elite/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 68.85,
+     "cardmarketPct": -6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-11-02T18:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
