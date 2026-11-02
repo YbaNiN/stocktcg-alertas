@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T10:25:27",
+ "actualizado": "2026-11-02T10:30:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3470,27 +3470,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": "2026-10-18T20:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG: Perfect Order Booster Display (36 packs)",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 216.0,
-     "moneda": "EUR",
-     "tienda": "Universe TCG",
-     "idioma": "es",
-     "url": "https://universetcg.com/products/pokemon-equilibrio-perfecto-booster-box-spanish",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 174.91,
-     "cardmarketPct": 23,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
