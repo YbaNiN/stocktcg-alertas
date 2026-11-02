@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T18:35:26",
+ "actualizado": "2026-11-02T18:38:51",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -57,7 +57,7 @@
      "idioma": "es",
      "url": "https://bimbacards.com/product/30-aniversario-coleccion-figura-mew/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-mew-scaled.png",
-     "foto": null,
+     "foto": "fotos/a6aa72f43223be13.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
@@ -72,7 +72,7 @@
      "idioma": "es",
      "url": "https://bimbacards.com/product/30-aniversario-coleccion-figura-mewtwo/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-mewtwo-scaled.png",
-     "foto": null,
+     "foto": "fotos/89a12cc34966caa9.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
@@ -87,7 +87,7 @@
      "idioma": "es",
      "url": "https://bimbacards.com/product/30-aniversario-ditto-premium-collection/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-ditto-scaled.png",
-     "foto": null,
+     "foto": "fotos/6a3252a89416dba8.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
