@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T11:55:29",
+ "actualizado": "2026-11-02T15:23:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4634,27 +4634,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Oscuridad Absoluta ETB",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 61.99,
-     "moneda": "EUR",
-     "tienda": "Epic Hit Store",
-     "idioma": "es",
-     "url": "https://epichitstore.es/producto/oscuridad-absoluta-etb/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 67.41,
-     "cardmarketPct": -8,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-10-18T20:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Oscuridad Absoluta ETB - Español",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -4777,6 +4756,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Oscuridad Absoluta ETB",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.99,
+     "moneda": "EUR",
+     "tienda": "Epic Hit Store",
+     "idioma": "es",
+     "url": "https://epichitstore.es/producto/oscuridad-absoluta-etb/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 67.41,
+     "cardmarketPct": -4,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-10-18T20:01+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
