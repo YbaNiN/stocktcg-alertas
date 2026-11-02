@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T10:05:22",
+ "actualizado": "2026-11-02T12:19:55",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -135,36 +135,6 @@
      "foto": "fotos/49096136ae73aeb4.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
-     "titulo": "30th Celebration Premium Deck Set Umbreon Espeon Pokemon TCG",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "deck",
-     "tipoNombre": "Deck",
-     "precio": 172.99,
-     "moneda": "EUR",
-     "tienda": "KuriGames",
-     "idioma": "es",
-     "url": "https://kurigames.com/pokemon-tcg/30th-celebration-premium-deck-set-umbreon-espeon-pokemon-tcg/",
-     "img": "https://kurigames.com/wp-content/uploads/2026/09/30th-Celebration-Premium-Deck-Set-Umbreon-Espeon-Pokemon-TCG-KuriGames-TCG.webp",
-     "foto": "fotos/e5d8802ab596b340.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
-    },
-    {
-     "titulo": "30th Celebration Premium Deck Set Umbreon Espeon Pokemon TCG + Protector",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "deck",
-     "tipoNombre": "Deck",
-     "precio": 179.99,
-     "moneda": "EUR",
-     "tienda": "KuriGames",
-     "idioma": "es",
-     "url": "https://kurigames.com/pokemon-tcg/30th-celebration-premium-deck-set-umbreon-espeon-pokemon-tcg-protector/",
-     "img": "https://kurigames.com/wp-content/uploads/2026/09/30th-Celebration-Premium-Deck-Set-Umbreon-Espeon-Pokemon-TCG-protector-KuriGames-TCG0.webp",
-     "foto": "fotos/0dc6b8b3032fe56e.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
     }
    ]
   },
