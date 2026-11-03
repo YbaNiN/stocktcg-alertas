@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T00:12:47",
+ "actualizado": "2026-11-04T00:33:52",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -239,6 +239,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
+     "titulo": "Blister 3 Sobres Dominio Delta | Delta Reign — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 23.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/blister-3-sobres-dominio-delta-delta-reign?variant=54759187775811",
+     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/blister-3-sobres-dominio-delta-delta-reign.png?v=1788134384&width=400",
+     "foto": "fotos/b5ece58021891e15.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Blister 3 sobres Pokémon Reinado Delta de Seel Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -267,6 +282,21 @@
      "foto": "fotos/8f1e96ddcbf00f97.jpg",
      "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Dominio Delta Booster Bundle",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 35.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/dominio-delta-booster-bundle/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/09/deltabundle.jpg",
+     "foto": "fotos/91fe64fc66ad0388.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
      "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Oferta 1",
@@ -649,8 +679,8 @@
    "foto": "fotos/b5ece58021891e15.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "RESERVA – Caja de Sobres Reinado Delta (18 sobres) en Castellano",
@@ -683,8 +713,8 @@
    "foto": "fotos/91fe64fc66ad0388.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Solo pack",
