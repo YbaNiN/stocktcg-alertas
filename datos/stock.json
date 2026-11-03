@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T17:28:51",
+ "actualizado": "2026-11-03T17:48:22",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3940,7 +3940,7 @@
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 97.23,
+     "precio": 98.46,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -3949,7 +3949,7 @@
      "foto": "fotos/6cb54c5c3b7d16c3.jpg",
      "preventa": false,
      "cardmarket": 60.79,
-     "cardmarketPct": 60,
+     "cardmarketPct": 62,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
@@ -4865,27 +4865,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "Carrefour",
-     "idioma": "es",
-     "url": "https://www.carrefour.es/pokemon-megaevolucion-oscuridad-absoluta-caja-de-entrenador-elite-6-anos/VC4A-34198433/p",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 68.34,
-     "cardmarketPct": 2,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": 100.29,
-     "bajadaDesde": "2026-11-03T13:45+01:00"
-    },
-    {
      "titulo": "Elite Trainer Box Pitch Black",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -4989,6 +4968,27 @@
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 100.21,
+     "moneda": "EUR",
+     "tienda": "Carrefour",
+     "idioma": "es",
+     "url": "https://www.carrefour.es/pokemon-megaevolucion-oscuridad-absoluta-caja-de-entrenador-elite-6-anos/VC4A-34198433/p",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 68.34,
+     "cardmarketPct": 47,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": null,
+     "precioAntes": 100.29,
+     "bajadaDesde": "2026-11-03T13:45+01:00"
     }
    ]
   },
