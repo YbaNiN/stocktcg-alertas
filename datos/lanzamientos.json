@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T11:50:26",
+ "actualizado": "2026-11-03T12:33:49",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -252,6 +252,36 @@
      "foto": "fotos/797d71470b786f7f.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Solo pack",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 29.95,
+     "moneda": "EUR",
+     "tienda": "La Maquina del Temps",
+     "idioma": "es",
+     "url": "https://lamaquinadeltemps.com/trading-card-game/3375-reserva-pokemon-dominio-delta-pack-presentacion-solo-pack.html",
+     "img": "https://lamaquinadeltemps.com/6871-home_default/reserva-pokemon-dominio-delta-pack-presentacion-solo-pack.jpg",
+     "foto": "fotos/8f1e96ddcbf00f97.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Oferta 1",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 39.95,
+     "moneda": "EUR",
+     "tienda": "La Maquina del Temps",
+     "idioma": "es",
+     "url": "https://lamaquinadeltemps.com/trading-card-game/3374-reserva-pokemon-dominio-delta-pack-presentacion-oferta-1.html",
+     "img": "https://lamaquinadeltemps.com/6869-home_default/reserva-pokemon-dominio-delta-pack-presentacion-oferta-1.jpg",
+     "foto": "fotos/ad12522199562c1b.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
      "titulo": "Elite Trainer Box Pokémon Reinado Delta Español",
@@ -734,8 +764,8 @@
    "foto": "fotos/8f1e96ddcbf00f97.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Oferta 1",
@@ -751,8 +781,8 @@
    "foto": "fotos/ad12522199562c1b.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon - First Partner Serie III (Reserva)",
