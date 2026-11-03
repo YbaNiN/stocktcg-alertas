@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T18:13:38",
+ "actualizado": "2026-11-03T18:24:46",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -668,6 +668,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "Dominio Delta Booster Bundle",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 37.9,
+   "moneda": "EUR",
+   "tienda": "FlashStore",
+   "idioma": "es",
+   "url": "https://flashstore.es/producto/dominio-delta-booster-bundle/",
+   "img": "https://flashstore.es/wp-content/uploads/2026/09/deltabundle.jpg",
+   "foto": "fotos/91fe64fc66ad0388.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Solo pack",
