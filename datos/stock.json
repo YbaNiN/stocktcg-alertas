@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T00:03:42",
+ "actualizado": "2026-11-04T00:23:57",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6623,27 +6623,6 @@
      "cardmarketPct": -10,
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box Pokémon Surging Sparks y Chispas Fulgurantes — Español",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 114.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-surging-sparks-y-chispas-fulgurantes?variant=51872581878098",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565630_in_400x400.jpg",
-     "foto": "fotos/28dd9ecb044cc77a.jpg",
-     "preventa": false,
-     "cardmarket": 138.09,
-     "cardmarketPct": -17,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--etb",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
