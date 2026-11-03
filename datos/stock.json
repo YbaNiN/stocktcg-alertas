@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T11:45:05",
+ "actualizado": "2026-11-03T12:03:12",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3617,27 +3617,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": "2026-10-18T18:45+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Caja de Entrenador Elite Equilibrio Perfecto - Español",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 59.95,
-     "moneda": "EUR",
-     "tienda": "CardZone",
-     "idioma": "es",
-     "url": "https://cardzone.es/products/etb-caja-de-entrenador-elite-equilibrio-perfecto-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 60.34,
-     "cardmarketPct": -1,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": "2026-11-03T11:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
