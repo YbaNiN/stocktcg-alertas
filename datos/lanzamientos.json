@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T12:50:32",
+ "actualizado": "2026-11-03T13:24:59",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -341,21 +341,6 @@
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-booster-scaled.png",
      "foto": "fotos/62ba72777116776a.jpg",
      "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Pokémon Delta Reign Booster Box [DLR]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 200.0,
-     "moneda": "EUR",
-     "tienda": "El Duelista",
-     "idioma": "es",
-     "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
-     "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
-     "foto": "fotos/4cbc60d25555a73a.jpg",
-     "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
@@ -715,23 +700,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "Pokémon Delta Reign Booster Box [DLR]",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 200.0,
-   "moneda": "EUR",
-   "tienda": "El Duelista",
-   "idioma": "es",
-   "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
-   "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
-   "foto": "fotos/4cbc60d25555a73a.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
