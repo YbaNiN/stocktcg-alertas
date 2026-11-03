@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T11:25:28",
+ "actualizado": "2026-11-03T11:28:19",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -734,6 +734,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Solo pack",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-pack",
+   "tipoNombre": "Sobre / Pack",
+   "precio": 29.95,
+   "moneda": "EUR",
+   "tienda": "La Maquina del Temps",
+   "idioma": "es",
+   "url": "https://lamaquinadeltemps.com/inicio/3375-reserva-pokemon-dominio-delta-pack-presentacion-solo-pack.html",
+   "img": "https://lamaquinadeltemps.com/6871-home_default/reserva-pokemon-dominio-delta-pack-presentacion-solo-pack.jpg",
+   "foto": "fotos/8f1e96ddcbf00f97.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Oferta 1",
