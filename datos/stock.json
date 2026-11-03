@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T09:50:50",
+ "actualizado": "2026-11-03T10:48:51",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3512,6 +3512,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "[Mini Golpe] ETB Equilibrio Perfecto | Elite Trainer Box | POKÉMON | Español",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 54.99,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/mini-golpe-etb-equilibrio-perfecto-elite-trainer-box-pokemon-espanol-copia",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 60.34,
+     "cardmarketPct": -9,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": "2026-11-03T10:50+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
