@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T17:00:42",
+ "actualizado": "2026-11-03T17:15:20",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1040,6 +1040,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Bundle Héroes Ascendentes Español",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/booster-bundle-heroes-ascendentes/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_400x400.jpg",
+     "foto": "fotos/e15177c559cd820c.jpg",
+     "preventa": false,
+     "cardmarket": 73.75,
+     "cardmarketPct": -5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
+     "desde": "2026-11-03T17:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
