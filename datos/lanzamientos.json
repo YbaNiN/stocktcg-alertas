@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T14:30:14",
+ "actualizado": "2026-11-03T15:45:27",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -448,23 +448,6 @@
   }
  ],
  "preventas": [
-  {
-   "titulo": "RESERVA. 151 JUMBO CH BOX PROMO — 151 PIKACHUS",
-   "coleccion": "151",
-   "tipo": "collection-box",
-   "tipoNombre": "Collection Box",
-   "precio": 189.99,
-   "moneda": "EUR",
-   "tienda": "Poke Poke Cards",
-   "idioma": "es",
-   "url": "https://pokepokecards.com/products/151-jumbo-ch-box-promo?variant=55754118627657",
-   "img": "https://tcgplayer-cdn.tcgplayer.com/product/502006_in_400x400.jpg",
-   "foto": "fotos/3286bb8a0770d0b7.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/151--collection-box",
-   "lanzamiento": null,
-   "fecha": null
-  },
   {
    "titulo": "RESERVA. 151 JUMBO CH BOX PROMO — 151 PSYDUCK PIKACHU",
    "coleccion": "151",
