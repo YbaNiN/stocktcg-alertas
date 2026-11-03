@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T12:20:09",
+ "actualizado": "2026-11-03T12:39:12",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1510,6 +1510,27 @@
   {
    "nombre": "30 Aniversario",
    "productos": [
+    {
+     "titulo": "Caja de Entrenador Elite Celebración 30TH ESPAÑOL — ETB + ACRILICO",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "CanaryPop",
+     "idioma": "es",
+     "url": "https://canarypop.es/products/pre-venta-caja-de-entrenador-elite-celebracion-30th-espanol?variant=54047287476571",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
+     "foto": "fotos/3475a6f4a57ec163.jpg",
+     "preventa": false,
+     "cardmarket": 121.73,
+     "cardmarketPct": -38,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
+     "desde": "2026-11-03T12:40+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
     {
      "titulo": "ETB 30 Aniversario",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
