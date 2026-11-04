@@ -1,6 +1,58 @@
 {
- "actualizado": "2026-11-03T23:25+01:00",
+ "actualizado": "2026-11-04T17:55+01:00",
  "campanas": [
+  {
+   "titulo": "Pokémon: Caja de Entrenador Élite de Megaevolución-Dominio Delta (1 Carta de pro",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 52.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0HGG226FP?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/9115hQUH-YL._AC_SL500_.jpg",
+   "foto": "fotos/517dcc19191ea69d.jpg",
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Dominio Delta (18 Sobres",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 89.82,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0HGFZVRK8?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/817CprZZw1L._AC_SL500_.jpg",
+   "foto": "fotos/b62db8ee1387707f.jpg",
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Dominio Delta (6 Sobres de Me",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 29.94,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0HGG16VB6?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81vIfSbSG6L._AC_SL500_.jpg",
+   "foto": "fotos/413263c32e2ed4a9.jpg",
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Dominio Delta (1 Carta h",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 15.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0HGG3D51K?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/813quz0YBaL._AC_SL500_.jpg",
+   "foto": "fotos/ab87e96692e60e4b.jpg",
+   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
+   "filtro": null
+  },
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon",
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
