@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T08:44:10",
+ "actualizado": "2026-11-04T14:29:35",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -91,36 +91,6 @@
      "foto": "fotos/6a3252a89416dba8.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
-     "titulo": "Pokémon TCG: Celebración 30.º Aniversario | Figure Collection Mew V1 (Español)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 99.99,
-     "moneda": "EUR",
-     "tienda": "Reino de Cartas",
-     "idioma": "es",
-     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/30-aniversario/pokemon-tcg-celebracion-30-o-aniversario-figure-collection-mew-v1-espanol/",
-     "img": "https://reinodecartas.com/wp-content/uploads/2026/09/frontal-es-catalogo-ES-10.webp",
-     "foto": "fotos/6fe238eef437c7ab.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "Pokémon TCG: Celebración 30.º Aniversario | Figure Collection Mewtwo V2 (Español)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 99.99,
-     "moneda": "EUR",
-     "tienda": "Reino de Cartas",
-     "idioma": "es",
-     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/30-aniversario/pokemon-tcg-celebracion-30-o-aniversario-figure-collection-mewtwo-v2-espanol/",
-     "img": "https://reinodecartas.com/wp-content/uploads/2026/09/frontal-es-catalogo-ES-3.webp",
-     "foto": "fotos/b27aa4c4d89826bc.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
      "titulo": "Caja Colección con Figura - 30th Anniversary [ENG] — Mewtwo",
