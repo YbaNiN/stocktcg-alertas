@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T20:13:16",
+ "actualizado": "2026-11-04T20:35:02",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5736,27 +5736,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster box 36 Rivales Caja Predestinados ESPAÑOL",
-     "coleccion": "Destined Rivals",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 204.95,
-     "moneda": "EUR",
-     "tienda": "Golden Pulls Cards",
-     "idioma": "es",
-     "url": "https://goldenpullscards.com/products/booster-box-36-rivales-caja-predestinados-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
-     "foto": "fotos/fe01e654f615e5f0.jpg",
-     "preventa": false,
-     "cardmarket": 297.83,
-     "cardmarketPct": -31,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Pokemon: Caja de 36 sobres Rivales Predestinados / Destined Rivals (Español",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
@@ -6217,27 +6196,6 @@
      "tienda": "GranCards",
      "idioma": "es",
      "url": "https://grancards.com/products/pokemon-booster-box-de-chispas-fulgurantes-esp",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
-     "foto": "fotos/f93917ec0febd0ae.jpg",
-     "preventa": false,
-     "cardmarket": 254.07,
-     "cardmarketPct": -27,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Booster Box Chispas Fulgurantes 36 ESPAÑOL",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 184.95,
-     "moneda": "EUR",
-     "tienda": "Golden Pulls Cards",
-     "idioma": "es",
-     "url": "https://goldenpullscards.com/products/booster-box-chispas-fulgurantes-36-espanol",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
      "foto": "fotos/f93917ec0febd0ae.jpg",
      "preventa": false,
