@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T16:05:32",
+ "actualizado": "2026-11-04T16:25:16",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -934,6 +934,23 @@
    "url": "https://lanavetcg.com/products/reserva-gp7-booster-box",
    "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/GP7.png?v=1793804354&width=400",
    "foto": "fotos/8306c89a73db1654.jpg",
+   "preventa": true,
+   "stocktcg": null,
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "RESERVA GP2 Booster Box",
+   "coleccion": "Otros",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 70.9,
+   "moneda": "EUR",
+   "tienda": "La Nave TCG",
+   "idioma": "es",
+   "url": "https://lanavetcg.com/products/reserva-gp2-booster-box",
+   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/GP2.png?v=1793805720&width=400",
+   "foto": "fotos/40123aa68b880c3d.jpg",
    "preventa": true,
    "stocktcg": null,
    "lanzamiento": null,
