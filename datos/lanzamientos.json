@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T06:33:20",
+ "actualizado": "2026-11-04T08:24:53",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -342,21 +342,6 @@
      "foto": "fotos/91fe64fc66ad0388.jpg",
      "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
-     "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Oferta 1",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-pack",
-     "tipoNombre": "Sobre / Pack",
-     "precio": 39.95,
-     "moneda": "EUR",
-     "tienda": "La Maquina del Temps",
-     "idioma": "es",
-     "url": "https://lamaquinadeltemps.com/trading-card-game/3374-reserva-pokemon-dominio-delta-pack-presentacion-oferta-1.html",
-     "img": "https://lamaquinadeltemps.com/6869-home_default/reserva-pokemon-dominio-delta-pack-presentacion-oferta-1.jpg",
-     "foto": "fotos/ad12522199562c1b.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
      "titulo": "Elite Trainer Box Pokémon Reinado Delta Español",
@@ -773,23 +758,6 @@
    "url": "https://lamaquinadeltemps.com/trading-card-game/3375-reserva-pokemon-dominio-delta-pack-presentacion-solo-pack.html",
    "img": "https://lamaquinadeltemps.com/6871-home_default/reserva-pokemon-dominio-delta-pack-presentacion-solo-pack.jpg",
    "foto": "fotos/8f1e96ddcbf00f97.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "(RESERVA) Pokemon Dominio Delta PACK PRESENTACIÓN - Oferta 1",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-pack",
-   "tipoNombre": "Sobre / Pack",
-   "precio": 39.95,
-   "moneda": "EUR",
-   "tienda": "La Maquina del Temps",
-   "idioma": "es",
-   "url": "https://lamaquinadeltemps.com/trading-card-game/3374-reserva-pokemon-dominio-delta-pack-presentacion-oferta-1.html",
-   "img": "https://lamaquinadeltemps.com/6869-home_default/reserva-pokemon-dominio-delta-pack-presentacion-oferta-1.jpg",
-   "foto": "fotos/ad12522199562c1b.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack",
    "lanzamiento": "delta-reign",
