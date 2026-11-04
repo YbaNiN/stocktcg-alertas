@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T14:29:35",
+ "actualizado": "2026-11-04T16:05:32",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -919,6 +919,23 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "RESERVA GP7 Booster Box",
+   "coleccion": "Otros",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 44.9,
+   "moneda": "EUR",
+   "tienda": "La Nave TCG",
+   "idioma": "es",
+   "url": "https://lanavetcg.com/products/reserva-gp7-booster-box",
+   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/GP7.png?v=1793804354&width=400",
+   "foto": "fotos/8306c89a73db1654.jpg",
+   "preventa": true,
+   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
