@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T00:33:52",
+ "actualizado": "2026-11-04T06:33:20",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -193,6 +193,51 @@
    "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/etb_delta_reign.webp?v=1792267066&width=400",
    "foto": "fotos/e03a4cda665b9078.jpg",
    "ofertas": [
+    {
+     "titulo": "Dominio Delta Blíster 3 Sobres",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 0.0,
+     "moneda": "EUR",
+     "tienda": "HoloPlaza TCG",
+     "idioma": "es",
+     "url": "https://holoplazatcg.com/producto/dominio-delta-blister-3-sobres/",
+     "img": "https://holoplazatcg.com/wp-content/uploads/2026/10/0196214144101.main_.jpg",
+     "foto": "fotos/69d1748b0327d5a9.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "Dominio Delta Caja de Sobres",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 0.0,
+     "moneda": "EUR",
+     "tienda": "HoloPlaza TCG",
+     "idioma": "es",
+     "url": "https://holoplazatcg.com/producto/dominio-delta-caja-de-sobres/",
+     "img": "https://holoplazatcg.com/wp-content/uploads/2026/10/Proyecto-nuevo.png",
+     "foto": "fotos/334935e4a0f9bbf0.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Dominio Delta ETB",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 0.0,
+     "moneda": "EUR",
+     "tienda": "HoloPlaza TCG",
+     "idioma": "es",
+     "url": "https://holoplazatcg.com/producto/dominio-delta-etb/",
+     "img": "https://holoplazatcg.com/wp-content/uploads/2026/10/0196214143944.main_.jpg",
+     "foto": "fotos/b85e28cc9b857e5b.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
     {
      "titulo": "Pokemon TCG: Sobre Dominio Delta (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
