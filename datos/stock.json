@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T15:59:24",
+ "actualizado": "2026-11-04T16:50:34",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4735,27 +4735,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Caja de Entrenador Elite Oscuridad Absoluta - Español",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "CardZone",
-     "idioma": "es",
-     "url": "https://cardzone.es/products/etb-caja-de-entrenador-elite-oscuridad-absoluta-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 67.74,
-     "cardmarketPct": 3,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-11-03T11:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
