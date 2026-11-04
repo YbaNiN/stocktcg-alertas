@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T16:50:34",
+ "actualizado": "2026-11-04T17:20:24",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2142,27 +2142,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokemon Jcc Megaevolución Caos Creciente Caja de Sobres",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 215.95,
-     "moneda": "EUR",
-     "tienda": "Gameria",
-     "idioma": "es",
-     "url": "https://gameria.es/es/juegos-de-cartas/pokemon-jcc-megaevolution-caos-creciente-caja-de-sobres-20401.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_400x400.jpg",
-     "foto": "fotos/596314aad285ec6d.jpg",
-     "preventa": false,
-     "cardmarket": 181.82,
-     "cardmarketPct": 19,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
-     "desde": "2026-11-03T21:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
