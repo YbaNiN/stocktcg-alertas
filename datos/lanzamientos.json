@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T15:34:57",
+ "actualizado": "2026-11-05T16:55:25",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -239,7 +239,7 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
-     "titulo": "Pokemon TCG: Pack de 3 sobres Dominio Delta + Promo (2 Versiones-Español) – RESERVA",
+     "titulo": "Pokemon TCG: Pack de 3 sobres Dominio Delta + Promo (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
      "tipoNombre": "Blister",
@@ -250,7 +250,7 @@
      "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-tcg-pack-de-3-sobres-dominio-delta-promo-2-versiones-espanol-copia/",
      "img": "https://cardcrack.com/wp-content/uploads/2026/10/dd-blister-3-sobres-dominio-delta.webp",
      "foto": "fotos/e6f4cda46f6967df.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
@@ -632,23 +632,6 @@
    "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "Pokemon TCG: Pack de 3 sobres Dominio Delta + Promo (2 Versiones-Español) – RESERVA",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "blister",
-   "tipoNombre": "Blister",
-   "precio": 19.95,
-   "moneda": "EUR",
-   "tienda": "CardCrack",
-   "idioma": "es",
-   "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-tcg-pack-de-3-sobres-dominio-delta-promo-2-versiones-espanol-copia/",
-   "img": "https://cardcrack.com/wp-content/uploads/2026/10/dd-blister-3-sobres-dominio-delta.webp",
-   "foto": "fotos/e6f4cda46f6967df.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "RESERVA – Caja de Sobres Reinado Delta (18 sobres) en Castellano",
