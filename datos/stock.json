@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T01:43:39",
+ "actualizado": "2026-11-05T09:19:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2797,6 +2797,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Caja Entrenador Elite Pokemon Caos Creciente Espanol",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 79.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-caos-creciente-espanol-91095.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 61.7,
+     "cardmarketPct": 30,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-11-05T09:20+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Pokémon JCC: ME 04 Chaos Ascendant Dresseur D’élite",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -4869,7 +4890,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 99.81,
+     "precio": 99.74,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
