@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T21:34:38",
+ "actualizado": "2026-11-05T21:50:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4046,6 +4046,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Pokémon TCG - Booster box Pitch Black (Inglés & Español) — Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 184.99,
+     "moneda": "EUR",
+     "tienda": "JJCollection",
+     "idioma": "es",
+     "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-pitch-black?variant=54297984991561",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
+     "foto": "fotos/2d95d5c132a0c8f0.jpg",
+     "preventa": true,
+     "cardmarket": 174.37,
+     "cardmarketPct": 6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+     "desde": "2026-10-25T17:01+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Caja de sobres Pokémon Oscuridad Absoluta Español",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "booster-box",
@@ -4189,27 +4210,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG - Booster box Pitch Black (Inglés & Español) — Español",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 189.98,
-     "moneda": "EUR",
-     "tienda": "JJCollection",
-     "idioma": "es",
-     "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-pitch-black?variant=54297984991561",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
-     "foto": "fotos/2d95d5c132a0c8f0.jpg",
-     "preventa": true,
-     "cardmarket": 174.37,
-     "cardmarketPct": 9,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
-     "desde": "2026-10-25T17:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
