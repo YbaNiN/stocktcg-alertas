@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T11:04:48",
+ "actualizado": "2026-11-05T12:14:45",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1591,6 +1591,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Celebraciones 30 Aniversario | Élite Celebrations 30th — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 149.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/etb-30th?variant=54195933905219",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
+     "foto": "fotos/3475a6f4a57ec163.jpg",
+     "preventa": false,
+     "cardmarket": 121.19,
+     "cardmarketPct": 24,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
+     "desde": "2026-11-05T12:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
