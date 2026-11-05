@@ -1,30 +1,9 @@
 {
- "actualizado": "2026-11-05T09:19:43",
+ "actualizado": "2026-11-05T10:43:20",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
    "productos": [
-    {
-     "titulo": "Elite Trainer Box Pokémon Fuegos Fantasmales Español",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 86.99,
-     "moneda": "EUR",
-     "tienda": "Monsters Collectors",
-     "idioma": "es",
-     "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/elite-trainer-box-pokemon-fuegos-fantasmales-espanol/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
-     "foto": "fotos/f07ecea19094f29d.jpg",
-     "preventa": false,
-     "cardmarket": 90.45,
-     "cardmarketPct": -4,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "ETB Fuegos Fantasmales",
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
@@ -43,6 +22,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-10-14T14:10+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Elite Trainer Box Pokémon Fuegos Fantasmales Español",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 99.99,
+     "moneda": "EUR",
+     "tienda": "Monsters Collectors",
+     "idioma": "es",
+     "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/elite-trainer-box-pokemon-fuegos-fantasmales-espanol/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
+     "foto": "fotos/f07ecea19094f29d.jpg",
+     "preventa": false,
+     "cardmarket": 90.45,
+     "cardmarketPct": 11,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
+     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
