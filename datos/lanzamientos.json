@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T06:18:24",
+ "actualizado": "2026-11-05T14:38:28",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -700,6 +700,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 67.99,
+   "moneda": "EUR",
+   "tienda": "Reino de Cartas",
+   "idioma": "es",
+   "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/etb-dominio-delta-espanol/",
+   "img": "https://reinodecartas.com/wp-content/uploads/2026/11/etb-dominio-delta-espanol-contenido.png",
+   "foto": "fotos/56883bea78b7fa86.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon - First Partner Serie III (Reserva)",
