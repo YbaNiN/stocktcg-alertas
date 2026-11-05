@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T19:24:32",
+ "actualizado": "2026-11-05T19:44:28",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -419,21 +419,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
-     "titulo": "(español) RECOGIDA - Pokemon ETB Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "La Maquina del Temps",
-     "idioma": "es",
-     "url": "https://lamaquinadeltemps.com/trading-card-game/3379-espanol-recogida-pokemon-etb-dominio-delta.html",
-     "img": "https://lamaquinadeltemps.com/6877-home_default/espanol-recogida-pokemon-etb-dominio-delta.jpg",
-     "foto": "fotos/e2915e2c6ea7ce76.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
      "titulo": "Elite Trainer Box Pokémon Reinado Delta Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -799,23 +784,6 @@
    "fecha": null
   },
   {
-   "titulo": "Caja Dominio Delta español | 18 sobres — Preventa",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 94.99,
-   "moneda": "EUR",
-   "tienda": "Reino de Cartas",
-   "idioma": "es",
-   "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/caja-dominio-delta-espanol-18-sobres/",
-   "img": "https://reinodecartas.com/wp-content/uploads/2026/11/dominio-delta-caja-18-sobres-espanol.jpg",
-   "foto": "fotos/9560e3d280ad69a8.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
    "titulo": "RESERVA – Caja de Sobres Reinado Delta (18 sobres) en Castellano",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
@@ -827,6 +795,23 @@
    "url": "https://monarkatcg.store/p/reserva-caja-de-sobres-reinado-delta-18-sobres-en-castellano/",
    "img": "https://i0.wp.com/monarkatcg.store/wp-content/uploads/2026/10/img_6918.jpeg?fit=960%2C960&ssl=1",
    "foto": "fotos/bbff40cf7440de39.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Caja Dominio Delta español | 18 sobres — Preventa",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 114.99,
+   "moneda": "EUR",
+   "tienda": "Reino de Cartas",
+   "idioma": "es",
+   "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/caja-dominio-delta-espanol-18-sobres/",
+   "img": "https://reinodecartas.com/wp-content/uploads/2026/11/dominio-delta-caja-18-sobres-espanol.jpg",
+   "foto": "fotos/9560e3d280ad69a8.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
