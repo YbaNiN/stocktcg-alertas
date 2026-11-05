@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T18:33:28",
+ "actualizado": "2026-11-05T19:13:15",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -810,6 +810,23 @@
    "foto": "fotos/fe01e654f615e5f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Caja Dominio Delta español | 18 sobres — Preventa",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 94.99,
+   "moneda": "EUR",
+   "tienda": "Reino de Cartas",
+   "idioma": "es",
+   "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/caja-dominio-delta-espanol-18-sobres/",
+   "img": "https://reinodecartas.com/wp-content/uploads/2026/11/dominio-delta-caja-18-sobres-espanol.jpg",
+   "foto": "fotos/9560e3d280ad69a8.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
    "fecha": null
   },
