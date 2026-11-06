@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T12:04:28",
+ "actualizado": "2026-11-06T12:10:03",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -786,6 +786,23 @@
    "foto": "fotos/4cbc60d25555a73a.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "ETB DOMINIO DELTA - ESPAÑOL",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 64.9,
+   "moneda": "EUR",
+   "tienda": "Top Rocket Shop",
+   "idioma": "es",
+   "url": "https://toprocketshop.com/products/etb-dominio-delta-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTAETB.png?v=1793962231&width=400",
+   "foto": "fotos/249042006639c236.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": null,
    "fecha": null
   },
