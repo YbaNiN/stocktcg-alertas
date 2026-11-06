@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T11:07:46",
+ "actualizado": "2026-11-06T11:49:45",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -342,21 +342,6 @@
      "foto": "fotos/797d71470b786f7f.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
-     "titulo": "Dominio Delta Booster Bundle",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 35.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/dominio-delta-booster-bundle/",
-     "img": "https://flashstore.es/wp-content/uploads/2026/09/deltabundle.jpg",
-     "foto": "fotos/91fe64fc66ad0388.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
      "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
@@ -803,23 +788,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "Dominio Delta Booster Bundle",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-bundle",
-   "tipoNombre": "Booster Bundle",
-   "precio": 35.9,
-   "moneda": "EUR",
-   "tienda": "FlashStore",
-   "idioma": "es",
-   "url": "https://flashstore.es/producto/dominio-delta-booster-bundle/",
-   "img": "https://flashstore.es/wp-content/uploads/2026/09/deltabundle.jpg",
-   "foto": "fotos/91fe64fc66ad0388.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
