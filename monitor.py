@@ -135,6 +135,10 @@ def descargar_json(url):
         raise RuntimeError("StockTCG ha devuelto datos que no se entienden (¿han cambiado la web?).") from e
 
 
+class CatalogoAtascado(RuntimeError):
+    """El catálogo de StockTCG tiene el formato correcto pero lleva tiempo sin actualizarse."""
+
+
 def validar_catalogo(datos):
     """Lanza un error si StockTCG ha cambiado su formato o lleva tiempo sin actualizar."""
     items = datos.get("items") if isinstance(datos, dict) else None
@@ -148,7 +152,7 @@ def validar_catalogo(datos):
     except (KeyError, ValueError, TypeError):
         return
     if datetime.now(MADRID) - ts > DATOS_VIEJOS:
-        raise RuntimeError(f"StockTCG no actualiza sus datos desde el {ts:%d/%m %H:%M}.")
+        raise CatalogoAtascado(f"StockTCG no actualiza sus datos desde el {ts:%d/%m %H:%M}.")
 
 
 # ---------------------------------------------------------------- filtros
@@ -803,13 +807,98 @@ def actualizar_historial(coinciden, eventos, disponibles, obsoletas, ahora):
 
 # ---------------------------------------------------------------- principal
 
+URL_PULSO = f"{BASE}/api/pulse.json"  # últimas reposiciones en directo (lo usa la portada de StockTCG)
+
+
+def registrar_reposiciones(eventos, ahora):
+    """Apunta en el historial las reposiciones avisadas en modo pulso (se cierran luego en modo normal)."""
+    try:
+        hist = json.loads(HISTORIAL.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        hist = {"precios": {}, "reposiciones": []}
+    abiertas = {r["id"] for r in hist.setdefault("reposiciones", []) if not r.get("salida")}
+    for _, item, alerta, _ in eventos:
+        if clave(item) not in abiertas:
+            hist["reposiciones"].append({"id": clave(item), "grupo": grupo_de(item, alerta), "filtro": alerta.get("nombre"),
+                                         "tienda": item["store"], "precio": item["price"], "titulo": item.get("title"),
+                                         "entrada": ahora, "salida": None})
+    HISTORIAL.parent.mkdir(exist_ok=True)
+    HISTORIAL.write_text(json.dumps(hist, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
+def modo_pulso(anterior, general, alertas, datos, motivo):
+    """El catálogo de StockTCG está atascado: se sigue avisando de reposiciones con su feed en directo
+    (pulse.json). El catálogo atascado sirve para saber idioma, tipo y colección de cada producto.
+    No detecta productos que no estaban en ese catálogo, ni bajadas de precio."""
+    if not anterior:
+        raise motivo
+    pulso = descargar_json(URL_PULSO)
+    reposiciones = pulso.get("restocks") or []
+    ts_catalogo = datos.get("ts") or ""
+    ahora = datetime.now(MADRID).isoformat(timespec="minutes")
+    if not anterior.get("modo_pulso") and not any((r.get("ts") or "") > ts_catalogo for r in reposiciones):
+        raise motivo  # el feed en directo tampoco avanza: StockTCG está parado del todo, no solo su catálogo
+    indice = {clave(i): i for i in datos["items"] if i.get("url")}
+    vistos = set(anterior.get("pulso_vistos") or [])
+    nuevo = {**anterior, "errores": 0, "modo_pulso": anterior.get("modo_pulso") or ahora,
+             "tiendas": {t: list(k) for t, k in anterior["tiendas"].items()}, "seguidos": dict(anterior.get("seguidos") or {})}
+    print(f"Modo pulso: catálogo de {ts_catalogo}; {len(reposiciones)} reposiciones en el pulso.")
+
+    if not anterior.get("modo_pulso"):
+        enviar_ntfy({"title": "🟡 StockTCG va con retraso: sigo avisándote en modo reducido",
+                     "message": f"{motivo}\nMientras tanto te aviso de las reposiciones con su feed en directo. "
+                                "En este modo no detecto productos nuevos ni bajadas de precio, y la app no se actualiza. "
+                                "Te avisaré cuando vuelva a la normalidad.",
+                     "click": URL_ACTIONS, "tags": ["hourglass"]})
+
+    eventos = []
+    for r in reposiciones:
+        marca = f"{r.get('url')}|{r.get('ts')}"
+        if not r.get("url") or marca in vistos or (r.get("ts") or "") <= ts_catalogo:
+            continue  # ya visto, o anterior al catálogo (eso ya lo vio el modo normal)
+        vistos.add(marca)
+        base = indice.get(clave(r))
+        if not base:
+            continue  # producto que no estaba en el catálogo: no se sabe su idioma
+        item = {**base, "url": r["url"], "price": r.get("price", base.get("price")), "currency": r.get("currency") or base.get("currency"),
+                "store": r.get("store") or base.get("store"), "img": r.get("img") or base.get("img"), "available": True}
+        alerta = primer_filtro(item, alertas, general)
+        if alerta:
+            eventos.append(("reposicion", item, alerta, None))
+
+    if eventos:
+        favoritos, ocultas = cargar_preferencias()
+        eventos = [ev for ev in eventos if normalizar(ev[1]["store"]) not in ocultas]
+        enviar_eventos(eventos, favoritos)
+        registrar_reposiciones(eventos, ahora)
+        # Se apuntan como disponibles para que, al volver el modo normal, no se repita el aviso
+        for _, item, _, _ in eventos:
+            k = clave(item)
+            nuevo["tiendas"].setdefault(item["store"], [])
+            if k not in nuevo["tiendas"][item["store"]]:
+                nuevo["tiendas"][item["store"]].append(k)
+            nuevo["seguidos"][k] = [item["price"], item.get("cmTier"), item["store"], ahora, None, None]
+    print(f"Avisos (modo pulso): {len(eventos)}")
+    nuevo["pulso_vistos"] = sorted(vistos)[-200:]
+    return nuevo
+
+
 def comprobar(solo_resumen, anterior):
     """Hace una comprobación completa. Devuelve el nuevo estado a guardar (o None si no hay que guardarlo)."""
     general, alertas, todas_alertas, alertas_app = cargar_filtros(anterior)
     print(f"Filtros activos: {len(alertas)}")
 
     datos = descargar_json(STOCK_URL)
-    validar_catalogo(datos)
+    try:
+        validar_catalogo(datos)
+    except CatalogoAtascado as e:
+        if solo_resumen:
+            raise
+        return modo_pulso(anterior, general, alertas, datos, e)
+    if anterior and anterior.get("modo_pulso"):
+        enviar_ntfy({"title": "✅ StockTCG vuelve a actualizar su catálogo",
+                     "message": "Vuelvo al modo normal: reposiciones, bajadas de precio, productos nuevos y la app al día.",
+                     "click": URL_LISTA, "tags": ["white_check_mark"]})
     items = datos["items"]
     obsoletas = set(datos.get("stale_stores", []))
     print(f"Catálogo de {datos.get('ts')}: {len(items)} productos ({len(obsoletas)} tiendas sin actualizar)")
@@ -1019,7 +1108,7 @@ def main():
         return
 
     if nuevo is not None:
-        if errores_antes >= AVISAR_FALLO_TRAS:
+        if errores_antes >= AVISAR_FALLO_TRAS and not nuevo.get("modo_pulso"):
             enviar_ntfy({"title": "✅ El monitor de stock vuelve a funcionar",
                          "message": f"Ha estado fallando unos {errores_antes * 5} minutos. Ya vuelves a recibir avisos.",
                          "click": URL_LISTA, "tags": ["white_check_mark"]})
