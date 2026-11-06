@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T12:33:02",
+ "actualizado": "2026-11-06T12:53:26",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -314,6 +314,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
+     "titulo": "Dominio Delta Blister 3 sobres - Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 19.9,
+     "moneda": "EUR",
+     "tienda": "Top Rocket Shop",
+     "idioma": "es",
+     "url": "https://toprocketshop.com/products/dominio-delta-blister-3-sobres-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTABLISTER.png?v=1793962662&width=400",
+     "foto": "fotos/bd8bcbb5b0f2d364.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Pokemon TCG: Pack de 3 sobres Dominio Delta + Promo (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -509,21 +524,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
-     "titulo": "Caja de 36 Sobres de Dominio Delta - Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 189.95,
-     "moneda": "EUR",
-     "tienda": "CardZone",
-     "idioma": "es",
-     "url": "https://cardzone.es/products/caja-de-36-sobres-de-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/booster-box-caja-de-36-sobres-dominio-delta-reign-cartas-pokemon-tcg-cardzone.png?v=1793949274&width=400",
-     "foto": "fotos/93f20f148fb74cbd.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
      "titulo": "Caja de sobres Pokémon Reinado Delta Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -588,7 +588,7 @@
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
-     "precio": 216.0,
+     "precio": 245.45,
      "moneda": "EUR",
      "tienda": "El Duelista",
      "idioma": "es",
@@ -912,7 +912,7 @@
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
    "tipoNombre": "Booster Box / Display",
-   "precio": 216.0,
+   "precio": 245.45,
    "moneda": "EUR",
    "tienda": "El Duelista",
    "idioma": "es",
