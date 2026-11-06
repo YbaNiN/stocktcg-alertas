@@ -936,7 +936,7 @@ function pintarStock() {
   $("#rejilla").innerHTML = lista.length ? lista.map(tarjeta).join("") : vacio();
   const retraso = estado.datos?.retraso;
   $("#aviso-red").innerHTML = estado.errorRed ? `<div class="aviso">${icono("info")}No hay conexión: estás viendo los últimos datos guardados.</div>`
-    : retraso ? `<div class="aviso">${icono("info")}<span>StockTCG no se actualiza desde las ${new Date(retraso).toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" })}. Mientras tanto, el stock de tus colecciones se lee directamente en las tiendas (no todas se dejan leer).</span></div>` : "";
+    : retraso ? `<div class="aviso">${icono("info")}<span>StockTCG no se actualiza desde las ${new Date(retraso).toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" })}. Mientras tanto, el stock de tus colecciones se lee directamente en las tiendas y en stocktcg.es.</span></div>` : "";
   pintarFrescura();
 }
 

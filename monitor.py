@@ -27,6 +27,7 @@ import traceback
 import unicodedata
 import urllib.parse
 import urllib.request
+from collections import Counter
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
@@ -930,6 +931,125 @@ def leer_tiendas(items):
     return lecturas
 
 
+# ---------------------------------------------------------------- segunda fuente: stocktcg.es
+
+ES_BASE = "https://stocktcg.es"
+# categoría de stocktcg.es -> (fmt, fmtName) como los usa stocktcg.net
+ES_FORMATOS = {"booster box": ("booster-box", "Booster Box / Display"), "etb": ("etb", "ETB"),
+               "bundle": ("booster-bundle", "Booster Bundle"), "sobre": ("booster-pack", "Sobre / Pack"),
+               "blister": ("blister", "Blister"), "lata": ("tin", "Tin"), "coleccion": ("collection-box", "Collection Box"),
+               "mazo": ("deck", "Deck"), "otro": ("otros", "Otros")}
+
+
+def url_comparable(url):
+    p = urllib.parse.urlsplit((url or "").strip())
+    return p.netloc.lower().removeprefix("www.") + urllib.parse.unquote(p.path).rstrip("/").lower()
+
+
+def leer_stocktcg_es():
+    """Lee las páginas de comparador de Pokémon en español de stocktcg.es (otra web, independiente de
+    stocktcg.net). Cada una trae las tiendas con stock (precio, enlace) en datos schema.org.
+    Devuelve la lista de ofertas o None si no se ha podido leer entera (así no hay falsos avisos)."""
+    from concurrent.futures import ThreadPoolExecutor
+    try:
+        mapa = leer_pagina(ES_BASE + "/sitemap.xml")
+    except Exception as e:
+        print("  stocktcg.es no responde:", e)
+        return None
+    paginas = [u for u in re.findall(r"<loc>([^<]*)</loc>", mapa) if "/comparador/pokemon-" in u and u.endswith("-es")]
+    if not paginas:
+        return None
+
+    def una(url):
+        try:
+            html = leer_pagina(url)
+        except Exception:
+            return None
+        for bloque in LD_JSON.findall(html):
+            try:
+                datos = json.loads(bloque)
+            except ValueError:
+                continue
+            for prod in productos_ld(datos):
+                ofertas = (prod.get("offers") or {}).get("offers") or []
+                fmt, fmt_nombre = ES_FORMATOS.get(normalizar(prod.get("category")), ("otros", "Otros"))
+                lista = []
+                for o in ofertas:
+                    disp = normalizar(str(o.get("availability"))).replace(" ", "")
+                    if not o.get("url") or not ("instock" in disp or "preorder" in disp):
+                        continue
+                    try:
+                        precio = round(float(o.get("price")), 2)
+                    except (TypeError, ValueError):
+                        continue
+                    lista.append({"title": prod.get("name"), "setName": "", "fmt": fmt, "fmtName": fmt_nombre,
+                                  "langs": "es", "store": (o.get("seller") or {}).get("name") or "?", "url": o["url"],
+                                  "price": precio, "currency": o.get("priceCurrency") or "EUR", "available": True,
+                                  "preorder": "preorder" in disp, "img": prod.get("image"), "fuente": url})
+                return lista
+        return None
+
+    with ThreadPoolExecutor(8) as ex:
+        resultados = list(ex.map(una, paginas))
+    fallidas = sum(r is None for r in resultados)
+    if fallidas:
+        print(f"  stocktcg.es: {fallidas} de {len(paginas)} páginas sin leer; no se usa en esta comprobación.")
+        return None
+    ofertas = [o for r in resultados for o in r]
+    print(f"stocktcg.es: {len(ofertas)} ofertas en stock en {len(paginas)} productos de Pokémon en español.")
+    return ofertas
+
+
+def mezclar_stocktcg_es(items, ofertas, alertas, general, respaldo, anterior):
+    """Añade al catálogo lo que aporta stocktcg.es:
+    - ofertas de tiendas (dominios) que stocktcg.net no vigila: se añaden como productos (en la misma ficha de la app
+      que su producto de stocktcg.net, si existe);
+    - con StockTCG atascado, las ofertas de tiendas que no se han podido leer marcan el producto como disponible.
+    Devuelve (items, extras, tocados)."""
+    def dominio(url):
+        return urllib.parse.urlsplit(url or "").netloc.lower().removeprefix("www.")
+
+    dominios_net = {dominio(i.get("url")) for i in items if i.get("url")}  # tiendas que vigila stocktcg.net
+    tocados, extras = set(), []
+    if ofertas is not None:
+        indice = {url_comparable(i["url"]): n for n, i in enumerate(items) if i.get("url")}
+        hermanos = {}  # (filtro, fmt) -> productos de stocktcg.net para copiar colección, ficha y Cardmarket
+        for i in items:
+            if i.get("url") and (a := primer_filtro({**i, "available": True}, alertas, general)):
+                hermanos.setdefault((a.get("nombre"), i.get("fmt")), []).append(i)
+        vistos = set()
+        for o in ofertas:
+            alerta = primer_filtro(o, alertas, general)
+            if not alerta:
+                continue
+            if dominio(o["url"]) in dominios_net:
+                n = indice.get(url_comparable(o["url"]))
+                if respaldo and n is not None and clave(items[n]) not in respaldo["leidos"] and not items[n].get("available"):
+                    items[n] = {**items[n], "available": True}
+                    tocados.add(clave(items[n]))
+                continue
+            if clave(o) in vistos:
+                continue
+            vistos.add(clave(o))
+            familia = hermanos.get((alerta.get("nombre"), o["fmt"])) or []
+            if familia:
+                paginas = Counter(h.get("ppage") for h in familia if h.get("ppage"))
+                base = next((h for h in familia if h.get("ppage") == paginas.most_common(1)[0][0]), familia[0]) if paginas else familia[0]
+                o = {**o, "setName": base.get("setName"), "fmtName": base.get("fmtName"), "ppage": base.get("ppage"),
+                     "cmTrend": base.get("cmTrend"), "cmPctTrend": base.get("cmPctTrend")}
+            extras.append(o)
+    else:
+        extras = []
+
+    # Si stocktcg.es falla, o una oferta desaparece una sola vez, se mantiene lo anterior (evita avisos repetidos)
+    actuales = {clave(o) for o in extras}
+    for o in (anterior or {}).get("es_items") or []:
+        if clave(o) not in actuales and (ofertas is None or o.get("faltas", 0) < 1):
+            extras.append({**o, "faltas": 0 if ofertas is None else o.get("faltas", 0) + 1})
+    extras = [{k: v for k, v in o.items() if k != "faltas"} | ({"faltas": o["faltas"]} if o.get("faltas") else {}) for o in extras]
+    return items + extras, extras, tocados
+
+
 def catalogo_de_respaldo(datos, general, alertas, motivo):
     """El catálogo de StockTCG está atascado: se pone al día leyendo directamente en cada tienda los
     productos de tus filtros. Lo que no se puede leer se completa con el feed de reposiciones de StockTCG
@@ -1007,7 +1127,16 @@ def comprobar(solo_resumen, anterior):
     sin_bajadas = respaldo["tocados"] if respaldo and not en_respaldo_antes else set()
     silenciar = set((anterior or {}).get("respaldo_leidos") or []) if not respaldo and en_respaldo_antes else set()
 
-    items = datos["items"]
+    ofertas_es = leer_stocktcg_es()
+    items, es_items, tocados_es = mezclar_stocktcg_es(list(datos["items"]), ofertas_es, alertas, general, respaldo, anterior)
+    print(f"stocktcg.es aporta {len(es_items)} ofertas de tiendas que stocktcg.net no vigila"
+          + (f" y {len(tocados_es)} reposiciones de tiendas que no se dejan leer" if tocados_es else "") + ".")
+    if respaldo:
+        respaldo["tocados"] |= tocados_es
+        if not en_respaldo_antes:
+            sin_bajadas = respaldo["tocados"]
+    if anterior is not None and "es_items" not in anterior:
+        silenciar = silenciar | {clave(o) for o in es_items}  # primera vez con stocktcg.es: no es reposición
     obsoletas = set(datos.get("stale_stores", []))
     print(f"Catálogo de {datos.get('ts')}: {len(items)} productos ({len(obsoletas)} tiendas sin actualizar)")
 
@@ -1112,12 +1241,12 @@ def comprobar(solo_resumen, anterior):
 
     nuevo_estado = {"ts": datos.get("ts"), "filtros": huella, "tiendas": tiendas, "seguidos": seguidos, "errores": 0,
                     "preventas_es": sorted({clave(i) for i in preventas_es}), "calendario": calendario,
-                    "alertas_app": alertas_app, "amazon": amazon,
+                    "alertas_app": alertas_app, "amazon": amazon, "es_items": es_items,
                     # si la página nunca se ha podido leer, no se toca la lista (así no llegan avisos de todas de golpe)
                     "amazon_vistas": sorted(c["url"] for c in campanas) if amazon.get("ts") else (anterior or {}).get("amazon_vistas")}
     if respaldo:
         nuevo_estado["modo_respaldo"] = (anterior or {}).get("modo_respaldo") or ahora
-        nuevo_estado["respaldo_leidos"] = sorted(respaldo["leidos"])
+        nuevo_estado["respaldo_leidos"] = sorted(respaldo["leidos"] | respaldo["tocados"])
 
     if actualizar_historial(coinciden, eventos if misma_config else [], disponibles, obsoletas, ahora):
         print("datos/historial.json actualizado.")

@@ -40,3 +40,8 @@ Pestaña **Actions** → **Vigilar stock** → menú `···` → **Disable work
   schema.org de la propia página) y sigue avisando de las reposiciones. Lo que no se deja leer se
   completa con el feed de reposiciones de StockTCG, si avanza. No detecta productos nuevos. Te avisa
   al entrar y al salir de este modo, y la app muestra un aviso mientras dure.
+- **Segunda fuente: stocktcg.es** (otra web, independiente de stocktcg.net). En cada comprobación se leen
+  sus páginas de comparador de Pokémon en español: añade las ofertas de tiendas que stocktcg.net no
+  vigila (se reconocen por el dominio) en la misma ficha del producto, y con StockTCG atascado también
+  sirve para saber qué se ha repuesto en las tiendas que no se dejan leer. Si alguna página falla, esa
+  comprobación se queda con lo anterior.
