@@ -724,7 +724,7 @@ def preparar_fotos(urls):
 
 # ---------------------------------------------------------------- datos para la web
 
-def escribir_datos_web(grupos, info, ts_catalogo, fotos=None):
+def escribir_datos_web(grupos, info, ts_catalogo, fotos=None, retraso=None):
     """Escribe datos/stock.json para la web. Solo lo reescribe si algo ha cambiado (así no hay commits de más)."""
     colecciones = []
     for nombre, items in grupos.items():
@@ -743,6 +743,8 @@ def escribir_datos_web(grupos, info, ts_catalogo, fotos=None):
             })
         colecciones.append({"nombre": nombre, "productos": lista})
     contenido = {"colecciones": colecciones}
+    if retraso:
+        contenido["retraso"] = retraso  # StockTCG atascado desde esta hora: stock leído en las tiendas
 
     if DATOS_WEB.exists():
         try:
@@ -807,80 +809,167 @@ def actualizar_historial(coinciden, eventos, disponibles, obsoletas, ahora):
 
 # ---------------------------------------------------------------- principal
 
+# ---------------------------------------------------------------- respaldo: leer las tiendas directamente
+
 URL_PULSO = f"{BASE}/api/pulse.json"  # últimas reposiciones en directo (lo usa la portada de StockTCG)
+NAVEGADOR = "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Mobile Safari/537.36"
+LD_JSON = re.compile(r"<script[^>]+application/ld\+json[^>]*>(.*?)</script>", re.S | re.I)
+META = re.compile(r"<meta\b[^>]*>", re.I)
+HAY_STOCK = ("instock", "limitedavailability", "onlineonly", "instoreonly", "preorder", "presale")
+SIN_STOCK = ("outofstock", "soldout", "discontinued", "backorder")
+LECTURA_MAX_SEGUNDOS = 150      # tiempo máximo leyendo tiendas en una comprobación
+LECTURA_MINIMA = 0.3            # si se lee menos de esta parte, el respaldo no es fiable
 
 
-def registrar_reposiciones(eventos, ahora):
-    """Apunta en el historial las reposiciones avisadas en modo pulso (se cierran luego en modo normal)."""
-    try:
-        hist = json.loads(HISTORIAL.read_text(encoding="utf-8"))
-    except (FileNotFoundError, ValueError):
-        hist = {"precios": {}, "reposiciones": []}
-    abiertas = {r["id"] for r in hist.setdefault("reposiciones", []) if not r.get("salida")}
-    for _, item, alerta, _ in eventos:
-        if clave(item) not in abiertas:
-            hist["reposiciones"].append({"id": clave(item), "grupo": grupo_de(item, alerta), "filtro": alerta.get("nombre"),
-                                         "tienda": item["store"], "precio": item["price"], "titulo": item.get("title"),
-                                         "entrada": ahora, "salida": None})
-    HISTORIAL.parent.mkdir(exist_ok=True)
-    HISTORIAL.write_text(json.dumps(hist, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+def leer_pagina(url):
+    url = urllib.parse.quote(url, safe=":/?&=%#+,;@!$'()*~")
+    req = urllib.request.Request(url, headers={"User-Agent": NAVEGADOR, "Accept-Language": "es-ES,es;q=0.9",
+                                               "Accept-Encoding": "gzip"})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        datos = resp.read(1_500_000)
+        if resp.headers.get("Content-Encoding") == "gzip":
+            datos = gzip.decompress(datos)
+    return datos.decode("utf-8", "replace")
 
 
-def modo_pulso(anterior, general, alertas, datos, motivo):
-    """El catálogo de StockTCG está atascado: se sigue avisando de reposiciones con su feed en directo
-    (pulse.json). El catálogo atascado sirve para saber idioma, tipo y colección de cada producto.
-    No detecta productos que no estaban en ese catálogo, ni bajadas de precio."""
-    if not anterior:
-        raise motivo
-    pulso = descargar_json(URL_PULSO)
-    reposiciones = pulso.get("restocks") or []
+def disponibilidad(texto):
+    t = normalizar(str(texto or "")).replace(" ", "").replace("_", "")
+    if any(x in t for x in SIN_STOCK):
+        return False
+    if any(x in t for x in HAY_STOCK):
+        return True
+    return None
+
+
+def productos_ld(nodo):
+    if isinstance(nodo, list):
+        for n in nodo:
+            yield from productos_ld(n)
+    elif isinstance(nodo, dict):
+        tipo = nodo.get("@type")
+        if tipo in ("Product", "ProductGroup") or (isinstance(tipo, list) and "Product" in tipo):
+            yield nodo
+        for k in ("@graph", "mainEntity"):
+            if k in nodo:
+                yield from productos_ld(nodo[k])
+
+
+def leer_producto(item):
+    """Mira la página del producto en la tienda. Devuelve (disponible, precio) o (None, None) si no se sabe.
+    Solo se fía de datos estructurados (Shopify o schema.org), nunca de textos sueltos de la página."""
+    url = item["url"]
+    if "/products/" in url:  # Shopify
+        try:
+            d = json.loads(leer_pagina(url.split("?")[0].split("#")[0].rstrip("/") + ".js"))
+            precios = {v.get("price") for v in d.get("variants") or []}
+            precio = d["price"] / 100 if len(precios) <= 1 and isinstance(d.get("price"), int) else None
+            return bool(d.get("available")), precio
+        except Exception:
+            pass
+    html = leer_pagina(url)
+    palabras = set(normalizar(item.get("title")).split())
+    candidatos = []
+    for bloque in LD_JSON.findall(html):
+        try:
+            datos = json.loads(bloque.strip())
+        except ValueError:
+            continue
+        for prod in productos_ld(datos):
+            ofertas = prod.get("offers") or []
+            ofertas = ofertas if isinstance(ofertas, list) else [ofertas]
+            ofertas = [o for o in ofertas if isinstance(o, dict)]
+            estados = [e for o in ofertas if (e := disponibilidad(o.get("availability"))) is not None]
+            if not estados:
+                continue
+            precio = next((o.get("price") or o.get("lowPrice") for o in ofertas if o.get("price") or o.get("lowPrice")), None)
+            parecido = len(palabras & set(normalizar(prod.get("name")).split()))
+            candidatos.append((parecido, any(estados), precio))
+    if candidatos:
+        _, disp, precio = max(candidatos, key=lambda c: c[0])  # el producto de la página, no los relacionados
+        try:
+            precio = float(str(precio).replace(",", ".")) if precio is not None else None
+        except ValueError:
+            precio = None
+        return disp, precio
+    for meta in META.findall(html):
+        if re.search(r"(product|og):availability", meta, re.I):
+            m = re.search(r'content="([^"]+)"', meta, re.I)
+            if m and (disp := disponibilidad(m.group(1))) is not None:
+                return disp, None
+    return None, None
+
+
+def leer_tiendas(items):
+    """Lee la disponibilidad de cada producto en su tienda. Cada tienda se lee de una en una (sin
+    peticiones en paralelo a la misma tienda), y varias tiendas a la vez. Devuelve {clave: (disp, precio)}."""
+    from concurrent.futures import ThreadPoolExecutor
+    import time
+    limite = time.monotonic() + LECTURA_MAX_SEGUNDOS
+    por_tienda = {}
+    for i in items:
+        por_tienda.setdefault(i["store"], []).append(i)
+
+    def una_tienda(lista):
+        res, fallos = {}, 0
+        for i in lista:
+            if time.monotonic() > limite or fallos >= 3:
+                break  # tienda que no responde o bloquea: se deja como estaba
+            try:
+                disp, precio = leer_producto(i)
+            except Exception:
+                fallos += 1
+                continue
+            if disp is not None:
+                res[clave(i)] = (disp, precio)
+        return res
+
+    lecturas = {}
+    with ThreadPoolExecutor(16) as ex:
+        for res in ex.map(una_tienda, por_tienda.values()):
+            lecturas.update(res)
+    return lecturas
+
+
+def catalogo_de_respaldo(datos, general, alertas, motivo):
+    """El catálogo de StockTCG está atascado: se pone al día leyendo directamente en cada tienda los
+    productos de tus filtros. Lo que no se puede leer se completa con el feed de reposiciones de StockTCG
+    (si avanza) o se queda como estaba. Devuelve el catálogo corregido y qué se ha tocado."""
+    candidatos = [i for i in datos["items"] if i.get("url") and primer_filtro({**i, "available": True}, alertas, general)]
+    lecturas = leer_tiendas(candidatos)
+    print(f"Respaldo: leídos en la tienda {len(lecturas)} de {len(candidatos)} productos de tus filtros.")
+
+    cambios = {}
+    for i in candidatos:
+        k = clave(i)
+        if k in lecturas:
+            disp, precio = lecturas[k]
+            nuevo = {**i, "available": disp}
+            if precio and i.get("price") and 0.5 <= precio / i["price"] <= 1.5:
+                nuevo["price"] = round(precio, 2)
+            cambios[k] = nuevo
+
+    # Feed de reposiciones de StockTCG para los productos que no se pueden leer (p. ej. grandes superficies)
     ts_catalogo = datos.get("ts") or ""
-    ahora = datetime.now(MADRID).isoformat(timespec="minutes")
-    if not anterior.get("modo_pulso") and not any((r.get("ts") or "") > ts_catalogo for r in reposiciones):
-        raise motivo  # el feed en directo tampoco avanza: StockTCG está parado del todo, no solo su catálogo
-    indice = {clave(i): i for i in datos["items"] if i.get("url")}
-    vistos = set(anterior.get("pulso_vistos") or [])
-    nuevo = {**anterior, "errores": 0, "modo_pulso": anterior.get("modo_pulso") or ahora,
-             "tiendas": {t: list(k) for t, k in anterior["tiendas"].items()}, "seguidos": dict(anterior.get("seguidos") or {})}
-    print(f"Modo pulso: catálogo de {ts_catalogo}; {len(reposiciones)} reposiciones en el pulso.")
-
-    if not anterior.get("modo_pulso"):
-        enviar_ntfy({"title": "🟡 StockTCG va con retraso: sigo avisándote en modo reducido",
-                     "message": f"{motivo}\nMientras tanto te aviso de las reposiciones con su feed en directo. "
-                                "En este modo no detecto productos nuevos ni bajadas de precio, y la app no se actualiza. "
-                                "Te avisaré cuando vuelva a la normalidad.",
-                     "click": URL_ACTIONS, "tags": ["hourglass"]})
-
-    eventos = []
+    try:
+        reposiciones = descargar_json(URL_PULSO).get("restocks") or []
+    except RuntimeError:
+        reposiciones = []
+    indice = {clave(i): i for i in candidatos}
+    del_pulso = set()
     for r in reposiciones:
-        marca = f"{r.get('url')}|{r.get('ts')}"
-        if not r.get("url") or marca in vistos or (r.get("ts") or "") <= ts_catalogo:
-            continue  # ya visto, o anterior al catálogo (eso ya lo vio el modo normal)
-        vistos.add(marca)
-        base = indice.get(clave(r))
-        if not base:
-            continue  # producto que no estaba en el catálogo: no se sabe su idioma
-        item = {**base, "url": r["url"], "price": r.get("price", base.get("price")), "currency": r.get("currency") or base.get("currency"),
-                "store": r.get("store") or base.get("store"), "img": r.get("img") or base.get("img"), "available": True}
-        alerta = primer_filtro(item, alertas, general)
-        if alerta:
-            eventos.append(("reposicion", item, alerta, None))
+        k = clave(r) if r.get("url") else None
+        if k in indice and k not in lecturas and (r.get("ts") or "") > ts_catalogo:
+            cambios[k] = {**indice[k], "available": True, "price": r.get("price") or indice[k].get("price")}
+            del_pulso.add(k)
 
-    if eventos:
-        favoritos, ocultas = cargar_preferencias()
-        eventos = [ev for ev in eventos if normalizar(ev[1]["store"]) not in ocultas]
-        enviar_eventos(eventos, favoritos)
-        registrar_reposiciones(eventos, ahora)
-        # Se apuntan como disponibles para que, al volver el modo normal, no se repita el aviso
-        for _, item, _, _ in eventos:
-            k = clave(item)
-            nuevo["tiendas"].setdefault(item["store"], [])
-            if k not in nuevo["tiendas"][item["store"]]:
-                nuevo["tiendas"][item["store"]].append(k)
-            nuevo["seguidos"][k] = [item["price"], item.get("cmTier"), item["store"], ahora, None, None]
-    print(f"Avisos (modo pulso): {len(eventos)}")
-    nuevo["pulso_vistos"] = sorted(vistos)[-200:]
-    return nuevo
+    if candidatos and len(lecturas) < LECTURA_MINIMA * len(candidatos) and not del_pulso:
+        raise motivo  # ni las tiendas ni el feed: no hay forma fiable de seguir
+
+    items = [cambios.get(clave(i), i) if i.get("url") else i for i in datos["items"]]
+    leidas = {i["store"] for i in candidatos if clave(i) in lecturas}
+    sin_leer = sorted({i["store"] for i in candidatos} - leidas)
+    return {"motivo": str(motivo), "items": items, "tocados": set(cambios), "leidos": set(lecturas), "candidatos": len(candidatos),
+            "tiendas_leidas": leidas, "sin_leer": sin_leer, "del_pulso": len(del_pulso)}
 
 
 def comprobar(solo_resumen, anterior):
@@ -889,16 +978,35 @@ def comprobar(solo_resumen, anterior):
     print(f"Filtros activos: {len(alertas)}")
 
     datos = descargar_json(STOCK_URL)
+    respaldo = None
     try:
         validar_catalogo(datos)
     except CatalogoAtascado as e:
-        if solo_resumen:
+        if not anterior:
             raise
-        return modo_pulso(anterior, general, alertas, datos, e)
-    if anterior and anterior.get("modo_pulso"):
+        respaldo = catalogo_de_respaldo(datos, general, alertas, e)
+        datos = {**datos, "items": respaldo["items"],
+                 "stale_stores": [t for t in datos.get("stale_stores", []) if t not in respaldo["tiendas_leidas"]]}
+
+    en_respaldo_antes = bool(anterior and (anterior.get("modo_respaldo") or anterior.get("modo_pulso")))
+    if respaldo and not en_respaldo_antes and not solo_resumen:
+        sin_leer = respaldo["sin_leer"]
+        enviar_ntfy({"title": "🟡 StockTCG va con retraso: sigo vigilando yo las tiendas",
+                     "message": f"{respaldo['motivo']}\nMientras tanto leo directamente en cada tienda {len(respaldo['leidos'])} de "
+                                f"{respaldo['candidatos']} productos de tus colecciones y te aviso igual de las reposiciones."
+                                + (f" No dejan leerse: {', '.join(sin_leer[:6])}{'…' if len(sin_leer) > 6 else ''}." if sin_leer else "")
+                                + " En este modo no aparecen productos nuevos. Te avisaré cuando StockTCG vuelva.",
+                     "click": URL_LISTA, "tags": ["hourglass"]})
+    if not respaldo and en_respaldo_antes and not solo_resumen:
         enviar_ntfy({"title": "✅ StockTCG vuelve a actualizar su catálogo",
-                     "message": "Vuelvo al modo normal: reposiciones, bajadas de precio, productos nuevos y la app al día.",
+                     "message": "Vuelvo al modo normal: todas las tiendas, productos nuevos y bajadas de precio.",
                      "click": URL_LISTA, "tags": ["white_check_mark"]})
+    # Al entrar en el respaldo se avisa de lo que se ha repuesto desde que StockTCG se paró, pero no de
+    # bajadas (el precio de la tienda y el de StockTCG pueden diferir sin que haya cambiado). Al salir,
+    # lo leído en las tiendas no se vuelve a avisar: solo cambia la fuente.
+    sin_bajadas = respaldo["tocados"] if respaldo and not en_respaldo_antes else set()
+    silenciar = set((anterior or {}).get("respaldo_leidos") or []) if not respaldo and en_respaldo_antes else set()
+
     items = datos["items"]
     obsoletas = set(datos.get("stale_stores", []))
     print(f"Catálogo de {datos.get('ts')}: {len(items)} productos ({len(obsoletas)} tiendas sin actualizar)")
@@ -927,7 +1035,7 @@ def comprobar(solo_resumen, anterior):
         previo = (previo or []) + [None] * (6 - len(previo or []))  # entradas antiguas tenían 3 campos
         desde, precio_antes, ts_bajada = previo[3], previo[4], previo[5]
 
-        if misma_config and item["store"] not in obsoletas:
+        if misma_config and item["store"] not in obsoletas and k not in silenciar:
             if k not in antes:
                 eventos.append(("reposicion", item, alerta, None))
                 desde, precio_antes, ts_bajada = ahora, None, None
@@ -935,7 +1043,9 @@ def comprobar(solo_resumen, anterior):
                 eventos.append(("filtro", item, alerta, None))
                 desde = ahora
             elif seguidos_antes is not None:
-                if avisar_bajadas and previo[0] and item["price"] < previo[0] * (1 - bajada_minima / 100):
+                if k in sin_bajadas:
+                    pass
+                elif avisar_bajadas and previo[0] and item["price"] < previo[0] * (1 - bajada_minima / 100):
                     eventos.append(("bajada", item, alerta, previo[0]))
                     precio_antes, ts_bajada = previo[0], ahora
                 elif avisar_chollos and es_chollo(item) and previo[1] not in NIVELES_CHOLLO:
@@ -958,7 +1068,8 @@ def comprobar(solo_resumen, anterior):
     imagenes |= {l["img"] for l in lanzamientos if l.get("img")}
     imagenes |= {c["img"] for c in campanas if c.get("img")}
     fotos = preparar_fotos(imagenes)
-    if escribir_datos_web(grupos, info, datos.get("ts"), fotos):
+    if escribir_datos_web(grupos, info, ahora if respaldo else datos.get("ts"), fotos,
+                          retraso=datos.get("ts") if respaldo else None):
         print("datos/stock.json actualizado.")
     if escribir_amazon(campanas, {u: a.get("nombre") for u, a in filtro_amazon.items()}, fotos, amazon.get("ts")):
         print("datos/amazon.json actualizado.")
@@ -1004,6 +1115,9 @@ def comprobar(solo_resumen, anterior):
                     "alertas_app": alertas_app, "amazon": amazon,
                     # si la página nunca se ha podido leer, no se toca la lista (así no llegan avisos de todas de golpe)
                     "amazon_vistas": sorted(c["url"] for c in campanas) if amazon.get("ts") else (anterior or {}).get("amazon_vistas")}
+    if respaldo:
+        nuevo_estado["modo_respaldo"] = (anterior or {}).get("modo_respaldo") or ahora
+        nuevo_estado["respaldo_leidos"] = sorted(respaldo["leidos"])
 
     if actualizar_historial(coinciden, eventos if misma_config else [], disponibles, obsoletas, ahora):
         print("datos/historial.json actualizado.")
@@ -1108,7 +1222,7 @@ def main():
         return
 
     if nuevo is not None:
-        if errores_antes >= AVISAR_FALLO_TRAS and not nuevo.get("modo_pulso"):
+        if errores_antes >= AVISAR_FALLO_TRAS and not nuevo.get("modo_respaldo"):
             enviar_ntfy({"title": "✅ El monitor de stock vuelve a funcionar",
                          "message": f"Ha estado fallando unos {errores_antes * 5} minutos. Ya vuelves a recibir avisos.",
                          "click": URL_LISTA, "tags": ["white_check_mark"]})

@@ -35,3 +35,8 @@ Pestaña **Actions** → **Vigilar stock** → menú `···` → **Disable work
 - Si el repositorio pasa 60 días sin cambios, GitHub pausa las ejecuciones programadas y te avisa
   por email. Basta con volver a activarlo en Actions.
 - Los precios en otras monedas (DKK, SEK, CHF…) se convierten a euros de forma aproximada.
+- **Si StockTCG se atasca** (su catálogo lleva más de 30 min sin actualizarse), el monitor entra en
+  modo respaldo: lee directamente en cada tienda los productos de tus colecciones (datos de Shopify o
+  schema.org de la propia página) y sigue avisando de las reposiciones. Lo que no se deja leer se
+  completa con el feed de reposiciones de StockTCG, si avanza. No detecta productos nuevos. Te avisa
+  al entrar y al salir de este modo, y la app muestra un aviso mientras dure.
