@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T21:50:23",
+ "actualizado": "2026-11-06T10:23:24",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -812,6 +812,23 @@
    "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/caja-dominio-delta-espanol-18-sobres/",
    "img": "https://reinodecartas.com/wp-content/uploads/2026/11/dominio-delta-caja-18-sobres-espanol.jpg",
    "foto": "fotos/9560e3d280ad69a8.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokémon Delta Reign Booster Box [DLR]",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 216.0,
+   "moneda": "EUR",
+   "tienda": "El Duelista",
+   "idioma": "es",
+   "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
+   "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
+   "foto": "fotos/4cbc60d25555a73a.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
