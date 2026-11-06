@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T10:23:24",
+ "actualizado": "2026-11-06T10:29:16",
  "lanzamientos": [
   {
    "slug": "deck-crafters-collection",
@@ -63,21 +63,6 @@
      "url": "https://dungeonmarvels.com/pokemon-jcc-baraja-combate-celebracion-30-aniversario-de-espeon-ex-castellano-103451.html",
      "img": "https://dungeonmarvels.com/216622-large_default/pokemon-jcc-baraja-combate-celebracion-30-aniversario-de-espeon-ex-castellano.jpg",
      "foto": "fotos/e023d430bc4eed75.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
-    },
-    {
-     "titulo": "Pokemon JCC Baraja Combate Celebracion 30 Aniversario De Umbreon EX Castellano",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "deck",
-     "tipoNombre": "Deck",
-     "precio": 39.99,
-     "moneda": "EUR",
-     "tienda": "Dungeon Marvels",
-     "idioma": "es",
-     "url": "https://dungeonmarvels.com/pokemon-jcc-baraja-combate-celebracion-30-aniversario-de-umbreon-ex-castellano-103452.html",
-     "img": "https://dungeonmarvels.com/216623-large_default/pokemon-jcc-baraja-combate-celebracion-30-aniversario-de-umbreon-ex-castellano.jpg",
-     "foto": "fotos/8883aa021ce461df.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
     },
