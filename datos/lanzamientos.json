@@ -2,32 +2,6 @@
  "actualizado": "2026-11-06T12:53:26",
  "lanzamientos": [
   {
-   "slug": "deck-crafters-collection",
-   "nombre": "Deck Crafter's Collection",
-   "tipo": "Colección de cartas de entrenador para mazos",
-   "fecha": "2026-10-23",
-   "fechaConfirmada": true,
-   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/deck-crafters-collection-2026.png?v=1793407208&width=400",
-   "foto": "fotos/9bade051d1095602.jpg",
-   "ofertas": [
-    {
-     "titulo": "Deck Crafter's Collection 2026 — Español",
-     "coleccion": "Deck Crafter's Collection",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 19.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/deck-crafters-collection-2026?variant=54771082854723",
-     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/deck-crafters-collection-2026.png?v=1793407208&width=400",
-     "foto": "fotos/9bade051d1095602.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/deck-crafters-collection--collection-box"
-    }
-   ]
-  },
-  {
    "slug": "30-aniversario-oleada-3",
    "nombre": "30 Aniversario Oleada 3: Battle Decks Espeon ex y Umbreon ex",
    "tipo": "Barajas de combate (30th Celebration)",
@@ -853,8 +827,8 @@
    "foto": "fotos/9bade051d1095602.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/deck-crafters-collection--collection-box",
-   "lanzamiento": "deck-crafters-collection",
-   "fecha": "2026-10-23"
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Booster Box de Rivales Predestinados - Español",
