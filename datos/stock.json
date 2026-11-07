@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T05:51+01:00",
+ "actualizado": "2026-11-07T05:55+01:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5806,27 +5806,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Oscuridad Absoluta pitch black Pokemon TCG",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.94,
-     "moneda": "EUR",
-     "tienda": "Mythic Card TCG",
-     "idioma": "es",
-     "url": "https://mythocardtcg.com/inicio/130-73-pokemon-tcg-oscuridad-absoluta-etb-espanol.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 67.62,
-     "cardmarketPct": 3,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-11-07T05:51+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
