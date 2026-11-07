@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T19:31+01:00",
+ "actualizado": "2026-11-07T20:23+01:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8413,6 +8413,32 @@
      "cardmarketPct": -23,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    }
+   ]
+  },
+  {
+   "nombre": "Mascarada Crepuscular",
+   "productos": [
+    {
+     "titulo": "ETB Mascarada Crepuscular",
+     "coleccion": "Twilight Masquerade",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 84.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/etb-mascarada-crepuscular-pokemon-tcg/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/543845_in_400x400.jpg",
+     "foto": "fotos/3456b314a880345b.jpg",
+     "preventa": false,
+     "cardmarket": 78.69,
+     "cardmarketPct": 8,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/twilight-masquerade--etb",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
