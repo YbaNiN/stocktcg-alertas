@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T17:31+01:00",
+ "actualizado": "2026-11-07T17:55+01:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4268,6 +4268,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja cartas Pokémon ETB Equlibrio Perfecto en Español",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 62.96,
+     "moneda": "EUR",
+     "tienda": "StarGeek",
+     "idioma": "es",
+     "url": "https://www.stargeek.es/equilibrio-perfecto-cartas-pokemon-sobres-blister-y-cajas-oficiales/caja-cartas-pokemon-etb-equlibrio-perfecto-en-espanol.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 62.06,
+     "cardmarketPct": 1,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": "2026-11-07T17:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
