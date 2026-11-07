@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T12:51+01:00",
+ "actualizado": "2026-11-07T14:35+01:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3171,6 +3171,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Elite Trainer Box Caos Creciente",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "La Cueva Roja",
+     "idioma": "es",
+     "url": "https://lacuevaroja.com/pokemon-tcg/pokemon-tcg-etb-caja-de-entrenador-elite-pokemon-megaevolucion-caos-creciente-es",
+     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/prepedido-pokemon-tcg-elite-trainer-expansion-mayo.jpg?v=1779885514&width=320",
+     "foto": "fotos/9e755993efd0d833.jpg",
+     "preventa": false,
+     "cardmarket": 61.23,
+     "cardmarketPct": -10,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-11-07T14:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
