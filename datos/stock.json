@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T00:11+01:00",
+ "actualizado": "2026-11-07T02:36+01:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6896,7 +6896,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box Rivales Predestinados",
+     "titulo": "Booster Box de Rivales Predestinados - Español",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -6905,8 +6905,8 @@
      "tienda": "La Cueva Roja",
      "idioma": "es",
      "url": "https://lacuevaroja.com/pokemon-tcg/pokemon-tcg-rivales-predestinados-booster-box-es",
-     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/caja_rivales.png?v=1780419956&width=320",
-     "foto": "fotos/6e885df1832ab078.jpg",
+     "img": "https://cdn.shopify.com/s/files/1/1005/2940/6295/files/Capturadepantalla2026-04-19220305.png?v=1776629063&width=320",
+     "foto": "fotos/c165afa39cd14cc5.jpg",
      "preventa": false,
      "cardmarket": 299.37,
      "cardmarketPct": -37,
@@ -6959,7 +6959,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box Rivales Predestinados",
+     "titulo": "Booster Box de Rivales Predestinados - Español",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -6968,8 +6968,8 @@
      "tienda": "Wini Games",
      "idioma": "es",
      "url": "https://winigames.es/products/booster-box-rivales-predestinados-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/caja_rivales.png?v=1780419956&width=320",
-     "foto": "fotos/6e885df1832ab078.jpg",
+     "img": "https://cdn.shopify.com/s/files/1/1005/2940/6295/files/Capturadepantalla2026-04-19220305.png?v=1776629063&width=320",
+     "foto": "fotos/c165afa39cd14cc5.jpg",
      "preventa": false,
      "cardmarket": 299.37,
      "cardmarketPct": -37,
@@ -7043,7 +7043,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box Rivales Predestinados",
+     "titulo": "Booster Box de Rivales Predestinados - Español",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -7052,8 +7052,8 @@
      "tienda": "OZ Juegos",
      "idioma": "es",
      "url": "https://ozjuegos.com/producto/pokemon-tcg-destined-rivals-booster-box-36-sobres-ingles/",
-     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/caja_rivales.png?v=1780419956&width=320",
-     "foto": "fotos/6e885df1832ab078.jpg",
+     "img": "https://cdn.shopify.com/s/files/1/1005/2940/6295/files/Capturadepantalla2026-04-19220305.png?v=1776629063&width=320",
+     "foto": "fotos/c165afa39cd14cc5.jpg",
      "preventa": false,
      "cardmarket": 299.37,
      "cardmarketPct": -37,
@@ -8318,6 +8318,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.png",
+     "foto": "fotos/86ca565bbb4d8422.jpg",
+     "preventa": false,
+     "cardmarket": 88.47,
+     "cardmarketPct": -21,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-07T02:36+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "PKM – Megaevolución: Dominio Delta – Caja de Entrenador de Élite",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -8360,7 +8381,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokemon - DELTA REIGN - Elite Trainer Box",
+     "titulo": "Pokémon Mega Evolution - Delta Reign: Elite Trainer Box",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -8369,8 +8390,8 @@
      "tienda": "Atheneas Hobby",
      "idioma": "es",
      "url": "https://atheneashobby.com/tcg/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0630/2292/3954/files/productossincatalogar_35_05a16174-8481-47b8-91b2-4b6dd7956c27.png?v=1793896274&width=320",
-     "foto": "fotos/43c3483cb9822f4d.jpg",
+     "img": null,
+     "foto": null,
      "preventa": false,
      "cardmarket": 88.47,
      "cardmarketPct": -23,
