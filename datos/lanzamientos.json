@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T20:54:18",
+ "actualizado": "2026-11-08T22:33:36",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -871,23 +871,6 @@
    "foto": "fotos/ac802b96055743eb.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Pokémon TCG: Caja de Entrenador de Élite / Elite Trainer Box – Dominio Delta (Español) – RESERVA",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 64.95,
-   "moneda": "EUR",
-   "tienda": "CardCrack",
-   "idioma": "es",
-   "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-caja-de-entrenador-de-elite-elite-trainer-box-dominio-delta-espanol-reserva/",
-   "img": "https://cardcrack.com/wp-content/uploads/2026/10/DOMINIO-DELTA-ETB.jpg",
-   "foto": "fotos/b55efb05d0ad496c.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": null,
    "fecha": null
   },
