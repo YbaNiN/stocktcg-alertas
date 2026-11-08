@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T23:10:01",
+ "actualizado": "2026-11-08T23:15:32",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -43,6 +43,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-10-14T14:10+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador de Elite Pokémon Fuegos Fantasmales y Phantasmal Flames — Español",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 99.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-de-entrenador-de-elite-pokemon-fuegos-fantasmales-y-phantasmal-flames?variant=53009015308626",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
+     "foto": "fotos/f07ecea19094f29d.jpg",
+     "preventa": false,
+     "cardmarket": 91.44,
+     "cardmarketPct": 9,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
+     "desde": "2026-11-08T23:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -3003,6 +3024,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador de Elite Pokémon Caos Creciente y Chaos Rising — Español",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-de-entrenador-de-elite-pokemon-caos-creciente-y-chaos-rising?variant=53441462010194",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 61.96,
+     "cardmarketPct": 5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-11-08T23:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
