@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T22:58:15",
+ "actualizado": "2026-11-08T23:03:32",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4861,6 +4861,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja 36 sobres Pokémon Oscuridad Absoluta y Pitch Black — Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 174.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-36-sobres-pokemon-oscuridad-absoluta-y-pitch-black?variant=53973446951250",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
+     "foto": "fotos/2d95d5c132a0c8f0.jpg",
+     "preventa": false,
+     "cardmarket": 173.31,
+     "cardmarketPct": 1,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+     "desde": "2026-11-08T23:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
