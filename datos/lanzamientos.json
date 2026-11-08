@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T22:33:36",
+ "actualizado": "2026-11-08T22:44:26",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -22,21 +22,6 @@
      "url": "https://flashstore.es/producto/celebraciones-30th-battle-deck/",
      "img": "https://flashstore.es/wp-content/uploads/2026/11/celebdeck.jpg",
      "foto": "fotos/ea7bac055028e4e9.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
-    },
-    {
-     "titulo": "Pokémon - 30 Aniversario : ​​Baraja Umbreon EX / Espeon EX",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "deck",
-     "tipoNombre": "Deck",
-     "precio": 39.99,
-     "moneda": "EUR",
-     "tienda": "Padis Store",
-     "idioma": "es",
-     "url": "https://www.padis-store.com/44835-2935-pokemon-30-aniversario-baraja-umbreon-ex-espeon-ex.html",
-     "img": "https://www.padis-store.com/65088-thickbox_default/pokemon-30-aniversario-baraja-umbreon-ex-espeon-ex.jpg",
-     "foto": "fotos/33230c9be26615db.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
     }
@@ -93,21 +78,6 @@
      "url": "https://bimbacards.com/product/30-aniversario-ditto-premium-collection/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-ditto-scaled.png",
      "foto": "fotos/6a3252a89416dba8.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
-     "titulo": "Pokémon - 30 Aniversario : ​​Colección Premium Ditto (Español)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 99.99,
-     "moneda": "EUR",
-     "tienda": "Padis Store",
-     "idioma": "es",
-     "url": "https://www.padis-store.com/44882-pokemon-30-aniversario-coleccion-premium-ditto-espanol.html",
-     "img": "https://www.padis-store.com/65329-thickbox_default/pokemon-30-aniversario-coleccion-premium-ditto-espanol.jpg",
-     "foto": "fotos/1fe7bfa281767501.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
@@ -329,21 +299,6 @@
      "url": "https://lamaquinadeltemps.com/trading-card-game/3382-espanol-pokemon-pack-3-sobres-promo-dominio-delta.html",
      "img": "https://lamaquinadeltemps.com/6882-home_default/espanol-pokemon-pack-3-sobres-promo-dominio-delta.jpg",
      "foto": "fotos/0d87ab9745552cc5.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
-     "titulo": "Pokémon - Megaevolución 6 Dominio Delta ME06: Blister Seel 3 Sobres (Español)",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 19.99,
-     "moneda": "EUR",
-     "tienda": "Padis Store",
-     "idioma": "es",
-     "url": "https://www.padis-store.com/44881-pokemon-megaevolucion-6-dominio-delta-me06-blister-seel-3-sobres-espanol.html",
-     "img": "https://www.padis-store.com/65321-thickbox_default/pokemon-megaevolucion-6-dominio-delta-me06-blister-seel-3-sobres-espanol.jpg",
-     "foto": "fotos/7f6c89d3c549e72f.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
