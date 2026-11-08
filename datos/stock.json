@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T18:34:35",
+ "actualizado": "2026-11-08T19:05:17",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8624,6 +8624,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-08T18:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon - Megaevolución 6 Dominio Delta ME06: Caja de Entrenador de Elite (Español)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "Padis Store",
+     "idioma": "es",
+     "url": "https://www.padis-store.com/44880-pokemon-megaevolucion-6-dominio-delta-me06-caja-de-entrenador-de-elite-espanol.html",
+     "img": "https://www.padis-store.com/65317-thickbox_default/pokemon-megaevolucion-6-dominio-delta-me06-caja-de-entrenador-de-elite-espanol.jpg",
+     "foto": "fotos/a7afa3de148831f9.jpg",
+     "preventa": false,
+     "cardmarket": 86.57,
+     "cardmarketPct": -19,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-08T19:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
