@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T18:20+01:00",
+ "actualizado": "2026-11-08T21:20+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Megaevolución-Dominio Delta (1 Carta de pro",
@@ -392,6 +392,19 @@
    "filtro": null
   },
   {
+   "titulo": "Lote de 6 Sobres de Mejora Megaevolución: Héroes Ascendentes",
+   "coleccion": "Ascended Heroes / Héroes Ascendentes",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 29.94,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0G4NVYMTH?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81nL3rPlPYL._AC_SL500_.jpg",
+   "foto": "fotos/4eb8c713bbfadafe.jpg",
+   "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
+   "filtro": "Héroes Ascendentes"
+  },
+  {
    "titulo": "Minilata Megaevolución-Héroes Ascendentes: Riolu y Darumaka",
    "coleccion": "Ascended Heroes / Héroes Ascendentes",
    "tipo": "mini-tin",
@@ -418,11 +431,24 @@
    "filtro": "Héroes Ascendentes"
   },
   {
+   "titulo": "Expositor de 18 Sobres de Mejora Megaevolución: Fuegos Fantasmales",
+   "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 89.82,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0FTFZXNBX?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81aw7T9CXHL._AC_SL500_.jpg",
+   "foto": "fotos/f462d8ac27cc17cc.jpg",
+   "stocktcg": "https://stocktcg.net/p/phantasmal-flames--booster-box",
+   "filtro": "Fuegos Fantasmales"
+  },
+  {
    "titulo": "Lote de 6 Sobres de Mejora Megaevolución: Fuegos Fantasmales",
    "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
    "tipo": "booster-bundle",
    "tipoNombre": "Booster Bundle",
-   "precio": 29.25,
+   "precio": 27.59,
    "idioma": "es",
    "url": "https://www.amazon.es/dp/B0FTG3C43P?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/613pmnExqFL._AC_SL500_.jpg",
