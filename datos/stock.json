@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T23:30:27",
+ "actualizado": "2026-11-09T00:05:11",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5743,27 +5743,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Oscuridad Absoluta ETB - Español",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 62.9,
-     "moneda": "EUR",
-     "tienda": "Top Rocket Shop",
-     "idioma": "es",
-     "url": "https://toprocketshop.com/products/oscuridad-absoluta-etb-espanol-reserva",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 67.03,
-     "cardmarketPct": -6,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-10-18T18:35+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
