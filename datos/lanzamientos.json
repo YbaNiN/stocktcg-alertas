@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T00:25:15",
+ "actualizado": "2026-11-09T00:54:32",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -809,21 +809,6 @@
      "url": "https://laescotillajuegos.com/products/pokemon-tcg-dominio-delta-caja-de-entrenador-elite-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0354/4688/2440/files/pokemon-tcg-delta-reign-elite-trainer-box-esp.png?v=1793896326&width=400",
      "foto": "fotos/57cdbe69de5d1084.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "ETB Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.png",
-     "foto": "fotos/86ca565bbb4d8422.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
