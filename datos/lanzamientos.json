@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T23:23:45",
+ "actualizado": "2026-11-09T00:25:15",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -706,21 +706,6 @@
      "foto": "fotos/6b3e0765ae5d8baf.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
-     "titulo": "Pokemon: Presentación Megaevolución 6 Dominio Delta ME06 (Español)",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "build-battle",
-     "tipoNombre": "Build & Battle",
-     "precio": 30.0,
-     "moneda": "EUR",
-     "tienda": "Padis Store",
-     "idioma": "es",
-     "url": "https://www.padis-store.com/44681-pokemon-presentacion-megaevolucion-6-dominio-delta-.html",
-     "img": "https://www.padis-store.com/65346-thickbox_default/pokemon-presentacion-megaevolucion-6-dominio-delta-.jpg",
-     "foto": "fotos/7b503178fdb7d34f.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--build-battle"
     },
     {
      "titulo": "Dominio Delta Booster Bundle",
