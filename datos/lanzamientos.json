@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T12:53:26",
+ "actualizado": "2026-11-08T18:13:53",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -22,21 +22,6 @@
      "url": "https://flashstore.es/producto/celebraciones-30th-battle-deck/",
      "img": "https://flashstore.es/wp-content/uploads/2026/11/celebdeck.jpg",
      "foto": "fotos/ea7bac055028e4e9.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
-    },
-    {
-     "titulo": "Pokemon JCC Baraja Combate Celebracion 30 Aniversario De Espeon EX Castellano",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "deck",
-     "tipoNombre": "Deck",
-     "precio": 39.99,
-     "moneda": "EUR",
-     "tienda": "Dungeon Marvels",
-     "idioma": "es",
-     "url": "https://dungeonmarvels.com/pokemon-jcc-baraja-combate-celebracion-30-aniversario-de-espeon-ex-castellano-103451.html",
-     "img": "https://dungeonmarvels.com/216622-large_default/pokemon-jcc-baraja-combate-celebracion-30-aniversario-de-espeon-ex-castellano.jpg",
-     "foto": "fotos/e023d430bc4eed75.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
     },
@@ -363,21 +348,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
-     "titulo": "Blister 3 Sobres Dominio Delta | POKÉMON | Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 19.99,
-     "moneda": "EUR",
-     "tienda": "TodoHits",
-     "idioma": "es",
-     "url": "https://todohits.com/products/blister-3-sobres-dominio-delta-pokemon-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_3_Sobres_Dominio_Delta_POKEMON_Espa_ol.jpg?v=1792070359&width=400",
-     "foto": "fotos/dcd2a961524e1e78.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
      "titulo": "Pokémon - Megaevolución 6 Dominio Delta ME06: Blister Seel 3 Sobres (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -421,21 +391,6 @@
      "foto": "fotos/797d71470b786f7f.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
-     "titulo": "Booster Bundle Dominio Delta - Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 39.95,
-     "moneda": "EUR",
-     "tienda": "CardZone",
-     "idioma": "es",
-     "url": "https://cardzone.es/products/booster-bundle-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/booster-bundle-dominio-delta-reign-rayquaza-espanol-cartas-pokemon-tcg-cardzone_8dd586ac-d4e2-435a-926a-ee45764db60f.png?v=1793948896&width=400",
-     "foto": "fotos/95d26dfe28d8fc49.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
      "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
@@ -513,21 +468,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
-     "titulo": "Booster Box Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/booster-box-reinado-delta-pokemon-tcg/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-booster-scaled.png",
-     "foto": "fotos/62ba72777116776a.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
      "titulo": "Pokemon JCC Expositor De Sobres De Mejora De Megaevolucion Dominio Delta Castellano",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -562,14 +502,14 @@
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
-     "precio": 245.44,
+     "precio": 216.0,
      "moneda": "EUR",
      "tienda": "El Duelista",
      "idioma": "es",
      "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
      "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
      "foto": "fotos/4cbc60d25555a73a.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     }
    ]
@@ -848,6 +788,23 @@
    "fecha": null
   },
   {
+   "titulo": "Dominio Delta Blister 3 Pack",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 19.9,
+   "moneda": "EUR",
+   "tienda": "FlashStore",
+   "idioma": "es",
+   "url": "https://flashstore.es/producto/dominio-delta-blister-3-pack/",
+   "img": "https://flashstore.es/wp-content/uploads/2026/08/deltab3.jpg",
+   "foto": "fotos/8336c005db7b93d8.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "RESERVA – Caja de Sobres Reinado Delta (18 sobres) en Castellano",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
@@ -882,21 +839,55 @@
    "fecha": null
   },
   {
-   "titulo": "Pokémon Delta Reign Booster Box [DLR]",
+   "titulo": "RESERVA Booster Box 36 Sobres Dominio Delta",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
    "tipoNombre": "Booster Box / Display",
-   "precio": 245.44,
+   "precio": 189.9,
    "moneda": "EUR",
-   "tienda": "El Duelista",
+   "tienda": "La Nave TCG",
    "idioma": "es",
-   "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
-   "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
-   "foto": "fotos/4cbc60d25555a73a.jpg",
+   "url": "https://lanavetcg.com/products/reserva-booster-box-36-sobres-dominio-delta",
+   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/BOOSTERBOX_5c26c82a-1499-4234-9711-5f05c0afe7b0.png?v=1793282411&width=400",
+   "foto": "fotos/0a81fd49cbaca66f.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Dominio Delta Booster Bundle",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 35.9,
+   "moneda": "EUR",
+   "tienda": "FlashStore",
+   "idioma": "es",
+   "url": "https://flashstore.es/producto/dominio-delta-booster-bundle/",
+   "img": "https://flashstore.es/wp-content/uploads/2026/09/deltabundle.jpg",
+   "foto": "fotos/91fe64fc66ad0388.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 44.95,
+   "moneda": "EUR",
+   "tienda": "Pokezilla",
+   "idioma": "es",
+   "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs-preventa-copia?variant=44113679581274",
+   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-bundle_700x700_1.webp?v=1789657834&width=400",
+   "foto": "fotos/ac802b96055743eb.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon TCG: Caja de Entrenador de Élite / Elite Trainer Box – Dominio Delta (Español) – RESERVA",
@@ -931,6 +922,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 69.95,
+   "moneda": "EUR",
+   "tienda": "AllInTCG",
+   "idioma": "es",
+   "url": "https://allintcg.com/products/elite-trainer-box-delta-reign-esp",
+   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
+   "foto": "fotos/725572ca2a129684.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon - First Partner Serie III (Reserva)",
