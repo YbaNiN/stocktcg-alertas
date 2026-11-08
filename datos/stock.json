@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T22:33:36",
+ "actualizado": "2026-11-08T22:58:15",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3407,6 +3407,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": "2026-10-20T14:40+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja 36 sobres Pokémon Equilibrio Perfecto y Perfect Order — Español",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 154.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-36-sobres-pokemon-fuegos-fantasmales-y-phantasmal-flames-copia?variant=53068161515858",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
+     "foto": "fotos/a28fe6709aa672ea.jpg",
+     "preventa": false,
+     "cardmarket": 175.81,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
+     "desde": "2026-11-08T23:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -6924,6 +6945,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja Especial 36 sobres Pokémon Journey Together y Juntos de Aventura — Español",
+     "coleccion": "Journey Together",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 249.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-especial-36-sobres-pokemon-journey-together-y-juntos-de-aventura?variant=51872527384914",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
+     "foto": "fotos/9505a0d4ee21e438.jpg",
+     "preventa": false,
+     "cardmarket": 183.17,
+     "cardmarketPct": 36,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
+     "desde": "2026-11-08T23:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
