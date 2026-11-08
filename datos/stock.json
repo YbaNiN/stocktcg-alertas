@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T14:36+01:00",
+ "actualizado": "2026-11-08T14:41+01:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7903,27 +7903,6 @@
      "cardmarket": 255.58,
      "cardmarketPct": -16,
      "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Booster Box Chispas Fulgurantes – Pokémon Español",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 214.95,
-     "moneda": "EUR",
-     "tienda": "ZIAL TCG",
-     "idioma": "es",
-     "url": "https://www.zialtcg.com/producto/caja-de-sobres-chispas-fulgurantes-pokemon-tcg/",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Felultimobooster.com%2Fwp-content%2Fuploads%2F2026%2F01%2F4_5_11zon.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Felultimobooster.com%2Fwp-content%2Fuploads%2F2026%2F01%2F4_5_11zon.webp",
-     "foto": "fotos/0f837bebef27be48.jpg",
-     "preventa": false,
-     "cardmarket": 255.58,
-     "cardmarketPct": -30,
-     "chollo": false,
      "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
      "desde": null,
      "precioAntes": null,
