@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T23:03:32",
+ "actualizado": "2026-11-08T23:10:01",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -379,6 +379,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--booster-pack",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Sobres Fuegos Fantasmales y Phantasmal Flames — Español",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 7.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/sobres-fuegos-fantasmales-y-phantasmal-flames?variant=53009015734610",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654144_in_400x400.jpg",
+     "foto": "fotos/b7cfb66e55450ee6.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--booster-pack",
+     "desde": "2026-11-08T23:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
