@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T23:15:32",
+ "actualizado": "2026-11-08T23:23:45",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5810,6 +5810,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Caja de Entrenador de Elite Pokémon Oscuridad Absoluta y Pitch Black — Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-de-entrenador-de-elite-pokemon-oscuridad-absoluta-y-pitch-black?variant=53973451866450",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 67.03,
+     "cardmarketPct": -3,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-11-08T23:25+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Elite Trainer Box - Oscuridad Absoluta [ESP]",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -7629,6 +7650,27 @@
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
+    },
+    {
+     "titulo": "Elite Trainer Box Pokémon Llamas Obsidianas - Español",
+     "coleccion": "Obsidian Flames",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 239.0,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-llamas-obsidianas-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501264_in_400x400.jpg",
+     "foto": "fotos/5ee03bd88bde175e.jpg",
+     "preventa": false,
+     "cardmarket": 202.95,
+     "cardmarketPct": 18,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/obsidian-flames--etb",
+     "desde": "2026-11-08T23:25+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     }
    ]
   },
@@ -9033,6 +9075,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Elite Trainer Box Pokémon Stellar Crown y Corona Astral — Español",
+     "coleccion": "Stellar Crown",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-stellar-crown-y-corona-astral?variant=51872591577426",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
+     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
+     "preventa": false,
+     "cardmarket": 91.96,
+     "cardmarketPct": -24,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
+     "desde": "2026-11-08T23:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
