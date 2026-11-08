@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T18:13:53",
+ "actualizado": "2026-11-08T18:34:35",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5383,27 +5383,6 @@
      "preventa": false,
      "cardmarket": 67.03,
      "cardmarketPct": -16,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Oscuridad Absoluto",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 57.9,
-     "moneda": "EUR",
-     "tienda": "Cards Hunters",
-     "idioma": "es",
-     "url": "https://cardshunters.es/products/etb-oscuridad-absoluto",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 67.03,
-     "cardmarketPct": -14,
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
