@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T09:29:38",
+ "actualizado": "2026-11-09T11:34:36",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8645,6 +8645,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-08T18:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.png",
+     "foto": "fotos/86ca565bbb4d8422.jpg",
+     "preventa": false,
+     "cardmarket": 86.57,
+     "cardmarketPct": -19,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-09T11:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
