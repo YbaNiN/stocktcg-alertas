@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T17:08:58",
+ "actualizado": "2026-11-09T18:04:29",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1351,6 +1351,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "Reserva ETB Dominio Delta",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 63.9,
+   "moneda": "EUR",
+   "tienda": "La Nave TCG",
+   "idioma": "es",
+   "url": "https://lanavetcg.com/products/reserva-etb-dominio-delta",
+   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/ETB.png?v=1793282163&width=400",
+   "foto": "fotos/b4ce588ea3bd1e4b.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon TCG: Caja de Entrenador de Élite / Elite Trainer Box – Dominio Delta (Español) – RESERVA",
