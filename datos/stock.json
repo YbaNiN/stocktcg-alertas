@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T12:14:40",
+ "actualizado": "2026-11-09T12:29:13",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1502,27 +1502,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--mini-tin",
      "desde": "2026-10-23T23:20+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG Héroes Ascendentes Blíster Surtido",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 29.99,
-     "moneda": "EUR",
-     "tienda": "Toy Planet",
-     "idioma": "es",
-     "url": "https://www.toyplanet.com/products/pokemon-tcg-heroes-ascendentes-blister-surtido",
-     "img": "https://cdn.shopify.com/s/files/1/0900/8241/0819/files/TPBAN010314_1.png?v=1771380547&width=400",
-     "foto": "fotos/d9ba662224b6cbd0.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--blister",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
