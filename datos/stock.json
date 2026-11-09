@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T19:34:00",
+ "actualizado": "2026-11-09T20:19:57",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7522,6 +7522,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Llamas Obsidianas Caja 36 - ESPAÑOL",
+     "coleccion": "Obsidian Flames",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.95,
+     "moneda": "EUR",
+     "tienda": "Elite Store TCG",
+     "idioma": "es",
+     "url": "https://elitestoretcg.com/products/llamas-obsidianas-caja-36-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
+     "foto": "fotos/1ae5b73e408870a6.jpg",
+     "preventa": false,
+     "cardmarket": 231.51,
+     "cardmarketPct": -18,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
+     "desde": "2026-11-09T20:20+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
