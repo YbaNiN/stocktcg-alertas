@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T16:33:02",
+ "actualizado": "2026-11-09T17:08:58",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8586,6 +8586,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Pokémon TCG: Caja de Entrenador de Élite / Elite Trainer Box – Dominio Delta (Español) – RESERVA",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.95,
+     "moneda": "EUR",
+     "tienda": "CardCrack",
+     "idioma": "es",
+     "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-caja-de-entrenador-de-elite-elite-trainer-box-dominio-delta-espanol-reserva/",
+     "img": "https://cardcrack.com/wp-content/uploads/2026/10/DOMINIO-DELTA-ETB.jpg",
+     "foto": "fotos/b55efb05d0ad496c.jpg",
+     "preventa": true,
+     "cardmarket": 86.57,
+     "cardmarketPct": -25,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-09T17:10+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -8767,7 +8788,7 @@
      "foto": "fotos/bf3de2c7a7670825.jpg",
      "preventa": false,
      "cardmarket": 86.57,
-     "cardmarketPct": -21,
+     "cardmarketPct": -25,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
@@ -8788,7 +8809,7 @@
      "foto": "fotos/305215241df5b0c9.jpg",
      "preventa": false,
      "cardmarket": 86.57,
-     "cardmarketPct": -21,
+     "cardmarketPct": -25,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
@@ -8809,7 +8830,7 @@
      "foto": "fotos/305215241df5b0c9.jpg",
      "preventa": false,
      "cardmarket": 86.57,
-     "cardmarketPct": -21,
+     "cardmarketPct": -25,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
