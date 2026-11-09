@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T04:29:14",
+ "actualizado": "2026-11-09T04:53:01",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -884,6 +884,21 @@
      "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/elite-trainer-box-pokemon-reinado-delta-espanol/",
      "img": "https://monsterscollectors.com/wp-content/uploads/2026/10/PKM_MEG_DRE_ES_ETB-5c4026b6.png",
      "foto": "fotos/07b07c202aefea47.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Caja Entrenador Elite Pokemon Dominio Delta Espanol",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 79.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-dominio-delta-espanol-94093.html",
+     "img": "https://pidopop.com/1267234-large_default/caja-entrenador-elite-pokemon-dominio-delta-espanol.jpg",
+     "foto": "fotos/dbcd6a2b606b3383.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
