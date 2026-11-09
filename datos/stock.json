@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T22:30:21",
+ "actualizado": "2026-11-09T23:58:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2839,27 +2839,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Caos Creciente Pokemon TCG Mega Evoluciones",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 61.95,
-     "moneda": "EUR",
-     "tienda": "Mythic Card TCG",
-     "idioma": "es",
-     "url": "https://mythocardtcg.com/inicio/93-54-Booster-box-36-sobres-etb-caos-creciente-oficial.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 62.05,
-     "cardmarketPct": 0,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": "2026-11-04T03:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Caos Creciente ETB",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -3150,6 +3129,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": "2026-11-08T02:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Caos Creciente Pokemon TCG Mega Evoluciones",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Mythic Card TCG",
+     "idioma": "es",
+     "url": "https://mythocardtcg.com/inicio/93-54-Booster-box-36-sobres-etb-caos-creciente-oficial.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 62.05,
+     "cardmarketPct": 13,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-11-04T03:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
