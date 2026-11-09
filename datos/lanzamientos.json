@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T16:29:44",
+ "actualizado": "2026-11-09T16:52:54",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -753,6 +753,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.png",
+     "foto": "fotos/86ca565bbb4d8422.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -809,6 +824,21 @@
      "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/elite-trainer-box-pokemon-reinado-delta-espanol/",
      "img": "https://monsterscollectors.com/wp-content/uploads/2026/10/PKM_MEG_DRE_ES_ETB-5c4026b6.png",
      "foto": "fotos/07b07c202aefea47.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "(español) RECOGIDA - Pokemon ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 75.0,
+     "moneda": "EUR",
+     "tienda": "La Maquina del Temps",
+     "idioma": "es",
+     "url": "https://lamaquinadeltemps.com/trading-card-game/3379-espanol-recogida-pokemon-etb-dominio-delta.html",
+     "img": "https://lamaquinadeltemps.com/6877-home_default/espanol-recogida-pokemon-etb-dominio-delta.jpg",
+     "foto": "fotos/e2915e2c6ea7ce76.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
@@ -914,6 +944,21 @@
      "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
      "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
      "foto": "fotos/4cbc60d25555a73a.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "(español - RECOGIDA) Pokemon CAJA 36 sobres Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 216.0,
+     "moneda": "EUR",
+     "tienda": "La Maquina del Temps",
+     "idioma": "es",
+     "url": "https://lamaquinadeltemps.com/trading-card-game/3381-espanol-recogida-pokemon-caja-36-sobres-dominio-delta.html",
+     "img": "https://lamaquinadeltemps.com/6880-home_default/espanol-recogida-pokemon-caja-36-sobres-dominio-delta.jpg",
+     "foto": "fotos/68c010d2279e5c58.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
