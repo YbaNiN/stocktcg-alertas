@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T00:54:32",
+ "actualizado": "2026-11-09T01:02:53",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -644,6 +644,21 @@
      "url": "https://www.carrefour.es/pokemon-pack-blister-3-sobres-mega-evolucion-dominio-delta-juego-de-mesa-6-anos-unboxing/VC4A-35014820/p",
      "img": "https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/801931_00_1.jpg",
      "foto": "fotos/b55e6b4c8046d192.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "Pokémon - Megaevolución 6 Dominio Delta ME06: Blister Seel (3 Sobres) Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 19.99,
+     "moneda": "EUR",
+     "tienda": "Padis Store",
+     "idioma": "es",
+     "url": "https://www.padis-store.com/44881-pokemon-megaevolucion-6-dominio-delta-me06-blister-seel-3-sobres-espanol.html",
+     "img": "https://www.padis-store.com/65321-thickbox_default/pokemon-megaevolucion-6-dominio-delta-me06-blister-seel-3-sobres-espanol.jpg",
+     "foto": "fotos/7f6c89d3c549e72f.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
