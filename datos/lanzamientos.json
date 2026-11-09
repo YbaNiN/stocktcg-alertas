@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T12:08:46",
+ "actualizado": "2026-11-09T12:14:40",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -588,21 +588,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
-     "titulo": "Blister 3 Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 19.99,
-     "moneda": "EUR",
-     "tienda": "Epic Hit Store",
-     "idioma": "es",
-     "url": "https://epichitstore.es/producto/blister-3-dominio-delta/",
-     "img": "https://epichitstore.es/wp-content/uploads/2026/09/blister-1.jpg",
-     "foto": null,
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
      "titulo": "(español) Pokemon Pack 3 sobres + promo Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -808,21 +793,6 @@
      "idioma": "es",
      "url": "https://jupiterjuegos.com/producto/pkm-megaevolucion-dominio-delta-caja-de-entrenador-de-elite/",
      "img": "",
-     "foto": null,
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "Dominio Delta ETB",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "Epic Hit Store",
-     "idioma": "es",
-     "url": "https://epichitstore.es/producto/dominio-delta/",
-     "img": "https://epichitstore.es/wp-content/uploads/2026/09/etb.jpg",
      "foto": null,
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T12:05:26",
+ "actualizado": "2026-11-09T12:14:40",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8703,27 +8703,6 @@
      "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
      "foto": "fotos/725572ca2a129684.jpg",
      "preventa": true,
-     "cardmarket": 86.57,
-     "cardmarketPct": -19,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-08T18:15+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Dominio Delta ETB",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "Epic Hit Store",
-     "idioma": "es",
-     "url": "https://epichitstore.es/producto/dominio-delta/",
-     "img": "https://epichitstore.es/wp-content/uploads/2026/09/etb.jpg",
-     "foto": null,
-     "preventa": false,
      "cardmarket": 86.57,
      "cardmarketPct": -19,
      "chollo": true,
