@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T20:19:57",
+ "actualizado": "2026-11-09T22:00:28",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2580,27 +2580,6 @@
      "preventa": false,
      "cardmarket": 62.05,
      "cardmarketPct": -11,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caos Creciente ETB",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 59.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/caos-creciente-etb/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 62.05,
-     "cardmarketPct": -3,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
