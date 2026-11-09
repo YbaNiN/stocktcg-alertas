@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T16:29:44",
+ "actualizado": "2026-11-09T16:33:02",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8414,27 +8414,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Delta Reign - Booster Box",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.99,
-     "moneda": "EUR",
-     "tienda": "Darizard9",
-     "idioma": "es",
-     "url": "https://www.darizard9.com/products/delta-reign-booster-box",
-     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/P11222-ME06_3D_Booster_Display_36ct_Left_EN-3644x5001-40d6697.webp?v=1794237797&width=400",
-     "foto": "fotos/8a6cee8db84ebd33.jpg",
-     "preventa": false,
-     "cardmarket": 203.87,
-     "cardmarketPct": -2,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": "2026-11-09T16:30+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
