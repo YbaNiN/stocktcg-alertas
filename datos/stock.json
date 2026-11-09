@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T02:33:44",
+ "actualizado": "2026-11-09T02:39:33",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5663,27 +5663,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box Oscuridad Absoluta",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 59.95,
-     "moneda": "EUR",
-     "tienda": "ZIAL TCG",
-     "idioma": "es",
-     "url": "https://www.zialtcg.com/producto/caja-de-entrenador-elite-oscuridad-absoluta-pokemon-tcg/",
-     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/ETB_Oscuridad_Absoluta_Elite_Trainer_Box_POKEMON_Espa_ol.webp?v=1783761264&width=320",
-     "foto": "fotos/55d99ec9c631480f.jpg",
-     "preventa": false,
-     "cardmarket": 67.03,
-     "cardmarketPct": -16,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ETB Oscuridad Absoluta (ESP)",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -8417,27 +8396,6 @@
   {
    "nombre": "Dominio Delta",
    "productos": [
-    {
-     "titulo": "Pokémon Megaevolución Dominio Delta Booster Box",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 185.2,
-     "moneda": "EUR",
-     "tienda": "inGenio BCN",
-     "idioma": "es",
-     "url": "https://www.ingeniobcn.com/juegos-de-cartas/jc-tcg/pokemon-megaevolucion-dominio-delta-booster-box/",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Fwww.ingeniobcn.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fproducto-pkm-dominio-delta-booster-box.png&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Fwww.ingeniobcn.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fproducto-pkm-dominio-delta-booster-box.png",
-     "foto": "fotos/e6befa54bd33e13f.jpg",
-     "preventa": false,
-     "cardmarket": 203.87,
-     "cardmarketPct": -7,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "RESERVA Booster Box 36 Sobres Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
