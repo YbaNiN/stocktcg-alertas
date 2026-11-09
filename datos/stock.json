@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T14:33:27",
+ "actualizado": "2026-11-09T15:44:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3385,27 +3385,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokémon TCG Caja de Entrenador Élite Megaevolución Caos Creciente",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 79.99,
-     "moneda": "EUR",
-     "tienda": "Toy Planet",
-     "idioma": "es",
-     "url": "https://www.toyplanet.com/products/pokemon-tcg-caja-de-entrenador-elite-megaevolucion-caos-creciente-con-bramaluna-ferropaladin-6-anos",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 61.96,
-     "cardmarketPct": 29,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ELITE TRAINER BOX CHAOS RISING ENG",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -4769,27 +4748,6 @@
      "preventa": false,
      "cardmarket": 62.33,
      "cardmarketPct": -14,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja Entrenador Elite Pokemon Equilibrio Perfecto Espanol",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 80.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-equilibrio-perfecto-espanol-89960.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 62.33,
-     "cardmarketPct": 30,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
