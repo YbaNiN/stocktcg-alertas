@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T01:02:53",
+ "actualizado": "2026-11-09T04:29:14",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -768,21 +768,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
-     "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 44.95,
-     "moneda": "EUR",
-     "tienda": "Pokezilla",
-     "idioma": "es",
-     "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs-preventa-copia?variant=44113679581274",
-     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-bundle_700x700_1.webp?v=1789657834&width=400",
-     "foto": "fotos/ac802b96055743eb.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
      "titulo": "Pack 6 Sobres Pokemon Megaevolucion Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -1407,23 +1392,6 @@
    "url": "https://flashstore.es/producto/dominio-delta-booster-bundle/",
    "img": "https://flashstore.es/wp-content/uploads/2026/09/deltabundle.jpg",
    "foto": "fotos/91fe64fc66ad0388.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-bundle",
-   "tipoNombre": "Booster Bundle",
-   "precio": 44.95,
-   "moneda": "EUR",
-   "tienda": "Pokezilla",
-   "idioma": "es",
-   "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-booster-bundle-6-packs-preventa-copia?variant=44113679581274",
-   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-bundle_700x700_1.webp?v=1789657834&width=400",
-   "foto": "fotos/ac802b96055743eb.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
    "lanzamiento": "delta-reign",
