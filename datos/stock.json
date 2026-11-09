@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T22:00:28",
+ "actualizado": "2026-11-09T22:30:21",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8607,6 +8607,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Dominio Delta — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.9,
+     "moneda": "EUR",
+     "tienda": "La Boveda Friki",
+     "idioma": "es",
+     "url": "https://labovedafriki.es/products/etb-30-dominio-delta?variant=58170101104980",
+     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/ETBDominioDeltaLabovedafriki.png?v=1793902326&width=400",
+     "foto": "fotos/3d0ec3dcb258e62e.jpg",
+     "preventa": false,
+     "cardmarket": 80.99,
+     "cardmarketPct": -20,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-09T22:30+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -8788,7 +8809,7 @@
      "foto": "fotos/bf3de2c7a7670825.jpg",
      "preventa": false,
      "cardmarket": 80.99,
-     "cardmarketPct": -16,
+     "cardmarketPct": -20,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
@@ -8809,7 +8830,7 @@
      "foto": "fotos/305215241df5b0c9.jpg",
      "preventa": false,
      "cardmarket": 80.99,
-     "cardmarketPct": -16,
+     "cardmarketPct": -20,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
@@ -8830,7 +8851,7 @@
      "foto": "fotos/305215241df5b0c9.jpg",
      "preventa": false,
      "cardmarket": 80.99,
-     "cardmarketPct": -16,
+     "cardmarketPct": -20,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
