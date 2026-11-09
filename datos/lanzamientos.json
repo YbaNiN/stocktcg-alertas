@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T19:34:00",
+ "actualizado": "2026-11-09T19:48:58",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -125,21 +125,6 @@
      "foto": null,
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "PKM – 30th Celebration Premium Collection – Ditto",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 84.95,
-     "moneda": "EUR",
-     "tienda": "Júpiter Juegos",
-     "idioma": "es",
-     "url": "https://jupiterjuegos.com/producto/pkm-30th-celebration-premium-collection-ditto/",
-     "img": "",
-     "foto": null,
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
      "titulo": "Pokémon TCG - Celebración 30.º Aniversario - Colección prémium Ditto (Español)",
