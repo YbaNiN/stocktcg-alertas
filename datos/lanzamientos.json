@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T12:05:26",
+ "actualizado": "2026-11-09T12:08:46",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -720,21 +720,6 @@
      "img": "https://flashstore.es/wp-content/uploads/2026/09/deltabundle.jpg",
      "foto": "fotos/91fe64fc66ad0388.jpg",
      "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
-     "titulo": "Dominio Delta Booster Bundle",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 36.0,
-     "moneda": "EUR",
-     "tienda": "Epic Hit Store",
-     "idioma": "es",
-     "url": "https://epichitstore.es/producto/dominio-delta-booster-bundle/",
-     "img": "https://epichitstore.es/wp-content/uploads/2026/09/del.jpg",
-     "foto": null,
-     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
