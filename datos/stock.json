@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T13:38:41",
+ "actualizado": "2026-11-10T13:44:16",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7370,6 +7370,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Rivales Predestinados Caja 36 - ESPAÑOL",
+     "coleccion": "Destined Rivals",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "Elite Store TCG",
+     "idioma": "es",
+     "url": "https://elitestoretcg.com/products/rivales-predestinados-caja-36-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
+     "foto": "fotos/fe01e654f615e5f0.jpg",
+     "preventa": false,
+     "cardmarket": 292.1,
+     "cardmarketPct": -32,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
+     "desde": "2026-11-10T13:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
