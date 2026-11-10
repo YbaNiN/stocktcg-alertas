@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T14:34:30",
+ "actualizado": "2026-11-10T14:40:21",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -337,27 +337,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--blister",
      "desde": "2026-11-10T14:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokemon: Megaevolución Fuegos Fantasmales Blister De 3 Sobres",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 20.0,
-     "moneda": "EUR",
-     "tienda": "Goblin Trader",
-     "idioma": "es",
-     "url": "https://goblintrader.es/7822-pokemon-megaevolucion-fuegos-fantasmales-blister-de-3-sobres-1.html",
-     "img": null,
-     "foto": null,
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--blister",
-     "desde": "2026-11-10T02:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -6016,27 +5995,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": "2026-10-18T20:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box Oscuridad Absoluta",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 65.95,
-     "moneda": "EUR",
-     "tienda": "La Casa de Kartus",
-     "idioma": "es",
-     "url": "https://lacasadekartus.com/oscuridad-absoluta-etb-espanol/",
-     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/ETB_Oscuridad_Absoluta_Elite_Trainer_Box_POKEMON_Espa_ol.webp?v=1783761264&width=320",
-     "foto": "fotos/55d99ec9c631480f.jpg",
-     "preventa": false,
-     "cardmarket": 68.5,
-     "cardmarketPct": -18,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
