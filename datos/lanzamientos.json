@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T04:54:12",
+ "actualizado": "2026-11-10T09:05:12",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -419,21 +419,6 @@
      "url": "https://jupiterjuegos.com/producto/pkm-mega-evolution-delta-reign-booster-pack/",
      "img": "",
      "foto": null,
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
-    },
-    {
-     "titulo": "Sobre Pokemon Megaevolucion Dominio Delta Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-pack",
-     "tipoNombre": "Sobre / Pack",
-     "precio": 7.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/sobre-pokemon-megaevolucion-dominio-delta-espanol-94095.html",
-     "img": "https://pidopop.com/1267236-large_default/sobre-pokemon-megaevolucion-dominio-delta-espanol.jpg",
-     "foto": "fotos/e4aa3f12947f168e.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
