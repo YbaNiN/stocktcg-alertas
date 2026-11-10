@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T09:05:12",
+ "actualizado": "2026-11-10T10:54:48",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -393,6 +393,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "Pokémon TCG Dominio Delta Sobre Sorpresa",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 6.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-tcg-dominio-delta-sobre-sorpresa-195847-1/p",
+     "img": "https://drimjuguetes.vteximg.com.br/arquivos/ids/1140572/195847_A.JPG.jpg?v=639298784959170000",
+     "foto": "fotos/b3248dafa09b1669.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
      "titulo": "Sobre Pokémon Megaevolución Dominio Delta Surtido",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -584,6 +599,21 @@
      "url": "https://www.carrefour.es/pokemon-pack-blister-3-sobres-mega-evolucion-dominio-delta-juego-de-mesa-6-anos-unboxing/VC4A-35014820/p",
      "img": "https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/801931_00_1.jpg",
      "foto": "fotos/b55e6b4c8046d192.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "Pokémon TCG Megaevolución Dominio Delta Blíster de 3 Sobres Sorpresa",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 19.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-tcg-megaevolucion-dominio-delta-blister-de-3-sobres-sorpresa-195846-1/p",
+     "img": "https://drimjuguetes.vteximg.com.br/arquivos/ids/1140573/195846_A.JPG.jpg?v=639298784959330000",
+     "foto": "fotos/a991fc34fcef468c.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
@@ -824,6 +854,21 @@
      "url": "https://jupiterjuegos.com/producto/pkm-megaevolucion-dominio-delta-caja-de-entrenador-de-elite/",
      "img": "",
      "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Pokémon TCG Megaevolución Dominio Delta Caja de Entrenador Élite",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-tcg-megaevolucion-dominio-delta-caja-de-entrenador-elite-195848-1/p",
+     "img": "https://drimjuguetes.vteximg.com.br/arquivos/ids/1140575/195848_A.JPG.jpg?v=639298784969500000",
+     "foto": "fotos/0eb4abd70497d5e8.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
