@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T18:44:18",
+ "actualizado": "2026-11-10T19:13:30",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5138,27 +5138,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box Oscuridad Absoluta | POKÉMON | Español — x1 Booster Box",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 179.99,
-     "moneda": "EUR",
-     "tienda": "TodoHits",
-     "idioma": "es",
-     "url": "https://todohits.com/products/booster-box-oscuridad-absoluta-pokemon-espanol?variant=54501520572753",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
-     "foto": "fotos/2d95d5c132a0c8f0.jpg",
-     "preventa": false,
-     "cardmarket": 173.49,
-     "cardmarketPct": 4,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Booster Box Oscuridad Absoluta – Pokémon Español",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "booster-box",
@@ -5210,6 +5189,27 @@
      "tienda": "Monsters Collectors",
      "idioma": "es",
      "url": "https://monsterscollectors.com/producto-monsters/pokemon/espanol-pokemon/caja-de-sobres-pokemon-oscuridad-absoluta-espanol/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
+     "foto": "fotos/2d95d5c132a0c8f0.jpg",
+     "preventa": false,
+     "cardmarket": 173.49,
+     "cardmarketPct": 7,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box Oscuridad Absoluta | POKÉMON | Español — x1 Booster Box",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 184.99,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/booster-box-oscuridad-absoluta-pokemon-espanol?variant=54501520572753",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
      "foto": "fotos/2d95d5c132a0c8f0.jpg",
      "preventa": false,
