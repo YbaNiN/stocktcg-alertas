@@ -292,6 +292,33 @@ def agrupar(coinciden, alertas):
     return grupos
 
 
+# Tipos en los que una página de StockTCG es siempre el mismo producto (sin modelos distintos)
+UN_SOLO_MODELO = {"booster-box", "etb", "booster-bundle", "ultra-premium-collection", "mini-tin-display",
+                  "deck-display", "trainers-toolkit"}
+
+
+def unificar_fichas(coinciden):
+    """StockTCG a veces reparte un mismo producto en varias páginas (la UPC de Mega Charizard X sale en
+    "Phantasmal Flames" y en "Mega Evolution") o lo deja sin página. Dentro de cada filtro, los productos
+    de un tipo con un solo modelo se juntan en una ficha: la de la colección principal del filtro."""
+    por_filtro = {}
+    for i, a in coinciden:
+        por_filtro.setdefault(a.get("nombre"), []).append(i)
+    principal = {n: Counter(i.get("setName") for i in l).most_common(1)[0][0] for n, l in por_filtro.items()}
+    paginas = {}  # (filtro, tipo) -> Counter de páginas
+    for i, a in coinciden:
+        if i.get("fmt") in UN_SOLO_MODELO and i.get("ppage"):
+            paginas.setdefault((a.get("nombre"), i["fmt"]), Counter())[(i["ppage"], i.get("setName"))] += 1
+    base = {k: max(c.items(), key=lambda pc: (pc[0][1] == principal[k[0]], pc[1]))[0] for k, c in paginas.items()}
+    unificados = []
+    for i, a in coinciden:
+        b = base.get((a.get("nombre"), i.get("fmt")))
+        if b and i.get("ppage") != b[0]:
+            i = {**i, "ppage": b[0], "setName": b[1]}
+        unificados.append((i, a))
+    return unificados
+
+
 # ---------------------------------------------------------------- notificaciones
 
 def enviar_ntfy(mensaje):
@@ -1141,7 +1168,7 @@ def comprobar(solo_resumen, anterior):
     print(f"Catálogo de {datos.get('ts')}: {len(items)} productos ({len(obsoletas)} tiendas sin actualizar)")
 
     disponibles = [i for i in items if i.get("available") and i.get("url")]
-    coinciden = [(i, a) for i in disponibles if (a := primer_filtro(i, alertas, general))]
+    coinciden = unificar_fichas([(i, a) for i in disponibles if (a := primer_filtro(i, alertas, general))])
     grupos = agrupar(coinciden, alertas)
     for nombre, lista in grupos.items():
         print(f"  {nombre}: {len(lista)} en stock")
