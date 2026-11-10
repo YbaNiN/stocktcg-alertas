@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T21:04:42",
+ "actualizado": "2026-11-10T21:13:20",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1511,23 +1511,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "ETB DOMINIO DELTA - ESPAÑOL",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 69.9,
-   "moneda": "EUR",
-   "tienda": "Top Rocket Shop",
-   "idioma": "es",
-   "url": "https://toprocketshop.com/products/etb-dominio-delta-espanol",
-   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTAETB.png?v=1793962231&width=400",
-   "foto": "fotos/249042006639c236.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": null,
-   "fecha": null
   },
   {
    "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
