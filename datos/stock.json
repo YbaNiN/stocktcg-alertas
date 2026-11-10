@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T18:27:01",
+ "actualizado": "2026-11-10T18:44:18",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -72,7 +72,7 @@
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 99.99,
+     "precio": 114.99,
      "moneda": "EUR",
      "tienda": "Monsters Collectors",
      "idioma": "es",
@@ -81,7 +81,7 @@
      "foto": "fotos/f07ecea19094f29d.jpg",
      "preventa": false,
      "cardmarket": 90.46,
-     "cardmarketPct": 11,
+     "cardmarketPct": 27,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": null,
@@ -8834,27 +8834,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-09T22:30+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Dominio Delta ETB",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 66.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/dominio-delta-etb/",
-     "img": "https://flashstore.es/wp-content/uploads/2026/08/deltaetb.jpg",
-     "foto": "fotos/a33b85bcbc70db5e.jpg",
-     "preventa": true,
-     "cardmarket": 80.99,
-     "cardmarketPct": -17,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-10T13:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
