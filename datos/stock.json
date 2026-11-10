@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T21:52:47",
+ "actualizado": "2026-11-10T23:54:29",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8855,27 +8855,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG - Dominio Delta - Caja de Entrenador Élite (Español)",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 68.83,
-     "moneda": "EUR",
-     "tienda": "La Escotilla",
-     "idioma": "es",
-     "url": "https://laescotillajuegos.com/products/pokemon-tcg-dominio-delta-caja-de-entrenador-elite-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0354/4688/2440/files/pokemon-tcg-delta-reign-elite-trainer-box-esp.png?v=1793896326&width=400",
-     "foto": "fotos/57cdbe69de5d1084.jpg",
-     "preventa": false,
-     "cardmarket": 80.99,
-     "cardmarketPct": -15,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-08T18:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
