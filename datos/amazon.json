@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T23:50+01:00",
+ "actualizado": "2026-11-10T22:05+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Megaevolución-Dominio Delta (1 Carta de pro",
@@ -65,6 +65,19 @@
    "foto": "fotos/19b112623436dfb6.jpg",
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
    "filtro": "30 Aniversario"
+  },
+  {
+   "titulo": "Pokémon: Colección Greninja ex de Celebración 30.º Aniversario de JCC Pokémon (1",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 24.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8SY1NB9?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/91i5qGsPreL._AC_SL500_.jpg",
+   "foto": "fotos/8586e0dfe9b29e17.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
+   "filtro": null
   },
   {
    "titulo": "Pokémon: Colección Sylveon ex de Celebración 30.º Aniversario de JCC Pokémon (1",
