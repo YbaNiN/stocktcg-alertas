@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T11:00:45",
+ "actualizado": "2026-11-10T11:23:41",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1477,6 +1477,23 @@
    "foto": "fotos/e172b23785884e65.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/first-partner--blister",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "RESERVA MEGA Start Deck 100 Battle Collection",
+   "coleccion": "Mega Evolution",
+   "tipo": "deck",
+   "tipoNombre": "Deck",
+   "precio": 15.9,
+   "moneda": "EUR",
+   "tienda": "La Nave TCG",
+   "idioma": "es",
+   "url": "https://lanavetcg.com/products/reserva-mega-start-deck-100-battle-collection",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/644363_in_400x400.jpg",
+   "foto": "fotos/61c04d7453cd98e6.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/mega-evolution--deck",
    "lanzamiento": null,
    "fecha": null
   },
