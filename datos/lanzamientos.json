@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T22:25:00",
+ "actualizado": "2026-11-10T22:58:38",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -39,6 +39,21 @@
      "foto": "fotos/4cda45a279f78b46.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
+    {
+     "titulo": "Pokémon 30Th Aniversario Baraja de Combate Espeón/Umbreon, +6 Años (Unboxing)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 108.53,
+     "moneda": "EUR",
+     "tienda": "Carrefour",
+     "idioma": "es",
+     "url": "https://www.carrefour.es/pokemon-30th-aniversario-baraja-de-combate-espeon-umbreon-6-anos-unboxing/VC4A-34535243/p",
+     "img": "https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/783641_00_1.jpg",
+     "foto": "fotos/d1d5e29c8d364d4c.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
     }
    ]
   },
@@ -51,6 +66,36 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "Figure Collection 30 Aniversaio — Español / Mew",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 74.9,
+     "moneda": "EUR",
+     "tienda": "La Boveda Friki",
+     "idioma": "es",
+     "url": "https://labovedafriki.es/products/figure-collection-30-aniversaio?variant=56657943953748",
+     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Figure_Collection_30Aniversaio_Mew_mewtwo_la_boveda_friki.jpg?v=1785750796&width=400",
+     "foto": "fotos/6a3cf15f750622fd.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Figure Collection 30 Aniversaio — Español / Mewtwo",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 74.9,
+     "moneda": "EUR",
+     "tienda": "La Boveda Friki",
+     "idioma": "es",
+     "url": "https://labovedafriki.es/products/figure-collection-30-aniversaio?variant=56658190795092",
+     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Figure_Collection_30Aniversaio_Mew_mewtwo_la_boveda_friki.jpg?v=1785750796&width=400",
+     "foto": "fotos/6a3cf15f750622fd.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
     {
      "titulo": "Pokémon TCG - Celebración 30.º Aniversario - Colección con Figura (Español) — Mew",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -78,6 +123,21 @@
      "url": "https://laescotillajuegos.com/products/pokemon-tcg-celebracion-30-º-aniversario-coleccion-con-figura-espanol?variant=59410555666767",
      "img": "https://cdn.shopify.com/s/files/1/0354/4688/2440/files/pokemon-tcg-30th-celebration-figure-collection-mewtwo-esp.png?v=1793892873&width=400",
      "foto": "fotos/e3f00f8b7b398434.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Celebraciones 30th Premium Figure Collection",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 79.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/celebraciones-30th-premium-figure-collection/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/11/celeb30th.jpg",
+     "foto": "fotos/b75488c42735758e.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
@@ -153,6 +213,21 @@
      "url": "https://bimbacards.com/product/30-aniversario-ditto-premium-collection/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-ditto-scaled.png",
      "foto": "fotos/6a3252a89416dba8.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
+     "titulo": "Pokemon JCC Coleccion Premium Ditto De Celebracion 30 Aniversario Castellano",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 89.95,
+     "moneda": "EUR",
+     "tienda": "Dungeon Marvels",
+     "idioma": "es",
+     "url": "https://dungeonmarvels.com/pokemon-jcc-coleccion-premium-ditto-de-celebracion-30-aniversario-castellano-103782.html",
+     "img": "https://dungeonmarvels.com/217383-large_default/pokemon-jcc-coleccion-premium-ditto-de-celebracion-30-aniversario-castellano.jpg",
+     "foto": "fotos/6324f7614433d201.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
@@ -723,6 +798,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
+     "titulo": "Booster Bundle Dominio Delta – Español – Reserva",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 39.9,
+     "moneda": "EUR",
+     "tienda": "Top Rocket Shop",
+     "idioma": "es",
+     "url": "https://toprocketshop.com/products/booster-bundle-dominio-delta-espanol-reserva",
+     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/dominiodeltabundle.jpg?v=1794334230&width=400",
+     "foto": "fotos/1746c3a1e713e2cb.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
+    },
+    {
      "titulo": "PKM – Mega Evolution: Delta Reign – Booster Bundle",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -888,6 +978,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "Pokezilla",
+     "idioma": "es",
+     "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-pokemon-elite-trainer-box-preventa?variant=44010744840282",
+     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Delta-Reign_Elite_Trainer_Box_1.webp?v=1788519800&width=400",
+     "foto": "fotos/9332f533b5d20c8b.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "(español) RECOGIDA - Pokemon ETB Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1050,6 +1155,21 @@
      "img": "",
      "foto": null,
      "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "(PREVENTA) Pokémon - Booster Box Dominio Delta 36 sobres (ESP)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 226.95,
+     "moneda": "EUR",
+     "tienda": "GranCards",
+     "idioma": "es",
+     "url": "https://grancards.com/products/preventa-pokemon-booster-box-dominio-delta-36-sobres-esp",
+     "img": "https://cdn.shopify.com/s/files/1/0957/6434/9193/files/booster-display-box-es.jpg?v=1794313645&width=400",
+     "foto": "fotos/c650ce5ba6f3030c.jpg",
+     "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     }
    ]
@@ -1409,8 +1529,8 @@
    "foto": "fotos/c650ce5ba6f3030c.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Dominio Delta Booster Bundle",
@@ -1443,8 +1563,8 @@
    "foto": "fotos/1746c3a1e713e2cb.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",
@@ -1511,8 +1631,8 @@
    "foto": "fotos/9332f533b5d20c8b.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon - First Partner Serie III (Reserva)",
