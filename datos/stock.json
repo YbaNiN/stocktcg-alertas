@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T15:44:51",
+ "actualizado": "2026-11-10T17:30:33",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9044,6 +9044,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "Pokezilla",
+     "idioma": "es",
+     "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-pokemon-elite-trainer-box-preventa?variant=44010744840282",
+     "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Delta-Reign_Elite_Trainer_Box_1.webp?v=1788519800&width=400",
+     "foto": "fotos/9332f533b5d20c8b.jpg",
+     "preventa": true,
+     "cardmarket": 80.99,
+     "cardmarketPct": -7,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-10T17:31+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
