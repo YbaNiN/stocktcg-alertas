@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T09:45:14",
+ "actualizado": "2026-11-10T10:13:37",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7711,6 +7711,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box Llamas Obsidianas | POKÉMON | Español",
+     "coleccion": "Obsidian Flames",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 209.99,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/booster-box-llamas-obsidianas-pokemon-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
+     "foto": "fotos/1ae5b73e408870a6.jpg",
+     "preventa": false,
+     "cardmarket": 231.51,
+     "cardmarketPct": -9,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
+     "desde": "2026-11-10T10:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
