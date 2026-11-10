@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T14:23:01",
+ "actualizado": "2026-11-10T14:34:30",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -316,6 +316,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--blister",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokemon: Megaevolución Fuegos Fantasmales Blister De 3 Sobres",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 20.0,
+     "moneda": "EUR",
+     "tienda": "Goblin Trader",
+     "idioma": "es",
+     "url": "https://goblintrader.es/es/7822-pokemon-megaevolucion-fuegos-fantasmales-blister-de-3-sobres-1.html",
+     "img": null,
+     "foto": null,
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--blister",
+     "desde": "2026-11-10T14:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -9390,27 +9411,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
      "desde": "2026-11-08T23:25+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon Caja Élite Corona Astral",
-     "coleccion": "Stellar Crown",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "DRIM",
-     "idioma": "es",
-     "url": "https://www.drim.es/pokemon-caja-elite-corona-astral-178008-1/p",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
-     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
-     "preventa": false,
-     "cardmarket": 94.16,
-     "cardmarketPct": -26,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
-     "desde": "2026-11-10T06:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
