@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T11:00:45",
+ "actualizado": "2026-11-10T12:05:24",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8897,6 +8897,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-09T11:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Pokémon Dominio Delta (ESPAÑOL)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "Asturcards",
+     "idioma": "es",
+     "url": "https://www.asturcards.com/producto/etb-pokemon-dominio-delta-espanol/",
+     "img": "https://www.asturcards.com/wp-content/uploads/2026/11/etb-caja-de-entrenador-elite-dominio-delta-reign-rayquaza-cartas-pokemon-tcg-cardzone.webp",
+     "foto": "fotos/f8388ae12e05e4d2.jpg",
+     "preventa": false,
+     "cardmarket": 80.99,
+     "cardmarketPct": -14,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-10T12:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
