@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T20:04:13",
+ "actualizado": "2026-11-10T20:49:16",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1460,23 +1460,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "(PREVENTA) Pokémon - Sobre Dominio Delta (ESP)",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-pack",
-   "tipoNombre": "Sobre / Pack",
-   "precio": 6.95,
-   "moneda": "EUR",
-   "tienda": "GranCards",
-   "idioma": "es",
-   "url": "https://grancards.com/products/preventa-pokemon-sobre-dominio-delta-esp",
-   "img": "",
-   "foto": null,
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack",
-   "lanzamiento": null,
-   "fecha": null
   },
   {
    "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
