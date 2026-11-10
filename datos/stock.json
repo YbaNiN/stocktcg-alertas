@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T17:30:33",
+ "actualizado": "2026-11-10T18:27:01",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -111,7 +111,7 @@
     },
     {
      "titulo": "Mega Charizard X Ultra-Premium Collection — Español",
-     "coleccion": "Mega Evolution",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "ultra-premium-collection",
      "tipoNombre": "Ultra Premium Collection",
      "precio": 249.95,
@@ -125,14 +125,14 @@
      "cardmarket": 199.74,
      "cardmarketPct": 25,
      "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/mega-evolution--ultra-premium-collection",
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--ultra-premium-collection",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
     {
      "titulo": "Ultra-Premium Pokémon Charizard X ex Español",
-     "coleccion": "Cajas de un Pokémon",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "ultra-premium-collection",
      "tipoNombre": "Ultra Premium Collection",
      "precio": 269.99,
@@ -146,7 +146,7 @@
      "cardmarket": null,
      "cardmarketPct": null,
      "chollo": false,
-     "stocktcg": null,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--ultra-premium-collection",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
@@ -1704,7 +1704,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 154.99,
+     "precio": 149.99,
      "moneda": "EUR",
      "tienda": "LavaLootTCG",
      "idioma": "es",
@@ -1713,7 +1713,7 @@
      "foto": "fotos/3475a6f4a57ec163.jpg",
      "preventa": false,
      "cardmarket": 119.66,
-     "cardmarketPct": 30,
+     "cardmarketPct": 25,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": null,
