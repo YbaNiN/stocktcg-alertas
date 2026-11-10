@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T05:32:15",
+ "actualizado": "2026-11-10T06:09:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9306,6 +9306,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
      "desde": "2026-11-08T23:25+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon Caja Élite Corona Astral",
+     "coleccion": "Stellar Crown",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-caja-elite-corona-astral-178008-1/p",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
+     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
+     "preventa": false,
+     "cardmarket": 94.16,
+     "cardmarketPct": -26,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
+     "desde": "2026-11-10T06:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
