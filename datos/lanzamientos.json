@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T21:52:47",
+ "actualizado": "2026-11-10T22:25:00",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1205,23 +1205,6 @@
    "foto": "fotos/f93af3630ec07ac8.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/celebrations--premium-collection",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Colección con Figura 30 Aniversario Aleatoria – Español – Reserva",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "collection-box",
-   "tipoNombre": "Collection Box",
-   "precio": 65.9,
-   "moneda": "EUR",
-   "tienda": "Top Rocket Shop",
-   "idioma": "es",
-   "url": "https://toprocketshop.com/products/coleccion-con-figura-30-aniversario-aleatoria-espanol-reserva",
-   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/figura30.jpg?v=1794334602&width=400",
-   "foto": "fotos/b81a943eef422262.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
    "lanzamiento": null,
    "fecha": null
   },
