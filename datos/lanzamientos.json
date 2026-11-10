@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T11:23:41",
+ "actualizado": "2026-11-10T11:35:16",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -241,21 +241,6 @@
      "tienda": "BimbaCards",
      "idioma": "es",
      "url": "https://bimbacards.com/product/30-aniversario-ultra-premium-collection-day/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704190_in_400x400.jpg",
-     "foto": "fotos/3330da7a6eebd854.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection"
-    },
-    {
-     "titulo": "PKM – 30th Celebration Ultra Premium Collection – Pikachu/Espeon (Variant A)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "ultra-premium-collection",
-     "tipoNombre": "Ultra Premium Collection",
-     "precio": 350.0,
-     "moneda": "EUR",
-     "tienda": "Júpiter Juegos",
-     "idioma": "es",
-     "url": "https://jupiterjuegos.com/producto/pkm-30th-celebration-ultra-premium-collection-pikachuespeon-variant-a/",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/704190_in_400x400.jpg",
      "foto": "fotos/3330da7a6eebd854.jpg",
      "preventa": false,
