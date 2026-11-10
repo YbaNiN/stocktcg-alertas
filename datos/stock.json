@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T20:12:45",
+ "actualizado": "2026-11-10T21:04:42",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8918,6 +8918,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-09T11:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB DOMINIO DELTA - ESPAÑOL",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "Top Rocket Shop",
+     "idioma": "es",
+     "url": "https://toprocketshop.com/products/etb-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTAETB.png?v=1793962231&width=400",
+     "foto": "fotos/249042006639c236.jpg",
+     "preventa": true,
+     "cardmarket": 80.99,
+     "cardmarketPct": -14,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-10T21:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },

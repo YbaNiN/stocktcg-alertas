@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T21:00:43",
+ "actualizado": "2026-11-10T21:04:42",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1224,6 +1224,23 @@
    "fecha": null
   },
   {
+   "titulo": "Colección con Figura 30 Aniversario Aleatoria – Español – Reserva",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 65.9,
+   "moneda": "EUR",
+   "tienda": "Top Rocket Shop",
+   "idioma": "es",
+   "url": "https://toprocketshop.com/products/coleccion-con-figura-30-aniversario-aleatoria-espanol-reserva",
+   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/figura30.jpg?v=1794334602&width=400",
+   "foto": "fotos/b81a943eef422262.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "Caja Colección con Figura - 30th Anniversary [ENG] — Mewtwo",
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
    "tipo": "collection-box",
@@ -1445,6 +1462,23 @@
    "fecha": "2026-11-06"
   },
   {
+   "titulo": "Booster Bundle Dominio Delta – Español – Reserva",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 39.9,
+   "moneda": "EUR",
+   "tienda": "Top Rocket Shop",
+   "idioma": "es",
+   "url": "https://toprocketshop.com/products/booster-bundle-dominio-delta-espanol-reserva",
+   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/dominiodeltabundle.jpg?v=1794334230&width=400",
+   "foto": "fotos/1746c3a1e713e2cb.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-bundle",
@@ -1477,6 +1511,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "ETB DOMINIO DELTA - ESPAÑOL",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 69.9,
+   "moneda": "EUR",
+   "tienda": "Top Rocket Shop",
+   "idioma": "es",
+   "url": "https://toprocketshop.com/products/etb-dominio-delta-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTAETB.png?v=1793962231&width=400",
+   "foto": "fotos/249042006639c236.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
