@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T21:13:20",
+ "actualizado": "2026-11-10T21:52:47",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -751,21 +751,6 @@
      "foto": "fotos/ac802b96055743eb.jpg",
      "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
-     "titulo": "ETB Dominio Delta — Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.9,
-     "moneda": "EUR",
-     "tienda": "La Boveda Friki",
-     "idioma": "es",
-     "url": "https://labovedafriki.es/products/etb-30-dominio-delta?variant=58170101104980",
-     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/ETBDominioDeltaLabovedafriki.png?v=1793902326&width=400",
-     "foto": "fotos/3d0ec3dcb258e62e.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
      "titulo": "Pack 6 Sobres Pokemon Megaevolucion Dominio Delta",
