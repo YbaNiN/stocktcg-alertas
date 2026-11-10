@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T14:00:22",
+ "actualizado": "2026-11-10T14:14:58",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6335,6 +6335,27 @@
      "bajadaDesde": "2026-11-08T18:15+01:00"
     },
     {
+     "titulo": "ETB Estuche Cartas Entrenador Elite Expansion Megaevolucion Oscuridad Absoluta Pokemon Espanol",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 94.95,
+     "moneda": "EUR",
+     "tienda": "Mola Ser Friki",
+     "idioma": "es",
+     "url": "https://molaserfriki.com/tipo-de-producto/cartas-tcg-y-cromos/cartas-tcg/62258-etb-estuche-cartas-entrenador-elite-expansion-megaevolucion-oscuridad-absoluta-pokemon-espanol.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 68.5,
+     "cardmarketPct": 39,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-11-10T14:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "ETB – Oscuridad Absoluta – Español – Pokemon",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -9044,6 +9065,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-08T19:05+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG Megaevolución Dominio Delta Caja de Entrenador Élite",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-tcg-megaevolucion-dominio-delta-caja-de-entrenador-elite-195848-1/p",
+     "img": "https://drimjuguetes.vteximg.com.br/arquivos/ids/1140575/195848_A.JPG.jpg?v=639298784969500000",
+     "foto": "fotos/0eb4abd70497d5e8.jpg",
+     "preventa": false,
+     "cardmarket": 80.99,
+     "cardmarketPct": -14,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-10T14:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
