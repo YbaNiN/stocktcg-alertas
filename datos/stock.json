@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T19:13:30",
+ "actualizado": "2026-11-10T20:04:13",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8813,6 +8813,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-08T18:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "(PREVENTA) Pokémon - Booster Box Dominio Delta 36 sobres (ESP)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 226.95,
+     "moneda": "EUR",
+     "tienda": "GranCards",
+     "idioma": "es",
+     "url": "https://grancards.com/products/preventa-pokemon-booster-box-dominio-delta-36-sobres-esp",
+     "img": "https://cdn.shopify.com/s/files/1/0957/6434/9193/files/booster-display-box-es.jpg?v=1794313645&width=400",
+     "foto": "fotos/c650ce5ba6f3030c.jpg",
+     "preventa": true,
+     "cardmarket": 196.17,
+     "cardmarketPct": 16,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-10T20:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
