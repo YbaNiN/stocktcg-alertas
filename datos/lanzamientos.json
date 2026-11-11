@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T22:58:36",
+ "actualizado": "2026-11-11T23:57:50",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -404,6 +404,21 @@
      "url": "https://cardshunters.es/products/sobre-de-dominio-delta",
      "img": "https://cdn.shopify.com/s/files/1/0880/3129/7879/files/903958.png?v=1793982421&width=400",
      "foto": "fotos/d58fa1081f4d98d3.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Dominio Delta Sobre",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/dominio-delta-sobre/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/11/deltasobre.jpg",
+     "foto": "fotos/92a05f3187b7de67.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
