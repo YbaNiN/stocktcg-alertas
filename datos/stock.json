@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T23:23:04",
+ "actualizado": "2026-11-11T23:55:20",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1334,6 +1334,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "EX Box - Ascended Heroes [ENG] — Emboar",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 59.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/ex-box-ascended-heroes-eng?variant=52063689146715",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
+     "foto": "fotos/60d3327244e384a3.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
+     "desde": "2026-11-11T23:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
