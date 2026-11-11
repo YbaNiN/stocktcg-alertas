@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T00:04:41",
+ "actualizado": "2026-11-12T00:28:55",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -262,26 +262,11 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
-     "titulo": "Pokémon - 30 Aniversario : ​​Colección Premium Ditto (Español)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 99.99,
-     "moneda": "EUR",
-     "tienda": "Padis Store",
-     "idioma": "es",
-     "url": "https://www.padis-store.com/44882-pokemon-30-aniversario-coleccion-premium-ditto-espanol.html",
-     "img": "https://www.padis-store.com/65329-thickbox_default/pokemon-30-aniversario-coleccion-premium-ditto-espanol.jpg",
-     "foto": "fotos/1fe7bfa281767501.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
      "titulo": "Caja Colección con Figura - 30th Anniversary [ENG] — Mewtwo",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "collection-box",
      "tipoNombre": "Collection Box",
-     "precio": 109.95,
+     "precio": 99.95,
      "moneda": "EUR",
      "tienda": "AllInTCG",
      "idioma": "es",
@@ -296,7 +281,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "collection-box",
      "tipoNombre": "Collection Box",
-     "precio": 109.95,
+     "precio": 99.95,
      "moneda": "EUR",
      "tienda": "AllInTCG",
      "idioma": "es",
@@ -305,6 +290,21 @@
      "foto": "fotos/ec48bbd59868d31d.jpg",
      "preventa": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Pokémon - 30 Aniversario : ​​Colección Premium Ditto (Español)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 99.99,
+     "moneda": "EUR",
+     "tienda": "Padis Store",
+     "idioma": "es",
+     "url": "https://www.padis-store.com/44882-pokemon-30-aniversario-coleccion-premium-ditto-espanol.html",
+     "img": "https://www.padis-store.com/65329-thickbox_default/pokemon-30-aniversario-coleccion-premium-ditto-espanol.jpg",
+     "foto": "fotos/1fe7bfa281767501.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
      "titulo": "Premium Starter Set Espeon & Umbreon 30th CELEBRATION",
@@ -1363,7 +1363,7 @@
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
    "tipo": "collection-box",
    "tipoNombre": "Collection Box",
-   "precio": 109.95,
+   "precio": 99.95,
    "moneda": "EUR",
    "tienda": "AllInTCG",
    "idioma": "es",
@@ -1380,7 +1380,7 @@
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
    "tipo": "collection-box",
    "tipoNombre": "Collection Box",
-   "precio": 109.95,
+   "precio": 99.95,
    "moneda": "EUR",
    "tienda": "AllInTCG",
    "idioma": "es",
