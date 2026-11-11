@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T19:28:44",
+ "actualizado": "2026-11-11T19:54:45",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8960,6 +8960,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-10T17:31+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador Élite Dominio Delta - Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 74.99,
+     "moneda": "EUR",
+     "tienda": "Wini Games",
+     "idioma": "es",
+     "url": "https://hkbens-tr.myshopify.com/products/caja-de-entrenador-elite-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0944/5218/7519/files/PlantillasubidaaShopify_1920x1080px_2000x2000px_4_14e821bf-1b2f-4386-ad52-db5c1928ddb1.png?v=1794422902&width=400",
+     "foto": "fotos/19637edfa796cb7a.jpg",
+     "preventa": false,
+     "cardmarket": 79.61,
+     "cardmarketPct": -6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-11T19:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
