@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T11:12:40",
+ "actualizado": "2026-11-11T11:24:49",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3911,27 +3911,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja 36 Sobres Equilibrio Perfecto | Perfect Order — Español",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/orden-perfecta-perfect-order?variant=54068366442819",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 175.81,
-     "cardmarketPct": 14,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": "2026-10-17T23:10+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -8876,27 +8855,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-08T19:05+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja de Entrenador Élite Dominio Delta de JCC Pokémon",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "El Corte Inglés",
-     "idioma": "es",
-     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815789-caja-de-entrenador-elite-dominio-delta-de-jcc-pokemon-bandai%2F",
-     "img": "https://dam.elcorteingles.es/producto/www-001044850504638-00.jpg",
-     "foto": "fotos/1000d9a527dcc921.jpg",
-     "preventa": false,
-     "cardmarket": 80.99,
-     "cardmarketPct": -14,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-11T11:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
