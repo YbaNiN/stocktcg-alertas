@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T17:04:53",
+ "actualizado": "2026-11-11T17:10:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7846,6 +7846,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Display (36 Sobres) - Chispas Fulgurantes [ESP]",
+     "coleccion": "Surging Sparks / Chispas Fulgurantes",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 179.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/display-chispas-fulgurantes-esp",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
+     "foto": "fotos/f93917ec0febd0ae.jpg",
+     "preventa": false,
+     "cardmarket": 246.47,
+     "cardmarketPct": -27,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
+     "desde": null,
+     "precioAntes": 189.95,
+     "bajadaDesde": "2026-11-11T17:10+01:00"
+    },
+    {
      "titulo": "Caja de 36 Sobres Chispas Fulgurantes ESPAÑOL - Pokémon TCG",
      "coleccion": "Surging Sparks / Chispas Fulgurantes",
      "tipo": "booster-box",
@@ -8065,27 +8086,6 @@
      "tienda": "FlashStore",
      "idioma": "es",
      "url": "https://flashstore.es/producto/surging-sparks-caja-36/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
-     "foto": "fotos/f93917ec0febd0ae.jpg",
-     "preventa": false,
-     "cardmarket": 246.47,
-     "cardmarketPct": -23,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Display (36 Sobres) - Chispas Fulgurantes [ESP]",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 189.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/display-chispas-fulgurantes-esp",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
      "foto": "fotos/f93917ec0febd0ae.jpg",
      "preventa": false,
