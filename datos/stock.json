@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T19:57:38",
+ "actualizado": "2026-11-11T21:05:12",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8561,6 +8561,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon - Megaevolución 6 Dominio Delta ME06: Caja de Sobres (36 sobres) Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 210.0,
+     "moneda": "EUR",
+     "tienda": "Padis Store",
+     "idioma": "es",
+     "url": "https://www.padis-store.com/44892-pokemon-megaevolucion-6-dominio-delta-me06-caja-de-sobres-36-sobres-espanol.html",
+     "img": "https://www.padis-store.com/65364-thickbox_default/pokemon-megaevolucion-6-dominio-delta-me06-caja-de-sobres-36-sobres-espanol.jpg",
+     "foto": "fotos/8878bd79c7679dbe.jpg",
+     "preventa": false,
+     "cardmarket": 194.11,
+     "cardmarketPct": 8,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-11T21:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T23:35+01:00",
+ "actualizado": "2026-11-11T21:05+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Megaevolución-Dominio Delta (1 Carta de pro",
@@ -448,7 +448,7 @@
    "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
    "tipo": "booster-bundle",
    "tipoNombre": "Booster Bundle",
-   "precio": 27.59,
+   "precio": 29.94,
    "idioma": "es",
    "url": "https://www.amazon.es/dp/B0FTG3C43P?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/613pmnExqFL._AC_SL500_.jpg",
@@ -479,19 +479,6 @@
    "url": "https://www.amazon.es/dp/B0H1HDKXGH?tag=ikerjimenezcl-21",
    "img": "https://m.media-amazon.com/images/I/71dXIf3XEdL._AC_SL500_.jpg",
    "foto": "fotos/f233fa7172bcad9d.jpg",
-   "stocktcg": "https://stocktcg.net/p/mega-evolution--tin",
-   "filtro": null
-  },
-  {
-   "titulo": "Lata Megapotencia: Mega-Zeraora ex",
-   "coleccion": "Mega Evolution",
-   "tipo": "tin",
-   "tipoNombre": "Tin",
-   "precio": 24.99,
-   "idioma": "es",
-   "url": "https://www.amazon.es/dp/B0H9SB97F7?tag=ikerjimenezcl-21",
-   "img": "https://m.media-amazon.com/images/I/8101vUm1xnL._AC_SL500_.jpg",
-   "foto": "fotos/f16ef44352116951.jpg",
    "stocktcg": "https://stocktcg.net/p/mega-evolution--tin",
    "filtro": null
   },
