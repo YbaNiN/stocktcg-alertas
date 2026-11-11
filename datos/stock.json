@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T12:04:36",
+ "actualizado": "2026-11-11T13:04:06",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1675,27 +1675,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-10-20T17:35+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokemon JCC Caja De Entrenador Elite De Celebracion 30 Aniversario Castellano",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 140.0,
-     "moneda": "EUR",
-     "tienda": "Dungeon Marvels",
-     "idioma": "es",
-     "url": "https://dungeonmarvels.com/pokemon-jcc-caja-de-entrenador-elite-de-celebracion-30-aniversario-castellano-101392.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 119.66,
-     "cardmarketPct": 17,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
