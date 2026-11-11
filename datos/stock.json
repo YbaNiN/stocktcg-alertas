@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T21:05:12",
+ "actualizado": "2026-11-11T21:13:29",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9177,27 +9177,6 @@
      "preventa": false,
      "cardmarket": 94.76,
      "cardmarketPct": -29,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Corona Astral | Élite Stellar Crown — Español",
-     "coleccion": "Stellar Crown",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/elite-stellar-crown?variant=53395252609347",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
-     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
-     "preventa": false,
-     "cardmarket": 94.76,
-     "cardmarketPct": -26,
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
      "desde": null,
