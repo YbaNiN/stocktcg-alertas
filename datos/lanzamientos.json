@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T18:14:53",
+ "actualizado": "2026-11-11T20:38:41",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1376,6 +1376,23 @@
    "foto": "fotos/bfcc5b3249610bf5.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokémon TCG: Umbreon 30 Aniversario Especial Ultra-Premium Collection- PREVENTA — Español",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "ultra-premium-collection",
+   "tipoNombre": "Ultra Premium Collection",
+   "precio": 419.95,
+   "moneda": "EUR",
+   "tienda": "Pokezilla",
+   "idioma": "es",
+   "url": "https://pokezilla.com/products/umbreon-30-aniversario-especial-ultra-premium-collection?variant=43614581358682",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/704190_in_400x400.jpg",
+   "foto": "fotos/3330da7a6eebd854.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection",
    "lanzamiento": null,
    "fecha": null
   },
