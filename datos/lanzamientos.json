@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T10:43:15",
+ "actualizado": "2026-11-11T10:54:37",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -843,21 +843,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
-     "titulo": "Pokémon TCG: Caja de Entrenador de Élite / Elite Trainer Box – Dominio Delta (Español) – RESERVA",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.95,
-     "moneda": "EUR",
-     "tienda": "CardCrack",
-     "idioma": "es",
-     "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-caja-de-entrenador-de-elite-elite-trainer-box-dominio-delta-espanol-reserva/",
-     "img": "https://cardcrack.com/wp-content/uploads/2026/10/DOMINIO-DELTA-ETB.jpg",
-     "foto": "fotos/b55efb05d0ad496c.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
      "titulo": "Pack 6 Sobres Pokemon Megaevolucion Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -1580,23 +1565,6 @@
    "foto": "fotos/ac802b96055743eb.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "Pokémon TCG: Caja de Entrenador de Élite / Elite Trainer Box – Dominio Delta (Español) – RESERVA",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 64.95,
-   "moneda": "EUR",
-   "tienda": "CardCrack",
-   "idioma": "es",
-   "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-caja-de-entrenador-de-elite-elite-trainer-box-dominio-delta-espanol-reserva/",
-   "img": "https://cardcrack.com/wp-content/uploads/2026/10/DOMINIO-DELTA-ETB.jpg",
-   "foto": "fotos/b55efb05d0ad496c.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
   },
