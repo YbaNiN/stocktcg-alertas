@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T10:54:37",
+ "actualizado": "2026-11-11T11:00:52",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -335,6 +335,21 @@
      "foto": "fotos/3330da7a6eebd854.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection"
+    },
+    {
+     "titulo": "Caja Ultra Premium Umbreon O Espeon 30th Aniversario Sopresa",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "ultra-premium-collection",
+     "tipoNombre": "Ultra Premium Collection",
+     "precio": 722.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-ultra-premium-umbreon-o-espeon-30th-aniversario-sopresa-94182.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704190_in_400x400.jpg",
+     "foto": "fotos/3330da7a6eebd854.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection"
     }
    ]
   },
@@ -449,6 +464,21 @@
      "url": "https://unsobremas.com/products/booster-pack-dominio-delta-es",
      "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/deltareigpack.webp?v=1794265737&width=400",
      "foto": "fotos/b7cc3a01f3b571a0.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Sobre Dominio Delta de JCC Pokémon",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815949-sobre-dominio-delta-de-jcc-pokemon-bandai-modelos-surtidos%2F",
+     "img": "https://dam.elcorteingles.es/producto/www-001044850504703-00.jpg",
+     "foto": "fotos/038268e901c03c45.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
@@ -929,6 +959,21 @@
      "url": "https://jupiterjuegos.com/producto/pkm-megaevolucion-dominio-delta-caja-de-entrenador-de-elite/",
      "img": "",
      "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Caja de Entrenador Élite Dominio Delta de JCC Pokémon",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815789-caja-de-entrenador-elite-dominio-delta-de-jcc-pokemon-bandai%2F",
+     "img": "https://dam.elcorteingles.es/producto/www-001044850504638-00.jpg",
+     "foto": "fotos/1000d9a527dcc921.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
