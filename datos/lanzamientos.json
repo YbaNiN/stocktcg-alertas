@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T16:59:13",
+ "actualizado": "2026-11-11T17:13:06",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -468,21 +468,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
-     "titulo": "Sobre Dominio Delta de JCC Pokémon",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-pack",
-     "tipoNombre": "Sobre / Pack",
-     "precio": 5.99,
-     "moneda": "EUR",
-     "tienda": "El Corte Inglés",
-     "idioma": "es",
-     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815949-sobre-dominio-delta-de-jcc-pokemon-bandai-modelos-surtidos%2F",
-     "img": "https://dam.elcorteingles.es/producto/www-001044850504703-00.jpg",
-     "foto": "fotos/038268e901c03c45.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
-    },
-    {
      "titulo": "Pokemon TCG: Sobre Dominio Delta (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -945,21 +930,6 @@
      "img": "https://www.asturcards.com/wp-content/uploads/2026/11/etb-caja-de-entrenador-elite-dominio-delta-reign-rayquaza-cartas-pokemon-tcg-cardzone.webp",
      "foto": "fotos/f8388ae12e05e4d2.jpg",
      "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/elite-trainer-box-delta-reign-esp",
-     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
-     "foto": "fotos/725572ca2a129684.jpg",
-     "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
@@ -1640,23 +1610,6 @@
    "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/etb-dominio-delta-espanol/",
    "img": "https://reinodecartas.com/wp-content/uploads/2026/11/etb-dominio-delta-espanol-contenido.png",
    "foto": "fotos/56883bea78b7fa86.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 69.95,
-   "moneda": "EUR",
-   "tienda": "AllInTCG",
-   "idioma": "es",
-   "url": "https://allintcg.com/products/elite-trainer-box-delta-reign-esp",
-   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
-   "foto": "fotos/725572ca2a129684.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
