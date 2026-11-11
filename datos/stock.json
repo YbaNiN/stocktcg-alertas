@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T19:14:35",
+ "actualizado": "2026-11-11T19:28:44",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8729,6 +8729,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-10T20:05+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG – Caja de Entrenador Élite Dominio Delta – Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 67.95,
+     "moneda": "EUR",
+     "tienda": "LorcanosTCG",
+     "idioma": "es",
+     "url": "https://lorcanostcg.com/products/pokemon-tcg-caja-entrenador-elite-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0911/5385/8896/files/CopiadeCopiadeDisenosintitulo-2026-11-11T192034.046.png?v=1794421322&width=400",
+     "foto": "fotos/6df9df508c55962b.jpg",
+     "preventa": false,
+     "cardmarket": 79.61,
+     "cardmarketPct": -15,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-11T19:31+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
