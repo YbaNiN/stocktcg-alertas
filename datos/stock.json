@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T16:59:34",
+ "actualizado": "2026-11-12T17:18:59",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1132,7 +1132,7 @@
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "collection-box",
      "tipoNombre": "Collection Box",
-     "precio": 29.99,
+     "precio": 25.0,
      "moneda": "EUR",
      "tienda": "TCG VAL",
      "idioma": "es",
@@ -1145,8 +1145,8 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
      "desde": null,
-     "precioAntes": 34.99,
-     "bajadaDesde": "2026-10-23T15:50+02:00"
+     "precioAntes": 29.99,
+     "bajadaDesde": "2026-11-12T17:20+01:00"
     },
     {
      "titulo": "Pokémon Colección Mega-Emboar ex – Héroes Ascendentes",
