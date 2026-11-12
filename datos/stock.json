@@ -1,9 +1,30 @@
 {
- "actualizado": "2026-11-12T00:04:41",
+ "actualizado": "2026-11-12T01:24:07",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
    "productos": [
+    {
+     "titulo": "Caja 18 Sobres Fuegos Fantasmales | Phantasmal Flames — Español",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 169.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/caja-18-sobres-fuegos-fantasmales-phantasmal-flames?variant=55040425787715",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654137_in_400x400.jpg",
+     "foto": "fotos/8f0a966da8ed1bec.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--booster-box",
+     "desde": "2026-11-12T01:25+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
     {
      "titulo": "ETB Fuegos Fantasmales",
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
