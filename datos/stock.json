@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T05:53:30",
+ "actualizado": "2026-11-12T06:34:16",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2020,6 +2020,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Booster Box Caos Creciente – Pokémon Español",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 179.99,
+     "moneda": "EUR",
+     "tienda": "ISEKAI Alcorcón",
+     "idioma": "es",
+     "url": "https://isekai-alcorcon.es/es/producto/booster-box-caos-creciente-esp/1505",
+     "img": "https://wsrv.nl/?url=https%3A%2F%2Felultimobooster.com%2Fwp-content%2Fuploads%2F2026%2F05%2F4.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Felultimobooster.com%2Fwp-content%2Fuploads%2F2026%2F05%2F4.webp",
+     "foto": "fotos/bdc2818b70615cf4.jpg",
+     "preventa": false,
+     "cardmarket": 180.88,
+     "cardmarketPct": -12,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
+     "desde": "2026-11-12T06:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Caja de sobres Caos Creciente | Español",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "booster-box",
@@ -2667,6 +2688,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caos Creciente ETB Español",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 59.99,
+     "moneda": "EUR",
+     "tienda": "ISEKAI Alcorcón",
+     "idioma": "es",
+     "url": "https://isekai-alcorcon.es/es/producto/elite-trainer-box-caos-creciente-esp/1504",
+     "img": "https://wsrv.nl/?url=https%3A%2F%2Flacasadekartus.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fetb-caos-creciente-espanol.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Flacasadekartus.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fetb-caos-creciente-espanol.webp",
+     "foto": "fotos/bc77267d714de5c6.jpg",
+     "preventa": false,
+     "cardmarket": 62.88,
+     "cardmarketPct": -13,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-11-12T06:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -8628,6 +8670,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "RESERVA Booster Box 36 Sobres Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 230.0,
+     "moneda": "EUR",
+     "tienda": "Dual Games",
+     "idioma": "es",
+     "url": "https://www.dualgames.es/caja-de-sobres-de-dominio-delta-espanol-p-1-50-12931/",
+     "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/BOOSTERBOX_5c26c82a-1499-4234-9711-5f05c0afe7b0.png?v=1793282411&width=320",
+     "foto": "fotos/873db1b7186f1fae.jpg",
+     "preventa": false,
+     "cardmarket": 194.11,
+     "cardmarketPct": -2,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-12T06:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Pokémon TCG – Caja de Entrenador Élite Dominio Delta – Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -8918,6 +8981,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-08T18:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon Caja de Entrenador Élite Dominio Delta – Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 90.0,
+     "moneda": "EUR",
+     "tienda": "Dual Games",
+     "idioma": "es",
+     "url": "https://www.dualgames.es/pokemon--elite-trainer-box--dominio-delta-espanol-p-1-50-12924/",
+     "img": "https://cdn.shopify.com/s/files/1/0911/5385/8896/files/CopiadeCopiadeDisenosintitulo-2026-11-11T192034.046.png?v=1794421322&width=320",
+     "foto": "fotos/2bbfc88dad330f54.jpg",
+     "preventa": false,
+     "cardmarket": 79.61,
+     "cardmarketPct": -15,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-12T06:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     }
