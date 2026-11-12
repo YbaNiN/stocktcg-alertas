@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T13:54:11",
+ "actualizado": "2026-11-12T14:35:16",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1734,6 +1734,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "Elite Trainer Box Pokémon Dominio Delta / Delta Reign · PREVENTA",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 69.9,
+   "moneda": "EUR",
+   "tienda": "1001TCG",
+   "idioma": "es",
+   "url": "https://1001tcg.com/products/products-etb-dominio-delta-delta-reign-pokemon-tcg",
+   "img": "https://cdn.shopify.com/s/files/1/1024/7123/7963/files/deltaetbeditada.png?v=1790336331&width=320",
+   "foto": "fotos/bb724ce1a5195cdd.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
