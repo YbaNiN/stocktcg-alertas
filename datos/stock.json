@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T11:13:35",
+ "actualizado": "2026-11-12T11:59:55",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3995,6 +3995,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador de Elite Pokémon Equilibrio Perfecto y Perfect Order — Español",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 54.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-de-entrenador-de-elite-pokemon-fuegos-fantasmales-y-phantasmal-flames-copia?variant=53068210372946",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 67.25,
+     "cardmarketPct": -18,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": "2026-11-12T12:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
