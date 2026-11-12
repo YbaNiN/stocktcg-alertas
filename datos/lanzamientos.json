@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T16:39:03",
+ "actualizado": "2026-11-12T21:19:02",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -990,21 +990,6 @@
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/etb-dominio-delta-espanol-contenido.png",
      "foto": "fotos/56883bea78b7fa86.jpg",
      "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "ETB Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.png",
-     "foto": "fotos/86ca565bbb4d8422.jpg",
-     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
