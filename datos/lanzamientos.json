@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T05:53:30",
+ "actualizado": "2026-11-12T10:43:26",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -843,6 +843,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
+     "titulo": "Booster Bundle Dominio Delta – Español – Reserva",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 36.9,
+     "moneda": "EUR",
+     "tienda": "Top Rocket Shop",
+     "idioma": "es",
+     "url": "https://toprocketshop.com/products/booster-bundle-dominio-delta-espanol-reserva",
+     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/dominiodeltabundle.jpg?v=1794390082&width=400",
+     "foto": "fotos/3022f094280e871e.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
+    },
+    {
      "titulo": "Dominio Delta Booster Bundle",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -855,21 +870,6 @@
      "img": "https://bimbacards.com/wp-content/uploads/2026/11/delta-reign-booster-bundle-scaled.png",
      "foto": "fotos/8434cbf117fd99e7.jpg",
      "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
-     "titulo": "Booster Bundle Dominio Delta – Español – Reserva",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 39.9,
-     "moneda": "EUR",
-     "tienda": "Top Rocket Shop",
-     "idioma": "es",
-     "url": "https://toprocketshop.com/products/booster-bundle-dominio-delta-espanol-reserva",
-     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/dominiodeltabundle.jpg?v=1794390082&width=400",
-     "foto": "fotos/3022f094280e871e.jpg",
-     "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
@@ -1614,7 +1614,7 @@
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-bundle",
    "tipoNombre": "Booster Bundle",
-   "precio": 39.9,
+   "precio": 36.9,
    "moneda": "EUR",
    "tienda": "Top Rocket Shop",
    "idioma": "es",
