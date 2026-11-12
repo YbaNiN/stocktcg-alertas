@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T10:09:15",
+ "actualizado": "2026-11-12T11:00:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7379,7 +7379,7 @@
    "nombre": "Llamas Obsidianas",
    "productos": [
     {
-     "titulo": "RESERVA Booster Box Llamas obsidianas ENVIO FINAL NOVIEMBRE",
+     "titulo": "Booster Box Llamas obsidianas",
      "coleccion": "Obsidian Flames",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -7390,7 +7390,7 @@
      "url": "https://lanavetcg.com/products/reserva-booster-box-llamas-obsidianas-envio-final-noviembre",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
      "foto": "fotos/1ae5b73e408870a6.jpg",
-     "preventa": true,
+     "preventa": false,
      "cardmarket": 239.43,
      "cardmarketPct": -25,
      "chollo": true,
