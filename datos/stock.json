@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T11:08:10",
+ "actualizado": "2026-11-12T11:13:35",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1612,6 +1612,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
      "desde": "2026-10-13T16:20+02:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Bundle Celebraciones 30 Aniversario | Celebrations 30th — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 64.95,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/bundle-30th-anniversary?variant=54195946455363",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 61.88,
+     "cardmarketPct": 5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-11-12T11:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
