@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T14:35:16",
+ "actualizado": "2026-11-12T16:39:03",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -228,21 +228,6 @@
      "url": "https://laescotillajuegos.com/products/pokemon-tcg-celebracion-30-º-aniversario-coleccion-premium-ditto-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0354/4688/2440/files/pokemon-tcg-30th-celebration-ditto-premium-collection-esp.png?v=1793894108&width=400",
      "foto": "fotos/01865e1569a02730.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
-     "titulo": "30 Aniversario Ditto Premium Collection",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 89.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/30-aniversario-ditto-premium-collection/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-ditto-scaled.png",
-     "foto": "fotos/6a3252a89416dba8.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
