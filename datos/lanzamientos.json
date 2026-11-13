@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T22:30:11",
+ "actualizado": "2026-11-13T23:00:49",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -38,6 +38,36 @@
      "img": "https://cdn.shopify.com/s/files/1/0879/7863/9624/files/pokemon-tcg-baraja-combate-30-aniversario-de-umbreon-ex-espanol.png?v=1794419856&width=400",
      "foto": "fotos/687912891f888cfd.jpg",
      "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
+    {
+     "titulo": "Battle Decks - Celebración 30TH ESPAÑOL — Espeon ex",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 34.95,
+     "moneda": "EUR",
+     "tienda": "CanaryPop",
+     "idioma": "es",
+     "url": "https://canarypop.es/products/battle-decks-celebracion-30th-espanol?variant=54619038679387",
+     "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/battle-deck-espeon-es.png?v=1793726802&width=400",
+     "foto": "fotos/d4a6bce7de7a7531.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
+    },
+    {
+     "titulo": "Battle Decks - Celebración 30TH ESPAÑOL — Umbreon ex",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "deck",
+     "tipoNombre": "Deck",
+     "precio": 34.95,
+     "moneda": "EUR",
+     "tienda": "CanaryPop",
+     "idioma": "es",
+     "url": "https://canarypop.es/products/battle-decks-celebracion-30th-espanol?variant=54619038712155",
+     "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/battle-deck-umbreon-es.png?v=1793726812&width=400",
+     "foto": "fotos/ca5c8de49781a53a.jpg",
+     "preventa": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck"
     },
     {
@@ -172,6 +202,51 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
+     "titulo": "Celebraciones 30th Premium Figure Collection",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 79.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/celebraciones-30th-premium-figure-collection/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/11/celeb30th.jpg",
+     "foto": "fotos/b75488c42735758e.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Figure Collection 30 Aniversario Mew | Español | POKÉMON",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 79.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/figure-collection-30-aniversario-mew-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/mew-en-espanol.png",
+     "foto": "fotos/453c07405cfa0a84.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Figure Collection 30 Aniversario Mewtwo | Español | POKÉMON",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 79.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/figure-collection-30-aniversario-mewtwo-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/09/Mewtwo-espanol.png",
+     "foto": "fotos/bd227b3f0ee5f2c9.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
      "titulo": "Pokémon - 30 Aniversario: Figure Collection - Mewtwo (Español)",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "collection-box",
@@ -289,6 +364,21 @@
      "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mew.webp?v=1791923668&width=400",
      "foto": "fotos/ec48bbd59868d31d.jpg",
      "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Premium Ditto Collection 30 Aniversario | Español | POKÉMON",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 99.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/premium-ditto-collection-30-aniversario-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/Ditto-espanol.png",
+     "foto": "fotos/2b020c938577a6cf.jpg",
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
@@ -588,6 +678,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
+     "titulo": "Blister 3 Sobres - Dominio Delta ESPAÑOL",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 16.95,
+     "moneda": "EUR",
+     "tienda": "CanaryPop",
+     "idioma": "es",
+     "url": "https://canarypop.es/products/blister-3-sobres-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/pokemon-blister-es-bandera-1284.png?v=1793726211&width=400",
+     "foto": "fotos/c82122a8ca8a0eb4.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Blister 3-Sobres de Dominio Delta: Seel",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -734,6 +839,21 @@
      "url": "https://hkbens-tr.myshopify.com/products/blister-dominio-delta-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0944/5218/7519/files/PlantillasubidaaShopify_1920x1080px_2000x2000px_5_c9e020f7-82ef-4b92-ba95-697a6b08b478.png?v=1794423084&width=400",
      "foto": "fotos/33dc46630e0feb18.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "Blister de 3 Sobres Dominio Delta | Español | POKÉMON",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 19.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/blister-de-3-sobres-dominio-delta-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/blister-3-ingles.png",
+     "foto": "fotos/af647637e7b892f6.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
@@ -918,6 +1038,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
+     "titulo": "[PREVENTA] Booster bundle Dominio Delta y Delta Reign — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 38.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/surging-sparks-build-battle-box-copia?variant=55452859236690",
+     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334211.png?v=1794604614&width=400",
+     "foto": "fotos/51638d8ca4533f10.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
+    },
+    {
      "titulo": "Dominio Delta Booster Bundle",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -946,6 +1081,21 @@
      "foto": "fotos/7d41813a80b2ffd6.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
+    },
+    {
+     "titulo": "Booster Bunlde Dominio Delta | Español | POKÉMON",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 39.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/booster-bunlde-dominio-delta-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/booster-bundle-espanol.png",
+     "foto": "fotos/559ca6aa08dc080f.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
      "titulo": "Bundle 6 sobres Dominio Delta — Español",
@@ -993,6 +1143,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
+     "titulo": "Elite Trainer Box Megaevolución - Dominio Delta ESPAÑOL",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 59.95,
+     "moneda": "EUR",
+     "tienda": "CanaryPop",
+     "idioma": "es",
+     "url": "https://canarypop.es/products/elite-trainer-box-megaevolucion-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/DOMINIO-DELTA-ETB.png?v=1794491744&width=400",
+     "foto": "fotos/b91bff29d25329e1.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "ETB Dominio Delta (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1035,6 +1200,21 @@
      "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-etb-Photoroom.webp?v=1794303363&width=400",
      "foto": "fotos/7a7718c6a299c0bc.jpg",
      "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Dominio Delta ETB",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 66.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/dominio-delta-etb/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/08/deltaetb.jpg",
+     "foto": "fotos/a33b85bcbc70db5e.jpg",
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
@@ -1094,6 +1274,36 @@
      "url": "https://kamehousecards.com/products/caja-de-entrenador-elite-dominio-delta-delta-reign?variant=55436457935186",
      "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334042.png?v=1794510282&width=400",
      "foto": "fotos/45f4ccb9232c39cc.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "ETB Dominio Delta | Español | POKÉMON",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/etb-dominio-delta-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/etb-dominio-delta.png",
+     "foto": "fotos/e454ac84a0dbeb86.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Pokémon TCG Megaevolución Dominio Delta Caja de Entrenador Élite",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-tcg-megaevolucion-dominio-delta-caja-de-entrenador-elite-195848-1/p",
+     "img": "https://drimjuguetes.vteximg.com.br/arquivos/ids/1140575/195848_A.JPG.jpg?v=639298784969500000",
+     "foto": "fotos/0eb4abd70497d5e8.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
@@ -1233,6 +1443,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "Dominio Delta Caja 36",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/dominio-delta-caja-36/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/08/delta36.jpg",
+     "foto": "fotos/010323b3e06ae889.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "Booster Box 36 Sobres Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1278,6 +1503,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "[PREVENTA] Caja 36 sobres Pokémon Dominio Delta y Delta Reign — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-36-sobres-pokemon-megaevolucion-dominio-delta-y-delta-reign?variant=55436427493714",
+     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334208.png?v=1794604338&width=400",
+     "foto": "fotos/d5d0e80dd913617c.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "(español) Pokemon CAJA 36 sobres Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1304,6 +1544,21 @@
      "url": "https://mythocardtcg.com/inicio/141-77-booster-box-pokemon-delta-reign-36-sobres.html",
      "img": "https://mythocardtcg.com/351-thickbox_default/booster-box-pokemon-delta-reign-36-sobres.jpg",
      "foto": "fotos/52adc649d77961e4.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Booster Box Dominio Delta | Español | POKÉMON",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 209.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/booster-box-dominio-delta-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/booster-box-espanol.png",
+     "foto": "fotos/b264f49ded7352d0.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
@@ -1599,8 +1854,8 @@
    "foto": "fotos/d4a6bce7de7a7531.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-3",
+   "fecha": "2026-10-30"
   },
   {
    "titulo": "Battle Decks - Celebración 30TH ESPAÑOL — Umbreon ex",
@@ -1616,8 +1871,8 @@
    "foto": "fotos/ca5c8de49781a53a.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-3",
+   "fecha": "2026-10-30"
   },
   {
    "titulo": "Pokémon TCG 30.º Aniversario - Mini Tin Coleccionable (ES)",
@@ -1718,8 +1973,8 @@
    "foto": "fotos/c82122a8ca8a0eb4.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Dominio Delta - Blíster 3 Sobres (Español)",
@@ -1803,8 +2058,8 @@
    "foto": "fotos/010323b3e06ae889.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",
@@ -1837,8 +2092,8 @@
    "foto": "fotos/d5d0e80dd913617c.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "(PREVENTA) Pokémon - Booster Box Dominio Delta 36 sobres (ESP)",
@@ -1888,8 +2143,8 @@
    "foto": "fotos/51638d8ca4533f10.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",
@@ -1922,8 +2177,8 @@
    "foto": "fotos/b91bff29d25329e1.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Delta Reign - Elite Trainer Box (Inglés y Español) — Español",
