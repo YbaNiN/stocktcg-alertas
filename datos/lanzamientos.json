@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T10:59:12",
+ "actualizado": "2026-11-13T11:40:31",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1382,23 +1382,6 @@
   }
  ],
  "preventas": [
-  {
-   "titulo": "RESERVA - POKEMON TCG: LATA MEGAPOTENCIA EX - DRAGONITE - ESPAÑOL",
-   "coleccion": "Cajas de un Pokémon",
-   "tipo": "tin",
-   "tipoNombre": "Tin",
-   "precio": 32.95,
-   "moneda": "EUR",
-   "tienda": "Saruman Games",
-   "idioma": "es",
-   "url": "https://sarumangames.es/products/pokemon-tcg-lata-megapotencia-ex-dragonite",
-   "img": "https://cdn.shopify.com/s/files/1/0875/9682/6943/files/15426328396155-01-black.png?v=1793646431&width=400",
-   "foto": "fotos/6def757acf08fdde.jpg",
-   "preventa": true,
-   "stocktcg": null,
-   "lanzamiento": null,
-   "fecha": null
-  },
   {
    "titulo": "1 Sobre – RESERVA – Caos Creciente – ESPAÑOL",
    "coleccion": "Chaos Rising / Caos Creciente",
