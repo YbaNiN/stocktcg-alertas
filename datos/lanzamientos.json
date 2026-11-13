@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T22:18:44",
+ "actualizado": "2026-11-13T22:30:11",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1873,6 +1873,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "[PREVENTA] Booster bundle Dominio Delta y Delta Reign — Español",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 38.95,
+   "moneda": "EUR",
+   "tienda": "Kame House Cards",
+   "idioma": "es",
+   "url": "https://kamehousecards.com/products/surging-sparks-build-battle-box-copia?variant=55452859236690",
+   "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334211.png?v=1794604614&width=400",
+   "foto": "fotos/51638d8ca4533f10.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon TCG: 30 Delta Reign Booster Bundle (6 packs) - PREVENTA — Español",

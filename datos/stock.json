@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T22:18:44",
+ "actualizado": "2026-11-13T22:30:11",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9002,6 +9002,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-08T19:05+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG Megaevolución Dominio Delta Caja de Entrenador Élite",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-tcg-megaevolucion-dominio-delta-caja-de-entrenador-elite-195848-1/p",
+     "img": "https://drimjuguetes.vteximg.com.br/arquivos/ids/1140575/195848_A.JPG.jpg?v=639298784969500000",
+     "foto": "fotos/0eb4abd70497d5e8.jpg",
+     "preventa": false,
+     "cardmarket": 76.37,
+     "cardmarketPct": -8,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-13T22:31+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
