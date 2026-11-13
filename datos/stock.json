@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T18:34:13",
+ "actualizado": "2026-11-13T19:35:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8355,6 +8355,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Dominio Delta Caja 36",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/dominio-delta-caja-36/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/08/delta36.jpg",
+     "foto": "fotos/010323b3e06ae889.jpg",
+     "preventa": true,
+     "cardmarket": 191.12,
+     "cardmarketPct": -1,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-13T19:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Booster Box 36 Sobres Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -8792,6 +8813,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-13T12:05+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Dominio Delta ETB",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 66.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/dominio-delta-etb/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/08/deltaetb.jpg",
+     "foto": "fotos/a33b85bcbc70db5e.jpg",
+     "preventa": false,
+     "cardmarket": 76.37,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-13T19:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
