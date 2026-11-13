@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T02:33:12",
+ "actualizado": "2026-11-13T02:38:58",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2961,27 +2961,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caos Creciente ETB Español",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.95,
-     "moneda": "EUR",
-     "tienda": "Passarella",
-     "idioma": "es",
-     "url": "https://www.passarellaweb.es/producto/pokemon-tcg-etb-megaevolucion-caos-creciente-caja-de-entrenador-elite_44885",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Flacasadekartus.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fetb-caos-creciente-espanol.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Flacasadekartus.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fetb-caos-creciente-espanol.webp",
-     "foto": "fotos/bc77267d714de5c6.jpg",
-     "preventa": false,
-     "cardmarket": 62.65,
-     "cardmarketPct": -12,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": "2026-11-12T02:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
