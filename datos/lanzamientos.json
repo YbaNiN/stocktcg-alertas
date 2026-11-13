@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T11:40:31",
+ "actualizado": "2026-11-13T12:03:01",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1536,6 +1536,23 @@
    "fecha": null
   },
   {
+   "titulo": "Pokémon TCG - Dominio Delta - Blíster 3 Sobres (Español)",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 18.99,
+   "moneda": "EUR",
+   "tienda": "JJCollection",
+   "idioma": "es",
+   "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-delta-copia",
+   "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-5-Photoroom.webp?v=1794303105&width=400",
+   "foto": "fotos/585e46a2d69896e3.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "Dominio Delta Blister 3 Pack",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "blister",
@@ -1604,6 +1621,23 @@
    "fecha": "2026-11-06"
   },
   {
+   "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 189.98,
+   "moneda": "EUR",
+   "tienda": "JJCollection",
+   "idioma": "es",
+   "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-delta",
+   "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-1-Photoroom.webp?v=1794303000&width=400",
+   "foto": "fotos/11c7dfa65a58ac0a.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "(PREVENTA) Pokémon - Booster Box Dominio Delta 36 sobres (ESP)",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
@@ -1670,6 +1704,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "Pokémon TCG - Delta Reign - Elite Trainer Box (Inglés y Español) — Español",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 64.99,
+   "moneda": "EUR",
+   "tienda": "JJCollection",
+   "idioma": "es",
+   "url": "https://jjcollection.es/products/pokemon-tcg-etb-delta?variant=55932595175753",
+   "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-etb-Photoroom.webp?v=1794303363&width=400",
+   "foto": "fotos/7a7718c6a299c0bc.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
