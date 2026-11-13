@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T17:04:47",
+ "actualizado": "2026-11-13T17:10:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8477,6 +8477,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box Dominio Delta | Español | POKÉMON",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 209.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/booster-box-dominio-delta-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/booster-box-espanol.png",
+     "foto": "fotos/b264f49ded7352d0.jpg",
+     "preventa": false,
+     "cardmarket": 191.12,
+     "cardmarketPct": 10,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-13T17:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
