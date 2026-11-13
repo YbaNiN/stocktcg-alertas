@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T13:49:17",
+ "actualizado": "2026-11-13T14:00:49",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8519,6 +8519,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-12T10:10+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja Dominio Delta en español | 36 sobres Pokémon",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 214.99,
+     "moneda": "EUR",
+     "tienda": "Reino de Cartas",
+     "idioma": "es",
+     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/caja-dominio-delta-en-espanol-36-sobres-pokemon/",
+     "img": "https://reinodecartas.com/wp-content/uploads/2026/11/mencey-1.jpg",
+     "foto": "fotos/054b2abe72b952cf.jpg",
+     "preventa": false,
+     "cardmarket": 191.12,
+     "cardmarketPct": 12,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-13T14:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
