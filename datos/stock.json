@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T19:54:40",
+ "actualizado": "2026-11-13T20:00:08",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5680,27 +5680,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": "2026-11-03T11:40+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Oscuridad Absoluta | Español | POKÉMON",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.95,
-     "moneda": "EUR",
-     "tienda": "Tsuki Center",
-     "idioma": "es",
-     "url": "https://tsukicenter.com/producto/etb-oscuridad-absoluta-espanol-pokemon/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 68.03,
-     "cardmarketPct": -5,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
