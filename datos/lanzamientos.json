@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T16:59:02",
+ "actualizado": "2026-11-13T17:13:13",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1263,6 +1263,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "Half Booster Dominio Delta | Español | POKÉMON",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 94.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/half-booster-dominio-delta-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-09-at-15.16.28.jpeg",
+     "foto": "fotos/1f89600170446caa.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
      "titulo": "HALF BOOSTER BOX - DOMINIO DELTA [ES]",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1276,21 +1291,6 @@
      "foto": "fotos/62a3c38b264166d7.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Half Booster Dominio Delta | Español | POKÉMON",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-pack",
-     "tipoNombre": "Sobre / Pack",
-     "precio": 100.0,
-     "moneda": "EUR",
-     "tienda": "Tsuki Center",
-     "idioma": "es",
-     "url": "https://tsukicenter.com/producto/half-booster-dominio-delta-espanol-pokemon/",
-     "img": "https://tsukicenter.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-09-at-15.16.28.jpeg",
-     "foto": "fotos/1f89600170446caa.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
      "titulo": "Caja de sobres de Dominio Delta",
