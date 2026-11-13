@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T23:00:49",
+ "actualizado": "2026-11-14T00:53:22",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1200,21 +1200,6 @@
      "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-etb-Photoroom.webp?v=1794303363&width=400",
      "foto": "fotos/7a7718c6a299c0bc.jpg",
      "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "Dominio Delta ETB",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 66.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/dominio-delta-etb/",
-     "img": "https://flashstore.es/wp-content/uploads/2026/08/deltaetb.jpg",
-     "foto": "fotos/a33b85bcbc70db5e.jpg",
-     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
