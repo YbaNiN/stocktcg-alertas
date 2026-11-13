@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T18:27:57",
+ "actualizado": "2026-11-13T18:34:13",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1731,6 +1731,23 @@
    "fecha": null
   },
   {
+   "titulo": "Blister 3 Sobres - Dominio Delta ESPAÑOL",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 16.95,
+   "moneda": "EUR",
+   "tienda": "CanaryPop",
+   "idioma": "es",
+   "url": "https://canarypop.es/products/blister-3-sobres-dominio-delta-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/pokemon-blister-es-bandera-1284.png?v=1793726211&width=400",
+   "foto": "fotos/c82122a8ca8a0eb4.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "Pokémon TCG - Dominio Delta - Blíster 3 Sobres (Español)",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "blister",
@@ -1882,6 +1899,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "Elite Trainer Box Megaevolución - Dominio Delta ESPAÑOL",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 59.95,
+   "moneda": "EUR",
+   "tienda": "CanaryPop",
+   "idioma": "es",
+   "url": "https://canarypop.es/products/elite-trainer-box-megaevolucion-dominio-delta-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/DOMINIO-DELTA-ETB.png?v=1794491744&width=400",
+   "foto": "fotos/b91bff29d25329e1.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon TCG - Delta Reign - Elite Trainer Box (Inglés y Español) — Español",
