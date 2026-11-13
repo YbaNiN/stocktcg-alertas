@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T22:30:11",
+ "actualizado": "2026-11-13T22:44:26",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -68,29 +68,8 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "UPC POKEMON ULTRA PREMIUM MEGA CHARIZARD X EX FUEGOS FANTASMALES ESPAÑOL - PLÁSTICO DAÑADO",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "ultra-premium-collection",
-     "tipoNombre": "Ultra Premium Collection",
-     "precio": 199.9,
-     "moneda": "EUR",
-     "tienda": "SunnyStore",
-     "idioma": "es",
-     "url": "https://sunnystore.es/products/upc-pokemon-ultra-premium-mega-charizard-x-ex-phantasmal-flames-fuegos-fantasmales-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/Charizard_X_ex_Ultra-Premium_Collection_600x600-Photoroom.jpg?v=1763115983&width=400",
-     "foto": "fotos/d0f0198b69360037.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--ultra-premium-collection",
-     "desde": "2026-11-09T16:30+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Mega Charizard X Ultra-Premium Collection — Español",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "coleccion": "Mega Evolution",
      "tipo": "ultra-premium-collection",
      "tipoNombre": "Ultra Premium Collection",
      "precio": 249.95,
@@ -104,7 +83,7 @@
      "cardmarket": 199.09,
      "cardmarketPct": 26,
      "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--ultra-premium-collection",
+     "stocktcg": "https://stocktcg.net/p/mega-evolution--ultra-premium-collection",
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
