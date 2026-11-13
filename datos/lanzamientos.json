@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T09:26:39",
+ "actualizado": "2026-11-13T10:59:12",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -974,6 +974,36 @@
      "url": "https://jupiterjuegos.com/producto/pkm-megaevolucion-dominio-delta-caja-de-entrenador-de-elite/",
      "img": "",
      "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Caja de Entrenador Élite Dominio Delta - Delta Reign — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-de-entrenador-elite-dominio-delta-delta-reign?variant=55436457935186",
+     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334042.png?v=1794510282&width=400",
+     "foto": "fotos/45f4ccb9232c39cc.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Pokémon TCG Megaevolución Dominio Delta Caja de Entrenador Élite",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-tcg-megaevolucion-dominio-delta-caja-de-entrenador-elite-195848-1/p",
+     "img": "https://drimjuguetes.vteximg.com.br/arquivos/ids/1140575/195848_A.JPG.jpg?v=639298784969500000",
+     "foto": "fotos/0eb4abd70497d5e8.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
