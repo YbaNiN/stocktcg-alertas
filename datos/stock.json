@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T16:25:08",
+ "actualizado": "2026-11-13T17:04:47",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8897,6 +8897,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-13T08:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Dominio Delta | Español | POKÉMON",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/etb-dominio-delta-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/etb-dominio-delta.png",
+     "foto": "fotos/e454ac84a0dbeb86.jpg",
+     "preventa": false,
+     "cardmarket": 76.37,
+     "cardmarketPct": -8,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-13T17:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
