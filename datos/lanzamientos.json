@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T12:03:01",
+ "actualizado": "2026-11-13T12:14:20",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -588,6 +588,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
+     "titulo": "BLISTER PACK - DOMINIO DELTA [ES]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 18.95,
+     "moneda": "EUR",
+     "tienda": "UNSOBREMAS",
+     "idioma": "es",
+     "url": "https://unsobremas.com/products/blister-pack-dominio-delta-es",
+     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/blisterdelta.webp?v=1793891703&width=400",
+     "foto": "fotos/2ea2a19a9243c3e0.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Pokémon TCG - Dominio Delta - 3-pack blister (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -764,21 +779,6 @@
      "url": "https://elduelista.com/products/delta-reign-seel-3-pack-blister-903948",
      "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903948.jpg?v=1793952992&width=400",
      "foto": "fotos/613f6d0a5c884886.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
-     "titulo": "BLISTER PACK - DOMINIO DELTA [ES]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 22.95,
-     "moneda": "EUR",
-     "tienda": "UNSOBREMAS",
-     "idioma": "es",
-     "url": "https://unsobremas.com/products/blister-pack-dominio-delta-es",
-     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/blisterdelta.webp?v=1793891703&width=400",
-     "foto": "fotos/2ea2a19a9243c3e0.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
