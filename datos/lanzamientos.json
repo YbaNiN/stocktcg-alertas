@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T20:03:05",
+ "actualizado": "2026-11-13T20:20:18",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1338,6 +1338,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "Pokémon TCG – Booster Box Mega Evolution Dominio Delta-Delta Reign (36 Sobres)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "Mythic Card TCG",
+     "idioma": "es",
+     "url": "https://mythocardtcg.com/inicio/141-77-booster-box-pokemon-delta-reign-36-sobres.html",
+     "img": "https://mythocardtcg.com/351-thickbox_default/booster-box-pokemon-delta-reign-36-sobres.jpg",
+     "foto": "fotos/52adc649d77961e4.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "Pokémon - Megaevolución 6 Dominio Delta ME06: Caja de Sobres (36 sobres) Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1364,21 +1379,6 @@
      "url": "https://laescotillajuegos.com/products/pokemon-tcg-dominio-delta-caja-de-sobres-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0354/4688/2440/files/pokemon-tcg-delta-reign-booster-box-esp.png?v=1793896001&width=400",
      "foto": "fotos/1b49dd85ae6768a8.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Pokémon TCG – Booster Box Mega Evolution Dominio Delta-Delta Reign (36 Sobres)",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 214.95,
-     "moneda": "EUR",
-     "tienda": "Mythic Card TCG",
-     "idioma": "es",
-     "url": "https://mythocardtcg.com/inicio/141-77-booster-box-pokemon-delta-reign-36-sobres.html",
-     "img": "https://mythocardtcg.com/351-thickbox_default/booster-box-pokemon-delta-reign-36-sobres.jpg",
-     "foto": "fotos/52adc649d77961e4.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
