@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T17:54:57",
+ "actualizado": "2026-11-13T18:15:17",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1110,6 +1110,21 @@
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
      "foto": "fotos/24ac851998f1154f.jpg",
      "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "ETB Pokémon Dominio Delta (ESPAÑOL)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "Asturcards",
+     "idioma": "es",
+     "url": "https://www.asturcards.com/producto/etb-pokemon-dominio-delta-espanol/",
+     "img": "https://www.asturcards.com/wp-content/uploads/2026/11/etb-caja-de-entrenador-elite-dominio-delta-reign-rayquaza-cartas-pokemon-tcg-cardzone.webp",
+     "foto": "fotos/f8388ae12e05e4d2.jpg",
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
