@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T18:34:13",
+ "actualizado": "2026-11-13T18:40:08",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1612,6 +1612,40 @@
    "fecha": null
   },
   {
+   "titulo": "Colección con Figura Mewtwo - Celebración 30TH ESPAÑOL",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 49.95,
+   "moneda": "EUR",
+   "tienda": "CanaryPop",
+   "idioma": "es",
+   "url": "https://canarypop.es/products/coleccion-con-figura-mewtwo-celebracion-30th-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/pokemon-mewtwo-es-bandera-1284.png?v=1793726186&width=400",
+   "foto": "fotos/95db830df20b9114.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Colección con Figura Mew - Celebración 30TH ESPAÑOL",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 49.95,
+   "moneda": "EUR",
+   "tienda": "CanaryPop",
+   "idioma": "es",
+   "url": "https://canarypop.es/products/coleccion-con-figura-mew-celebracion-30th-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/pokemon-mew-es-bandera-1284.png?v=1793726174&width=400",
+   "foto": "fotos/7b0c945968c31e82.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "Caja Colección con Figura - 30th Anniversary [ENG] — Mewtwo",
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
    "tipo": "collection-box",
@@ -1646,6 +1680,40 @@
    "fecha": "2026-11-06"
   },
   {
+   "titulo": "Battle Decks - Celebración 30TH ESPAÑOL — Espeon ex",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "deck",
+   "tipoNombre": "Deck",
+   "precio": 34.95,
+   "moneda": "EUR",
+   "tienda": "CanaryPop",
+   "idioma": "es",
+   "url": "https://canarypop.es/products/battle-decks-celebracion-30th-espanol?variant=54619038679387",
+   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/battle-deck-espeon-es.png?v=1793726802&width=400",
+   "foto": "fotos/d4a6bce7de7a7531.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Battle Decks - Celebración 30TH ESPAÑOL — Umbreon ex",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "deck",
+   "tipoNombre": "Deck",
+   "precio": 34.95,
+   "moneda": "EUR",
+   "tienda": "CanaryPop",
+   "idioma": "es",
+   "url": "https://canarypop.es/products/battle-decks-celebracion-30th-espanol?variant=54619038712155",
+   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/battle-deck-umbreon-es.png?v=1793726812&width=400",
+   "foto": "fotos/ca5c8de49781a53a.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "Pokémon TCG 30.º Aniversario - Mini Tin Coleccionable (ES)",
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
    "tipo": "mini-tin",
@@ -1659,6 +1727,23 @@
    "foto": "fotos/bfcc5b3249610bf5.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Colección Premium Ditto - Celebración 30TH ESPAÑOL",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "premium-collection",
+   "tipoNombre": "Premium Collection",
+   "precio": 59.95,
+   "moneda": "EUR",
+   "tienda": "CanaryPop",
+   "idioma": "es",
+   "url": "https://canarypop.es/products/coleccion-premium-ditto-celebracion-30th-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/pokemon-ditto-es-bandera-1284.png?v=1793726199&width=400",
+   "foto": "fotos/b977e4cb56bc51d9.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
    "lanzamiento": null,
    "fecha": null
   },
