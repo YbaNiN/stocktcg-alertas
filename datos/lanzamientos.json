@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T19:35:00",
+ "actualizado": "2026-11-13T19:54:40",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1158,6 +1158,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "Pokémon TCG – Elite Trainer Box Mega Evolution Dominio Delta-Delta Reign (ETB)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "Mythic Card TCG",
+     "idioma": "es",
+     "url": "https://mythocardtcg.com/inicio/140-75-etb-pokemon-mega-evolution-delta-reign.html",
+     "img": "https://mythocardtcg.com/350-thickbox_default/etb-pokemon-mega-evolution-delta-reign.jpg",
+     "foto": "fotos/357a6dc6a0e4528c.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1199,21 +1214,6 @@
      "url": "https://lamaquinadeltemps.com/trading-card-game/3379-espanol-recogida-pokemon-etb-dominio-delta.html",
      "img": "https://lamaquinadeltemps.com/6877-home_default/espanol-recogida-pokemon-etb-dominio-delta.jpg",
      "foto": "fotos/e2915e2c6ea7ce76.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "Pokémon TCG – Elite Trainer Box Mega Evolution Dominio Delta-Delta Reign (ETB)",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 79.95,
-     "moneda": "EUR",
-     "tienda": "Mythic Card TCG",
-     "idioma": "es",
-     "url": "https://mythocardtcg.com/inicio/140-75-etb-pokemon-mega-evolution-delta-reign.html",
-     "img": "https://mythocardtcg.com/350-thickbox_default/etb-pokemon-mega-evolution-delta-reign.jpg",
-     "foto": "fotos/357a6dc6a0e4528c.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
