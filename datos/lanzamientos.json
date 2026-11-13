@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T18:43:02",
+ "actualizado": "2026-11-13T19:23:08",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1623,23 +1623,6 @@
    "url": "https://canarypop.es/products/coleccion-con-figura-mewtwo-celebracion-30th-espanol",
    "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/pokemon-mewtwo-es-bandera-1284.png?v=1793726186&width=400",
    "foto": "fotos/95db830df20b9114.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Colección con Figura Mew - Celebración 30TH ESPAÑOL",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "collection-box",
-   "tipoNombre": "Collection Box",
-   "precio": 49.95,
-   "moneda": "EUR",
-   "tienda": "CanaryPop",
-   "idioma": "es",
-   "url": "https://canarypop.es/products/coleccion-con-figura-mew-celebracion-30th-espanol",
-   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/pokemon-mew-es-bandera-1284.png?v=1793726174&width=400",
-   "foto": "fotos/7b0c945968c31e82.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
    "lanzamiento": null,
