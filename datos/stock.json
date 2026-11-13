@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T12:28:28",
+ "actualizado": "2026-11-13T12:38:10",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8418,6 +8418,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "(español) Pokemon CAJA 36 sobres Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "La Maquina del Temps",
+     "idioma": "es",
+     "url": "https://lamaquinadeltemps.com/trading-card-game/3381-espanol-pokemon-caja-36-sobres-dominio-delta.html",
+     "img": "https://lamaquinadeltemps.com/6880-home_default/espanol-pokemon-caja-36-sobres-dominio-delta.jpg",
+     "foto": "fotos/4d031b85b6922b64.jpg",
+     "preventa": false,
+     "cardmarket": 191.12,
+     "cardmarketPct": 5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-10T11:01+01:00",
+     "precioAntes": 216.0,
+     "bajadaDesde": "2026-11-13T12:40+01:00"
+    },
+    {
      "titulo": "Caja de sobres de Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -8519,27 +8540,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "(español) Pokemon CAJA 36 sobres Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 216.0,
-     "moneda": "EUR",
-     "tienda": "La Maquina del Temps",
-     "idioma": "es",
-     "url": "https://lamaquinadeltemps.com/trading-card-game/3381-espanol-pokemon-caja-36-sobres-dominio-delta.html",
-     "img": "https://lamaquinadeltemps.com/6880-home_default/espanol-pokemon-caja-36-sobres-dominio-delta.jpg",
-     "foto": "fotos/4d031b85b6922b64.jpg",
-     "preventa": false,
-     "cardmarket": 191.12,
-     "cardmarketPct": 13,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": "2026-11-10T11:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },

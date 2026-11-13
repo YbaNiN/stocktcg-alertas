@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T12:14:20",
+ "actualizado": "2026-11-13T12:38:10",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1158,6 +1158,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "(español) Pokemon CAJA 36 sobres Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "La Maquina del Temps",
+     "idioma": "es",
+     "url": "https://lamaquinadeltemps.com/trading-card-game/3381-espanol-pokemon-caja-36-sobres-dominio-delta.html",
+     "img": "https://lamaquinadeltemps.com/6880-home_default/espanol-pokemon-caja-36-sobres-dominio-delta.jpg",
+     "foto": "fotos/4d031b85b6922b64.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "Pokémon - Megaevolución 6 Dominio Delta ME06: Caja de Sobres (36 sobres) Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1214,21 +1229,6 @@
      "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
      "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
      "foto": "fotos/4cbc60d25555a73a.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "(español) Pokemon CAJA 36 sobres Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 216.0,
-     "moneda": "EUR",
-     "tienda": "La Maquina del Temps",
-     "idioma": "es",
-     "url": "https://lamaquinadeltemps.com/trading-card-game/3381-espanol-pokemon-caja-36-sobres-dominio-delta.html",
-     "img": "https://lamaquinadeltemps.com/6880-home_default/espanol-pokemon-caja-36-sobres-dominio-delta.jpg",
-     "foto": "fotos/4d031b85b6922b64.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
