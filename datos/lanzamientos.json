@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T20:39:55",
+ "actualizado": "2026-11-13T20:48:19",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -215,21 +215,6 @@
      "foto": null,
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "Pokémon TCG - Celebración 30.º Aniversario - Colección prémium Ditto (Español)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 88.5,
-     "moneda": "EUR",
-     "tienda": "La Escotilla",
-     "idioma": "es",
-     "url": "https://laescotillajuegos.com/products/pokemon-tcg-celebracion-30-º-aniversario-coleccion-premium-ditto-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0354/4688/2440/files/pokemon-tcg-30th-celebration-ditto-premium-collection-esp.png?v=1793894108&width=400",
-     "foto": "fotos/01865e1569a02730.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
      "titulo": "30 Aniversario Ditto Premium Collection",
