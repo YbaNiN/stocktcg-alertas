@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T21:34:38",
+ "actualizado": "2026-11-13T22:18:44",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1822,6 +1822,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "[PREVENTA] Caja 36 sobres Pokémon Dominio Delta y Delta Reign — Español",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 199.95,
+   "moneda": "EUR",
+   "tienda": "Kame House Cards",
+   "idioma": "es",
+   "url": "https://kamehousecards.com/products/caja-36-sobres-pokemon-megaevolucion-dominio-delta-y-delta-reign?variant=55436427493714",
+   "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334208.png?v=1794604338&width=400",
+   "foto": "fotos/d5d0e80dd913617c.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "(PREVENTA) Pokémon - Booster Box Dominio Delta 36 sobres (ESP)",

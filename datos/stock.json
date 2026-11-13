@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T21:40:28",
+ "actualizado": "2026-11-13T22:18:44",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8479,6 +8479,27 @@
      "desde": "2026-11-12T10:10+01:00",
      "precioAntes": 214.95,
      "bajadaDesde": "2026-11-13T20:20+01:00"
+    },
+    {
+     "titulo": "[PREVENTA] Caja 36 sobres Pokémon Dominio Delta y Delta Reign — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/caja-36-sobres-pokemon-megaevolucion-dominio-delta-y-delta-reign?variant=55436427493714",
+     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334208.png?v=1794604338&width=400",
+     "foto": "fotos/d5d0e80dd913617c.jpg",
+     "preventa": true,
+     "cardmarket": 191.12,
+     "cardmarketPct": 5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-13T22:20+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "Caja de sobres de Dominio Delta",
