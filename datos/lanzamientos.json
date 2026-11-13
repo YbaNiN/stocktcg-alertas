@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T14:13:59",
+ "actualizado": "2026-11-13T14:30:43",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -1128,7 +1128,7 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
-     "titulo": "RESERVA Booster Box 36 Sobres Dominio Delta",
+     "titulo": "Booster Box 36 Sobres Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -1139,7 +1139,7 @@
      "url": "https://lanavetcg.com/products/reserva-booster-box-36-sobres-dominio-delta",
      "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/BOOSTERBOX_5c26c82a-1499-4234-9711-5f05c0afe7b0.png?v=1793282411&width=400",
      "foto": "fotos/0a81fd49cbaca66f.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
@@ -1602,23 +1602,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "RESERVA Booster Box 36 Sobres Dominio Delta",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 189.9,
-   "moneda": "EUR",
-   "tienda": "La Nave TCG",
-   "idioma": "es",
-   "url": "https://lanavetcg.com/products/reserva-booster-box-36-sobres-dominio-delta",
-   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/BOOSTERBOX_5c26c82a-1499-4234-9711-5f05c0afe7b0.png?v=1793282411&width=400",
-   "foto": "fotos/0a81fd49cbaca66f.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",
