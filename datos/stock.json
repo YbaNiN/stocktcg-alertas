@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T15:12:47",
+ "actualizado": "2026-11-14T16:45:24",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3066,6 +3066,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": "2026-11-08T02:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Caos Creciente Pokemon TCG Mega Evoluciones",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Mythic Card TCG",
+     "idioma": "es",
+     "url": "https://mythocardtcg.com/inicio/93-54-Etb-caos-creciente-oficial.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 62.73,
+     "cardmarketPct": 12,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-11-14T16:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
