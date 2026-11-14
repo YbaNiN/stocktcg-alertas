@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T01:30:44",
+ "actualizado": "2026-11-14T01:44:44",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-3",
@@ -779,7 +779,7 @@
      "url": "https://flashstore.es/producto/dominio-delta-blister-3-pack/",
      "img": "https://flashstore.es/wp-content/uploads/2026/08/deltab3.jpg",
      "foto": "fotos/8336c005db7b93d8.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
@@ -1439,7 +1439,7 @@
      "url": "https://flashstore.es/producto/dominio-delta-caja-36/",
      "img": "https://flashstore.es/wp-content/uploads/2026/08/delta36.jpg",
      "foto": "fotos/010323b3e06ae889.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
@@ -1979,23 +1979,6 @@
    "fecha": "2026-11-06"
   },
   {
-   "titulo": "Dominio Delta Blister 3 Pack",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "blister",
-   "tipoNombre": "Blister",
-   "precio": 19.9,
-   "moneda": "EUR",
-   "tienda": "FlashStore",
-   "idioma": "es",
-   "url": "https://flashstore.es/producto/dominio-delta-blister-3-pack/",
-   "img": "https://flashstore.es/wp-content/uploads/2026/08/deltab3.jpg",
-   "foto": "fotos/8336c005db7b93d8.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
    "titulo": "RESERVA – Caja de Sobres Reinado Delta (18 sobres) en Castellano",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
@@ -2028,23 +2011,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "Dominio Delta Caja 36",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 189.9,
-   "moneda": "EUR",
-   "tienda": "FlashStore",
-   "idioma": "es",
-   "url": "https://flashstore.es/producto/dominio-delta-caja-36/",
-   "img": "https://flashstore.es/wp-content/uploads/2026/08/delta36.jpg",
-   "foto": "fotos/010323b3e06ae889.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",

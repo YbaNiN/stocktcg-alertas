@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T01:30:44",
+ "actualizado": "2026-11-14T01:44:44",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8303,7 +8303,7 @@
      "url": "https://flashstore.es/producto/dominio-delta-caja-36/",
      "img": "https://flashstore.es/wp-content/uploads/2026/08/delta36.jpg",
      "foto": "fotos/010323b3e06ae889.jpg",
-     "preventa": true,
+     "preventa": false,
      "cardmarket": 191.12,
      "cardmarketPct": -1,
      "chollo": false,
