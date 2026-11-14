@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T15:44:23",
+ "actualizado": "2026-11-14T17:24:25",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1986,6 +1986,23 @@
    "url": "https://1001tcg.com/products/products-etb-dominio-delta-delta-reign-pokemon-tcg",
    "img": "https://cdn.shopify.com/s/files/1/1024/7123/7963/files/deltaetbeditada.png?v=1790336331&width=320",
    "foto": "fotos/bb724ce1a5195cdd.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 69.95,
+   "moneda": "EUR",
+   "tienda": "AllInTCG",
+   "idioma": "es",
+   "url": "https://allintcg.com/products/elite-trainer-box-delta-reign-esp",
+   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
+   "foto": "fotos/725572ca2a129684.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": null,
