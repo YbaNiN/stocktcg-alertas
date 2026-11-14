@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T18:10:21",
+ "actualizado": "2026-11-14T20:58:29",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8792,6 +8792,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-13T18:37+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Reserva ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 63.9,
+     "moneda": "EUR",
+     "tienda": "La Nave TCG",
+     "idioma": "es",
+     "url": "https://lanavetcg.com/products/reserva-etb-dominio-delta",
+     "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/ETB.png?v=1793282163&width=400",
+     "foto": "fotos/b4ce588ea3bd1e4b.jpg",
+     "preventa": true,
+     "cardmarket": 76.37,
+     "cardmarketPct": -16,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-14T21:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
