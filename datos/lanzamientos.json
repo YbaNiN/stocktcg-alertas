@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T18:28:13",
+ "actualizado": "2026-11-14T18:34:02",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -146,6 +146,21 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
+     "titulo": "Pokémon TCG Coleccion Premium Ditto – 30.º Aniversario",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 84.95,
+     "moneda": "EUR",
+     "tienda": "Mythic Card TCG",
+     "idioma": "es",
+     "url": "https://mythocardtcg.com/inicio/125-pokemon-tcg-caja-premium-ditto-30-aniversario-espanol.html",
+     "img": "https://mythocardtcg.com/293-thickbox_default/pokemon-tcg-caja-premium-ditto-30-aniversario-espanol.jpg",
+     "foto": "fotos/766b5805cb30c069.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
      "titulo": "30 Aniversario Ditto Premium Collection",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "premium-collection",
@@ -172,21 +187,6 @@
      "url": "https://dungeonmarvels.com/pokemon-jcc-coleccion-premium-ditto-de-celebracion-30-aniversario-castellano-103782.html",
      "img": "https://dungeonmarvels.com/217383-large_default/pokemon-jcc-coleccion-premium-ditto-de-celebracion-30-aniversario-castellano.jpg",
      "foto": "fotos/6324f7614433d201.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
-     "titulo": "Pokémon TCG Coleccion Premium Ditto – 30.º Aniversario",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 89.95,
-     "moneda": "EUR",
-     "tienda": "Mythic Card TCG",
-     "idioma": "es",
-     "url": "https://mythocardtcg.com/inicio/125-pokemon-tcg-caja-premium-ditto-30-aniversario-espanol.html",
-     "img": "https://mythocardtcg.com/293-thickbox_default/pokemon-tcg-caja-premium-ditto-30-aniversario-espanol.jpg",
-     "foto": "fotos/766b5805cb30c069.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
@@ -218,6 +218,21 @@
      "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mew.webp?v=1791923668&width=400",
      "foto": "fotos/ec48bbd59868d31d.jpg",
      "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Premium Ditto Collection 30 Aniversario | Español | POKÉMON",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 99.95,
+     "moneda": "EUR",
+     "tienda": "Tsuki Center",
+     "idioma": "es",
+     "url": "https://tsukicenter.com/producto/premium-ditto-collection-30-aniversario-espanol-pokemon/",
+     "img": "https://tsukicenter.com/wp-content/uploads/2026/11/Ditto-espanol.png",
+     "foto": "fotos/2b020c938577a6cf.jpg",
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
