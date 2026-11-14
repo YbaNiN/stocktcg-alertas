@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T21:22:29",
+ "actualizado": "2026-11-14T23:00:29",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -318,8 +318,8 @@
    "tipo": "Set principal (Mega Evolution)",
    "fecha": "2026-11-06",
    "fechaConfirmada": true,
-   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/etb_delta_reign.webp?v=1792267066&width=400",
-   "foto": "fotos/e03a4cda665b9078.jpg",
+   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
+   "foto": "fotos/725572ca2a129684.jpg",
    "ofertas": [
     {
      "titulo": "Dominio Delta Blíster 3 Sobres",
@@ -952,6 +952,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "Reserva ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 63.9,
+     "moneda": "EUR",
+     "tienda": "La Nave TCG",
+     "idioma": "es",
+     "url": "https://lanavetcg.com/products/reserva-etb-dominio-delta",
+     "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/ETB.png?v=1793282163&width=400",
+     "foto": "fotos/b4ce588ea3bd1e4b.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Pack 6 Sobres Pokemon Megaevolucion Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -1008,6 +1023,36 @@
      "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/etb-dominio-delta-espanol/",
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
      "foto": "fotos/24ac851998f1154f.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.png",
+     "foto": "fotos/86ca565bbb4d8422.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/elite-trainer-box-delta-reign-esp",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
+     "foto": "fotos/725572ca2a129684.jpg",
      "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
@@ -1909,8 +1954,8 @@
    "foto": "fotos/b4ce588ea3bd1e4b.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Delta Reign - Elite Trainer Box (Inglés y Español) — Español",
@@ -1977,8 +2022,8 @@
    "foto": "fotos/725572ca2a129684.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
