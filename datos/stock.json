@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T14:35:15",
+ "actualizado": "2026-11-14T15:04:20",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8354,27 +8354,6 @@
   {
    "nombre": "Dominio Delta",
    "productos": [
-    {
-     "titulo": "Dominio Delta Caja 36",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 189.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/dominio-delta-caja-36/",
-     "img": "https://flashstore.es/wp-content/uploads/2026/08/delta36.jpg",
-     "foto": "fotos/010323b3e06ae889.jpg",
-     "preventa": false,
-     "cardmarket": 191.12,
-     "cardmarketPct": -1,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": "2026-11-13T19:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "Booster Box 36 Sobres Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
