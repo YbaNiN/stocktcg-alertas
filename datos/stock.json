@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T09:45:05",
+ "actualizado": "2026-11-14T12:38:33",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7270,6 +7270,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de 36 Sobres de Llamas Obsidianas | Español",
+     "coleccion": "Obsidian Flames",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.9,
+     "moneda": "EUR",
+     "tienda": "Dark Vault",
+     "idioma": "es",
+     "url": "https://darkvault.es/products/caja-de-36-sobres-de-llamas-obsidianas-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
+     "foto": "fotos/1ae5b73e408870a6.jpg",
+     "preventa": false,
+     "cardmarket": 244.66,
+     "cardmarketPct": -22,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
+     "desde": "2026-11-14T12:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
