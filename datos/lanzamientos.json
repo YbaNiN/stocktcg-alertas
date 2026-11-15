@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T23:59:40",
+ "actualizado": "2026-11-16T00:23:48",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1522,6 +1522,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "Dominio Delta Caja 36 - ESPAÑOL",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 194.95,
+     "moneda": "EUR",
+     "tienda": "Elite Store TCG",
+     "idioma": "es",
+     "url": "https://elitestoretcg.com/products/dominio-delta-caja-36-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0917/5485/6776/files/delta36.jpg?v=1794763450&width=400",
+     "foto": "fotos/c4f5ca7d1f3df0b2.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "Pokemon JCC Expositor De Sobres De Mejora De Megaevolucion Dominio Delta Castellano",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1533,21 +1548,6 @@
      "url": "https://dungeonmarvels.com/pokemon-jcc-expositor-de-sobres-de-mejora-de-megaevolucion-dominio-delta-castellano-103454.html",
      "img": "https://dungeonmarvels.com/216633-large_default/pokemon-jcc-expositor-de-sobres-de-mejora-de-megaevolucion-dominio-delta-castellano.jpg",
      "foto": "fotos/06157b39287c4dfc.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Dominio Delta Caja 36 - ESPAÑOL",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.95,
-     "moneda": "EUR",
-     "tienda": "Elite Store TCG",
-     "idioma": "es",
-     "url": "https://elitestoretcg.com/products/dominio-delta-caja-36-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0917/5485/6776/files/delta36.jpg?v=1794763450&width=400",
-     "foto": "fotos/c4f5ca7d1f3df0b2.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },

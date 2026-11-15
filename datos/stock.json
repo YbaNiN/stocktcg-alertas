@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T23:50:32",
+ "actualizado": "2026-11-16T00:23:48",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8271,6 +8271,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Dominio Delta Caja 36 - ESPAÑOL",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 194.95,
+     "moneda": "EUR",
+     "tienda": "Elite Store TCG",
+     "idioma": "es",
+     "url": "https://elitestoretcg.com/products/dominio-delta-caja-36-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0917/5485/6776/files/delta36.jpg?v=1794763450&width=400",
+     "foto": "fotos/c4f5ca7d1f3df0b2.jpg",
+     "preventa": false,
+     "cardmarket": 182.86,
+     "cardmarketPct": 7,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-15T18:30+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Booster Box 36 Sobres Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -8372,27 +8393,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-15T11:05+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Dominio Delta Caja 36 - ESPAÑOL",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.95,
-     "moneda": "EUR",
-     "tienda": "Elite Store TCG",
-     "idioma": "es",
-     "url": "https://elitestoretcg.com/products/dominio-delta-caja-36-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0917/5485/6776/files/delta36.jpg?v=1794763450&width=400",
-     "foto": "fotos/c4f5ca7d1f3df0b2.jpg",
-     "preventa": false,
-     "cardmarket": 182.86,
-     "cardmarketPct": 9,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": "2026-11-15T18:30+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
