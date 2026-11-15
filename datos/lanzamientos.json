@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T11:05:05",
+ "actualizado": "2026-11-15T13:24:20",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -963,21 +963,6 @@
      "url": "https://canarypop.es/products/elite-trainer-box-megaevolucion-dominio-delta-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/DOMINIO-DELTA-ETB.png?v=1794491744&width=400",
      "foto": "fotos/b91bff29d25329e1.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "Reserva ETB Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 63.9,
-     "moneda": "EUR",
-     "tienda": "La Nave TCG",
-     "idioma": "es",
-     "url": "https://lanavetcg.com/products/reserva-etb-dominio-delta",
-     "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/ETB.png?v=1793282163&width=400",
-     "foto": "fotos/b4ce588ea3bd1e4b.jpg",
      "preventa": true,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
@@ -1950,23 +1935,6 @@
    "url": "https://canarypop.es/products/elite-trainer-box-megaevolucion-dominio-delta-espanol",
    "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/DOMINIO-DELTA-ETB.png?v=1794491744&width=400",
    "foto": "fotos/b91bff29d25329e1.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "Reserva ETB Dominio Delta",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 63.9,
-   "moneda": "EUR",
-   "tienda": "La Nave TCG",
-   "idioma": "es",
-   "url": "https://lanavetcg.com/products/reserva-etb-dominio-delta",
-   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/ETB.png?v=1793282163&width=400",
-   "foto": "fotos/b4ce588ea3bd1e4b.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
