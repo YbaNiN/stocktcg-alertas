@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T00:23:48",
+ "actualizado": "2026-11-16T00:29:18",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -2258,6 +2258,23 @@
    "foto": "fotos/e172b23785884e65.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/first-partner--blister",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Caja First Partner 2 – Español",
+   "coleccion": "First Partner",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 29.99,
+   "moneda": "EUR",
+   "tienda": "Pokewoke",
+   "idioma": "es",
+   "url": "https://pokewoke.store/comprar/caja-first-partner-2-espanol/",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/673436_in_400x400.jpg",
+   "foto": "fotos/743e25f95b7b4d36.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/first-partner--collection-box",
    "lanzamiento": null,
    "fecha": null
   },
