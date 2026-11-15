@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T02:39:24",
+ "actualizado": "2026-11-15T04:58:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1785,27 +1785,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
      "desde": "2026-11-14T14:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja 36 sobres Pokémon Caos Creciente y Chaos Rising — Español",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 169.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/caja-36-sobres-pokemon-caos-creciente-y-chaos-rising?variant=53441438351698",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_400x400.jpg",
-     "foto": "fotos/596314aad285ec6d.jpg",
-     "preventa": false,
-     "cardmarket": 180.55,
-     "cardmarketPct": -6,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
-     "desde": "2026-10-19T13:10+02:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
