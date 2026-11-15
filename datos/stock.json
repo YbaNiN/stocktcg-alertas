@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T05:53:36",
+ "actualizado": "2026-11-15T08:53:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7655,27 +7655,6 @@
      "desde": null,
      "precioAntes": 189.95,
      "bajadaDesde": "2026-11-11T17:10+01:00"
-    },
-    {
-     "titulo": "Caja de 36 Sobres Chispas Fulgurantes ESPAÑOL - Pokémon TCG",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 179.95,
-     "moneda": "EUR",
-     "tienda": "Cartas Mencey",
-     "idioma": "es",
-     "url": "https://cartasmencey.es/products/caja-de-36-sobres-chispas-fulgurantes-espanol-pokemon-tcg",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
-     "foto": "fotos/f93917ec0febd0ae.jpg",
-     "preventa": false,
-     "cardmarket": 234.67,
-     "cardmarketPct": -23,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon TCG - Booster Box Surging Sparks (Inglés & Español) — Español",
