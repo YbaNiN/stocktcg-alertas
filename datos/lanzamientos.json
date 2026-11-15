@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T23:00:29",
+ "actualizado": "2026-11-15T10:53:34",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1297,21 +1297,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
-     "titulo": "[PREVENTA] Caja 36 sobres Pokémon Dominio Delta y Delta Reign — Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/caja-36-sobres-pokemon-megaevolucion-dominio-delta-y-delta-reign?variant=55436427493714",
-     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334208.png?v=1794604338&width=400",
-     "foto": "fotos/d5d0e80dd913617c.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
      "titulo": "(español) Pokemon CAJA 36 sobres Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1833,23 +1818,6 @@
    "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-delta",
    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-1-Photoroom.webp?v=1794303000&width=400",
    "foto": "fotos/11c7dfa65a58ac0a.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "[PREVENTA] Caja 36 sobres Pokémon Dominio Delta y Delta Reign — Español",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 199.95,
-   "moneda": "EUR",
-   "tienda": "Kame House Cards",
-   "idioma": "es",
-   "url": "https://kamehousecards.com/products/caja-36-sobres-pokemon-megaevolucion-dominio-delta-y-delta-reign?variant=55436427493714",
-   "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000334208.png?v=1794604338&width=400",
-   "foto": "fotos/d5d0e80dd913617c.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": "delta-reign",
