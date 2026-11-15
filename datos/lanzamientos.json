@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T15:49:38",
+ "actualizado": "2026-11-15T16:59:37",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -22,6 +22,51 @@
      "url": "https://labovedafriki.es/products/figure-collection-30-aniversaio?variant=56657943953748",
      "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Figure_Collection_30Aniversaio_Mew_mewtwo_la_boveda_friki.jpg?v=1785750796&width=400",
      "foto": "fotos/6a3cf15f750622fd.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Figure Collection 30 Aniversaio — Español / Mewtwo",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 74.9,
+     "moneda": "EUR",
+     "tienda": "La Boveda Friki",
+     "idioma": "es",
+     "url": "https://labovedafriki.es/products/figure-collection-30-aniversaio?variant=56658190795092",
+     "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Figure_Collection_30Aniversaio_Mew_mewtwo_la_boveda_friki.jpg?v=1785750796&width=400",
+     "foto": "fotos/6a3cf15f750622fd.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Caja Colección con Figura - 30th Anniversary [ESP] — Mewtwo",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640239451",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mewtwo.webp?v=1791923668&width=400",
+     "foto": "fotos/66ef12a8cf200eba.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Caja Colección con Figura - 30th Anniversary [ESP] — Mew",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640272219",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mew.webp?v=1791923668&width=400",
+     "foto": "fotos/ec48bbd59868d31d.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
@@ -127,6 +172,36 @@
      "url": "https://www.padis-store.com/44879-pokemon-30-aniversario-figure-collection-mew-espanol.html",
      "img": "https://www.padis-store.com/65314-thickbox_default/pokemon-30-aniversario-figure-collection-mew-espanol.jpg",
      "foto": "fotos/e7700eb4038df8cf.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Pokémon TCG: 30th Celebration Figure Collection (Mew) — Spanish",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 80.0,
+     "moneda": "EUR",
+     "tienda": "Universe TCG",
+     "idioma": "es",
+     "url": "https://universetcg.com/products/pokemon-tcg-30th-anniversary-mew-figure-collection-spanish?variant=55616507085141",
+     "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/wm_57533504061781.jpg?v=1794254352&width=400",
+     "foto": "fotos/9cfc296bcfdfc102.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Pokémon TCG: 30th Celebration Figure Collection (Mewtwo) — Spanish",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 80.0,
+     "moneda": "EUR",
+     "tienda": "Universe TCG",
+     "idioma": "es",
+     "url": "https://universetcg.com/products/pokemon-tcg-30th-anniversary-mewtwo-figure-collection-spanish?variant=55616507052373",
+     "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/wm_57533512778069.jpg?v=1794254368&width=400",
+     "foto": "fotos/cf6388c49d87f9a7.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
@@ -249,6 +324,21 @@
      "foto": "fotos/1fe7bfa281767501.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
+     "titulo": "Pokémon TCG: 30th Celebration Ditto Premium Collection — Spanish",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 105.0,
+     "moneda": "EUR",
+     "tienda": "Universe TCG",
+     "idioma": "es",
+     "url": "https://universetcg.com/products/pokemon-tcg-cel30-premium-collection-30th-celebration-ditto-premium-collection-en?variant=55621292163413",
+     "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/wm_57533494198613_af02c99b-562e-4132-879e-a6bb988ba011.jpg?v=1794288485&width=400",
+     "foto": "fotos/ec94a9c110c82b17.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
      "titulo": "Premium Starter Set Espeon & Umbreon 30th CELEBRATION",
@@ -382,6 +472,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
+     "titulo": "Sobre Dominio Delta | Delta Reign — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/sobres-dominio-delta-delta-reign?variant=54759192854851",
+     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/caja-36-sobres-dominio-delta-delta-reign-2.webp?v=1788134377&width=400",
+     "foto": "fotos/05f764b53f6ac4e9.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
      "titulo": "Pokemon TCG: Sobre Dominio Delta (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -468,6 +573,21 @@
      "url": "https://jupiterjuegos.com/producto/pkm-mega-evolution-delta-reign-booster-pack/",
      "img": "",
      "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Pokémon TCG: Delta Reign Booster Pack — Spanish",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 7.0,
+     "moneda": "EUR",
+     "tienda": "Universe TCG",
+     "idioma": "es",
+     "url": "https://universetcg.com/products/pokemon-tcg-mega-evolution-dominio-delta-booster-pack-spanish?variant=55321425117525",
+     "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/pokemon-dominio-delta-booster-01.jpg?v=1791897260&width=400",
+     "foto": "fotos/6127aa1edd959ee7.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
@@ -757,6 +877,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
+     "titulo": "Pokémon TCG: Delta Reign 3-Pack Blister — Spanish",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 21.0,
+     "moneda": "EUR",
+     "tienda": "Universe TCG",
+     "idioma": "es",
+     "url": "https://universetcg.com/products/pokemon-tcg-mega-evolution-dominio-delta-3-pack-blister-spanish?variant=55616507347285",
+     "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/pokemon-dominio-delta-blister-00.jpg?v=1791897244&width=400",
+     "foto": "fotos/9f141a8f88e965bc.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Dominio Delta - Blíster 3 sobres - Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -905,6 +1040,21 @@
      "foto": "fotos/559ca6aa08dc080f.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Pokémon TCG: Delta Reign Booster Bundle (6 packs) — Spanish",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 40.0,
+     "moneda": "EUR",
+     "tienda": "Universe TCG",
+     "idioma": "es",
+     "url": "https://universetcg.com/products/pokemon-tcg-me06-booster-bundle-delta-reign-booster-bundle-6-packs-en?variant=55602607194453",
+     "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/dominio-delta-booster-bundle-spanish-1.png?v=1794753050&width=400",
+     "foto": "fotos/b33bd131411f0520.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
      "titulo": "Bundle 6 sobres Dominio Delta — Español",
@@ -1203,6 +1353,21 @@
      "url": "https://unsobremas.com/products/elite-trainer-box-dominio-delta-es",
      "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/etbdelta.webp?v=1793891903&width=400",
      "foto": "fotos/ddfa68eb84a6285e.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Pokémon TCG: Delta Reign Elite Trainer Box — Spanish",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 80.0,
+     "moneda": "EUR",
+     "tienda": "Universe TCG",
+     "idioma": "es",
+     "url": "https://universetcg.com/products/pokemon-tcg-mega-evolution-dominio-delta-elite-trainer-box-spanish?variant=55616505577813",
+     "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/me06_group_es.jpg?v=1793610090&width=400",
+     "foto": "fotos/b94ebb660bb5b6f6.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
