@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T13:37:41",
+ "actualizado": "2026-11-15T14:34:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4562,6 +4562,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB POKEMON EQUILIBRIO PERFECTO ELITE TRAINER BOX",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "City of Cards",
+     "idioma": "es",
+     "url": "https://cityof.cards/producto/elite-trainer-box-de-mega-evolucion-equilibrio-perfecto-espanol/",
+     "img": "https://cdn.shopify.com/s/files/1/0807/9143/7609/files/etb-caja-de-entrenador-elite-equilibrio-perfecto-perfect-order-cartas-pokemon-tcg-cardzone.jpg?v=1776669969&width=320",
+     "foto": "fotos/10f8416a9dd9f72d.jpg",
+     "preventa": false,
+     "cardmarket": 66.45,
+     "cardmarketPct": -19,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": "2026-11-15T14:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
