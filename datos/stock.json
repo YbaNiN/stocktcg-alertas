@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T14:34:19",
+ "actualizado": "2026-11-15T14:38:35",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1105,27 +1105,6 @@
      "desde": "2026-11-10T08:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja Primeros Compañeros Serie 2 - Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 25.0,
-     "moneda": "EUR",
-     "tienda": "TCG VAL",
-     "idioma": "es",
-     "url": "https://www.tcgval.com/products/sin-titulo-29jun_19-59-29",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
-     "foto": "fotos/60d3327244e384a3.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
-     "desde": null,
-     "precioAntes": 29.99,
-     "bajadaDesde": "2026-11-12T17:20+01:00"
     },
     {
      "titulo": "Pokémon Colección Mega-Emboar ex – Héroes Ascendentes",
