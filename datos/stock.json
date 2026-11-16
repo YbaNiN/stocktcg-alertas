@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T17:44:41",
+ "actualizado": "2026-11-16T18:18:16",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9153,6 +9153,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Delta Reign (ENG) — APERTURA",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 84.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/etb-delta-reign-eng?variant=59938742796636",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/DominioDeltaETBingles.png?v=1794845388&width=400",
+     "foto": "fotos/ee0fcf4a9a668827.jpg",
+     "preventa": false,
+     "cardmarket": 71.18,
+     "cardmarketPct": 19,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-16T18:21+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Pokémon Megaevolución Dominio Delta Caja Entrenador Élite",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -9170,6 +9191,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-08T18:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Delta Reign (ENG) — SELLADA",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 89.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/etb-delta-reign-eng?variant=59938742829404",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/DominioDeltaETBingles.png?v=1794845388&width=400",
+     "foto": "fotos/ee0fcf4a9a668827.jpg",
+     "preventa": false,
+     "cardmarket": 71.18,
+     "cardmarketPct": 26,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-16T18:21+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
