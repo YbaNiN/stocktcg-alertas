@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T16:58:54",
+ "actualizado": "2026-11-16T17:15:17",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8668,27 +8668,6 @@
      "desde": "2026-11-13T12:30+01:00",
      "precioAntes": 79.95,
      "bajadaDesde": "2026-11-16T17:01+01:00"
-    },
-    {
-     "titulo": "Elite Trainer Box Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 65.99,
-     "moneda": "EUR",
-     "tienda": "Darizard9",
-     "idioma": "es",
-     "url": "https://www.darizard9.com/products/elite-trainer-box-dominio-delta",
-     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/pokemon-dominio-delta-caja-de-entrenador-elite-sobres-y-accesorios-coleccionables-espanol-comprar.jpg?v=1794832536&width=400",
-     "foto": "fotos/9a494b93aa1a9d06.jpg",
-     "preventa": false,
-     "cardmarket": 71.18,
-     "cardmarketPct": -7,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-16T13:45+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon TCG – Caja de Entrenador Élite Dominio Delta – Español",
