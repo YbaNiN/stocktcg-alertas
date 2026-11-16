@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T22:09:53",
+ "actualizado": "2026-11-16T23:00:15",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -10,6 +10,96 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "(MAX 1 POR PERSONA- MEW O MEWTWO)Colección Figura 30th (ESP) — Mew APERTURA",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 59.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/coleccion-figura-30th-esp?variant=59939020472668",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewespanol.png?v=1794845979&width=400",
+     "foto": "fotos/47caa4f4e9eb81a1.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "(MAX 1 POR PERSONA- MEW O MEWTWO)Colección Figura 30th (ESP) — Mewtwo APERTURA",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 59.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/coleccion-figura-30th-esp?variant=59939020538204",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewespanol.png?v=1794845979&width=400",
+     "foto": "fotos/47caa4f4e9eb81a1.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "(MAX 1 POR PERSONA- MEW O MEWTWO)Colección Figura 30th (ESP) — Mew SELLADO",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 64.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/coleccion-figura-30th-esp?variant=59939020505436",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewespanol.png?v=1794845979&width=400",
+     "foto": "fotos/47caa4f4e9eb81a1.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "(MAX 1 POR PERSONA- MEW O MEWTWO)Colección Figura 30th (ESP) — Mewtwo SELLADO",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 64.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/coleccion-figura-30th-esp?variant=59939020570972",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewespanol.png?v=1794845979&width=400",
+     "foto": "fotos/47caa4f4e9eb81a1.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "(MAX 1 POR PERSONA - MEW O MEWTWO) Figure Collection 30th (ENG) — Mew APERTURA",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/figure-collection-30th-eng?variant=59939039183196",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewingles.png?v=1794846640&width=400",
+     "foto": "fotos/e37403245fba993e.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "(MAX 1 POR PERSONA - MEW O MEWTWO) Figure Collection 30th (ENG) — Mewtwo APERTURA",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/figure-collection-30th-eng?variant=59939039248732",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewingles.png?v=1794846640&width=400",
+     "foto": "fotos/e37403245fba993e.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
     {
      "titulo": "Figure Collection 30 Aniversaio — Español / Mew",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -67,6 +157,36 @@
      "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640272219",
      "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mew.webp?v=1791923668&width=400",
      "foto": "fotos/ec48bbd59868d31d.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "(MAX 1 POR PERSONA - MEW O MEWTWO) Figure Collection 30th (ENG) — Mew SELLADO",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 74.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/figure-collection-30th-eng?variant=59939039215964",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewingles.png?v=1794846640&width=400",
+     "foto": "fotos/e37403245fba993e.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "(MAX 1 POR PERSONA - MEW O MEWTWO) Figure Collection 30th (ENG) — Mewtwo SELLADO",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 74.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/figure-collection-30th-eng?variant=59939039281500",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewingles.png?v=1794846640&width=400",
+     "foto": "fotos/e37403245fba993e.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
@@ -266,6 +386,21 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
+     "titulo": "Colección Premium Ditto – Celebración 30 Aniversario – Español – Reserva",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 89.9,
+     "moneda": "EUR",
+     "tienda": "Top Rocket Shop",
+     "idioma": "es",
+     "url": "https://toprocketshop.com/products/coleccion-premium-ditto-celebracion-30-aniversario-espanol-reserva",
+     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/ditto30th.png?v=1794390082&width=400",
+     "foto": "fotos/ace97959bde922f9.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
      "titulo": "Pokemon JCC Coleccion Premium Ditto De Celebracion 30 Aniversario Castellano",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "premium-collection",
@@ -455,6 +590,21 @@
      "foto": "fotos/334935e4a0f9bbf0.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Sobre Dominio Delta | POKÉMON | Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.79,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/sobre-dominio-delta-pokemon-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Sobres_Dominio_Delta_POKEMON_Espa_ol.png?v=1792071327&width=400",
+     "foto": "fotos/3039db2705437dbf.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
      "titulo": "Sobre de Dominio Delta",
@@ -724,6 +874,21 @@
      "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-5-Photoroom.webp?v=1794303105&width=400",
      "foto": "fotos/585e46a2d69896e3.jpg",
      "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "Blister 3 Sobres Dominio Delta | POKÉMON | Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 18.99,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/blister-3-sobres-dominio-delta-pokemon-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_3_Sobres_Dominio_Delta_POKEMON_Espa_ol.jpg?v=1792070359&width=400",
+     "foto": "fotos/dcd2a961524e1e78.jpg",
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
@@ -1057,6 +1222,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
+     "titulo": "Booster Bundle Dominio Delta(ESP)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 36.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/booster-bundle-dominio-deltaesp",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/DominioDeltaBoosterBundleesp.png?v=1794844645&width=400",
+     "foto": "fotos/b8760b7ec5eaa411.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
+    },
+    {
      "titulo": "Dominio Delta Booster Bundle - ESPAÑOL",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -1279,6 +1459,21 @@
      "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-etb-Photoroom.webp?v=1794303363&width=400",
      "foto": "fotos/7a7718c6a299c0bc.jpg",
      "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "ETB Dominio Delta (ESP)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 66.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/etb-dominio-delta-esp",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/DominioDeltaETBesp.png?v=1794503032&width=400",
+     "foto": "fotos/b0502da245933949.jpg",
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
@@ -1507,6 +1702,36 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "ETB Delta Reign (ENG) — APERTURA",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 84.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/etb-delta-reign-eng?variant=59938742796636",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/DominioDeltaETBingles.png?v=1794845388&width=400",
+     "foto": "fotos/ee0fcf4a9a668827.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "ETB Delta Reign (ENG) — SELLADA",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 89.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/etb-delta-reign-eng?variant=59938742829404",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/DominioDeltaETBingles.png?v=1794845388&width=400",
+     "foto": "fotos/ee0fcf4a9a668827.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Pokémon Megaevolución Dominio Delta Caja Entrenador Élite",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1593,6 +1818,21 @@
      "url": "https://elitestoretcg.com/products/dominio-delta-caja-36-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0917/5485/6776/files/delta36.jpg?v=1794763450&width=400",
      "foto": "fotos/c4f5ca7d1f3df0b2.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Booster Box Dominio Delta | POKÉMON | Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 194.99,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/booster-box-dominio-delta-pokemon-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_Sobre_Dominio_Delta_POK_MON_Espa_ol.jpg?v=1793883112&width=400",
+     "foto": "fotos/7c199459b7ab6389.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
@@ -1946,8 +2186,8 @@
    "foto": "fotos/ace97959bde922f9.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-4",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG - Lumiose City Mini Tin (Español) — Tin aleatoria",
