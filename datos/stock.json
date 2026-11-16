@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T02:34:28",
+ "actualizado": "2026-11-16T02:40:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2354,27 +2354,6 @@
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Caos Creciente ETB Español",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 53.96,
-     "moneda": "EUR",
-     "tienda": "La Casa de Kartus",
-     "idioma": "es",
-     "url": "https://lacasadekartus.com/caos-creciente-etb-espanol/",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Flacasadekartus.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fetb-caos-creciente-espanol.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Flacasadekartus.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fetb-caos-creciente-espanol.webp",
-     "foto": "fotos/bc77267d714de5c6.jpg",
-     "preventa": false,
-     "cardmarket": 63.05,
-     "cardmarketPct": -13,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
-     "precioAntes": 59.95,
-     "bajadaDesde": "2026-11-10T02:35+01:00"
     },
     {
      "titulo": "Elite Trainer Box Caos Creciente",
