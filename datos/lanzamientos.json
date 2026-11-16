@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T15:53:20",
+ "actualizado": "2026-11-16T16:58:54",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -112,6 +112,21 @@
      "url": "https://flashstore.es/producto/celebraciones-30th-premium-figure-collection/",
      "img": "https://flashstore.es/wp-content/uploads/2026/11/celeb30th.jpg",
      "foto": "fotos/b75488c42735758e.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Pokemon JCC Coleccion Con Figura De Celebracion 30 Aniversario Mewtwo Castellano",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 79.95,
+     "moneda": "EUR",
+     "tienda": "Dungeon Marvels",
+     "idioma": "es",
+     "url": "https://dungeonmarvels.com/pokemon-jcc-coleccion-con-figura-de-celebracion-30-aniversario-mewtwo-castellano-103689.html",
+     "img": "https://dungeonmarvels.com/217888-large_default/pokemon-jcc-coleccion-con-figura-de-celebracion-30-aniversario-mewtwo-castellano.jpg",
+     "foto": "fotos/60aabed64ec3ca40.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
@@ -483,6 +498,21 @@
      "url": "https://pokemillon.com/products/sobres-dominio-delta-delta-reign?variant=54759192854851",
      "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/caja-36-sobres-dominio-delta-delta-reign-2.webp?v=1788134377&width=400",
      "foto": "fotos/05f764b53f6ac4e9.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Pokemon JCC Sobre De Mejora De Megaevolucion Dominio Delta 1 Castellano",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.95,
+     "moneda": "EUR",
+     "tienda": "Dungeon Marvels",
+     "idioma": "es",
+     "url": "https://dungeonmarvels.com/pokemon-jcc-sobre-de-mejora-de-megaevolucion-dominio-delta-1-castellano-103455.html",
+     "img": "https://dungeonmarvels.com/216632-large_default/pokemon-jcc-sobre-de-mejora-de-megaevolucion-dominio-delta-1-castellano.jpg",
+     "foto": "fotos/526b17c83dde6b47.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
@@ -877,6 +907,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
+     "titulo": "Blister 3-Pack Delta Reign",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 19.99,
+     "moneda": "EUR",
+     "tienda": "Darizard9",
+     "idioma": "es",
+     "url": "https://www.darizard9.com/products/blister-3-pack-delta-reign-1",
+     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/images_14.jpg?v=1794832805&width=400",
+     "foto": "fotos/bdc9cf7957cd84e4.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Pokémon TCG Megaevolución Dominio Delta Blíster de 3 Sobres Sorpresa",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -1192,6 +1237,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
+     "titulo": "Booster Bundle Dominio Delta | POKÉMON | Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 44.99,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/booster-bundle-dominio-delta-pokemon-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Sobres_Dominio_Delta_POKEMON_Espa_ol.jpg?v=1794830217&width=400",
+     "foto": "fotos/094f393dcc9effe7.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
+    },
+    {
      "titulo": "Elite Trainer Box Megaevolución - Dominio Delta ESPAÑOL",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1237,6 +1297,36 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "ELITE TRAINER BOX - DOMINIO DELTA [ES]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 65.95,
+     "moneda": "EUR",
+     "tienda": "UNSOBREMAS",
+     "idioma": "es",
+     "url": "https://unsobremas.com/products/elite-trainer-box-dominio-delta-es",
+     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/etbdelta.webp?v=1793891903&width=400",
+     "foto": "fotos/ddfa68eb84a6285e.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Elite Trainer Box Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 65.99,
+     "moneda": "EUR",
+     "tienda": "Darizard9",
+     "idioma": "es",
+     "url": "https://www.darizard9.com/products/elite-trainer-box-dominio-delta",
+     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/pokemon-dominio-delta-caja-de-entrenador-elite-sobres-y-accesorios-coleccionables-espanol-comprar.jpg?v=1794832536&width=400",
+     "foto": "fotos/9a494b93aa1a9d06.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Pokémon TCG – Caja de Entrenador Élite Dominio Delta – Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1264,6 +1354,21 @@
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
      "foto": "fotos/24ac851998f1154f.jpg",
      "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Pokémon TCG - Dominio Delta - Caja de Entrenador Élite (Español)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 68.83,
+     "moneda": "EUR",
+     "tienda": "La Escotilla",
+     "idioma": "es",
+     "url": "https://laescotillajuegos.com/products/pokemon-tcg-dominio-delta-caja-de-entrenador-elite-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0354/4688/2440/files/pokemon-tcg-delta-reign-elite-trainer-box-esp.png?v=1793896326&width=400",
+     "foto": "fotos/57cdbe69de5d1084.jpg",
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
@@ -1428,21 +1533,6 @@
      "url": "https://lamaquinadeltemps.com/trading-card-game/3379-espanol-recogida-pokemon-etb-dominio-delta.html",
      "img": "https://lamaquinadeltemps.com/6877-home_default/espanol-recogida-pokemon-etb-dominio-delta.jpg",
      "foto": "fotos/e2915e2c6ea7ce76.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "ELITE TRAINER BOX - DOMINIO DELTA [ES]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 79.95,
-     "moneda": "EUR",
-     "tienda": "UNSOBREMAS",
-     "idioma": "es",
-     "url": "https://unsobremas.com/products/elite-trainer-box-dominio-delta-es",
-     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/etbdelta.webp?v=1793891903&width=400",
-     "foto": "fotos/ddfa68eb84a6285e.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
@@ -1933,6 +2023,23 @@
    "foto": "fotos/bfcc5b3249610bf5.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Colección Premium Ditto – Celebración 30 Aniversario – Español – Reserva",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "premium-collection",
+   "tipoNombre": "Premium Collection",
+   "precio": 89.9,
+   "moneda": "EUR",
+   "tienda": "Top Rocket Shop",
+   "idioma": "es",
+   "url": "https://toprocketshop.com/products/coleccion-premium-ditto-celebracion-30-aniversario-espanol-reserva",
+   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/ditto30th.png?v=1794390082&width=400",
+   "foto": "fotos/ace97959bde922f9.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
    "lanzamiento": null,
    "fecha": null
   },
