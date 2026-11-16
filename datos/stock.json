@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T19:43:49",
+ "actualizado": "2026-11-16T19:49:36",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8981,27 +8981,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-16T04:45+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Dominio Delta | Elite Trainer Box | POKÉMON | Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "TodoHits",
-     "idioma": "es",
-     "url": "https://todohits.com/products/etb-dominio-delta-elite-trainer-box-pokemon-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/ETB_Dominio_Delta_Elite_Trainer_Box_POKEMON_Espa_ol.jpg?v=1792069970&width=400",
-     "foto": "fotos/f394b061e1536b59.jpg",
-     "preventa": false,
-     "cardmarket": 70.03,
-     "cardmarketPct": 0,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-16T19:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
