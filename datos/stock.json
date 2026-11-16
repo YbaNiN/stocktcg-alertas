@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T21:47:39",
+ "actualizado": "2026-11-16T22:09:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8668,27 +8668,6 @@
      "desde": "2026-11-13T12:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "ELITE TRAINER BOX - DOMINIO DELTA [ES]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 65.95,
-     "moneda": "EUR",
-     "tienda": "UNSOBREMAS",
-     "idioma": "es",
-     "url": "https://unsobremas.com/products/elite-trainer-box-dominio-delta-es",
-     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/etbdelta.webp?v=1793891903&width=400",
-     "foto": "fotos/ddfa68eb84a6285e.jpg",
-     "preventa": false,
-     "cardmarket": 70.03,
-     "cardmarketPct": -6,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-13T12:30+01:00",
-     "precioAntes": 79.95,
-     "bajadaDesde": "2026-11-16T17:01+01:00"
     },
     {
      "titulo": "ETB Dominio Delta (ESP)",
