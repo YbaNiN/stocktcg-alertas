@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T11:37:29",
+ "actualizado": "2026-11-17T11:50:19",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -2276,23 +2276,6 @@
    "fecha": "2026-11-06"
   },
   {
-   "titulo": "ETB DOMINIO DELTA - ESPAÑOL",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 69.9,
-   "moneda": "EUR",
-   "tienda": "Top Rocket Shop",
-   "idioma": "es",
-   "url": "https://toprocketshop.com/products/etb-dominio-delta-espanol",
-   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTAETB.png?v=1794390079&width=400",
-   "foto": "fotos/1dfb925feb6cd9ea.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
    "titulo": "Elite Trainer Box Pokémon Dominio Delta / Delta Reign · PREVENTA",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "etb",
@@ -2325,6 +2308,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "ETB DOMINIO DELTA - ESPAÑOL",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 79.9,
+   "moneda": "EUR",
+   "tienda": "Top Rocket Shop",
+   "idioma": "es",
+   "url": "https://toprocketshop.com/products/etb-dominio-delta-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTAETB.png?v=1794390079&width=400",
+   "foto": "fotos/1dfb925feb6cd9ea.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "Pokémon - First Partner Serie III (Reserva)",
