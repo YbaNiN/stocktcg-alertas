@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T16:59:01",
+ "actualizado": "2026-11-17T18:28:08",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -71,6 +71,36 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
     {
+     "titulo": "Caja Colección con Figura - 30th Anniversary [ESP] — Mewtwo",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640239451",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mewtwo.webp?v=1791923668&width=400",
+     "foto": "fotos/66ef12a8cf200eba.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Caja Colección con Figura - 30th Anniversary [ESP] — Mew",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640272219",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mew.webp?v=1791923668&width=400",
+     "foto": "fotos/ec48bbd59868d31d.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
      "titulo": "((MAX 1 DE CADA POR PERSONA) Figure Collection 30th (ENG) — Mew APERTURA",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "collection-box",
@@ -127,36 +157,6 @@
      "url": "https://labovedafriki.es/products/figure-collection-30-aniversaio?variant=56658190795092",
      "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Figure_Collection_30Aniversaio_Mew_mewtwo_la_boveda_friki.jpg?v=1785750796&width=400",
      "foto": "fotos/6a3cf15f750622fd.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "Caja Colección con Figura - 30th Anniversary [ESP] — Mewtwo",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 74.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640239451",
-     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mewtwo.webp?v=1791923668&width=400",
-     "foto": "fotos/66ef12a8cf200eba.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "Caja Colección con Figura - 30th Anniversary [ESP] — Mew",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 74.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640272219",
-     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mew.webp?v=1791923668&width=400",
-     "foto": "fotos/ec48bbd59868d31d.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
