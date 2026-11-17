@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T11:08:38",
+ "actualizado": "2026-11-17T11:14:34",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -998,6 +998,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokemon Heroes Ascendentes Lote De Sobres De Mejora Esp",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 49.95,
+     "moneda": "EUR",
+     "tienda": "Distrito Zero",
+     "idioma": "es",
+     "url": "https://distritozero.es/61-pokemon-tcg/81555-pokemon-heroes-ascendentes-lote-de-sobres-de-mejora-esp-196214131699.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_400x400.jpg",
+     "foto": "fotos/e15177c559cd820c.jpg",
+     "preventa": false,
+     "cardmarket": 68.99,
+     "cardmarketPct": -28,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
+     "desde": "2026-11-17T11:16+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
