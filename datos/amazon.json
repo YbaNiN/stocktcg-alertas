@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T00:01+01:00",
+ "actualizado": "2026-11-17T19:05+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Megaevolución-Dominio Delta (1 Carta de pro",
@@ -51,6 +51,32 @@
    "img": "https://m.media-amazon.com/images/I/813quz0YBaL._AC_SL500_.jpg",
    "foto": "fotos/ab87e96692e60e4b.jpg",
    "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Colección Ultraprémium Día de Celebración 30.º Aniversario de JCC Pokém",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "ultra-premium-collection",
+   "tipoNombre": "Ultra Premium Collection",
+   "precio": 209.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8T2TVQS?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/71YgPjKUhbL._AC_SL500_.jpg",
+   "foto": "fotos/188e8a29ef291380.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Colección Ultraprémium Noche de Celebración 30.º Aniversario de JCC Pok",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "ultra-premium-collection",
+   "tipoNombre": "Ultra Premium Collection",
+   "precio": 209.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8T2PZCM?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/71olldTc-bL._AC_SL500_.jpg",
+   "foto": "fotos/92717e72cbb90cb2.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection",
    "filtro": null
   },
   {
@@ -288,6 +314,97 @@
    "filtro": null
   },
   {
+   "titulo": "Pokémon: Colección prémium Ditto de Celebración 30.º Aniversario de JCC Pokémon",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "premium-collection",
+   "tipoNombre": "Premium Collection",
+   "precio": 49.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8SYNX87?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/91SvA1KfnJL._AC_SL500_.jpg",
+   "foto": "fotos/7b317c33333a63bb.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Colección con Figura Mew de Celebración 30.º Aniversario de JCC Pokémon",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 36.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8SP87DG?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81SCi2BnFjL._AC_SL500_.jpg",
+   "foto": "fotos/02aa66530771f5cb.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Colección con Figura Mewtwo de Celebración 30.º Aniversario de JCC Poké",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 36.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8T34RZX?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/61UGu+NJXlL._AC_SL500_.jpg",
+   "foto": "fotos/d886f54ec0fed0e2.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Pack de minilatas Día de Celebración 30.º Aniversario de JCC Pokémon (5",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "mini-tin",
+   "tipoNombre": "Mini Tin",
+   "precio": 69.95,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8SYF4G9?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/71r77R3EX3L._AC_SL500_.jpg",
+   "foto": "fotos/12ffb77383450a7c.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Pack de minilatas Noche de Celebración 30.º Aniversario de JCC Pokémon",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "mini-tin",
+   "tipoNombre": "Mini Tin",
+   "precio": 69.95,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8SY942L?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81aW5FhYyuL._AC_SL500_.jpg",
+   "foto": "fotos/6b2ea75f3d90fe1e.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Baraja Combate Celebración 30.º Aniversario de Umbreon ex de JCC Pokémo",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "deck",
+   "tipoNombre": "Deck",
+   "precio": 24.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8T4YLGT?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81FqZ4XWIlL._AC_SL500_.jpg",
+   "foto": "fotos/642b61e944b6150f.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Baraja Combate Celebración 30.º Aniversario de Espeon ex de JCC Pokémon",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "deck",
+   "tipoNombre": "Deck",
+   "precio": 24.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H8T274VV?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/91lq7VoETzL._AC_SL500_.jpg",
+   "foto": "fotos/49ba0358b2169052.jpg",
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--deck",
+   "filtro": null
+  },
+  {
    "titulo": "Caja de Entrenador Élite Megaevolución: Oscuridad Absoluta",
    "coleccion": "Pitch Black / Oscuridad Absoluta",
    "tipo": "etb",
@@ -493,6 +610,32 @@
    "img": "https://m.media-amazon.com/images/I/81E3LkEGGXL._AC_UL320_.jpg",
    "foto": "fotos/f20ce9fcec6954d5.jpg",
    "stocktcg": "https://stocktcg.net/p/mega-evolution--premium-collection",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Colección prémium Mega-Greninja ex",
+   "coleccion": "Mega Evolution",
+   "tipo": "premium-collection",
+   "tipoNombre": "Premium Collection",
+   "precio": 46.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H3LQY1Q7?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/91GiddbZAiL._AC_SL500_.jpg",
+   "foto": "fotos/065f10222018c496.jpg",
+   "stocktcg": "https://stocktcg.net/p/mega-evolution--premium-collection",
+   "filtro": null
+  },
+  {
+   "titulo": "Pokémon: Lata Megaluz Lunar: Mega-Gengar ex de JCC Pokémon (4 Sobres de Mejora y",
+   "coleccion": "Mega Evolution",
+   "tipo": "tin",
+   "tipoNombre": "Tin",
+   "precio": 24.99,
+   "idioma": "es",
+   "url": "https://www.amazon.es/dp/B0H29TRBMW?tag=ikerjimenezcl-21",
+   "img": "https://m.media-amazon.com/images/I/81bBjg1ZA8L._AC_SL500_.jpg",
+   "foto": "fotos/da5b664ded5a9c5e.jpg",
+   "stocktcg": "https://stocktcg.net/p/mega-evolution--tin",
    "filtro": null
   },
   {
