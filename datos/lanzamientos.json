@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T18:35:21",
+ "actualizado": "2026-11-17T19:30:52",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -37,21 +37,6 @@
      "url": "https://elbazartcg.com/products/coleccion-figura-30th-esp?variant=59939020538204",
      "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewespanol.png?v=1794845979&width=400",
      "foto": "fotos/47caa4f4e9eb81a1.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "Mew Figure Collection",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 60.0,
-     "moneda": "EUR",
-     "tienda": "Epic Hit Store",
-     "idioma": "es",
-     "url": "https://epichitstore.es/producto/mew-figure-collection/",
-     "img": "https://epichitstore.es/wp-content/uploads/2026/08/mew.jpg",
-     "foto": null,
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
