@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T11:14:34",
+ "actualizado": "2026-11-17T11:19:15",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8477,27 +8477,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-13T12:05+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Booster Box Dominio Delta | POKÉMON | Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 194.99,
-     "moneda": "EUR",
-     "tienda": "TodoHits",
-     "idioma": "es",
-     "url": "https://todohits.com/products/booster-box-dominio-delta-pokemon-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Booster_Box_Sobre_Dominio_Delta_POK_MON_Espa_ol.jpg?v=1793883112&width=400",
-     "foto": "fotos/7c199459b7ab6389.jpg",
-     "preventa": false,
-     "cardmarket": 182.86,
-     "cardmarketPct": 7,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": "2026-11-16T19:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
