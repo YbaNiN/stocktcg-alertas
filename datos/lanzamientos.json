@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T23:59:17",
+ "actualizado": "2026-11-17T01:05:12",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1792,6 +1792,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "Dominio Delta Caja 36 - ESPAÑOL",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.95,
+     "moneda": "EUR",
+     "tienda": "Elite Store TCG",
+     "idioma": "es",
+     "url": "https://elitestoretcg.com/products/dominio-delta-caja-36-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0917/5485/6776/files/delta36.jpg?v=1794763450&width=400",
+     "foto": "fotos/c4f5ca7d1f3df0b2.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1804,21 +1819,6 @@
      "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-1-Photoroom.webp?v=1794303000&width=400",
      "foto": "fotos/11c7dfa65a58ac0a.jpg",
      "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Dominio Delta Caja 36 - ESPAÑOL",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 194.95,
-     "moneda": "EUR",
-     "tienda": "Elite Store TCG",
-     "idioma": "es",
-     "url": "https://elitestoretcg.com/products/dominio-delta-caja-36-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0917/5485/6776/files/delta36.jpg?v=1794763450&width=400",
-     "foto": "fotos/c4f5ca7d1f3df0b2.jpg",
-     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
