@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T23:25:12",
+ "actualizado": "2026-11-18T00:25:10",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -598,7 +598,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Super Premium Collection Prismatic Evolutions",
+     "titulo": "Super Premium Collection Evoluciones Prismáticas",
      "coleccion": "Prismatic Evolutions",
      "tipo": "ultra-premium-collection",
      "tipoNombre": "Ultra Premium Collection",
@@ -606,7 +606,7 @@
      "moneda": "EUR",
      "tienda": "BimbaCards",
      "idioma": "es",
-     "url": "https://bimbacards.com/pokemon/super-premium-collection-evoluciones-prismaticas-ingles/",
+     "url": "https://bimbacards.com/pokemon/super-premium-collection-evoluciones-prismaticas/",
      "img": "https://tcgplayer-cdn.tcgplayer.com/product/622770_in_400x400.jpg",
      "foto": "fotos/26394aeaba23de96.jpg",
      "preventa": false,
@@ -614,7 +614,7 @@
      "cardmarketPct": 70,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
-     "desde": "2026-11-17T10:50+01:00",
+     "desde": "2026-11-18T00:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
