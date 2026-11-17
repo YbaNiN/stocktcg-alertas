@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T16:59:01",
+ "actualizado": "2026-11-17T17:44:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8582,6 +8582,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-13T12:05+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box Dominio Delta (Delta Reign), Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.99,
+     "moneda": "EUR",
+     "tienda": "Iberian Collect",
+     "idioma": "es",
+     "url": "https://iberiancollect.com/products/booster-box-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/6fdb3f629742907968633d3102f2aede.jpg?v=1792319934&width=400",
+     "foto": "fotos/38a68cc50528a1bf.jpg",
+     "preventa": false,
+     "cardmarket": 182.86,
+     "cardmarketPct": 4,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-17T17:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
