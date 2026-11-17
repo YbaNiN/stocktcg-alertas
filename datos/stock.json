@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T18:35:21",
+ "actualizado": "2026-11-17T19:35:20",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7059,27 +7059,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Rivales Predestinados Caja 36",
-     "coleccion": "Destined Rivals",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 189.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/rivales-predestinados-caja-36/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
-     "foto": "fotos/fe01e654f615e5f0.jpg",
-     "preventa": false,
-     "cardmarket": 284.76,
-     "cardmarketPct": -33,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Booster Box de Rivales Predestinados - Español",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
@@ -7139,6 +7118,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
      "desde": "2026-11-17T14:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Rivales Predestinados Caja 36",
+     "coleccion": "Destined Rivals",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 194.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/rivales-predestinados-caja-36/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
+     "foto": "fotos/fe01e654f615e5f0.jpg",
+     "preventa": false,
+     "cardmarket": 284.76,
+     "cardmarketPct": -32,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
+     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
