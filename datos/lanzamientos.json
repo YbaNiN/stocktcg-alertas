@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T10:50:19",
+ "actualizado": "2026-11-17T10:59:14",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -633,6 +633,21 @@
      "url": "https://dungeonmarvels.com/pokemon-jcc-sobre-de-mejora-de-megaevolucion-dominio-delta-1-castellano-103455.html",
      "img": "https://dungeonmarvels.com/216632-large_default/pokemon-jcc-sobre-de-mejora-de-megaevolucion-dominio-delta-1-castellano.jpg",
      "foto": "fotos/526b17c83dde6b47.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Sobre Dominio Delta de JCC Pokémon",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815949-sobre-dominio-delta-de-jcc-pokemon-bandai-modelos-surtidos%2F",
+     "img": "https://dam.elcorteingles.es/producto/www-001044850504703-00.jpg",
+     "foto": "fotos/038268e901c03c45.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
@@ -1340,21 +1355,6 @@
      "foto": "fotos/094f393dcc9effe7.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
-     "titulo": "Elite Trainer Box Megaevolución - Dominio Delta ESPAÑOL",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 59.95,
-     "moneda": "EUR",
-     "tienda": "CanaryPop",
-     "idioma": "es",
-     "url": "https://canarypop.es/products/elite-trainer-box-megaevolucion-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/DOMINIO-DELTA-ETB.png?v=1794491744&width=400",
-     "foto": "fotos/b91bff29d25329e1.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
      "titulo": "Pack 6 Sobres Pokemon Megaevolucion Dominio Delta",
@@ -2238,23 +2238,6 @@
    "foto": "fotos/ac802b96055743eb.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "Elite Trainer Box Megaevolución - Dominio Delta ESPAÑOL",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 59.95,
-   "moneda": "EUR",
-   "tienda": "CanaryPop",
-   "idioma": "es",
-   "url": "https://canarypop.es/products/elite-trainer-box-megaevolucion-dominio-delta-espanol",
-   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/DOMINIO-DELTA-ETB.png?v=1794491744&width=400",
-   "foto": "fotos/b91bff29d25329e1.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
   },
