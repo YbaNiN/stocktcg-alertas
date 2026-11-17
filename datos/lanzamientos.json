@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T16:43:22",
+ "actualizado": "2026-11-17T16:59:01",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -37,6 +37,21 @@
      "url": "https://elbazartcg.com/products/coleccion-figura-30th-esp?variant=59939020538204",
      "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewespanol.png?v=1794845979&width=400",
      "foto": "fotos/47caa4f4e9eb81a1.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
+    {
+     "titulo": "Mew Figure Collection",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 60.0,
+     "moneda": "EUR",
+     "tienda": "Epic Hit Store",
+     "idioma": "es",
+     "url": "https://epichitstore.es/producto/mew-figure-collection/",
+     "img": "https://epichitstore.es/wp-content/uploads/2026/08/mew.jpg",
+     "foto": null,
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
@@ -356,6 +371,21 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
+     "titulo": "30 Aniversario Ditto Premium Collection",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "premium-collection",
+     "tipoNombre": "Premium Collection",
+     "precio": 89.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/30-aniversario-ditto-premium-collection/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-ditto-scaled.webp",
+     "foto": "fotos/a8404007031902b2.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
      "titulo": "Celebraciones 30th Ditto Premium Collection",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "premium-collection",
@@ -504,6 +534,36 @@
      "foto": "fotos/49096136ae73aeb4.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
+    },
+    {
+     "titulo": "30 Aniversario Colección Ultraprémium Noche",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "ultra-premium-collection",
+     "tipoNombre": "Ultra Premium Collection",
+     "precio": 349.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/30-aniversario-coleccion-ultrapremium-noche/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704190_in_400x400.jpg",
+     "foto": "fotos/3330da7a6eebd854.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection"
+    },
+    {
+     "titulo": "30 Aniversario Colección Ultraprémium Dia",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "ultra-premium-collection",
+     "tipoNombre": "Ultra Premium Collection",
+     "precio": 349.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/30-aniversario-ultra-premium-collection-day/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704190_in_400x400.jpg",
+     "foto": "fotos/3330da7a6eebd854.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection"
     }
    ]
   },
@@ -622,6 +682,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
+     "titulo": "BOOSTER PACK - DOMINIO DELTA [ES]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.95,
+     "moneda": "EUR",
+     "tienda": "UNSOBREMAS",
+     "idioma": "es",
+     "url": "https://unsobremas.com/products/booster-pack-dominio-delta-es",
+     "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/deltareigpack.webp?v=1794265737&width=400",
+     "foto": "fotos/b7cc3a01f3b571a0.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
      "titulo": "Sobre Dominio Delta de JCC Pokémon",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -665,6 +740,21 @@
      "foto": "fotos/20e4f9b37714c465.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Dominio Delta Booster Box y Booster Pack",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 6.49,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/dominio-delta-booster-box-booster-pack/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-booster-scaled.webp",
+     "foto": "fotos/7bc57e9f2cdfb257.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
      "titulo": "Sobre Pokémon Megaevolución Dominio Delta Surtido",
@@ -907,6 +997,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
+     "titulo": "Blister Pokemon Dominio Delta - Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 19.95,
+     "moneda": "EUR",
+     "tienda": "CardZone",
+     "idioma": "es",
+     "url": "https://cardzone.es/products/blister-pokemon-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/blister-sobres-dominio-delta-reign-rayquaza-cartas-pokemon-tcg-cardzone.png?v=1793948639&width=400",
+     "foto": "fotos/d1b92c9fbb2f32c4.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Pokémon JCC: Blíster de 3 sobres de Dominio Delta (Castellano)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -948,6 +1053,21 @@
      "url": "https://tsukicenter.com/producto/blister-de-3-sobres-dominio-delta-espanol-pokemon/",
      "img": "https://tsukicenter.com/wp-content/uploads/2026/11/blister-3-ingles.png",
      "foto": "fotos/af647637e7b892f6.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "Blister 3 Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 19.99,
+     "moneda": "EUR",
+     "tienda": "Epic Hit Store",
+     "idioma": "es",
+     "url": "https://epichitstore.es/producto/blister-3-dominio-delta/",
+     "img": "https://epichitstore.es/wp-content/uploads/2026/09/blister-1.jpg",
+     "foto": null,
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
@@ -1207,6 +1327,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
+     "titulo": "Dominio Delta Booster Bundle",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 39.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/dominio-delta-booster-bundle/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/11/delta-reign-booster-bundle-scaled.webp",
+     "foto": "fotos/cc34c5f6789f6289.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
+    },
+    {
      "titulo": "Pokémon TCG – Booster Bundle Megaevolución Dominio Delta-Delta reign",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -1235,6 +1370,21 @@
      "foto": "fotos/559ca6aa08dc080f.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Dominio Delta Booster Bundle",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 39.99,
+     "moneda": "EUR",
+     "tienda": "Epic Hit Store",
+     "idioma": "es",
+     "url": "https://epichitstore.es/producto/dominio-delta-booster-bundle/",
+     "img": "https://epichitstore.es/wp-content/uploads/2026/09/del.jpg",
+     "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
      "titulo": "Bundle Dominio Delta",
@@ -1402,6 +1552,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/etb-dominio-delta-pokemon-tcg/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.webp",
+     "foto": "fotos/b921748015c3c019.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1462,17 +1627,17 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
-     "titulo": "Caja de Entrenador Élite Dominio Delta de JCC Pokémon",
+     "titulo": "Dominio Delta ETB",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
      "tipoNombre": "ETB",
      "precio": 69.99,
      "moneda": "EUR",
-     "tienda": "El Corte Inglés",
+     "tienda": "Epic Hit Store",
      "idioma": "es",
-     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815789-caja-de-entrenador-elite-dominio-delta-de-jcc-pokemon-bandai%2F",
-     "img": "https://dam.elcorteingles.es/producto/www-001044850504638-00.jpg",
-     "foto": "fotos/1000d9a527dcc921.jpg",
+     "url": "https://epichitstore.es/producto/dominio-delta/",
+     "img": "https://epichitstore.es/wp-content/uploads/2026/09/etb.jpg",
+     "foto": null,
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
@@ -1567,6 +1732,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "ETB DOMINIO DELTA - ESPAÑOL",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 79.9,
+     "moneda": "EUR",
+     "tienda": "Top Rocket Shop",
+     "idioma": "es",
+     "url": "https://toprocketshop.com/products/etb-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTAETB.png?v=1794390079&width=400",
+     "foto": "fotos/1dfb925feb6cd9ea.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Pokémon Megaevolución Dominio Delta Caja Entrenador Élite",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1657,6 +1837,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "Caja de 36 Sobres de Dominio Delta - Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.95,
+     "moneda": "EUR",
+     "tienda": "CardZone",
+     "idioma": "es",
+     "url": "https://cardzone.es/products/caja-de-36-sobres-de-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/booster-box-caja-de-36-sobres-dominio-delta-reign-cartas-pokemon-tcg-cardzone.png?v=1793949274&width=400",
+     "foto": "fotos/93f20f148fb74cbd.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "Dominio Delta Caja 36 - ESPAÑOL",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1684,6 +1879,21 @@
      "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-1-Photoroom.webp?v=1794303000&width=400",
      "foto": "fotos/11c7dfa65a58ac0a.jpg",
      "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Dominio Delta Caja 36",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.0,
+     "moneda": "EUR",
+     "tienda": "Epic Hit Store",
+     "idioma": "es",
+     "url": "https://epichitstore.es/producto/dominio-delta-caja-36/",
+     "img": "https://epichitstore.es/wp-content/uploads/2026/09/Caja36.jpg",
+     "foto": null,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
@@ -1909,6 +2119,36 @@
      "url": "https://epicdeck.es/products/pokemon-celebracion-30th-aniversario-mini-latas",
      "img": "https://cdn.shopify.com/s/files/1/0942/3509/9523/files/0196214159082_11.jpg?v=1791507818&width=400",
      "foto": "fotos/14241726fd0d791f.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "30 Aniversario Greninja ex Tin",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 44.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/pokemon-30th-celebration-greninja-ex-tin/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-lata-greninja-scaled.webp",
+     "foto": "fotos/4d4adb74e79d35af.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "30 Aniversario Sylveon ex Tin",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 44.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/pokemon-30th-celebration-sylveon-ex-tin/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-lata-sylveon-scaled.webp",
+     "foto": "fotos/66b1d32165b4e4e7.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
@@ -2278,8 +2518,8 @@
    "foto": "fotos/1dfb925feb6cd9ea.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "delta-reign",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon - First Partner Serie III (Reserva)",

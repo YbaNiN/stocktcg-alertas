@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T16:43:22",
+ "actualizado": "2026-11-17T16:59:01",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6121,27 +6121,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "POKÉMON TCG - PITCH BLACK ETB - CAST",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 99.0,
-     "moneda": "EUR",
-     "tienda": "Distrito Zero",
-     "idioma": "es",
-     "url": "https://distritozero.es/61-pokemon-tcg/85153-pokemon-tcg-pitch-black-etb-cast-196214142176.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 67.24,
-     "cardmarketPct": 47,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-11-17T16:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
