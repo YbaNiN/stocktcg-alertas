@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T09:38:20",
+ "actualizado": "2026-11-17T10:50:19",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -371,21 +371,6 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
-     "titulo": "30 Aniversario Ditto Premium Collection",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 89.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/30-aniversario-ditto-premium-collection/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-ditto-scaled.webp",
-     "foto": "fotos/a8404007031902b2.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
      "titulo": "Celebraciones 30th Ditto Premium Collection",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "premium-collection",
@@ -534,36 +519,6 @@
      "foto": "fotos/49096136ae73aeb4.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
-     "titulo": "30 Aniversario Colección Ultraprémium Noche",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "ultra-premium-collection",
-     "tipoNombre": "Ultra Premium Collection",
-     "precio": 349.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/30-aniversario-coleccion-ultrapremium-noche/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704190_in_400x400.jpg",
-     "foto": "fotos/3330da7a6eebd854.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection"
-    },
-    {
-     "titulo": "30 Aniversario Colección Ultraprémium Dia",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "ultra-premium-collection",
-     "tipoNombre": "Ultra Premium Collection",
-     "precio": 349.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/30-aniversario-ultra-premium-collection-day/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704190_in_400x400.jpg",
-     "foto": "fotos/3330da7a6eebd854.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--ultra-premium-collection"
     }
    ]
   },
@@ -710,21 +665,6 @@
      "foto": "fotos/20e4f9b37714c465.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
-    },
-    {
-     "titulo": "Dominio Delta Booster Box y Booster Pack",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 6.49,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/dominio-delta-booster-box-booster-pack/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-booster-scaled.webp",
-     "foto": "fotos/7bc57e9f2cdfb257.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
      "titulo": "Sobre Pokémon Megaevolución Dominio Delta Surtido",
@@ -1267,21 +1207,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
-     "titulo": "Dominio Delta Booster Bundle",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 39.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/dominio-delta-booster-bundle/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/11/delta-reign-booster-bundle-scaled.webp",
-     "foto": "fotos/cc34c5f6789f6289.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
      "titulo": "Pokémon TCG – Booster Bundle Megaevolución Dominio Delta-Delta reign",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -1504,21 +1429,6 @@
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
      "foto": "fotos/24ac851998f1154f.jpg",
      "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "ETB Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/etb-dominio-delta-pokemon-tcg/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-etb-scaled.webp",
-     "foto": "fotos/b921748015c3c019.jpg",
-     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
@@ -2044,36 +1954,6 @@
      "url": "https://epicdeck.es/products/pokemon-celebracion-30th-aniversario-mini-latas",
      "img": "https://cdn.shopify.com/s/files/1/0942/3509/9523/files/0196214159082_11.jpg?v=1791507818&width=400",
      "foto": "fotos/14241726fd0d791f.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
-    },
-    {
-     "titulo": "30 Aniversario Greninja ex Tin",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "tin",
-     "tipoNombre": "Tin",
-     "precio": 44.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/pokemon-30th-celebration-greninja-ex-tin/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-lata-greninja-scaled.webp",
-     "foto": "fotos/4d4adb74e79d35af.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
-    },
-    {
-     "titulo": "30 Aniversario Sylveon ex Tin",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "tin",
-     "tipoNombre": "Tin",
-     "precio": 44.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/product/pokemon-30th-celebration-sylveon-ex-tin/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/30-aniversario-lata-sylveon-scaled.webp",
-     "foto": "fotos/66b1d32165b4e4e7.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
