@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T20:35+01:00",
+ "actualizado": "2026-11-17T22:05+01:00",
  "campanas": [
   {
    "titulo": "Pokémon: Caja de Entrenador Élite de Megaevolución-Dominio Delta (1 Carta de pro",
@@ -546,19 +546,6 @@
    "foto": "fotos/6b632ab110a51f4d.jpg",
    "stocktcg": "https://stocktcg.net/p/phantasmal-flames--blister",
    "filtro": "Fuegos Fantasmales"
-  },
-  {
-   "titulo": "Lata Megaluz Lunar: Mega-Clefable ex",
-   "coleccion": "Mega Evolution",
-   "tipo": "tin",
-   "tipoNombre": "Tin",
-   "precio": 24.99,
-   "idioma": "es",
-   "url": "https://www.amazon.es/dp/B0H1HDKXGH?tag=ikerjimenezcl-21",
-   "img": "https://m.media-amazon.com/images/I/71dXIf3XEdL._AC_SL500_.jpg",
-   "foto": "fotos/f233fa7172bcad9d.jpg",
-   "stocktcg": "https://stocktcg.net/p/mega-evolution--tin",
-   "filtro": null
   },
   {
    "titulo": "Lata Megapotencia: Mega-Zeraora ex",
