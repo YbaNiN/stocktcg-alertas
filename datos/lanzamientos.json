@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T19:38:05",
+ "actualizado": "2026-11-17T20:32:49",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1504,21 +1504,6 @@
      "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-etb-Photoroom.webp?v=1794303363&width=400",
      "foto": "fotos/7a7718c6a299c0bc.jpg",
      "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "ETB Dominio Delta (ESP)",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 66.99,
-     "moneda": "EUR",
-     "tienda": "ElBazarTCG",
-     "idioma": "es",
-     "url": "https://elbazartcg.com/products/etb-dominio-delta-esp",
-     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/DominioDeltaETBesp.png?v=1794503032&width=400",
-     "foto": "fotos/b0502da245933949.jpg",
-     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
