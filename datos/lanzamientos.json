@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T12:39:30",
+ "actualizado": "2026-11-17T12:45:25",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1702,6 +1702,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "Pokémon Delta Reign Booster Box [DLR]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "El Duelista",
+     "idioma": "es",
+     "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
+     "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
+     "foto": "fotos/4cbc60d25555a73a.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "Caja 36 sobres Pokémon Dominio Delta y Delta Reign — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1803,21 +1818,6 @@
      "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/caja-dominio-delta-en-espanol-36-sobres-pokemon/",
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/dominio-delta-caja-36-sobres-es.jpg",
      "foto": "fotos/d087952105c38cdc.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Pokémon Delta Reign Booster Box [DLR]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 216.0,
-     "moneda": "EUR",
-     "tienda": "El Duelista",
-     "idioma": "es",
-     "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
-     "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
-     "foto": "fotos/4cbc60d25555a73a.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T12:33:46",
+ "actualizado": "2026-11-17T12:45:25",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8502,6 +8502,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Pokémon Delta Reign Booster Box [DLR]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "El Duelista",
+     "idioma": "es",
+     "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
+     "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
+     "foto": "fotos/4cbc60d25555a73a.jpg",
+     "preventa": false,
+     "cardmarket": 182.86,
+     "cardmarketPct": 9,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": null,
+     "precioAntes": 216.0,
+     "bajadaDesde": "2026-11-17T12:45+01:00"
+    },
+    {
      "titulo": "Pokemon JCC Expositor De Sobres De Mejora De Megaevolucion Dominio Delta Castellano",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -8708,27 +8729,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-13T14:01+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon Delta Reign Booster Box [DLR]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 216.0,
-     "moneda": "EUR",
-     "tienda": "El Duelista",
-     "idioma": "es",
-     "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
-     "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/903956.jpg?v=1793364339&width=400",
-     "foto": "fotos/4cbc60d25555a73a.jpg",
-     "preventa": false,
-     "cardmarket": 182.86,
-     "cardmarketPct": 18,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
