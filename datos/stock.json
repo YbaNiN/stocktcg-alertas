@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T10:49:16",
+ "actualizado": "2026-11-18T11:03:36",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -762,6 +762,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--collection-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon JCC Évolutions Prismatiques Collection Spéciale Pochette À Accessoires",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 65.0,
+     "moneda": "EUR",
+     "tienda": "VintiCards",
+     "idioma": "es",
+     "url": "https://vinticards.com/product/pokemon-jcc-evolutions-prismatiques-collection-speciale-pochette-a-accessoires/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/606881_in_400x400.jpg",
+     "foto": "fotos/1737d716333cf472.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--collection-box",
+     "desde": "2026-11-18T11:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
