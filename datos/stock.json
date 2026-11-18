@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T16:20:30",
+ "actualizado": "2026-11-18T16:34:56",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1557,7 +1557,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 149.99,
+     "precio": 129.99,
      "moneda": "EUR",
      "tienda": "Reino de Cartas",
      "idioma": "es",
@@ -1566,12 +1566,12 @@
      "foto": "fotos/3475a6f4a57ec163.jpg",
      "preventa": false,
      "cardmarket": 117.62,
-     "cardmarketPct": 28,
+     "cardmarketPct": 11,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-11-18T15:15+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
+     "precioAntes": 149.99,
+     "bajadaDesde": "2026-11-18T16:35+01:00"
     },
     {
      "titulo": "Pokémon TCG Celebración 30th Aniversario Elite Trainer Box Español – ETB Original Sellada",
