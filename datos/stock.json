@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T19:23:43",
+ "actualizado": "2026-11-18T19:30:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6697,7 +6697,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Juntos de Aventuras Booster Box",
+     "titulo": "Booster Box Juntos de Aventuras",
      "coleccion": "Journey Together",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -9086,6 +9086,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-17T14:40+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Dominio Delta Booster Box",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/dominio-delta-booster-box-booster-pack/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-booster-scaled.webp",
+     "foto": "fotos/7bc57e9f2cdfb257.jpg",
+     "preventa": false,
+     "cardmarket": 176.86,
+     "cardmarketPct": 13,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-18T19:31+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },

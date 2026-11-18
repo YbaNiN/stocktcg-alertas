@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T19:04:51",
+ "actualizado": "2026-11-18T19:30:54",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -575,21 +575,6 @@
      "foto": "fotos/92a05f3187b7de67.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
-    },
-    {
-     "titulo": "Dominio Delta Booster Box y Booster Pack",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 5.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/pokemon/dominio-delta-booster-box-booster-pack/",
-     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-booster-scaled.webp",
-     "foto": "fotos/7bc57e9f2cdfb257.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
      "titulo": "Sobre de Dominio Delta",
@@ -1893,6 +1878,21 @@
      "url": "https://epichitstore.es/producto/dominio-delta-caja-36/",
      "img": "https://epichitstore.es/wp-content/uploads/2026/09/Caja36.jpg",
      "foto": null,
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Dominio Delta Booster Box",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/dominio-delta-booster-box-booster-pack/",
+     "img": "https://bimbacards.com/wp-content/uploads/2026/10/delta-reign-booster-scaled.webp",
+     "foto": "fotos/7bc57e9f2cdfb257.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
