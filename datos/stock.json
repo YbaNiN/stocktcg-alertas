@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T21:38:54",
+ "actualizado": "2026-11-18T21:55:12",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8241,27 +8241,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
      "desde": "2026-11-14T14:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG Chispas Fulgurantes Booster Box – Español",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 179.9,
-     "moneda": "EUR",
-     "tienda": "Kadoplay",
-     "idioma": "es",
-     "url": "https://kadoplay.com/products/pokemon-tcg-chispas-fulgurantes-booster-box-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
-     "foto": "fotos/f93917ec0febd0ae.jpg",
-     "preventa": false,
-     "cardmarket": 222.61,
-     "cardmarketPct": -19,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
