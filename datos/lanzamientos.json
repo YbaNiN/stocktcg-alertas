@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T01:34:42",
+ "actualizado": "2026-11-18T01:40:35",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -50,21 +50,6 @@
      "tienda": "ElBazarTCG",
      "idioma": "es",
      "url": "https://elbazartcg.com/products/figure-collection-30th-eng?variant=59939039183196",
-     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewingles.png?v=1794846640&width=400",
-     "foto": "fotos/e37403245fba993e.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "((MAX 1 DE CADA POR PERSONA) Figure Collection 30th (ENG) — Mewtwo APERTURA",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "ElBazarTCG",
-     "idioma": "es",
-     "url": "https://elbazartcg.com/products/figure-collection-30th-eng?variant=59939039248732",
      "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewingles.png?v=1794846640&width=400",
      "foto": "fotos/e37403245fba993e.jpg",
      "preventa": false,
