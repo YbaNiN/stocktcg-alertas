@@ -1,30 +1,9 @@
 {
- "actualizado": "2026-11-18T16:48:32",
+ "actualizado": "2026-11-18T17:10:33",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
    "productos": [
-    {
-     "titulo": "Caja 18 Sobres Fuegos Fantasmales | Phantasmal Flames — Español",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 169.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/caja-18-sobres-fuegos-fantasmales-phantasmal-flames?variant=55040425787715",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654137_in_400x400.jpg",
-     "foto": "fotos/8f0a966da8ed1bec.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--booster-box",
-     "desde": "2026-11-12T01:25+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "ETB Fuegos Fantasmales",
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
@@ -1591,27 +1570,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon - 30 Aniversario: Caja de Entrenador Élite (Español)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 149.99,
-     "moneda": "EUR",
-     "tienda": "Padis Store",
-     "idioma": "es",
-     "url": "https://www.padis-store.com/44568-pokemon-30-aniversario-caja-de-entrenador-elite-espanol.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 117.62,
-     "cardmarketPct": 28,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-11-18T13:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
