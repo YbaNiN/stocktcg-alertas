@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T18:28:44",
+ "actualizado": "2026-11-18T19:13:11",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7563,27 +7563,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box – Rivales Predestinados",
-     "coleccion": "Destined Rivals",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/pokemon/booster-box-rivales-predestinados-pokemon-tcg/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
-     "foto": "fotos/fe01e654f615e5f0.jpg",
-     "preventa": false,
-     "cardmarket": 284.76,
-     "cardmarketPct": -30,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
-     "desde": "2026-11-17T10:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Rivales Predestinados Caja Sobres",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
@@ -7685,6 +7664,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
      "desde": "2026-11-18T02:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box – Rivales Predestinados",
+     "coleccion": "Destined Rivals",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 209.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/booster-box-rivales-predestinados-pokemon-tcg/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/624679_in_400x400.jpg",
+     "foto": "fotos/fe01e654f615e5f0.jpg",
+     "preventa": false,
+     "cardmarket": 284.76,
+     "cardmarketPct": -26,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
+     "desde": "2026-11-17T10:50+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
