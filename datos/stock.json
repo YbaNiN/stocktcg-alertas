@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T02:33:17",
+ "actualizado": "2026-11-18T02:38:24",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2650,27 +2650,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box Caos Creciente",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 59.99,
-     "moneda": "EUR",
-     "tienda": "ISEKAI Alcorcón",
-     "idioma": "es",
-     "url": "https://isekai-alcorcon.es/es/producto/elite-trainer-box-caos-creciente-esp/1504",
-     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/prepedido-pokemon-tcg-elite-trainer-expansion-mayo.jpg?v=1779885514&width=320",
-     "foto": "fotos/9e755993efd0d833.jpg",
-     "preventa": false,
-     "cardmarket": 62.95,
-     "cardmarketPct": -13,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": "2026-11-12T06:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Caja Entrenador Élite Pokémon Caos Creciente (Español)",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -4058,27 +4037,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": "2026-10-18T20:01+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Booster Box Equilibrio Perfecto",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 232.0,
-     "moneda": "EUR",
-     "tienda": "Merchan Store",
-     "idioma": "es",
-     "url": "https://www.merchan-store.com/juego-de-cartas-coleccionables/33219-caja-de-36-sobres-de-cartas-pokemon-booster-megaevolucion-equilibrio-perfecto-espanol-0196214137196.html",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Ftienda.odisseygames.com%2Fwp-content%2Fuploads%2F2026%2F10%2FBooster-Box-Equilibrio-Perfecto-Espanol.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Ftienda.odisseygames.com%2Fwp-content%2Fuploads%2F2026%2F10%2FBooster-Box-Equilibrio-Perfecto-Espanol.webp",
-     "foto": "fotos/fd110ee242067543.jpg",
-     "preventa": false,
-     "cardmarket": 176.55,
-     "cardmarketPct": -32,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": "2026-11-17T14:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -9634,27 +9592,6 @@
      "desde": "2026-11-12T14:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box Megaevolución - Dominio Delta ESPAÑOL",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "Collectowny",
-     "idioma": "es",
-     "url": "https://collectowny.com/products/etb-dominio-delta-pokemon-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/DOMINIO-DELTA-ETB.png?v=1794491744&width=320",
-     "foto": "fotos/f92f273403aa037c.jpg",
-     "preventa": false,
-     "cardmarket": 68.44,
-     "cardmarketPct": -5,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-14T02:35+01:00",
-     "precioAntes": 74.9,
-     "bajadaDesde": "2026-11-16T02:35+01:00"
     },
     {
      "titulo": "PKM – Megaevolución: Dominio Delta – Caja de Entrenador de Élite",
