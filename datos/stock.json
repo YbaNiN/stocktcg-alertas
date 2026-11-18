@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T19:13:11",
+ "actualizado": "2026-11-18T19:18:16",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -472,11 +472,11 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Bundle Evoluciones Prismáticas",
+     "titulo": "Booster Bundle Evoluciones Prismáticas Español",
      "coleccion": "Prismatic Evolutions",
      "tipo": "booster-bundle",
      "tipoNombre": "Booster Bundle",
-     "precio": 94.9,
+     "precio": 89.9,
      "moneda": "EUR",
      "tienda": "BimbaCards",
      "idioma": "es",
@@ -485,12 +485,12 @@
      "foto": "fotos/0830eaa68252f3b0.jpg",
      "preventa": false,
      "cardmarket": 80.22,
-     "cardmarketPct": 18,
+     "cardmarketPct": 12,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--booster-bundle",
      "desde": "2026-11-17T10:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
+     "precioAntes": 94.9,
+     "bajadaDesde": "2026-11-18T19:20+01:00"
     },
     {
      "titulo": "Booster bundle Prismatic evolutions",
@@ -7668,7 +7668,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Box – Rivales Predestinados",
+     "titulo": "Booster Box Rivales Predestinados",
      "coleccion": "Destined Rivals",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
