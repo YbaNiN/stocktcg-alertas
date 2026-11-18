@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T23:15:41",
+ "actualizado": "2026-11-18T23:50:08",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1942,6 +1942,36 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
+     "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.98,
+     "moneda": "EUR",
+     "tienda": "JJCollection",
+     "idioma": "es",
+     "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-delta",
+     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-1-Photoroom.webp?v=1794303000&width=400",
+     "foto": "fotos/11c7dfa65a58ac0a.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Booster Box Dominio Delta (Delta Reign), Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.99,
+     "moneda": "EUR",
+     "tienda": "Iberian Collect",
+     "idioma": "es",
+     "url": "https://iberiancollect.com/products/booster-box-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/6fdb3f629742907968633d3102f2aede.jpg?v=1792319934&width=400",
+     "foto": "fotos/38a68cc50528a1bf.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
      "titulo": "Caja de sobres Pokémon Reinado Delta Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
@@ -1998,6 +2028,21 @@
      "url": "https://dungeonmarvels.com/pokemon-jcc-expositor-de-sobres-de-mejora-de-megaevolucion-dominio-delta-castellano-103454.html",
      "img": "https://dungeonmarvels.com/216633-large_default/pokemon-jcc-expositor-de-sobres-de-mejora-de-megaevolucion-dominio-delta-castellano.jpg",
      "foto": "fotos/06157b39287c4dfc.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Pokémon Delta Reign Booster Box [DLR]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 199.95,
+     "moneda": "EUR",
+     "tienda": "El Duelista",
+     "idioma": "es",
+     "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
+     "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/audit-17-17-candidate.jpg?v=1794948292&width=400",
+     "foto": "fotos/1a66df5f48e0ecf0.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
@@ -2092,41 +2137,11 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
-     "titulo": "Booster Box Dominio Delta (Delta Reign), Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 213.0,
-     "moneda": "EUR",
-     "tienda": "Iberian Collect",
-     "idioma": "es",
-     "url": "https://iberiancollect.com/products/booster-box-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0902/6758/2731/files/6fdb3f629742907968633d3102f2aede.jpg?v=1792319934&width=400",
-     "foto": "fotos/38a68cc50528a1bf.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 213.0,
-     "moneda": "EUR",
-     "tienda": "JJCollection",
-     "idioma": "es",
-     "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-delta",
-     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-1-Photoroom.webp?v=1794303000&width=400",
-     "foto": "fotos/11c7dfa65a58ac0a.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
      "titulo": "Pokémon TCG - Dominio Delta - Caja de sobres (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
-     "precio": 216.0,
+     "precio": 212.43,
      "moneda": "EUR",
      "tienda": "La Escotilla",
      "idioma": "es",
@@ -2149,21 +2164,6 @@
      "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-box-36-booster-packs.webp?v=1788519847&width=400",
      "foto": "fotos/e755b9cddcc19bb0.jpg",
      "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
-    },
-    {
-     "titulo": "Pokémon Delta Reign Booster Box [DLR]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 223.82,
-     "moneda": "EUR",
-     "tienda": "El Duelista",
-     "idioma": "es",
-     "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
-     "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/audit-17-17-candidate.jpg?v=1794948292&width=400",
-     "foto": "fotos/1a66df5f48e0ecf0.jpg",
-     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
@@ -2506,7 +2506,7 @@
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
    "tipoNombre": "Booster Box / Display",
-   "precio": 213.0,
+   "precio": 189.98,
    "moneda": "EUR",
    "tienda": "JJCollection",
    "idioma": "es",
