@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T16:34:56",
+ "actualizado": "2026-11-18T16:40:05",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1578,7 +1578,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 149.99,
+     "precio": 144.99,
      "moneda": "EUR",
      "tienda": "LavaLootTCG",
      "idioma": "es",
@@ -1587,7 +1587,7 @@
      "foto": "fotos/3475a6f4a57ec163.jpg",
      "preventa": false,
      "cardmarket": 117.62,
-     "cardmarketPct": 28,
+     "cardmarketPct": 23,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": null,
@@ -9371,7 +9371,7 @@
      "moneda": "EUR",
      "tienda": "Reino de Cartas",
      "idioma": "es",
-     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/caja-dominio-delta-en-espanol-36-sobres-pokemon/",
+     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/dominio-delta/caja-dominio-delta-en-espanol-36-sobres-pokemon/",
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/dominio-delta-caja-36-sobres-es.jpg",
      "foto": "fotos/d087952105c38cdc.jpg",
      "preventa": false,
@@ -9379,7 +9379,7 @@
      "cardmarketPct": 22,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": "2026-11-13T14:01+01:00",
+     "desde": "2026-11-18T16:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -9686,7 +9686,7 @@
      "moneda": "EUR",
      "tienda": "Reino de Cartas",
      "idioma": "es",
-     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/etb-dominio-delta-espanol/",
+     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/dominio-delta/etb-dominio-delta-espanol/",
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
      "foto": "fotos/24ac851998f1154f.jpg",
      "preventa": false,
@@ -9694,7 +9694,7 @@
      "cardmarketPct": -1,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": null,
+     "desde": "2026-11-18T16:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
