@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T13:04:19",
+ "actualizado": "2026-11-18T14:00:32",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -2427,6 +2427,23 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
+  },
+  {
+   "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 219.95,
+   "moneda": "EUR",
+   "tienda": "Pokezilla",
+   "idioma": "es",
+   "url": "https://pokezilla.com/products/mega-evolution-delta-reign-booster-box-36-packs?variant=44010725179482",
+   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-box-36-booster-packs.webp?v=1788519847&width=400",
+   "foto": "fotos/e755b9cddcc19bb0.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
   },
   {
    "titulo": "(PREVENTA) Pokémon - Booster Box Dominio Delta 36 sobres (ESP)",
