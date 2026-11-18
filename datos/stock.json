@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T11:03:36",
+ "actualizado": "2026-11-18T12:08:35",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9510,7 +9510,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
+     "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -9521,7 +9521,7 @@
      "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/etb-dominio-delta-espanol/",
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
      "foto": "fotos/24ac851998f1154f.jpg",
-     "preventa": true,
+     "preventa": false,
      "cardmarket": 68.44,
      "cardmarketPct": -1,
      "chollo": false,

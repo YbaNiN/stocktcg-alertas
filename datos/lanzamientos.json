@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T11:00:47",
+ "actualizado": "2026-11-18T12:08:35",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1567,7 +1567,7 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
-     "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
+     "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -1578,7 +1578,7 @@
      "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/etb-dominio-delta-espanol/",
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
      "foto": "fotos/24ac851998f1154f.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
@@ -2508,23 +2508,6 @@
    "url": "https://jjcollection.es/products/pokemon-tcg-etb-delta?variant=55932595175753",
    "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-etb-Photoroom.webp?v=1794303363&width=400",
    "foto": "fotos/7a7718c6a299c0bc.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite — Preventa",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 67.99,
-   "moneda": "EUR",
-   "tienda": "Reino de Cartas",
-   "idioma": "es",
-   "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/etb-dominio-delta-espanol/",
-   "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
-   "foto": "fotos/24ac851998f1154f.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": "delta-reign",
