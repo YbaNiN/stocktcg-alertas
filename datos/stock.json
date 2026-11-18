@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T22:39:40",
+ "actualizado": "2026-11-18T23:12:55",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -10304,6 +10304,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-12T06:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB – Dominio Delta – Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 98.99,
+     "moneda": "EUR",
+     "tienda": "Pokebank",
+     "idioma": "es",
+     "url": "https://pokebank.es/producto/etb-dominio-delta-espanol/",
+     "img": "https://i0.wp.com/pokebank.es/wp-content/uploads/2026/11/DOMINIO-DELTA-ETB.jpg?fit=566%2C566&ssl=1",
+     "foto": "fotos/97497f3d2ef319fc.jpg",
+     "preventa": false,
+     "cardmarket": 68.44,
+     "cardmarketPct": 45,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-18T23:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
