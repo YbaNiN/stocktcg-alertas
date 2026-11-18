@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T12:44:19",
+ "actualizado": "2026-11-18T12:52:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7900,6 +7900,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
      "desde": "2026-11-09T20:20+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de 36 Sobres Llamas Obsidianas ESPAÑOL - Pokémon TCG",
+     "coleccion": "Obsidian Flames",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.95,
+     "moneda": "EUR",
+     "tienda": "Cartas Mencey",
+     "idioma": "es",
+     "url": "https://cartasmencey.es/products/caja-de-36-sobres-llamas-obsidianas-espanol-pokemon-tcg",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
+     "foto": "fotos/1ae5b73e408870a6.jpg",
+     "preventa": false,
+     "cardmarket": 243.27,
+     "cardmarketPct": -22,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
+     "desde": "2026-11-18T12:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
