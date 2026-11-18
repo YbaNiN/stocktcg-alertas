@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T20:08:53",
+ "actualizado": "2026-11-18T20:13:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1086,7 +1086,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Booster Bundle Héroes Ascendentes Español",
+     "titulo": "Héroes Ascendentes Bundle",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "booster-bundle",
      "tipoNombre": "Booster Bundle",
@@ -9632,27 +9632,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-18T18:05+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Dominio Delta - Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.95,
-     "moneda": "EUR",
-     "tienda": "Metamorph",
-     "idioma": "es",
-     "url": "https://metamorphcenter.com/products/etb-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0916/7424/7510/files/etb-dominio-delta-espanol-01.webp?v=1794867933&width=400",
-     "foto": "fotos/8c84aae1967298cf.jpg",
-     "preventa": false,
-     "cardmarket": 68.44,
-     "cardmarketPct": -5,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-18T20:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
