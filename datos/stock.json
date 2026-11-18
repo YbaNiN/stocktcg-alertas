@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T20:13:54",
+ "actualizado": "2026-11-18T21:15:17",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9636,6 +9636,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.99,
+     "moneda": "EUR",
+     "tienda": "Reino de Cartas",
+     "idioma": "es",
+     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/dominio-delta/etb-dominio-delta-espanol/",
+     "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
+     "foto": "fotos/24ac851998f1154f.jpg",
+     "preventa": false,
+     "cardmarket": 68.44,
+     "cardmarketPct": -5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-18T16:40+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Pokémon TCG - Delta Reign - Elite Trainer Box (Inglés y Español) — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -9695,27 +9716,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-14T17:25+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Dominio Delta español | Caja de Entrenador Élite",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 67.99,
-     "moneda": "EUR",
-     "tienda": "Reino de Cartas",
-     "idioma": "es",
-     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/dominio-delta/etb-dominio-delta-espanol/",
-     "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-ETB-Front-Reino-de-Cartas.jpg",
-     "foto": "fotos/24ac851998f1154f.jpg",
-     "preventa": false,
-     "cardmarket": 68.44,
-     "cardmarketPct": -1,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-18T16:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
