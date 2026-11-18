@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T10:10:17",
+ "actualizado": "2026-11-18T11:00:47",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -710,6 +710,21 @@
      "foto": "fotos/7bc57e9f2cdfb257.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Pokémon TCG Dominio Delta Sobre Sorpresa Sleeved",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 6.99,
+     "moneda": "EUR",
+     "tienda": "DRIM",
+     "idioma": "es",
+     "url": "https://www.drim.es/pokemon-tcg-dominio-delta-sobre-sorpresa-sleeved-195849-1/p",
+     "img": "https://drimjuguetes.vteximg.com.br/arquivos/ids/1141099/195849_A.JPG.jpg?v=639305696394030000",
+     "foto": "fotos/d36cb52724c48a1b.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
      "titulo": "Sobre Pokémon Megaevolución Dominio Delta Surtido",
