@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T14:38:19",
+ "actualizado": "2026-11-18T15:14:00",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1570,6 +1570,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG: Celebración 30.º Aniversario | Caja de Entrenador Élite ETB (Español)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 149.99,
+     "moneda": "EUR",
+     "tienda": "Reino de Cartas",
+     "idioma": "es",
+     "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/30-aniversario/pokemon-tcg-celebracion-30-o-aniversario-caja-de-entrenador-elite-etb-espanol/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
+     "foto": "fotos/3475a6f4a57ec163.jpg",
+     "preventa": false,
+     "cardmarket": 117.62,
+     "cardmarketPct": 28,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
+     "desde": "2026-11-18T15:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -9716,6 +9737,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Caja de Entrenador Elite Dominio Delta - Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "CardZone",
+     "idioma": "es",
+     "url": "https://cardzone.es/products/etb-caja-de-entrenador-elite-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/etb-caja-de-entrenador-elite-dominio-delta-reign-rayquaza-cartas-pokemon-tcg-cardzone.png?v=1793948311&width=400",
+     "foto": "fotos/870215ad6b411944.jpg",
+     "preventa": false,
+     "cardmarket": 68.44,
+     "cardmarketPct": 2,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-18T15:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
