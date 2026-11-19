@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T13:08:57",
+ "actualizado": "2026-11-19T13:24:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -10031,6 +10031,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-18T02:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja Entrenador Elite Pokemon Dominio Delta Espanol",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 79.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-dominio-delta-espanol-94093.html",
+     "img": "https://pidopop.com/1267234-large_default/caja-entrenador-elite-pokemon-dominio-delta-espanol.jpg",
+     "foto": "fotos/dbcd6a2b606b3383.jpg",
+     "preventa": false,
+     "cardmarket": 68.44,
+     "cardmarketPct": 17,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-19T13:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
