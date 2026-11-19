@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T20:14:29",
+ "actualizado": "2026-11-19T22:58:38",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -498,8 +498,8 @@
    "tipo": "Set principal (Mega Evolution)",
    "fecha": "2026-11-06",
    "fechaConfirmada": true,
-   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
-   "foto": "fotos/725572ca2a129684.jpg",
+   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/blister-3-sobres-dominio-delta-espanol-01.webp?v=1795105011&width=400",
+   "foto": "fotos/95bf786689428958.jpg",
    "ofertas": [
     {
      "titulo": "Dominio Delta Blíster 3 Sobres",
@@ -607,21 +607,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
-     "titulo": "Sobre Dominio Delta | Delta Reign — Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-pack",
-     "tipoNombre": "Sobre / Pack",
-     "precio": 5.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/sobres-dominio-delta-delta-reign?variant=54759192854851",
-     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/caja-36-sobres-dominio-delta-delta-reign-2.webp?v=1788134377&width=400",
-     "foto": "fotos/05f764b53f6ac4e9.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
-    },
-    {
      "titulo": "Pokemon JCC Sobre De Mejora De Megaevolucion Dominio Delta 1 Castellano",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -637,6 +622,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
+     "titulo": "Sobres emblistados Dominio Delta y Delta Reign — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/sobres-emblistados?variant=55436348326226",
+     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000336047.png?v=1795090551&width=400",
+     "foto": "fotos/d49e87aefa3ed989.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
      "titulo": "BOOSTER PACK - DOMINIO DELTA [ES]",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -648,6 +648,21 @@
      "url": "https://unsobremas.com/products/booster-pack-dominio-delta-es",
      "img": "https://cdn.shopify.com/s/files/1/0931/2613/2061/files/deltareigpack.webp?v=1794265737&width=400",
      "foto": "fotos/b7cc3a01f3b571a0.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Sobre Dominio Delta de JCC Pokémon",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815949-sobre-dominio-delta-de-jcc-pokemon-bandai-modelos-surtidos%2F",
+     "img": "https://dam.elcorteingles.es/producto/www-001044850504703-00.jpg",
+     "foto": "fotos/038268e901c03c45.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
@@ -948,6 +963,21 @@
      "url": "https://toprocketshop.com/products/dominio-delta-blister-3-sobres-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTABLISTER.png?v=1794389939&width=400",
      "foto": "fotos/15d7c331e3a5310c.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
+     "titulo": "Blister Pack 3 Sobres Dominio Delta - [ESP]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 19.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/blister-pack-3-sobres-delta-esp",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/blister-3-sobres-dominio-delta-espanol-01.webp?v=1795105011&width=400",
+     "foto": "fotos/95bf786689428958.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
@@ -1323,6 +1353,21 @@
      "url": "https://bimbacards.com/pokemon/dominio-delta-booster-bundle/",
      "img": "https://bimbacards.com/wp-content/uploads/2026/11/delta-reign-booster-bundle-scaled.webp",
      "foto": "fotos/cc34c5f6789f6289.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
+    },
+    {
+     "titulo": "Booster Bundle Dominio Delta - Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 39.95,
+     "moneda": "EUR",
+     "tienda": "CardZone",
+     "idioma": "es",
+     "url": "https://cardzone.es/products/booster-bundle-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/booster-bundle-dominio-delta-reign-rayquaza-espanol-cartas-pokemon-tcg-cardzone_8dd586ac-d4e2-435a-926a-ee45764db60f.png?v=1793948896&width=400",
+     "foto": "fotos/95d26dfe28d8fc49.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
