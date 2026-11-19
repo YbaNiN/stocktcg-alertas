@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T17:00:49",
+ "actualizado": "2026-11-19T17:03:34",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -2889,6 +2889,40 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Puños fluidos Sobre",
+   "coleccion": "Otros",
+   "tipo": "booster-pack",
+   "tipoNombre": "Sobre / Pack",
+   "precio": 5.5,
+   "moneda": "EUR",
+   "tienda": "FlashStore",
+   "idioma": "es",
+   "url": "https://flashstore.es/producto/punos-fluidos-sobre/",
+   "img": "https://flashstore.es/wp-content/uploads/2026/11/flowingsobres.jpg",
+   "foto": "fotos/1f737265f6737f44.jpg",
+   "preventa": true,
+   "stocktcg": null,
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Puños fluidos Sobre Emblistado",
+   "coleccion": "Otros",
+   "tipo": "booster-pack",
+   "tipoNombre": "Sobre / Pack",
+   "precio": 5.9,
+   "moneda": "EUR",
+   "tienda": "FlashStore",
+   "idioma": "es",
+   "url": "https://flashstore.es/producto/punos-fluidos-sobre-emblistado/",
+   "img": "https://flashstore.es/wp-content/uploads/2026/11/flowingemblist.jpg",
+   "foto": "fotos/155e6ea4f62908bf.jpg",
+   "preventa": true,
+   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
