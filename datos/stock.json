@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T13:24:23",
+ "actualizado": "2026-11-19T14:03:03",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -22,27 +22,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-11-17T10:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja de Entrenador Elite Pokémon Fuegos Fantasmales y Phantasmal Flames — Español",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 99.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/caja-de-entrenador-de-elite-pokemon-fuegos-fantasmales-y-phantasmal-flames?variant=53009015308626",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
-     "foto": "fotos/f07ecea19094f29d.jpg",
-     "preventa": false,
-     "cardmarket": 92.43,
-     "cardmarketPct": 8,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
-     "desde": "2026-11-08T23:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
