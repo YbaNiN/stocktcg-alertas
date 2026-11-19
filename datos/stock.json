@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T16:23:53",
+ "actualizado": "2026-11-19T17:44:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1376,6 +1376,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-pack",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon Megaevolución Héroes Ascendentes, Colección con pin deluxe +6 años (Unboxing)",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "pin-collection",
+     "tipoNombre": "Pin Collection",
+     "precio": 36.99,
+     "moneda": "EUR",
+     "tienda": "Carrefour",
+     "idioma": "es",
+     "url": "https://www.carrefour.es/pokemon-megaevolucion-heroes-ascendentes-coleccion-con-pin-deluxe-6-anos-unboxing/VC4A-33124138/p",
+     "img": "https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/707230_00_1.jpg",
+     "foto": "fotos/2fe23348dc1411ae.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--pin-collection",
+     "desde": "2026-11-19T17:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -6402,7 +6423,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 100.17,
+     "precio": 100.04,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
