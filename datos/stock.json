@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T12:29:41",
+ "actualizado": "2026-11-19T12:40:31",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9405,27 +9405,6 @@
      "bajadaDesde": "2026-11-19T11:05+01:00"
     },
     {
-     "titulo": "Caja de Entrenador Élite Dominio Delta | Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.9,
-     "moneda": "EUR",
-     "tienda": "Dark Vault",
-     "idioma": "es",
-     "url": "https://darkvault.es/products/caja-de-entrenador-elite-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0964/9605/8709/files/903955.png?v=1795087465&width=400",
-     "foto": "fotos/240f0f62eef452f3.jpg",
-     "preventa": false,
-     "cardmarket": 68.44,
-     "cardmarketPct": -5,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-19T12:31+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ETB Caja de Entrenador Elite Dominio Delta - Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -9569,6 +9548,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador Élite Dominio Delta | Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "Dark Vault",
+     "idioma": "es",
+     "url": "https://darkvault.es/products/caja-de-entrenador-elite-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0964/9605/8709/files/903955.png?v=1795087465&width=400",
+     "foto": "fotos/240f0f62eef452f3.jpg",
+     "preventa": false,
+     "cardmarket": 68.44,
+     "cardmarketPct": 2,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-19T12:31+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
