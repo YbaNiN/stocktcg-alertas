@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T18:38:23",
+ "actualizado": "2026-11-19T19:15:31",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -82,36 +82,6 @@
      "url": "https://labovedafriki.es/products/figure-collection-30-aniversaio?variant=56658190795092",
      "img": "https://cdn.shopify.com/s/files/1/0971/8526/8052/files/Figure_Collection_30Aniversaio_Mew_mewtwo_la_boveda_friki.jpg?v=1785750796&width=400",
      "foto": "fotos/6a3cf15f750622fd.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "((MAX 1 DE CADA POR PERSONA) Figure Collection 30th (ENG) — Mew SELLADO",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 74.99,
-     "moneda": "EUR",
-     "tienda": "ElBazarTCG",
-     "idioma": "es",
-     "url": "https://elbazartcg.com/products/figure-collection-30th-eng?variant=59939039215964",
-     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewingles.png?v=1794846640&width=400",
-     "foto": "fotos/e37403245fba993e.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "((MAX 1 DE CADA POR PERSONA) Figure Collection 30th (ENG) — Mewtwo SELLADO",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 74.99,
-     "moneda": "EUR",
-     "tienda": "ElBazarTCG",
-     "idioma": "es",
-     "url": "https://elbazartcg.com/products/figure-collection-30th-eng?variant=59939039281500",
-     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/FigureCollection_Mewingles.png?v=1794846640&width=400",
-     "foto": "fotos/e37403245fba993e.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
     },
