@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T00:48:00",
+ "actualizado": "2026-11-19T04:57:17",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1608,6 +1608,21 @@
      "url": "https://elitestoretcg.com/products/dominio-delta-etb-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0917/5485/6776/files/deltaetb.jpg?v=1794763186&width=400",
      "foto": "fotos/5fc9915666c7b494.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Pokemon Dominio Delta Elite Trainer Box",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "EpicDeck",
+     "idioma": "es",
+     "url": "https://epicdeck.es/products/pokemon-dominio-delta-elite-trainer-box",
+     "img": "https://cdn.shopify.com/s/files/1/0942/3509/9523/files/InShot_20261118_081132833.jpg?v=1795004060&width=400",
+     "foto": "fotos/5c7379f56e5bf2c6.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
