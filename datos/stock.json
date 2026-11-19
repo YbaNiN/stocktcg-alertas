@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T21:30:16",
+ "actualizado": "2026-11-19T21:48:25",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8834,27 +8834,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-18T22:25+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja de 36 Sobres de Dominio Delta - Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 189.95,
-     "moneda": "EUR",
-     "tienda": "CardZone",
-     "idioma": "es",
-     "url": "https://cardzone.es/products/caja-de-36-sobres-de-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/booster-box-caja-de-36-sobres-dominio-delta-reign-cartas-pokemon-tcg-cardzone.png?v=1793949274&width=400",
-     "foto": "fotos/93f20f148fb74cbd.jpg",
-     "preventa": false,
-     "cardmarket": 172.86,
-     "cardmarketPct": 10,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": "2026-11-19T18:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
