@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T16:52:38",
+ "actualizado": "2026-11-19T17:00:49",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -622,6 +622,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
+     "titulo": "Blister Dominio Delta | POKÉMON | Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 5.69,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/blister-dominio-delta-pokemon-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_Dominio_Delta_POKEMON_Espa_ol.jpg?v=1795083421&width=400",
+     "foto": "fotos/b2d741ca9d985f0a.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Sobre de Dominio Delta",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -768,6 +783,21 @@
      "url": "https://universetcg.com/products/pokemon-tcg-mega-evolution-dominio-delta-booster-pack-spanish?variant=55321425117525",
      "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/pokemon-dominio-delta-booster-01.jpg?v=1791897260&width=400",
      "foto": "fotos/6127aa1edd959ee7.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Sobre Pokemon Megaevolucion Dominio Delta Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 7.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/sobre-pokemon-megaevolucion-dominio-delta-espanol-94095.html",
+     "img": "https://pidopop.com/1267236-large_default/sobre-pokemon-megaevolucion-dominio-delta-espanol.jpg",
+     "foto": "fotos/e4aa3f12947f168e.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
@@ -1567,6 +1597,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "Caja de Entrenador Élite Dominio Delta | Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "Dark Vault",
+     "idioma": "es",
+     "url": "https://darkvault.es/products/caja-de-entrenador-elite-dominio-delta-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0964/9605/8709/files/903955.png?v=1795087465&width=400",
+     "foto": "fotos/240f0f62eef452f3.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Dominio Delta ETB - ESPAÑOL",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1758,6 +1803,21 @@
      "url": "https://dungeonmarvels.com/pokemon-jcc-caja-de-entrenador-elite-megaevolucion-dominio-delta-castellano-104028.html",
      "img": "https://dungeonmarvels.com/218368-large_default/pokemon-jcc-caja-de-entrenador-elite-megaevolucion-dominio-delta-castellano.jpg",
      "foto": "fotos/837f3dc811bea559.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
+     "titulo": "Caja Entrenador Elite Pokemon Dominio Delta Espanol",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 79.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-dominio-delta-espanol-94093.html",
+     "img": "https://pidopop.com/1267234-large_default/caja-entrenador-elite-pokemon-dominio-delta-espanol.jpg",
+     "foto": "fotos/dbcd6a2b606b3383.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
@@ -2043,6 +2103,21 @@
      "url": "https://tsukicenter.com/producto/booster-box-dominio-delta-espanol-pokemon/",
      "img": "https://tsukicenter.com/wp-content/uploads/2026/11/booster-box-espanol.png",
      "foto": "fotos/b264f49ded7352d0.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
+    },
+    {
+     "titulo": "Delta Reign - Booster Box",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 209.99,
+     "moneda": "EUR",
+     "tienda": "Darizard9",
+     "idioma": "es",
+     "url": "https://www.darizard9.com/products/delta-reign-boostr-box",
+     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/P11222-ME06_3D_Booster_Display_36ct_Left_EN-3644x5001-40d6697.webp?v=1794237797&width=400",
+     "foto": "fotos/8a6cee8db84ebd33.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
