@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T20:08:52",
+ "actualizado": "2026-11-19T20:14:29",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -2559,7 +2559,7 @@
    "fecha": "2026-11-06"
   },
   {
-   "titulo": "Elite Trainer Box Pokémon Dominio Delta / Delta Reign · PREVENTA",
+   "titulo": "ETB Caja de Entrenador Elite Dominio Delta - Español",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "etb",
    "tipoNombre": "ETB",
@@ -2568,8 +2568,8 @@
    "tienda": "1001TCG",
    "idioma": "es",
    "url": "https://1001tcg.com/products/products-etb-dominio-delta-delta-reign-pokemon-tcg",
-   "img": "https://cdn.shopify.com/s/files/1/1024/7123/7963/files/deltaetbeditada.png?v=1790336331&width=320",
-   "foto": "fotos/bb724ce1a5195cdd.jpg",
+   "img": "https://cdn.shopify.com/s/files/1/1007/1077/7172/files/etb-caja-de-entrenador-elite-dominio-delta-reign-rayquaza-cartas-pokemon-tcg-cardzone.webp?v=1794939434&width=320",
+   "foto": "fotos/00d21a965a6b86d1.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": null,
