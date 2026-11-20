@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T15:45:37",
+ "actualizado": "2026-11-20T15:54:08",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1614,27 +1614,6 @@
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG: 30 Aniversario Especial Pokémon Booster Bundle (6 packs) — Español",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 54.95,
-     "moneda": "EUR",
-     "tienda": "Pokezilla",
-     "idioma": "es",
-     "url": "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-booster-bundle-preventa?variant=43619834331226",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 64.0,
-     "cardmarketPct": -14,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-11-19T14:25+01:00",
-     "precioAntes": 59.95,
-     "bajadaDesde": "2026-11-20T15:35+01:00"
     },
     {
      "titulo": "Celebraciones 30th Booster Bundle",
@@ -7774,6 +7753,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
      "desde": "2026-11-18T12:55+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja 36 sobres: Llamas Obsidianas (Español)",
+     "coleccion": "Obsidian Flames",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.95,
+     "moneda": "EUR",
+     "tienda": "GrilleCards",
+     "idioma": "es",
+     "url": "https://grillecards.com/products/caja-36-sobres-llamas-obsidianas-espana",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
+     "foto": "fotos/1ae5b73e408870a6.jpg",
+     "preventa": false,
+     "cardmarket": 238.0,
+     "cardmarketPct": -20,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
+     "desde": "2026-11-20T15:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
