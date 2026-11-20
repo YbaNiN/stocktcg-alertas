@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T16:35:27",
+ "actualizado": "2026-11-20T16:38:27",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9,7 +9,7 @@
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 79.9,
+     "precio": 84.9,
      "moneda": "EUR",
      "tienda": "SunnyStore",
      "idioma": "es",
@@ -18,8 +18,8 @@
      "foto": "fotos/f07ecea19094f29d.jpg",
      "preventa": false,
      "cardmarket": 92.55,
-     "cardmarketPct": -14,
-     "chollo": true,
+     "cardmarketPct": -8,
+     "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-11-20T16:35+01:00",
      "precioAntes": null,
