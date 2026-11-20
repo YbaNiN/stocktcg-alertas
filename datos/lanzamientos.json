@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T11:00:29",
+ "actualizado": "2026-11-20T11:10:15",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -326,21 +326,6 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
     },
     {
-     "titulo": "Colección Premium Ditto Celebración 30° Aniversario — Español",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 89.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/ditto-box-celebracion-30-aniversario?variant=55152838410578",
-     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/1000335600.jpg?v=1794937887&width=400",
-     "foto": "fotos/7a26494440bd9ffb.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection"
-    },
-    {
      "titulo": "Ditto Premium Box Celebraciones 30 Aniversario | Celebrations 30th — Español",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "collection-box",
@@ -547,6 +532,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
     {
+     "titulo": "Sobre Dominio Delta | POKÉMON | Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 5.39,
+     "moneda": "EUR",
+     "tienda": "TodoHits",
+     "idioma": "es",
+     "url": "https://todohits.com/products/sobre-dominio-delta-pokemon-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_Dominio_Delta_POKEMON_Espa_ol.png?v=1795083403&width=400",
+     "foto": "fotos/c478152f64a42e6a.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
      "titulo": "Sobre Dominio Delta en español | Pokémon Sleeved",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-pack",
@@ -558,21 +558,6 @@
      "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/dominio-delta/sobre-dominio-delta-en-espanol-pokemon-sleeved/",
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/195849_A.JPG.jpg",
      "foto": "fotos/b5f96d791c28edf6.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
-    },
-    {
-     "titulo": "Sobre Dominio Delta | POKÉMON | Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-pack",
-     "tipoNombre": "Sobre / Pack",
-     "precio": 5.49,
-     "moneda": "EUR",
-     "tienda": "TodoHits",
-     "idioma": "es",
-     "url": "https://todohits.com/products/sobre-dominio-delta-pokemon-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0951/8681/3265/files/Blister_Dominio_Delta_POKEMON_Espa_ol.png?v=1795083403&width=400",
-     "foto": "fotos/c478152f64a42e6a.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
