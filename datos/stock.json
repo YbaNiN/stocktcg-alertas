@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T14:37:42",
+ "actualizado": "2026-11-20T15:28:48",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1494,7 +1494,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 129.95,
+     "precio": 99.95,
      "moneda": "EUR",
      "tienda": "Pokezilla",
      "idioma": "es",
@@ -1503,12 +1503,12 @@
      "foto": "fotos/3475a6f4a57ec163.jpg",
      "preventa": false,
      "cardmarket": 117.05,
-     "cardmarketPct": 11,
-     "chollo": false,
+     "cardmarketPct": -15,
+     "chollo": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-11-19T14:25+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
+     "precioAntes": 129.95,
+     "bajadaDesde": "2026-11-20T15:31+01:00"
     },
     {
      "titulo": "Pokémon TCG: Celebración 30.º Aniversario | Caja de Entrenador Élite ETB (Español)",
@@ -1637,6 +1637,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Pokémon TCG: 30 Aniversario Especial Pokémon Booster Bundle (6 packs) — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 59.95,
+     "moneda": "EUR",
+     "tienda": "Pokezilla",
+     "idioma": "es",
+     "url": "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-booster-bundle-preventa?variant=43619834331226",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 64.0,
+     "cardmarketPct": -6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-11-19T14:25+01:00",
+     "precioAntes": 69.95,
+     "bajadaDesde": "2026-11-20T15:31+01:00"
+    },
+    {
      "titulo": "Pokemon Celebración 30 Aniversario – Lote de Sobres de Mejora (6)",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -1675,27 +1696,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
      "desde": "2026-11-17T10:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG: 30 Aniversario Especial Pokémon Booster Bundle (6 packs) — Español",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "Pokezilla",
-     "idioma": "es",
-     "url": "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-booster-bundle-preventa?variant=43619834331226",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 64.0,
-     "cardmarketPct": 9,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-11-19T14:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
