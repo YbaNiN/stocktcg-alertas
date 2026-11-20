@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T15:54:08",
+ "actualizado": "2026-11-20T16:08:37",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -493,6 +493,27 @@
      "bajadaDesde": "2026-11-18T13:10+01:00"
     },
     {
+     "titulo": "Scarlet & Violet-Prismatic Evolutions Super-Premium Collection",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "ultra-premium-collection",
+     "tipoNombre": "Ultra Premium Collection",
+     "precio": 289.95,
+     "moneda": "EUR",
+     "tienda": "Pokezilla",
+     "idioma": "es",
+     "url": "https://pokezilla.com/products/scarlet-violet-prismatic-evolutions-super-premium-collection",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/622770_in_400x400.jpg",
+     "foto": "fotos/26394aeaba23de96.jpg",
+     "preventa": false,
+     "cardmarket": 201.35,
+     "cardmarketPct": 44,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
+     "desde": null,
+     "precioAntes": 329.95,
+     "bajadaDesde": "2026-11-20T16:10+01:00"
+    },
+    {
      "titulo": "Super Premium Collection Prismatic Evolutions y Evoluciones Prismáticas — Español",
      "coleccion": "Prismatic Evolutions",
      "tipo": "ultra-premium-collection",
@@ -507,27 +528,6 @@
      "preventa": false,
      "cardmarket": 201.35,
      "cardmarketPct": 44,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Scarlet & Violet-Prismatic Evolutions Super-Premium Collection",
-     "coleccion": "Prismatic Evolutions",
-     "tipo": "ultra-premium-collection",
-     "tipoNombre": "Ultra Premium Collection",
-     "precio": 329.95,
-     "moneda": "EUR",
-     "tienda": "Pokezilla",
-     "idioma": "es",
-     "url": "https://pokezilla.com/products/scarlet-violet-prismatic-evolutions-super-premium-collection",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/622770_in_400x400.jpg",
-     "foto": "fotos/26394aeaba23de96.jpg",
-     "preventa": false,
-     "cardmarket": 201.35,
-     "cardmarketPct": 64,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--ultra-premium-collection",
      "desde": null,
