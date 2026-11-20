@@ -1,9 +1,30 @@
 {
- "actualizado": "2026-11-20T16:08:37",
+ "actualizado": "2026-11-20T16:35:27",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
    "productos": [
+    {
+     "titulo": "ETB POKEMON FUEGOS FANTASMALES ELITE TRAINER BOX (ESPAÑOL)",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 79.9,
+     "moneda": "EUR",
+     "tienda": "SunnyStore",
+     "idioma": "es",
+     "url": "https://sunnystore.es/products/etb-pokemon-phantasmal-flames-fuegos-fantasmales-elite-trainer-box-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
+     "foto": "fotos/f07ecea19094f29d.jpg",
+     "preventa": false,
+     "cardmarket": 92.55,
+     "cardmarketPct": -14,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
+     "desde": "2026-11-20T16:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
     {
      "titulo": "ETB Fuegos Fantasmales",
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
@@ -2793,6 +2814,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": "2026-11-10T02:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB POKEMON CAOS CRECIENTE ELITE TRAINER BOX (ESPAÑOL)",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.9,
+     "moneda": "EUR",
+     "tienda": "SunnyStore",
+     "idioma": "es",
+     "url": "https://sunnystore.es/products/etb-pokemon-caos-creciente-elite-trainer-box-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 62.47,
+     "cardmarketPct": 4,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-11-20T16:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -9237,7 +9279,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
+     "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -9248,7 +9290,7 @@
      "url": "https://pokezilla.com/products/mega-evolution-delta-reign-booster-box-36-packs?variant=44010725179482",
      "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-box-36-booster-packs.webp?v=1788519847&width=400",
      "foto": "fotos/e755b9cddcc19bb0.jpg",
-     "preventa": true,
+     "preventa": false,
      "cardmarket": 172.86,
      "cardmarketPct": 27,
      "chollo": false,
@@ -9867,7 +9909,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
+     "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -9878,7 +9920,7 @@
      "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-pokemon-elite-trainer-box-preventa?variant=44010744840282",
      "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Delta-Reign_Elite_Trainer_Box_1.webp?v=1788519800&width=400",
      "foto": "fotos/9332f533b5d20c8b.jpg",
-     "preventa": true,
+     "preventa": false,
      "cardmarket": 67.49,
      "cardmarketPct": 11,
      "chollo": false,

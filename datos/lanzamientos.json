@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T16:29:42",
+ "actualizado": "2026-11-20T16:35:27",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1702,7 +1702,7 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
-     "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
+     "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -1713,7 +1713,7 @@
      "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-pokemon-elite-trainer-box-preventa?variant=44010744840282",
      "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Delta-Reign_Elite_Trainer_Box_1.webp?v=1788519800&width=400",
      "foto": "fotos/9332f533b5d20c8b.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
@@ -2122,7 +2122,7 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
-     "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
+     "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -2133,7 +2133,7 @@
      "url": "https://pokezilla.com/products/mega-evolution-delta-reign-booster-box-36-packs?variant=44010725179482",
      "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-box-36-booster-packs.webp?v=1788519847&width=400",
      "foto": "fotos/e755b9cddcc19bb0.jpg",
-     "preventa": true,
+     "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box"
     },
     {
@@ -2315,6 +2315,23 @@
    "foto": "fotos/ad0e7cf022b19a6e.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-pack",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Colección con Figura 30 Aniversario Aleatoria – Español – Reserva",
+   "coleccion": "30th Celebration / Celebración 30 Aniversario",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 59.9,
+   "moneda": "EUR",
+   "tienda": "Top Rocket Shop",
+   "idioma": "es",
+   "url": "https://toprocketshop.com/products/coleccion-con-figura-30-aniversario-aleatoria-espanol-reserva",
+   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/figura30.jpg?v=1794390082&width=400",
+   "foto": "fotos/4bf297d110ed29d1.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
    "lanzamiento": null,
    "fecha": null
   },
@@ -2506,23 +2523,6 @@
    "fecha": "2026-11-06"
   },
   {
-   "titulo": "Pokemon TCG: Delta Reign Booster Box ( 36 Packs) - PREVENTA — Español",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-box",
-   "tipoNombre": "Booster Box / Display",
-   "precio": 219.95,
-   "moneda": "EUR",
-   "tienda": "Pokezilla",
-   "idioma": "es",
-   "url": "https://pokezilla.com/products/mega-evolution-delta-reign-booster-box-36-packs?variant=44010725179482",
-   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Pokemon-Delta-Reign-booster-box-36-booster-packs.webp?v=1788519847&width=400",
-   "foto": "fotos/e755b9cddcc19bb0.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
    "titulo": "(PREVENTA) Pokémon - Booster Box Dominio Delta 36 sobres (ESP)",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
@@ -2572,23 +2572,6 @@
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": null,
    "fecha": null
-  },
-  {
-   "titulo": "Pokémon TCG: Delta Reign Pokémon Elite Trainer Box - PREVENTA — Español",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "etb",
-   "tipoNombre": "ETB",
-   "precio": 74.95,
-   "moneda": "EUR",
-   "tienda": "Pokezilla",
-   "idioma": "es",
-   "url": "https://pokezilla.com/products/pokemon-tcg-delta-reign-pokemon-elite-trainer-box-preventa?variant=44010744840282",
-   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Delta-Reign_Elite_Trainer_Box_1.webp?v=1788519800&width=400",
-   "foto": "fotos/9332f533b5d20c8b.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
   },
   {
    "titulo": "ETB DOMINIO DELTA - ESPAÑOL",
