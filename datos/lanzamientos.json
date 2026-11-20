@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T16:23:58",
+ "actualizado": "2026-11-20T16:29:42",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -2876,6 +2876,40 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokemon TCG: Flowing Fists Booster Box ( 36 Packs) - PREVENTA — Español",
+   "coleccion": "Otros",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 219.95,
+   "moneda": "EUR",
+   "tienda": "Pokezilla",
+   "idioma": "es",
+   "url": "https://pokezilla.com/products/pokemon-tcg-flowing-fists-booster-box-36-packs-preventa?variant=68160406978650",
+   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/Flowing-Fists-Booster-Box_1.webp?v=1795188190&width=400",
+   "foto": "fotos/cec57937720ba33a.jpg",
+   "preventa": true,
+   "stocktcg": null,
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokémon TCG: 30 Flowing Fists Booster Bundle (6 packs) - PREVENTA — Español",
+   "coleccion": "Otros",
+   "tipo": "booster-bundle",
+   "tipoNombre": "Booster Bundle",
+   "precio": 49.95,
+   "moneda": "EUR",
+   "tienda": "Pokezilla",
+   "idioma": "es",
+   "url": "https://pokezilla.com/products/pokemon-tcg-30-flowing-fists-booster-bundle-6-packs-preventa?variant=68160396099674",
+   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/pokemon-flowing-fists-booster-bundle-1500.png?v=1795188011&width=400",
+   "foto": "fotos/c51cc25325ea6dfe.jpg",
+   "preventa": true,
+   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
