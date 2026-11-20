@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T13:19:53",
+ "actualizado": "2026-11-20T13:25:24",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -10,36 +10,6 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
-    {
-     "titulo": "Caja Colección con Figura - 30th Anniversary [ESP] — Mewtwo",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 64.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640239451",
-     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mewtwo.webp?v=1791923668&width=400",
-     "foto": "fotos/66ef12a8cf200eba.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
-    {
-     "titulo": "Caja Colección con Figura - 30th Anniversary [ESP] — Mew",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 64.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/caja-coleccion-con-figura-30th-anniversary-esp?variant=55193640272219",
-     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/figure_collection_30aniv_mew.webp?v=1791923668&width=400",
-     "foto": "fotos/ec48bbd59868d31d.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
-    },
     {
      "titulo": "Celebraciones 30th Premium Figure Collection",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -1522,6 +1492,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
+     "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/elite-trainer-box-delta-reign-esp",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
+     "foto": "fotos/725572ca2a129684.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Pokémon TCG - Delta Reign - Elite Trainer Box (Inglés y Español) — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -1563,21 +1548,6 @@
      "url": "https://factorycardstcg.com/products/pokemon-etb-dominio-delta-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/images_62_1c36e964-0717-4b01-9d4c-3abca8ad707a.jpg?v=1793787120&width=400",
      "foto": "fotos/eb6da64640639a5f.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
-    },
-    {
-     "titulo": "Elite Trainer Box - Dominio Delta [ESP]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 67.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/elite-trainer-box-delta-reign-esp",
-     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=400",
-     "foto": "fotos/725572ca2a129684.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
