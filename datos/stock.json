@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T20:53:58",
+ "actualizado": "2026-11-20T20:59:42",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1486,27 +1486,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-11-20T13:40+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB 30 Aniversario",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 99.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/pokemon/etb-30-aniversarioetb-celebracion-30-aniversario-pokemon-tcg/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 115.71,
-     "cardmarketPct": -14,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-11-17T10:50+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -9233,27 +9212,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-13T17:10+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Delta Reign - Booster Box",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 209.99,
-     "moneda": "EUR",
-     "tienda": "Darizard9",
-     "idioma": "es",
-     "url": "https://www.darizard9.com/products/delta-reign-boostr-box",
-     "img": "https://cdn.shopify.com/s/files/1/0549/2434/5525/files/P11222-ME06_3D_Booster_Display_36ct_Left_EN-3644x5001-40d6697.webp?v=1794237797&width=400",
-     "foto": "fotos/8a6cee8db84ebd33.jpg",
-     "preventa": false,
-     "cardmarket": 172.86,
-     "cardmarketPct": 21,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": "2026-11-19T13:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
