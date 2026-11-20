@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T17:00:42",
+ "actualizado": "2026-11-20T17:18:33",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -2378,6 +2378,21 @@
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     },
     {
+     "titulo": "Lata 4 Sobres Pokemon 30 Aniversario Sylveon EX Y Greninja EX Sorpresa Espanol",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 39.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/lata-4-sobres-pokemon-30-aniversario-sylveon-ex-y-greninja-ex-sorpresa-espanol-92950.html",
+     "img": "https://pidopop.com/1257660-large_default/lata-4-sobres-pokemon-30-aniversario-sylveon-ex-y-greninja-ex-sorpresa-espanol.jpg",
+     "foto": "fotos/42d0aebe294c2571.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
      "titulo": "30 Aniversario Greninja ex Tin",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "tin",
@@ -2419,21 +2434,6 @@
      "url": "https://flashstore.es/producto/celebraciones-30th-tin/",
      "img": "https://flashstore.es/wp-content/uploads/2026/09/30thtin.jpg",
      "foto": "fotos/037817947a97c2b6.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
-    },
-    {
-     "titulo": "Lata 4 Sobres Pokemon 30 Aniversario Sylveon EX Y Greninja EX Sorpresa Espanol",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "tin",
-     "tipoNombre": "Tin",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/lata-4-sobres-pokemon-30-aniversario-sylveon-ex-y-greninja-ex-sorpresa-espanol-92950.html",
-     "img": "https://pidopop.com/1257660-large_default/lata-4-sobres-pokemon-30-aniversario-sylveon-ex-y-greninja-ex-sorpresa-espanol.jpg",
-     "foto": "fotos/42d0aebe294c2571.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     }
