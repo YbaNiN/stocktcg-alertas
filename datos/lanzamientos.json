@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T23:00:19",
+ "actualizado": "2026-11-20T23:08:29",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -3039,6 +3039,23 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Caja 36 Sobres Puños Fluidos | Flowing Fists — Español",
+   "coleccion": "Otros",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 199.9,
+   "moneda": "EUR",
+   "tienda": "Pokemillon",
+   "idioma": "es",
+   "url": "https://pokemillon.com/products/caja-36-sobres-punos-fluidos-flowing-fists?variant=55070954193219",
+   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Flowing-Fists-Booster-Box.webp?v=1795211909&width=400",
+   "foto": "fotos/5b1a6d09105389c5.jpg",
+   "preventa": true,
+   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
