@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T12:39:21",
+ "actualizado": "2026-11-20T13:19:53",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -15,7 +15,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "collection-box",
      "tipoNombre": "Collection Box",
-     "precio": 69.95,
+     "precio": 64.95,
      "moneda": "EUR",
      "tienda": "AllInTCG",
      "idioma": "es",
@@ -30,7 +30,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "collection-box",
      "tipoNombre": "Collection Box",
-     "precio": 69.95,
+     "precio": 64.95,
      "moneda": "EUR",
      "tienda": "AllInTCG",
      "idioma": "es",
@@ -832,6 +832,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
     {
+     "titulo": "Blister Pack 3 Sobres Dominio Delta - [ESP]",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 18.95,
+     "moneda": "EUR",
+     "tienda": "AllInTCG",
+     "idioma": "es",
+     "url": "https://allintcg.com/products/blister-pack-3-sobres-delta-esp",
+     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/blister-3-sobres-dominio-delta-espanol-01.webp?v=1795105011&width=400",
+     "foto": "fotos/95bf786689428958.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
+    },
+    {
      "titulo": "Dominio Delta Blister 3 Pack - ESPAÑOL",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "blister",
@@ -978,21 +993,6 @@
      "url": "https://toprocketshop.com/products/dominio-delta-blister-3-sobres-espanol",
      "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/DOMINIODELTABLISTER.png?v=1794389939&width=400",
      "foto": "fotos/15d7c331e3a5310c.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
-     "titulo": "Blister Pack 3 Sobres Dominio Delta - [ESP]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 19.95,
-     "moneda": "EUR",
-     "tienda": "AllInTCG",
-     "idioma": "es",
-     "url": "https://allintcg.com/products/blister-pack-3-sobres-delta-esp",
-     "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/blister-3-sobres-dominio-delta-espanol-01.webp?v=1795105011&width=400",
-     "foto": "fotos/95bf786689428958.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
