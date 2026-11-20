@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T14:34:28",
+ "actualizado": "2026-11-20T14:37:42",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7412,27 +7412,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
      "desde": "2026-11-10T13:45+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja de Sobres Rivales Predestinados – 36 Sobres Español",
-     "coleccion": "Destined Rivals",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.95,
-     "moneda": "EUR",
-     "tienda": "OZ Juegos",
-     "idioma": "es",
-     "url": "https://ozjuegos.com/producto/pokemon-tcg-destined-rivals-booster-box-36-sobres-ingles/",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Fcardcore.es%2Fwp-content%2Fuploads%2Fcaja-de-sobres-booster-box-rivales-predestinados-36-sobres.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Fcardcore.es%2Fwp-content%2Fuploads%2Fcaja-de-sobres-booster-box-rivales-predestinados-36-sobres.webp",
-     "foto": "fotos/daafa6fe34d6519f.jpg",
-     "preventa": false,
-     "cardmarket": 286.07,
-     "cardmarketPct": -34,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
