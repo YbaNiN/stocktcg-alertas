@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T15:34:37",
+ "actualizado": "2026-11-20T15:45:37",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6361,6 +6361,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Scarlet & Violet-Journey Together Booster Display Box (36 Packs) — Español",
+     "coleccion": "Journey Together",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 164.95,
+     "moneda": "EUR",
+     "tienda": "Pokezilla",
+     "idioma": "es",
+     "url": "https://pokezilla.com/products/scarlet-violet-journey-together-booster-display-box-36-packs?variant=43440980066394",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
+     "foto": "fotos/9505a0d4ee21e438.jpg",
+     "preventa": false,
+     "cardmarket": 186.77,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
+     "desde": null,
+     "precioAntes": 179.95,
+     "bajadaDesde": "2026-11-20T15:45+01:00"
+    },
+    {
      "titulo": "Caja de 36 Sobres Juntos de Aventuras ESPAÑOL - Pokémon TCG",
      "coleccion": "Journey Together",
      "tipo": "booster-box",
@@ -6695,27 +6716,6 @@
      "desde": null,
      "precioAntes": 189.95,
      "bajadaDesde": "2026-11-11T17:20+01:00"
-    },
-    {
-     "titulo": "Scarlet & Violet-Journey Together Booster Display Box (36 Packs) — Español",
-     "coleccion": "Journey Together",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 179.95,
-     "moneda": "EUR",
-     "tienda": "Pokezilla",
-     "idioma": "es",
-     "url": "https://pokezilla.com/products/scarlet-violet-journey-together-booster-display-box-36-packs?variant=43440980066394",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
-     "foto": "fotos/9505a0d4ee21e438.jpg",
-     "preventa": false,
-     "cardmarket": 186.77,
-     "cardmarketPct": -4,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Caja de 36 Sobres Juntos de Aventuras ESPAÑOL - Pokémon",
