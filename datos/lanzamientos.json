@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T22:35:08",
+ "actualizado": "2026-11-20T23:00:19",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -10,6 +10,21 @@
    "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
    "foto": "fotos/3475a6f4a57ec163.jpg",
    "ofertas": [
+    {
+     "titulo": "Colección con Figura 30 Aniversario Aleatoria – Español – Reserva",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 59.9,
+     "moneda": "EUR",
+     "tienda": "Top Rocket Shop",
+     "idioma": "es",
+     "url": "https://toprocketshop.com/products/coleccion-con-figura-30-aniversario-aleatoria-espanol-reserva",
+     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/figura30.jpg?v=1794390082&width=400",
+     "foto": "fotos/4bf297d110ed29d1.jpg",
+     "preventa": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box"
+    },
     {
      "titulo": "Pokémon TCG: 30 Aniversario Especial Pokémon Figure Collection (Mew & Mewtwo) — Español",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -753,6 +768,21 @@
      "url": "https://arte9.com/producto/sobre-dominio-delta-megaevolucion-06-espanol/",
      "img": "https://arte9.com/wp-content/uploads/2026/10/DELTA-SOBRE-340x439.jpg",
      "foto": "fotos/c52a78e09e241dc1.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
+    },
+    {
+     "titulo": "Sobre Emblistado Dominio Delta | Delta Reign — Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-pack",
+     "tipoNombre": "Sobre / Pack",
+     "precio": 6.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/sobre-emblistado-dominio-delta-delta-reign?variant=55070739136835",
+     "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Captura_de_pantalla_2026-11-20_205138.png?v=1795204315&width=400",
+     "foto": "fotos/fd9f8361b18f23e2.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-pack"
     },
@@ -1612,6 +1642,21 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
     },
     {
+     "titulo": "Pokémon TCG: Caja de Entrenador de Élite / Elite Trainer Box – Dominio Delta (Español)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 64.95,
+     "moneda": "EUR",
+     "tienda": "CardCrack",
+     "idioma": "es",
+     "url": "https://cardcrack.com/tienda/pokemon-tcg/pokemon-dominio-delta-tcg/pokemon-caja-de-entrenador-de-elite-elite-trainer-box-dominio-delta-espanol-reserva/",
+     "img": "https://cardcrack.com/wp-content/uploads/2026/10/DOMINIO-DELTA-ETB.jpg",
+     "foto": "fotos/b55efb05d0ad496c.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb"
+    },
+    {
      "titulo": "Pokémon TCG - Delta Reign - Elite Trainer Box (Inglés y Español) — Español",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -2467,8 +2512,8 @@
    "foto": "fotos/4bf297d110ed29d1.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--collection-box",
-   "lanzamiento": null,
-   "fecha": null
+   "lanzamiento": "30-aniversario-oleada-4",
+   "fecha": "2026-11-06"
   },
   {
    "titulo": "Pokémon TCG — 30th Celebration Mini Tin | Día y Noche (Español)",
@@ -3026,6 +3071,23 @@
    "url": "https://pokezilla.com/products/pokemon-tcg-30-flowing-fists-booster-bundle-6-packs-preventa?variant=68160396099674",
    "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/pokemon-flowing-fists-booster-bundle-1500.png?v=1795188011&width=400",
    "foto": "fotos/c51cc25325ea6dfe.jpg",
+   "preventa": true,
+   "stocktcg": null,
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "ETB Puños Fluidos | Élite Flowing Fists — Español",
+   "coleccion": "Otros",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 69.9,
+   "moneda": "EUR",
+   "tienda": "Pokemillon",
+   "idioma": "es",
+   "url": "https://pokemillon.com/products/etb-elite-flowing-fists?variant=55070953242947",
+   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Pokemon_TCG_Mega_Evolution_Flowing_Fists_Elite_Trainer_Box-1.webp?v=1795211298&width=400",
+   "foto": "fotos/74675ec2032286c3.jpg",
    "preventa": true,
    "stocktcg": null,
    "lanzamiento": null,
