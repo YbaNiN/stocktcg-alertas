@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T09:35:06",
+ "actualizado": "2026-11-20T11:53:04",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9968,6 +9968,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB – DOMINIO DELTA R . . .",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 79.99,
+     "moneda": "EUR",
+     "tienda": "Arte9",
+     "idioma": "es",
+     "url": "https://arte9.com/producto/etb-dominio-delta-megaevolucion-06-espanol/",
+     "img": "https://arte9.com/wp-content/uploads/2026/10/DELTA-ETB-340x439.jpg",
+     "foto": "fotos/da2b9911fb04736d.jpg",
+     "preventa": false,
+     "cardmarket": 67.49,
+     "cardmarketPct": 19,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-20T11:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
