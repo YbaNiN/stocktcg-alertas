@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T04:58:52",
+ "actualizado": "2026-11-20T06:08:12",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1312,21 +1312,6 @@
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
     },
     {
-     "titulo": "Booster Bundle Dominio Delta – Español – Reserva",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 36.9,
-     "moneda": "EUR",
-     "tienda": "Top Rocket Shop",
-     "idioma": "es",
-     "url": "https://toprocketshop.com/products/booster-bundle-dominio-delta-espanol-reserva",
-     "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/dominiodeltabundle.jpg?v=1794390082&width=400",
-     "foto": "fotos/3022f094280e871e.jpg",
-     "preventa": true,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle"
-    },
-    {
      "titulo": "Booster Bundle Dominio Delta(ESP)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "booster-bundle",
@@ -2596,23 +2581,6 @@
    "foto": "fotos/c650ce5ba6f3030c.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-   "lanzamiento": "delta-reign",
-   "fecha": "2026-11-06"
-  },
-  {
-   "titulo": "Booster Bundle Dominio Delta – Español – Reserva",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "booster-bundle",
-   "tipoNombre": "Booster Bundle",
-   "precio": 36.9,
-   "moneda": "EUR",
-   "tienda": "Top Rocket Shop",
-   "idioma": "es",
-   "url": "https://toprocketshop.com/products/booster-bundle-dominio-delta-espanol-reserva",
-   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/dominiodeltabundle.jpg?v=1794390082&width=400",
-   "foto": "fotos/3022f094280e871e.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-bundle",
    "lanzamiento": "delta-reign",
    "fecha": "2026-11-06"
   },
