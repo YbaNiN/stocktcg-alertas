@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T15:54:08",
+ "actualizado": "2026-11-20T16:23:58",
  "lanzamientos": [
   {
    "slug": "30-aniversario-oleada-4",
@@ -1098,21 +1098,6 @@
      "url": "https://reinodecartas.com/tienda-tcg/pokemon-tcg/dominio-delta/blister-dominio-delta-en-espanol-3-sobres-pokemon/",
      "img": "https://reinodecartas.com/wp-content/uploads/2026/11/Dominio-Delta-Blister.jpg",
      "foto": "fotos/1cbb12f37cea95d3.jpg",
-     "preventa": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
-    },
-    {
-     "titulo": "Blister pack de 3 sobres Dominio Delta de JCC Pokémon",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 19.99,
-     "moneda": "EUR",
-     "tienda": "El Corte Inglés",
-     "idioma": "es",
-     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815946-blister-pack-de-3-sobres-dominio-delta-de-jcc-pokemon-bandai%2F",
-     "img": "https://dam.elcorteingles.es/producto/www-001044850504661-00.jpg",
-     "foto": "fotos/99a21864c391feea.jpg",
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--blister"
     },
@@ -2891,6 +2876,23 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokémon TCG: Flowing Fists Pokémon Elite Trainer Box - PREVENTA — Español",
+   "coleccion": "Otros",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 74.95,
+   "moneda": "EUR",
+   "tienda": "Pokezilla",
+   "idioma": "es",
+   "url": "https://pokezilla.com/products/pokemon-tcg-flowing-fists-pokemon-elite-trainer-box-preventa?variant=68160385024090",
+   "img": "https://cdn.shopify.com/s/files/1/0649/4368/5722/files/pokemon-tcg-mega-evolution-flowing-fists-elite-trainer-box-1.png?v=1795187703&width=400",
+   "foto": "fotos/766da85696597d22.jpg",
+   "preventa": true,
+   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
