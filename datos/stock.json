@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T05:19:12",
+ "actualizado": "2026-11-21T08:43:10",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1439,27 +1439,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-pack",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Deluxe Pin Collection Héroes Ascendentes y Ascended Heroes — Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "pin-collection",
-     "tipoNombre": "Pin Collection",
-     "precio": 59.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/victini-illustration-collection-white-flare-black-bolt-y-llama-blanca-fulgor-negro-813353003?variant=53009009541458",
-     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/rn-image_picker_lib_temp_65d012cd-55d8-4b7e-8f93-d3b744430b00.jpg?v=1774370916&width=400",
-     "foto": "fotos/abe526dcd8258682.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--pin-collection",
-     "desde": "2026-11-06T12:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     }
