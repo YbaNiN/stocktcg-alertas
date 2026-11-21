@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T21:22:54",
+ "actualizado": "2026-11-21T21:53:40",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8834,27 +8834,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-12T02:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon Delta Reign Booster Box [DLR]",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 199.95,
-     "moneda": "EUR",
-     "tienda": "El Duelista",
-     "idioma": "es",
-     "url": "https://elduelista.com/products/delta-reign-booster-box-903956",
-     "img": "https://cdn.shopify.com/s/files/1/0865/7387/5531/files/audit-17-17-candidate.jpg?v=1794948292&width=400",
-     "foto": "fotos/1a66df5f48e0ecf0.jpg",
-     "preventa": false,
-     "cardmarket": 172.86,
-     "cardmarketPct": 16,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
