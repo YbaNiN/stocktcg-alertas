@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T20:00:29",
+ "actualizado": "2026-11-21T20:08:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9527,6 +9527,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-21T14:10+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Dominio Delta - ETB - Español",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "The Booster Box",
+     "idioma": "es",
+     "url": "https://theboosterbox.es/products/delta-reign-etb-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0967/5328/7496/files/DOMINIO-DELTA-ETB.jpg?v=1791891094&width=400",
+     "foto": "fotos/81b4a1276a84dc0e.jpg",
+     "preventa": false,
+     "cardmarket": 66.62,
+     "cardmarketPct": 5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-21T20:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
