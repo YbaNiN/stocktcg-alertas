@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T14:32:56",
+ "actualizado": "2026-11-21T14:39:30",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1065,27 +1065,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Héroes Ascendentes Bundle",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "OdisseyGames",
-     "idioma": "es",
-     "url": "https://tienda.odisseygames.com/producto/booster-bundle-heroes-ascendentes/",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Fbimbacards.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fheroes-ascendentes-bundle-scaled.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Fbimbacards.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fheroes-ascendentes-bundle-scaled.webp",
-     "foto": "fotos/f4895d5f2252e235.jpg",
-     "preventa": false,
-     "cardmarket": 67.38,
-     "cardmarketPct": 4,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
-     "desde": "2026-11-20T14:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Booster Bundle Pokémon Héroes Ascendentes y Ascended Heroes — Español",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "booster-bundle",
@@ -2142,27 +2121,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Booster Box Caos Creciente – Pokémon Español",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 179.99,
-     "moneda": "EUR",
-     "tienda": "ISEKAI Alcorcón",
-     "idioma": "es",
-     "url": "https://isekai-alcorcon.es/es/producto/booster-box-caos-creciente-esp/1505",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Felultimobooster.com%2Fwp-content%2Fuploads%2F2026%2F05%2F4.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Felultimobooster.com%2Fwp-content%2Fuploads%2F2026%2F05%2F4.webp",
-     "foto": "fotos/bdc2818b70615cf4.jpg",
-     "preventa": false,
-     "cardmarket": 177.58,
-     "cardmarketPct": -10,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
-     "desde": "2026-11-20T14:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
