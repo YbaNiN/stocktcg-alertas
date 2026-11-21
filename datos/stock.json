@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T02:37:54",
+ "actualizado": "2026-11-21T05:19:12",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4885,7 +4885,7 @@
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 102.1,
+     "precio": 102.15,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -6255,7 +6255,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 92.62,
+     "precio": 99.61,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -6264,7 +6264,7 @@
      "foto": "fotos/0a158a6c5402619f.jpg",
      "preventa": false,
      "cardmarket": 66.05,
-     "cardmarketPct": 40,
+     "cardmarketPct": 51,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
