@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T19:18:55",
+ "actualizado": "2026-11-21T20:00:29",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8518,27 +8518,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "PKM – Escarlata y Púrpura: Chispas Fulgurantes – Caja de sobres (36)",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 216.0,
-     "moneda": "EUR",
-     "tienda": "Júpiter Juegos",
-     "idioma": "es",
-     "url": "https://jupiterjuegos.com/producto/pkm-escarlata-y-purpura-chispas-fulgurantes-caja-de-sobres-36/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
-     "foto": "fotos/f93917ec0febd0ae.jpg",
-     "preventa": false,
-     "cardmarket": 227.79,
-     "cardmarketPct": -5,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Pokémon Escarlata y Púrpura 8 Chispas Fulgurantes: Caja de Sobres (36 Sobres) Español",
      "coleccion": "Surging Sparks / Chispas Fulgurantes",
      "tipo": "booster-box",
@@ -9422,6 +9401,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-17T21:25+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Dominio Delta ETB",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 66.9,
+     "moneda": "EUR",
+     "tienda": "FlashStore",
+     "idioma": "es",
+     "url": "https://flashstore.es/producto/dominio-delta-etb/",
+     "img": "https://flashstore.es/wp-content/uploads/2026/08/deltaetb.jpg",
+     "foto": "fotos/a33b85bcbc70db5e.jpg",
+     "preventa": false,
+     "cardmarket": 66.62,
+     "cardmarketPct": 0,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-21T20:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
