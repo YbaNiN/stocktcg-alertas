@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T09:49:26",
+ "actualizado": "2026-11-21T12:38:21",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9699,6 +9699,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "(español) RECOGIDA - Pokemon ETB Dominio Delta",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "La Maquina del Temps",
+     "idioma": "es",
+     "url": "https://lamaquinadeltemps.com/trading-card-game/3379-espanol-recogida-pokemon-etb-dominio-delta.html",
+     "img": "https://lamaquinadeltemps.com/6877-home_default/espanol-recogida-pokemon-etb-dominio-delta.jpg",
+     "foto": "fotos/e2915e2c6ea7ce76.jpg",
+     "preventa": false,
+     "cardmarket": 66.62,
+     "cardmarketPct": 5,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-09T12:05+01:00",
+     "precioAntes": 75.0,
+     "bajadaDesde": "2026-11-21T12:40+01:00"
+    },
+    {
      "titulo": "Pokémon - Megaevolución 6 Dominio Delta ME06: Caja de Entrenador de Elite (Español)",
      "coleccion": "Delta Reign / Dominio Delta",
      "tipo": "etb",
@@ -9905,27 +9926,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-11T19:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "(español) RECOGIDA - Pokemon ETB Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 75.0,
-     "moneda": "EUR",
-     "tienda": "La Maquina del Temps",
-     "idioma": "es",
-     "url": "https://lamaquinadeltemps.com/trading-card-game/3379-espanol-recogida-pokemon-etb-dominio-delta.html",
-     "img": "https://lamaquinadeltemps.com/6877-home_default/espanol-recogida-pokemon-etb-dominio-delta.jpg",
-     "foto": "fotos/e2915e2c6ea7ce76.jpg",
-     "preventa": false,
-     "cardmarket": 66.62,
-     "cardmarketPct": 13,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-09T12:05+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
