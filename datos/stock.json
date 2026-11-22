@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T17:35:33",
+ "actualizado": "2026-11-22T17:38:12",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -913,6 +913,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Mini Latas Pokémon Prismatic Evolutions y Evoluciones Prismáticas — Español / Espeon",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "mini-tin",
+     "tipoNombre": "Mini Tin",
+     "precio": 27.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/mini-latas-pokemon-prismatic-evolutions-y-evoluciones-prismaticas?variant=51872562905426",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/593455_in_400x400.jpg",
+     "foto": "fotos/dde7990bafc5252c.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--mini-tin",
+     "desde": "2026-11-22T17:40+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Mini Tin Evoluciones Prismáticas",
      "coleccion": "Prismatic Evolutions",
      "tipo": "mini-tin",
@@ -930,6 +951,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--mini-tin",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Mini Latas Pokémon Prismatic Evolutions y Evoluciones Prismáticas — Español / Sylveon",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "mini-tin",
+     "tipoNombre": "Mini Tin",
+     "precio": 29.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/mini-latas-pokemon-prismatic-evolutions-y-evoluciones-prismaticas?variant=51872562839890",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/593455_in_400x400.jpg",
+     "foto": "fotos/dde7990bafc5252c.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--mini-tin",
+     "desde": "2026-11-22T17:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
