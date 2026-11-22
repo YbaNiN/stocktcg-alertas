@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T17:44:06",
+ "actualizado": "2026-11-22T17:50:05",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1557,7 +1557,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 144.99,
+     "precio": 139.99,
      "moneda": "EUR",
      "tienda": "LavaLootTCG",
      "idioma": "es",
@@ -1566,7 +1566,7 @@
      "foto": "fotos/3475a6f4a57ec163.jpg",
      "preventa": false,
      "cardmarket": 115.71,
-     "cardmarketPct": 25,
+     "cardmarketPct": 21,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": null,
@@ -7984,6 +7984,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Elite Trainer Box Pokémon Llamas Obsidianas - Español",
+     "coleccion": "Obsidian Flames",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 249.0,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-llamas-obsidianas-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501264_in_400x400.jpg",
+     "foto": "fotos/5ee03bd88bde175e.jpg",
+     "preventa": false,
+     "cardmarket": 185.96,
+     "cardmarketPct": 34,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/obsidian-flames--etb",
+     "desde": "2026-11-22T17:50+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     }
