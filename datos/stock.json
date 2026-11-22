@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T10:59:31",
+ "actualizado": "2026-11-22T12:39:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4608,6 +4608,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Equilibrio Perfecto | Perfect Order — Español",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/etb-perfect-order?variant=54068354154819",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 64.69,
+     "cardmarketPct": 8,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": "2026-11-22T12:40+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "[PKM] Caja de entrenador élite Pokémon ETB - Equilibrio perfecto (Castellano)",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
@@ -6081,6 +6102,27 @@
      "desde": "2026-11-10T14:15+01:00",
      "precioAntes": 94.95,
      "bajadaDesde": "2026-11-17T01:05+01:00"
+    },
+    {
+     "titulo": "ETB Oscuridad Absoluta | Élite Pitch Black — Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 89.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/etb-pitch-black?variant=54451707707715",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 66.05,
+     "cardmarketPct": 36,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-11-22T12:40+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
@@ -10251,6 +10293,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "ETB Corona Astral | Élite Stellar Crown — Español",
+     "coleccion": "Stellar Crown",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "Pokemillon",
+     "idioma": "es",
+     "url": "https://pokemillon.com/products/elite-stellar-crown?variant=53395252609347",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
+     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
+     "preventa": false,
+     "cardmarket": 88.92,
+     "cardmarketPct": -21,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
+     "desde": "2026-11-22T12:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
