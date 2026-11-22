@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T14:33:38",
+ "actualizado": "2026-11-22T15:28:14",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -660,23 +660,6 @@
    "foto": "fotos/2d95d5c132a0c8f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Blister 3 Sobre Puños Fluidos | Flowing Fists — Español",
-   "coleccion": "Otros",
-   "tipo": "blister",
-   "tipoNombre": "Blister",
-   "precio": 18.9,
-   "moneda": "EUR",
-   "tienda": "Pokemillon",
-   "idioma": "es",
-   "url": "https://pokemillon.com/products/blister-3-sobre-punos-fluidos-flowing-fists?variant=55070958453059",
-   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/Flowing-Fists-Wimpod.webp?v=1795212247&width=400",
-   "foto": "fotos/7184218091cff002.jpg",
-   "preventa": true,
-   "stocktcg": null,
    "lanzamiento": null,
    "fecha": null
   },
