@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T20:29:49",
+ "actualizado": "2026-11-22T21:13:26",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1271,6 +1271,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja Mega EX Box Héroes Ascendentes - Español — Mega Emboar EX",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 44.95,
+     "moneda": "EUR",
+     "tienda": "CardZone",
+     "idioma": "es",
+     "url": "https://cardzone.es/products/caja-mega-ex-box-heroes-ascendentes-espanol?variant=57190540869976",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
+     "foto": "fotos/60d3327244e384a3.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
+     "desde": "2026-11-22T21:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
