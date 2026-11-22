@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T17:24:23",
+ "actualizado": "2026-11-22T17:29:47",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7944,27 +7944,6 @@
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box Pokémon Llamas Obsidianas - Español",
-     "coleccion": "Obsidian Flames",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 249.0,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-llamas-obsidianas-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501264_in_400x400.jpg",
-     "foto": "fotos/5ee03bd88bde175e.jpg",
-     "preventa": false,
-     "cardmarket": 185.96,
-     "cardmarketPct": 34,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/obsidian-flames--etb",
-     "desde": "2026-11-15T09:25+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     }
    ]
   },
@@ -8598,27 +8577,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box Pokémon Surging Sparks y Chispas Fulgurantes — Español",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 114.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-surging-sparks-y-chispas-fulgurantes?variant=51872581878098",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565630_in_400x400.jpg",
-     "foto": "fotos/28dd9ecb044cc77a.jpg",
-     "preventa": false,
-     "cardmarket": 136.84,
-     "cardmarketPct": -16,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--etb",
-     "desde": "2026-11-04T13:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -10566,27 +10524,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box Pokémon Stellar Crown y Corona Astral — Español",
-     "coleccion": "Stellar Crown",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-stellar-crown-y-corona-astral?variant=51872591577426",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
-     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
-     "preventa": false,
-     "cardmarket": 88.92,
-     "cardmarketPct": -21,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
-     "desde": "2026-11-08T23:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
