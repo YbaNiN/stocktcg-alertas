@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T23:53:30",
+ "actualizado": "2026-11-23T00:02:06",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -93,7 +93,7 @@
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "tin",
      "tipoNombre": "Tin",
-     "precio": 38.95,
+     "precio": 35.95,
      "moneda": "EUR",
      "tienda": "Pidopop",
      "idioma": "es",
@@ -106,8 +106,8 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--tin",
      "desde": "2026-10-23T17:40+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
+     "precioAntes": 38.95,
+     "bajadaDesde": "2026-11-23T00:05+01:00"
     },
     {
      "titulo": "Blister con 3 sobres + Promo Sneasel - Megaevolución Fuegos Fantasmales - Castellano",
@@ -3385,6 +3385,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Caja Entrenador Elite Pokemon Caos Creciente Espanol",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-caos-creciente-espanol-91095.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 61.5,
+     "cardmarketPct": 22,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": "2026-11-05T09:20+01:00",
+     "precioAntes": 79.95,
+     "bajadaDesde": "2026-11-23T00:05+01:00"
+    },
+    {
      "titulo": "Elite Trainer Box Caos Creciente",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -3402,27 +3423,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja Entrenador Elite Pokemon Caos Creciente Espanol",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 79.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-caos-creciente-espanol-91095.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 61.5,
-     "cardmarketPct": 30,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": "2026-11-05T09:20+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
