@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T17:29:47",
+ "actualizado": "2026-11-22T17:35:33",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6186,27 +6186,6 @@
      "desde": "2026-11-10T14:15+01:00",
      "precioAntes": 94.95,
      "bajadaDesde": "2026-11-17T01:05+01:00"
-    },
-    {
-     "titulo": "ETB Oscuridad Absoluta | Élite Pitch Black — Español",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 89.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/etb-pitch-black?variant=54451707707715",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 66.05,
-     "cardmarketPct": 36,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-11-22T12:40+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
