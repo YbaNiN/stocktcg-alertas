@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T19:00:04",
+ "actualizado": "2026-11-23T14:44:38",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -267,23 +267,6 @@
    "foto": "fotos/fe01e654f615e5f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Blister 3 Sobres - Dominio Delta ESPAÑOL",
-   "coleccion": "Delta Reign / Dominio Delta",
-   "tipo": "blister",
-   "tipoNombre": "Blister",
-   "precio": 16.95,
-   "moneda": "EUR",
-   "tienda": "CanaryPop",
-   "idioma": "es",
-   "url": "https://canarypop.es/products/blister-3-sobres-dominio-delta-espanol",
-   "img": "https://cdn.shopify.com/s/files/1/0635/2437/2719/files/pokemon-blister-es-bandera-1284.png?v=1793726211&width=400",
-   "foto": "fotos/c82122a8ca8a0eb4.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
    "lanzamiento": null,
    "fecha": null
   },
