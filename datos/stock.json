@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T18:13:05",
+ "actualizado": "2026-11-23T18:24:14",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1595,27 +1595,6 @@
    "nombre": "30 Aniversario",
    "productos": [
     {
-     "titulo": "POKEMON TCG 30th Elite Trainer Box ESPAÑOL",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 95.0,
-     "moneda": "EUR",
-     "tienda": "Otakuya",
-     "idioma": "es",
-     "url": "https://tcg.otakuya.es/products/pokemon-tcg-30th-elite-trainer-box-espanol",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 114.84,
-     "cardmarketPct": -17,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-11-23T18:15+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ETB 30 Aniversario",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "etb",
@@ -1803,27 +1782,6 @@
      "desde": "2026-11-18T18:31+01:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG. 30th Celebration. Booster Bundle (6)",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "Júpiter Juegos",
-     "idioma": "es",
-     "url": "https://jupiterjuegos.com/producto/pokemon-tcg-30th-celebration-booster-bundle-6/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 64.88,
-     "cardmarketPct": 8,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-10-26T19:05+01:00",
-     "precioAntes": 119.95,
-     "bajadaDesde": "2026-10-26T19:15+01:00"
     },
     {
      "titulo": "Booster Bundle - 30th Anniversary [ESP]",
