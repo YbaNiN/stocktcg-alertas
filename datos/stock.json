@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T06:04:28",
+ "actualizado": "2026-11-23T09:08:53",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1061,6 +1061,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "BOOSTER BUNDLE POKEMON MEGA HEROES ASCENDENTES (ESPAÑOL)",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 69.9,
+     "moneda": "EUR",
+     "tienda": "SunnyStore",
+     "idioma": "es",
+     "url": "https://sunnystore.es/products/booster-bundle-pokemon-mega-heroes-ascendentes-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_400x400.jpg",
+     "foto": "fotos/e15177c559cd820c.jpg",
+     "preventa": false,
+     "cardmarket": 67.1,
+     "cardmarketPct": 4,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
+     "desde": "2026-11-23T09:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
