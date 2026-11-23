@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T00:39:30",
+ "actualizado": "2026-11-24T00:42:30",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -256,6 +256,23 @@
    "fecha": null
   },
   {
+   "titulo": "Pokémon TCG - Dominio Delta - Blíster 3 Sobres (Español)",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 18.99,
+   "moneda": "EUR",
+   "tienda": "JJCollection",
+   "idioma": "es",
+   "url": "https://jjcollection.es/products/pokemon-tcg-blister-3-sobres-dominio-delta-espanol",
+   "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-5-Photoroom.webp?v=1794303105&width=400",
+   "foto": "fotos/585e46a2d69896e3.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
    "titulo": "RESERVA – Caja de Sobres Reinado Delta (18 sobres) en Castellano",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "booster-box",
@@ -286,6 +303,23 @@
    "foto": "fotos/c650ce5ba6f3030c.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokémon TCG - Delta Reign - Elite Trainer Box (Inglés y Español) — Español",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 64.99,
+   "moneda": "EUR",
+   "tienda": "JJCollection",
+   "idioma": "es",
+   "url": "https://jjcollection.es/products/pokemon-tcg-etb-delta?variant=55932595175753",
+   "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/1-etb-Photoroom.webp?v=1794303363&width=400",
+   "foto": "fotos/7a7718c6a299c0bc.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": null,
    "fecha": null
   },
