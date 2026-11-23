@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T17:29:06",
+ "actualizado": "2026-11-23T17:34:44",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8749,27 +8749,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box Pokémon Surging Sparks y Chispas Fulgurantes — Español",
-     "coleccion": "Surging Sparks / Chispas Fulgurantes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 114.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-surging-sparks-y-chispas-fulgurantes?variant=51872581878098",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565630_in_400x400.jpg",
-     "foto": "fotos/28dd9ecb044cc77a.jpg",
-     "preventa": false,
-     "cardmarket": 138.64,
-     "cardmarketPct": -17,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/surging-sparks--etb",
-     "desde": "2026-11-23T15:31+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "ETB Chispas Fulgurantes",
      "coleccion": "Surging Sparks / Chispas Fulgurantes",
      "tipo": "etb",
@@ -10094,6 +10073,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-16T04:45+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Caja de Entrenador Élite Dominio Delta de JCC Pokémon",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815789-caja-de-entrenador-elite-dominio-delta-de-jcc-pokemon-bandai%2F",
+     "img": "https://dam.elcorteingles.es/producto/www-001044850504638-00.jpg",
+     "foto": "fotos/1000d9a527dcc921.jpg",
+     "preventa": false,
+     "cardmarket": 65.31,
+     "cardmarketPct": 7,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-23T17:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
