@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T05:44:32",
+ "actualizado": "2026-11-24T09:00:52",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -64,27 +64,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-11-17T10:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja de Entrenador Elite Pokémon Fuegos Fantasmales y Phantasmal Flames — Español",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 99.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/caja-de-entrenador-de-elite-pokemon-fuegos-fantasmales-y-phantasmal-flames?variant=53009015308626",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
-     "foto": "fotos/f07ecea19094f29d.jpg",
-     "preventa": false,
-     "cardmarket": 89.99,
-     "cardmarketPct": 11,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
-     "desde": "2026-11-23T22:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -1103,27 +1082,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
      "desde": "2026-11-17T10:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Elite Trainer Box Pokémon Héroes Ascendentes y Ascended Heroes — Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 139.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-heroes-ascendentes-y-ascended-heroes?variant=53009008460114",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668496_in_400x400.jpg",
-     "foto": "fotos/40799851c627c011.jpg",
-     "preventa": false,
-     "cardmarket": 120.02,
-     "cardmarketPct": 17,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
-     "desde": "2026-11-23T22:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
