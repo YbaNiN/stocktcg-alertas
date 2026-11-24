@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T12:05:09",
+ "actualizado": "2026-11-24T12:39:24",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1552,27 +1552,6 @@
   {
    "nombre": "30 Aniversario",
    "productos": [
-    {
-     "titulo": "Celebraciones 30th ETB",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 99.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/celebraciones-30th-etb/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 113.51,
-     "cardmarketPct": -12,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-11-23T21:40+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "ETB 30 Aniversario",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
