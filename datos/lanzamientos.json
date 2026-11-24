@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T15:50:29",
+ "actualizado": "2026-11-24T22:44:02",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -677,23 +677,6 @@
    "foto": "fotos/766da85696597d22.jpg",
    "preventa": true,
    "stocktcg": null,
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "RESERVA Pokémon Center Fukuoka Special Box",
-   "coleccion": "Pokémon Center Exclusive",
-   "tipo": "collection-box",
-   "tipoNombre": "Collection Box",
-   "precio": 89.9,
-   "moneda": "EUR",
-   "tienda": "La Nave TCG",
-   "idioma": "es",
-   "url": "https://lanavetcg.com/products/pokemon-center-fukuoka-special-box",
-   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/1_006a7251-a8f2-4bd8-8d5a-011e6e0973a5.png?v=1794945500&width=400",
-   "foto": "fotos/e5bfb56265802a98.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/pokemon-center-exclusive--collection-box",
    "lanzamiento": null,
    "fecha": null
   },
