@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T20:23:16",
+ "actualizado": "2026-11-24T21:39:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4499,27 +4499,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Equilibrio Perfecto | Perfect Order — Español",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "Pokemillon",
-     "idioma": "es",
-     "url": "https://pokemillon.com/products/etb-perfect-order?variant=54068354154819",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 65.02,
-     "cardmarketPct": 8,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": "2026-11-22T12:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
