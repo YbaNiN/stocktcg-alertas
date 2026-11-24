@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T16:44:07",
+ "actualizado": "2026-11-24T17:00:08",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -678,6 +678,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--collection-box",
      "desde": "2026-11-18T13:05+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Accessory Pouch Special Collection Prismatic Evolutions y Evoluciones Prismáticas — Español",
+     "coleccion": "Prismatic Evolutions",
+     "tipo": "collection-box",
+     "tipoNombre": "Collection Box",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/accessory-pouch-special-collection-prismatic-evolutions-y-evoluciones-prismaticas?variant=51872560382290",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/606881_in_400x400.jpg",
+     "foto": "fotos/1737d716333cf472.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--collection-box",
+     "desde": "2026-11-24T17:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
