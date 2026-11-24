@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T10:18:41",
+ "actualizado": "2026-11-24T10:29:45",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9697,6 +9697,27 @@
      "desde": "2026-11-12T10:10+01:00",
      "precioAntes": 79.95,
      "bajadaDesde": "2026-11-13T19:55+01:00"
+    },
+    {
+     "titulo": "Dominio Delta ETB",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "Ruta 151",
+     "idioma": "es",
+     "url": "https://ruta151.es/producto/dominio-delta-etb/",
+     "img": "https://ruta151.es/wp-content/uploads/2026/11/Fotos-Productos-6.png",
+     "foto": "fotos/db7956934afc7184.jpg",
+     "preventa": false,
+     "cardmarket": 64.26,
+     "cardmarketPct": 17,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-24T10:31+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "ETB Caja de Entrenador Elite Dominio Delta - Español",
