@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T14:32:54",
+ "actualizado": "2026-11-24T15:50:29",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -218,23 +218,6 @@
    "foto": "fotos/65427fc2081aaa53.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/lumiose-city--mini-tin-display",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Deck Crafter's Collection 2026 — Español",
-   "coleccion": "Deck Crafter's Collection",
-   "tipo": "collection-box",
-   "tipoNombre": "Collection Box",
-   "precio": 19.9,
-   "moneda": "EUR",
-   "tienda": "Pokemillon",
-   "idioma": "es",
-   "url": "https://pokemillon.com/products/deck-crafters-collection-2026?variant=54771082854723",
-   "img": "https://cdn.shopify.com/s/files/1/0608/8045/3878/files/deck-crafters-collection-2026.png?v=1793407208&width=400",
-   "foto": "fotos/9bade051d1095602.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/deck-crafters-collection--collection-box",
    "lanzamiento": null,
    "fecha": null
   },
