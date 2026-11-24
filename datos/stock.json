@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T00:03:57",
+ "actualizado": "2026-11-25T00:44:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -615,27 +615,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--premium-collection",
      "desde": "2026-11-19T12:45+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Poster Collection Pokémon Prismatic Evolutions y Evoluciones Prismáticas — Español",
-     "coleccion": "Prismatic Evolutions",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 44.95,
-     "moneda": "EUR",
-     "tienda": "Kame House Cards",
-     "idioma": "es",
-     "url": "https://kamehousecards.com/products/poster-collection-pokemon-prismatic-evolutions-y-evoluciones-prismaticas?variant=51872569753938",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/606881_in_400x400.jpg",
-     "foto": "fotos/1737d716333cf472.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--collection-box",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
