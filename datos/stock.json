@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T21:54:27",
+ "actualizado": "2026-11-24T22:10:03",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3024,27 +3024,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon TCG Caja Entrenador Élite Caos Creciente",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "DRIM",
-     "idioma": "es",
-     "url": "https://www.drim.es/pokemon-tcg-caja-entrenador-elite-caos-creciente-189898-1/p",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 60.88,
-     "cardmarketPct": 15,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": "2026-11-10T04:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
