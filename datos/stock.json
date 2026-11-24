@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T13:28:53",
+ "actualizado": "2026-11-24T13:55:08",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -93,7 +93,7 @@
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
      "tipo": "tin",
      "tipoNombre": "Tin",
-     "precio": 38.95,
+     "precio": 30.95,
      "moneda": "EUR",
      "tienda": "Pidopop",
      "idioma": "es",
@@ -106,8 +106,8 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--tin",
      "desde": "2026-10-23T17:40+02:00",
-     "precioAntes": null,
-     "bajadaDesde": null
+     "precioAntes": 38.95,
+     "bajadaDesde": "2026-11-24T13:55+01:00"
     },
     {
      "titulo": "Blister con 3 sobres + Promo Sneasel - Megaevolución Fuegos Fantasmales - Castellano",
@@ -5898,7 +5898,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 98.65,
+     "precio": 92.62,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -5907,12 +5907,12 @@
      "foto": "fotos/0a158a6c5402619f.jpg",
      "preventa": false,
      "cardmarket": 64.61,
-     "cardmarketPct": 53,
+     "cardmarketPct": 43,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
-     "precioAntes": 98.9,
-     "bajadaDesde": "2026-11-23T17:40+01:00"
+     "precioAntes": 98.65,
+     "bajadaDesde": "2026-11-24T13:55+01:00"
     },
     {
      "titulo": "ETB – Oscuridad Absoluta – Español – Pokemon",
@@ -9466,6 +9466,27 @@
      "desde": "2026-11-09T12:05+01:00",
      "precioAntes": 75.0,
      "bajadaDesde": "2026-11-21T12:40+01:00"
+    },
+    {
+     "titulo": "Caja de Entrenador Élite Dominio Delta de JCC Pokémon",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.99,
+     "moneda": "EUR",
+     "tienda": "El Corte Inglés",
+     "idioma": "es",
+     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815789-caja-de-entrenador-elite-dominio-delta-de-jcc-pokemon-bandai%2F",
+     "img": "https://dam.elcorteingles.es/producto/www-001044850504638-00.jpg",
+     "foto": "fotos/1000d9a527dcc921.jpg",
+     "preventa": false,
+     "cardmarket": 64.26,
+     "cardmarketPct": 9,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
+     "desde": "2026-11-24T13:55+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "ETB Caja de Entrenador Elite Dominio Delta - Español",
