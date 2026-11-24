@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T15:35:17",
+ "actualizado": "2026-11-24T16:33:04",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9338,27 +9338,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Caja de Entrenador Elite Dominio Delta - Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "CardZone",
-     "idioma": "es",
-     "url": "https://cardzone.es/products/etb-caja-de-entrenador-elite-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0654/3242/0590/files/etb-caja-de-entrenador-elite-dominio-delta-reign-rayquaza-cartas-pokemon-tcg-cardzone.png?v=1793948311&width=400",
-     "foto": "fotos/870215ad6b411944.jpg",
-     "preventa": false,
-     "cardmarket": 64.26,
-     "cardmarketPct": 9,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-24T15:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
