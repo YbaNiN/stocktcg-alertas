@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T09:33:56",
+ "actualizado": "2026-11-24T09:53:31",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1166,6 +1166,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Bundle Pokémon Héroes Ascendentes y Ascended Heroes — Español",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 72.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/booster-bundle-pokemon-fuegos-fantasmales-y-phantasmal-flames-813356008?variant=53009008525650",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_400x400.jpg",
+     "foto": "fotos/e15177c559cd820c.jpg",
+     "preventa": false,
+     "cardmarket": 67.39,
+     "cardmarketPct": 8,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
+     "desde": "2026-11-24T09:55+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
