@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T11:53:26",
+ "actualizado": "2026-11-25T18:59:18",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -250,6 +250,23 @@
    "url": "https://monarkatcg.store/p/reserva-caja-de-sobres-reinado-delta-18-sobres-en-castellano/",
    "img": "https://i0.wp.com/monarkatcg.store/wp-content/uploads/2026/10/img_6918.jpeg?fit=960%2C960&ssl=1",
    "foto": "fotos/bbff40cf7440de39.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "booster-box",
+   "tipoNombre": "Booster Box / Display",
+   "precio": 189.98,
+   "moneda": "EUR",
+   "tienda": "JJCollection",
+   "idioma": "es",
+   "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-delta",
+   "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-1-Photoroom.webp?v=1794303000&width=400",
+   "foto": "fotos/11c7dfa65a58ac0a.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
    "lanzamiento": null,

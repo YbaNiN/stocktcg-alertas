@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T18:53:50",
+ "actualizado": "2026-11-25T18:59:18",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8351,6 +8351,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-23T02:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG - Dominio Delta - Booster Box (Español)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.98,
+     "moneda": "EUR",
+     "tienda": "JJCollection",
+     "idioma": "es",
+     "url": "https://jjcollection.es/products/pokemon-tcg-booster-box-delta",
+     "img": "https://cdn.shopify.com/s/files/1/0959/4431/1113/files/delta-1-Photoroom.webp?v=1794303000&width=400",
+     "foto": "fotos/11c7dfa65a58ac0a.jpg",
+     "preventa": true,
+     "cardmarket": 165.39,
+     "cardmarketPct": 15,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-25T19:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
