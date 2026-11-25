@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T19:12:59",
+ "actualizado": "2026-11-25T19:24:32",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1422,6 +1422,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Mini Latas Pokémon Héroes Ascendentes y Ascended Heroes — Español / Display sellado de 10 mini latas",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "mini-tin-display",
+     "tipoNombre": "Display Mini Tins",
+     "precio": 249.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/mini-latas-pokemon-white-flare-black-bolt-y-llama-blanca-fulgor-negro-813337530?variant=53009012392274",
+     "img": "https://cdn.shopify.com/s/files/1/1008/2811/9378/files/rn-image_picker_lib_temp_5679a5b1-22f4-4efe-abf2-853fdb3e1069.jpg?v=1775233962&width=400",
+     "foto": "fotos/a162282258df8c8a.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--mini-tin-display",
+     "desde": "2026-11-25T19:25+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Heroes Ascendentes Mini Lata",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "mini-tin",
@@ -1460,6 +1481,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--mini-tin",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Mini Latas Pokémon Héroes Ascendentes y Ascended Heroes — Español / Pikachu",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "mini-tin",
+     "tipoNombre": "Mini Tin",
+     "precio": 24.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/mini-latas-pokemon-white-flare-black-bolt-y-llama-blanca-fulgor-negro-813337530?variant=53009012064594",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668530_in_400x400.jpg",
+     "foto": "fotos/05b1b0b8c754c39d.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--mini-tin",
+     "desde": "2026-11-25T19:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
