@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T18:59:18",
+ "actualizado": "2026-11-25T19:10:22",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -10146,27 +10146,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Corona Astral",
-     "coleccion": "Stellar Crown",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/pokemon/corona-astral-etb/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
-     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
-     "preventa": false,
-     "cardmarket": 84.55,
-     "cardmarketPct": -17,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
-     "desde": "2026-11-17T10:50+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
