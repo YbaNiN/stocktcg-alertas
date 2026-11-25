@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T22:00:41",
+ "actualizado": "2026-11-25T23:04:37",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1721,6 +1721,27 @@
      "bajadaDesde": "2026-11-20T17:20+01:00"
     },
     {
+     "titulo": "30 Aniversario Booster Bundle",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 59.9,
+     "moneda": "EUR",
+     "tienda": "BimbaCards",
+     "idioma": "es",
+     "url": "https://bimbacards.com/pokemon/30-aniversario-booster-bundle-pokemon-tcg/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 64.15,
+     "cardmarketPct": -7,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": 69.9,
+     "bajadaDesde": "2026-11-25T23:05+01:00"
+    },
+    {
      "titulo": "Celebraciones 30th Booster Bundle",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -1759,27 +1780,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
      "desde": "2026-11-18T16:05+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "30 Aniversario Booster Bundle",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 69.9,
-     "moneda": "EUR",
-     "tienda": "BimbaCards",
-     "idioma": "es",
-     "url": "https://bimbacards.com/pokemon/30-aniversario-booster-bundle-pokemon-tcg/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 64.15,
-     "cardmarketPct": 9,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-11-17T10:50+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
