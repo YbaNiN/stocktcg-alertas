@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T21:09:39",
+ "actualizado": "2026-11-25T21:18:26",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2587,6 +2587,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Megaevolución: Caos Creciente - Español",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 54.99,
+     "moneda": "EUR",
+     "tienda": "TCG VAL",
+     "idioma": "es",
+     "url": "https://www.tcgval.com/products/sin-titulo-29may_16-10-53",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
+     "foto": "fotos/e6d5c1e6ca551409.jpg",
+     "preventa": false,
+     "cardmarket": 59.6,
+     "cardmarketPct": -8,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
+     "desde": null,
+     "precioAntes": 59.99,
+     "bajadaDesde": "2026-11-12T17:25+01:00"
+    },
+    {
      "titulo": "Elite Trainer Box Caos Creciente",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -2606,27 +2627,6 @@
      "desde": "2026-11-23T14:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Megaevolución: Caos Creciente - Español",
-     "coleccion": "Chaos Rising / Caos Creciente",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 55.0,
-     "moneda": "EUR",
-     "tienda": "TCG VAL",
-     "idioma": "es",
-     "url": "https://www.tcgval.com/products/sin-titulo-29may_16-10-53",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_400x400.jpg",
-     "foto": "fotos/e6d5c1e6ca551409.jpg",
-     "preventa": false,
-     "cardmarket": 59.6,
-     "cardmarketPct": -8,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/chaos-rising--etb",
-     "desde": null,
-     "precioAntes": 59.99,
-     "bajadaDesde": "2026-11-12T17:25+01:00"
     },
     {
      "titulo": "Pokémon TCG Elite Trainer Box ETB Caos Creciente - Español",
@@ -3999,6 +3999,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "ETB Megaevolución: Equilibrio Perfecto - Español",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 54.99,
+     "moneda": "EUR",
+     "tienda": "TCG VAL",
+     "idioma": "es",
+     "url": "https://www.tcgval.com/products/sin-titulo-17abr_18-02",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
+     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
+     "preventa": false,
+     "cardmarket": 63.81,
+     "cardmarketPct": -14,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
+     "desde": null,
+     "precioAntes": 59.99,
+     "bajadaDesde": "2026-11-12T17:25+01:00"
+    },
+    {
      "titulo": "POKEMON - ETB Equilibrio Perfecto - Español",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
@@ -4018,27 +4039,6 @@
      "desde": "2026-10-26T11:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Megaevolución: Equilibrio Perfecto - Español",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 55.0,
-     "moneda": "EUR",
-     "tienda": "TCG VAL",
-     "idioma": "es",
-     "url": "https://www.tcgval.com/products/sin-titulo-17abr_18-02",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 63.81,
-     "cardmarketPct": -14,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": null,
-     "precioAntes": 59.99,
-     "bajadaDesde": "2026-11-12T17:25+01:00"
     },
     {
      "titulo": "ETB Caja de Entrenador Elite Perfect Order ESP-ING",
