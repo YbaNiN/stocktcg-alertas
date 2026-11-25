@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T10:19:31",
+ "actualizado": "2026-11-25T11:47:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -8414,6 +8414,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-17T17:45+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG – Megaevolución: Dominio Delta – Booster Box (ES)",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 189.99,
+     "moneda": "EUR",
+     "tienda": "VeraGames",
+     "idioma": "es",
+     "url": "https://veragames.es/products/pokemon-tcg-megaevolucion-dominio-delta-booster-box-es",
+     "img": "https://cdn.shopify.com/s/files/1/1023/7273/7371/files/fdf355ff590b_img_5412_2.webp?v=1795603179&width=400",
+     "foto": "fotos/976e79305cbe0a52.jpg",
+     "preventa": false,
+     "cardmarket": 166.52,
+     "cardmarketPct": 14,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-25T11:50+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
