@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T02:33:29",
+ "actualizado": "2026-11-25T11:53:26",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -137,7 +137,7 @@
    "fecha": null
   },
   {
-   "titulo": "Colección con Figura 30 Aniversario Aleatoria – Español – Reserva",
+   "titulo": "Colección con Figura 30 Aniversario Aleatoria – Español",
    "coleccion": "30th Celebration / Celebración 30 Aniversario",
    "tipo": "collection-box",
    "tipoNombre": "Collection Box",
@@ -167,23 +167,6 @@
    "foto": "fotos/bfcc5b3249610bf5.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/30th-anniversary--mini-tin",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Colección Premium Ditto – Celebración 30 Aniversario – Español – Reserva",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "premium-collection",
-   "tipoNombre": "Premium Collection",
-   "precio": 89.9,
-   "moneda": "EUR",
-   "tienda": "Top Rocket Shop",
-   "idioma": "es",
-   "url": "https://toprocketshop.com/products/coleccion-premium-ditto-celebracion-30-aniversario-espanol-reserva",
-   "img": "https://cdn.shopify.com/s/files/1/0955/6223/6243/files/ditto30th.png?v=1794390082&width=400",
-   "foto": "fotos/ace97959bde922f9.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--premium-collection",
    "lanzamiento": null,
    "fecha": null
   },
