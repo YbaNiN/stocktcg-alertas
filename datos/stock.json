@@ -1,9 +1,30 @@
 {
- "actualizado": "2026-11-25T18:43:37",
+ "actualizado": "2026-11-25T18:53:50",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
    "productos": [
+    {
+     "titulo": "Pokémon TCG - Elite Trainer Box Phantasmal Flames Mega Evolution (Español) (dañada)",
+     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.98,
+     "moneda": "EUR",
+     "tienda": "JJCollection",
+     "idioma": "es",
+     "url": "https://jjcollection.es/products/mega-evolution-phantasmal-flames-elite-trainer-box-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
+     "foto": "fotos/f07ecea19094f29d.jpg",
+     "preventa": false,
+     "cardmarket": 86.4,
+     "cardmarketPct": -19,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
+     "desde": "2026-11-25T18:55+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
     {
      "titulo": "Caja de cartas Pokemon Elite Trainer Box Megaevolución Fuegos Fantasmales",
      "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
@@ -18,7 +39,7 @@
      "foto": "fotos/84d8cb84cb523939.jpg",
      "preventa": false,
      "cardmarket": 86.4,
-     "cardmarketPct": 16,
+     "cardmarketPct": -19,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-11-21T02:35+01:00",
@@ -60,7 +81,7 @@
      "foto": "fotos/84d8cb84cb523939.jpg",
      "preventa": false,
      "cardmarket": 86.4,
-     "cardmarketPct": 16,
+     "cardmarketPct": -19,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-11-24T02:35+01:00",
