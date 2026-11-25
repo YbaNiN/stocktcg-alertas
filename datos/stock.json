@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T21:18:26",
+ "actualizado": "2026-11-25T21:39:09",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9065,27 +9065,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-23T13:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "ETB Megaevolución: Dominio Delta - Español",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 64.99,
-     "moneda": "EUR",
-     "tienda": "TCG VAL",
-     "idioma": "es",
-     "url": "https://www.tcgval.com/products/etb-megaevolucion-dominio-delta-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0915/2086/0489/files/IMG_0476.png?v=1794946556&width=400",
-     "foto": "fotos/dd17515a550d1984.jpg",
-     "preventa": false,
-     "cardmarket": 62.38,
-     "cardmarketPct": 4,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-17T21:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
