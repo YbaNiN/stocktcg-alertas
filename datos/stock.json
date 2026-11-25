@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T21:39:09",
+ "actualizado": "2026-11-25T21:50:38",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4696,7 +4696,7 @@
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 100.28,
+     "precio": 101.14,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -4705,7 +4705,7 @@
      "foto": "fotos/6cb54c5c3b7d16c3.jpg",
      "preventa": false,
      "cardmarket": 63.81,
-     "cardmarketPct": 57,
+     "cardmarketPct": 59,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
      "desde": "2026-11-18T21:40+01:00",
@@ -5940,7 +5940,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 98.44,
+     "precio": 92.62,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -5949,12 +5949,12 @@
      "foto": "fotos/0a158a6c5402619f.jpg",
      "preventa": false,
      "cardmarket": 63.61,
-     "cardmarketPct": 55,
+     "cardmarketPct": 46,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
-     "precioAntes": 98.65,
-     "bajadaDesde": "2026-11-24T13:55+01:00"
+     "precioAntes": 98.44,
+     "bajadaDesde": "2026-11-25T21:50+01:00"
     },
     {
      "titulo": "ETB – Oscuridad Absoluta – Español – Pokemon",
