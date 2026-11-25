@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T05:55:02",
+ "actualizado": "2026-11-25T07:39:58",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9999,6 +9999,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Elite Trainer Box Pokémon Stellar Crown y Corona Astral — Español",
+     "coleccion": "Stellar Crown",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 69.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/elite-trainer-box-pokemon-stellar-crown-y-corona-astral?variant=51872591577426",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
+     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
+     "preventa": false,
+     "cardmarket": 88.98,
+     "cardmarketPct": -21,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
+     "desde": "2026-11-25T07:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
