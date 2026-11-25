@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T21:50:38",
+ "actualizado": "2026-11-25T22:00:41",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1145,27 +1145,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--booster-bundle",
      "desde": "2026-11-24T09:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon Mega Meganium ex Megaevolución Héroes Ascendentes Juego de Cartas Coleccionables +6 años (Unboxing)",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "collection-box",
-     "tipoNombre": "Collection Box",
-     "precio": 34.99,
-     "moneda": "EUR",
-     "tienda": "Carrefour",
-     "idioma": "es",
-     "url": "https://www.carrefour.es/pokemon-mega-meganium-ex-megaevolucion-heroes-ascendentes-juego-de-cartas-coleccionables-6-anos-unboxing/VC4A-33724489/p",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_400x400.jpg",
-     "foto": "fotos/60d3327244e384a3.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--collection-box",
-     "desde": "2026-11-17T21:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
