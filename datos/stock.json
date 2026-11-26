@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T17:08:21",
+ "actualizado": "2026-11-26T17:14:05",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3432,27 +3432,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pkm Mega Evolution Perfect Order Booster Display 36 En",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 170.0,
-     "moneda": "EUR",
-     "tienda": "Minas de Moria",
-     "idioma": "es",
-     "url": "https://minasdemoria.com/juegos-de-cartas-coleccionables/10022-pkm-mega-evolution-perfect-order-booster-display-36-en.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 174.31,
-     "cardmarketPct": -2,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": "2026-10-29T14:31+01:00",
-     "precioAntes": 180.0,
-     "bajadaDesde": "2026-11-26T17:10+01:00"
-    },
-    {
      "titulo": "Booster Box Equilibrio Perfecto | POKÉMON | Español",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "booster-box",
@@ -3598,6 +3577,27 @@
      "desde": null,
      "precioAntes": 189.99,
      "bajadaDesde": "2026-11-15T02:35+01:00"
+    },
+    {
+     "titulo": "Pkm Mega Evolution Perfect Order Booster Display 36 En",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 180.0,
+     "moneda": "EUR",
+     "tienda": "Minas de Moria",
+     "idioma": "es",
+     "url": "https://minasdemoria.com/juegos-de-cartas-coleccionables/10022-pkm-mega-evolution-perfect-order-booster-display-36-en.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
+     "foto": "fotos/a28fe6709aa672ea.jpg",
+     "preventa": false,
+     "cardmarket": 174.31,
+     "cardmarketPct": 3,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
+     "desde": "2026-10-29T14:31+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "POKEMON - Booster Box Equilibrio Perfecto 36 Sobres - Español",
