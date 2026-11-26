@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T09:49:15",
+ "actualizado": "2026-11-26T11:32:27",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9424,27 +9424,6 @@
      "desde": "2026-11-09T12:05+01:00",
      "precioAntes": 75.0,
      "bajadaDesde": "2026-11-21T12:40+01:00"
-    },
-    {
-     "titulo": "Caja de Entrenador Élite Dominio Delta de JCC Pokémon",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "El Corte Inglés",
-     "idioma": "es",
-     "url": "https://www.awin1.com/cread.php?awinmid=13075&awinaffid=2927937&clickref=stocktcg_el-corte-ingles&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fjuguetes%2FA203815789-caja-de-entrenador-elite-dominio-delta-de-jcc-pokemon-bandai%2F",
-     "img": "https://dam.elcorteingles.es/producto/www-001044850504638-00.jpg",
-     "foto": "fotos/1000d9a527dcc921.jpg",
-     "preventa": false,
-     "cardmarket": 62.38,
-     "cardmarketPct": 12,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-26T09:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "ETB Caja de Entrenador Elite Dominio Delta - Español",
