@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T21:52:51",
+ "actualizado": "2026-11-26T22:00:05",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1872,7 +1872,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
      "tipoNombre": "Booster Bundle",
-     "precio": 83.95,
+     "precio": 79.9,
      "moneda": "EUR",
      "tienda": "Pokemillon",
      "idioma": "es",
@@ -1881,7 +1881,7 @@
      "foto": "fotos/91a213f34f133eae.jpg",
      "preventa": false,
      "cardmarket": 63.17,
-     "cardmarketPct": 33,
+     "cardmarketPct": 26,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
      "desde": "2026-11-26T21:45+01:00",
@@ -5835,7 +5835,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 98.21,
+     "precio": 98.2,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
