@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T16:59:54",
+ "actualizado": "2026-11-26T17:02:56",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3579,6 +3579,27 @@
      "bajadaDesde": "2026-11-15T02:35+01:00"
     },
     {
+     "titulo": "Pkm Mega Evolution Perfect Order Booster Display 36 En",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 180.0,
+     "moneda": "EUR",
+     "tienda": "Minas de Moria",
+     "idioma": "es",
+     "url": "https://minasdemoria.com/juegos-de-cartas-coleccionables/10022-pkm-mega-evolution-perfect-order-booster-display-36-en.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
+     "foto": "fotos/a28fe6709aa672ea.jpg",
+     "preventa": false,
+     "cardmarket": 174.31,
+     "cardmarketPct": 3,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
+     "desde": "2026-10-29T14:31+01:00",
+     "precioAntes": 200.0,
+     "bajadaDesde": "2026-11-26T17:05+01:00"
+    },
+    {
      "titulo": "POKEMON - Booster Box Equilibrio Perfecto 36 Sobres - Español",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "booster-box",
@@ -3743,27 +3764,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": "2026-11-23T14:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pkm Mega Evolution Perfect Order Booster Display 36 En",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 200.0,
-     "moneda": "EUR",
-     "tienda": "Minas de Moria",
-     "idioma": "es",
-     "url": "https://minasdemoria.com/juegos-de-cartas-coleccionables/10022-pkm-mega-evolution-perfect-order-booster-display-36-en.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 174.31,
-     "cardmarketPct": 15,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": "2026-10-29T14:31+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
