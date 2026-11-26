@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T02:38:04",
+ "actualizado": "2026-11-26T05:53:33",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5856,7 +5856,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 92.62,
+     "precio": 98.33,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
@@ -5865,7 +5865,7 @@
      "foto": "fotos/0a158a6c5402619f.jpg",
      "preventa": false,
      "cardmarket": 63.61,
-     "cardmarketPct": 46,
+     "cardmarketPct": 55,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
      "desde": null,
