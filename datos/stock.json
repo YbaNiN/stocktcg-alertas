@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T00:15:27",
+ "actualizado": "2026-11-27T00:23:36",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1720,27 +1720,6 @@
   {
    "nombre": "30 Aniversario",
    "productos": [
-    {
-     "titulo": "POKEMON - 30th Aniversario - Español — 30th Aniversario - ETB Caja Entrenador",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 85.0,
-     "moneda": "EUR",
-     "tienda": "Factory Cards",
-     "idioma": "es",
-     "url": "https://factorycardstcg.com/products/pokemon-30th-aniversario-espanol?variant=57333526987017",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 111.84,
-     "cardmarketPct": -24,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-11-27T00:10+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "ETB 30 Aniversario",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
