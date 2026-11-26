@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T16:38:02",
+ "actualizado": "2026-11-26T16:59:54",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -7270,27 +7270,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
      "desde": "2026-11-20T15:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon Escarlata y Púrpura 3 Llamas Obsidianas: Caja de Sobres (36 Sobres) Español",
-     "coleccion": "Obsidian Flames",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 196.69,
-     "moneda": "EUR",
-     "tienda": "Padis Store",
-     "idioma": "es",
-     "url": "https://www.padis-store.com/40700-escarlata-y-purpura-3-llamas-obsidianas-caja-de-sobres-36-espanol.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_400x400.jpg",
-     "foto": "fotos/1ae5b73e408870a6.jpg",
-     "preventa": false,
-     "cardmarket": 220.6,
-     "cardmarketPct": -11,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/obsidian-flames--booster-box",
-     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
