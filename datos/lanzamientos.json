@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T16:20:23",
+ "actualizado": "2026-11-26T17:19:39",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -102,6 +102,21 @@
      "url": "https://flashstore.es/producto/celebraciones-30th-tin/",
      "img": "https://flashstore.es/wp-content/uploads/2026/09/30thtin.jpg",
      "foto": "fotos/037817947a97c2b6.jpg",
+     "preventa": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
+    },
+    {
+     "titulo": "Pokemon TCG: Colección 30 Aniversario  Lata (Sylveon EX/Greninja EX) (Español)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "tin",
+     "tipoNombre": "Tin",
+     "precio": 99.95,
+     "moneda": "EUR",
+     "tienda": "Júpiter Juegos",
+     "idioma": "es",
+     "url": "https://jupiterjuegos.com/producto/pokemon-tcg-coleccion-30-aniversario-%c2%96-lata-sylveon-exgreninja-ex-espanol-2/",
+     "img": "",
+     "foto": null,
      "preventa": false,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--tin"
     }
