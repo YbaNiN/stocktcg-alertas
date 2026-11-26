@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T00:04:00",
+ "actualizado": "2026-11-26T01:44:48",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -4627,27 +4627,6 @@
      "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon Megaevolución Equilibrio Perfecto, Caja Entrenador Élite +6 años (Unboxing)",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 101.14,
-     "moneda": "EUR",
-     "tienda": "Carrefour",
-     "idioma": "es",
-     "url": "https://www.carrefour.es/pokemon-megaevolucion-equilibrio-perfecto-caja-entrenador-elite-6-anos-unboxing/VC4A-33279454/p",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_400x400.jpg",
-     "foto": "fotos/6cb54c5c3b7d16c3.jpg",
-     "preventa": false,
-     "cardmarket": 63.81,
-     "cardmarketPct": 59,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--etb",
-     "desde": "2026-11-18T21:40+01:00",
-     "precioAntes": 108.49,
-     "bajadaDesde": "2026-11-20T09:20+01:00"
     }
    ]
   },
