@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T17:19:39",
+ "actualizado": "2026-11-27T00:09:51",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -420,6 +420,40 @@
    "foto": "fotos/743e25f95b7b4d36.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/first-partner--collection-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "POKEMON - Blister 3 Sobres Fuegos Fantasmales — Español",
+   "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 25.0,
+   "moneda": "EUR",
+   "tienda": "Factory Cards",
+   "idioma": "es",
+   "url": "https://factorycardstcg.com/products/blister-3-sobres-pokemon-megaevolucion-ingles?variant=57009759158537",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/654156_in_400x400.jpg",
+   "foto": "fotos/dbab981209708c75.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/phantasmal-flames--blister",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "POKEMON - ETB Fuegos Fantasmales — Español",
+   "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
+   "tipo": "etb",
+   "tipoNombre": "ETB",
+   "precio": 80.0,
+   "moneda": "EUR",
+   "tienda": "Factory Cards",
+   "idioma": "es",
+   "url": "https://factorycardstcg.com/products/reserva-pokemon-caja-mega-02-noviembre-premium-llamas-fantasmales-espanol-copia?variant=57009733107977",
+   "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
+   "foto": "fotos/f07ecea19094f29d.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
    "lanzamiento": null,
    "fecha": null
   },
