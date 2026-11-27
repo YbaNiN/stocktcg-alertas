@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T13:10:23",
+ "actualizado": "2026-11-27T13:20:34",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5976,6 +5976,27 @@
      "desde": "2026-11-10T14:15+01:00",
      "precioAntes": 94.95,
      "bajadaDesde": "2026-11-17T01:05+01:00"
+    },
+    {
+     "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 89.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-oscuridad-absoluta-espanol-91946.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 63.92,
+     "cardmarketPct": 41,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-11-27T13:20+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
