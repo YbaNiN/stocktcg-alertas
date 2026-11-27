@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T17:24:34",
+ "actualizado": "2026-11-27T17:35:04",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6676,6 +6676,27 @@
      "bajadaDesde": "2026-11-11T17:20+01:00"
     },
     {
+     "titulo": "Caja 36 sobres: Juntos de Aventuras (Español)",
+     "coleccion": "Journey Together",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 179.95,
+     "moneda": "EUR",
+     "tienda": "GrilleCards",
+     "idioma": "es",
+     "url": "https://grillecards.com/products/caja-36-sobres-juntos-de-aventuras-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/610931_in_400x400.jpg",
+     "foto": "fotos/9505a0d4ee21e438.jpg",
+     "preventa": false,
+     "cardmarket": 191.27,
+     "cardmarketPct": -6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/journey-together--booster-box",
+     "desde": "2026-11-27T17:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "POKEMON - Booster Box Juntos de Aventuras 36 Sobres - Español",
      "coleccion": "Journey Together",
      "tipo": "booster-box",
@@ -7970,6 +7991,27 @@
      "desde": null,
      "precioAntes": 189.95,
      "bajadaDesde": "2026-11-11T17:10+01:00"
+    },
+    {
+     "titulo": "Caja 36 sobres: Chispas Fulgurantes (Español)",
+     "coleccion": "Surging Sparks / Chispas Fulgurantes",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 179.95,
+     "moneda": "EUR",
+     "tienda": "GrilleCards",
+     "idioma": "es",
+     "url": "https://grillecards.com/products/caja-36-sobres-chispas-fulgurantes-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/565606_in_400x400.jpg",
+     "foto": "fotos/f93917ec0febd0ae.jpg",
+     "preventa": false,
+     "cardmarket": 232.88,
+     "cardmarketPct": -23,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/surging-sparks--booster-box",
+     "desde": "2026-11-27T17:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon TCG - Booster Box Surging Sparks (Inglés & Español) — Español",
