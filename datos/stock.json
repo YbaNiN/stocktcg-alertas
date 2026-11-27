@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T22:50:12",
+ "actualizado": "2026-11-28T00:18:52",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2036,6 +2036,27 @@
      "bajadaDesde": "2026-11-25T21:10+01:00"
     },
     {
+     "titulo": "Pack 6 Sobres Pokemon 30 Aniversario Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "booster-bundle",
+     "tipoNombre": "Booster Bundle",
+     "precio": 74.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/pack-6-sobres-pokemon-30-aniversario-espanol-93256.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
+     "foto": "fotos/91a213f34f133eae.jpg",
+     "preventa": false,
+     "cardmarket": 62.58,
+     "cardmarketPct": 20,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
+     "desde": "2026-11-27T09:05+01:00",
+     "precioAntes": 93.95,
+     "bajadaDesde": "2026-11-28T00:20+01:00"
+    },
+    {
      "titulo": "Pokémon - 30 Aniversario: Bundle (6 Sobres) Español",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "booster-bundle",
@@ -2076,27 +2097,6 @@
      "desde": "2026-11-26T21:45+01:00",
      "precioAntes": 89.95,
      "bajadaDesde": "2026-11-26T21:55+01:00"
-    },
-    {
-     "titulo": "Pack 6 Sobres Pokemon 30 Aniversario Español",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "booster-bundle",
-     "tipoNombre": "Booster Bundle",
-     "precio": 93.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/pack-6-sobres-pokemon-30-aniversario-espanol-93256.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-     "foto": "fotos/91a213f34f133eae.jpg",
-     "preventa": false,
-     "cardmarket": 62.58,
-     "cardmarketPct": 50,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
-     "desde": "2026-11-27T09:05+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     }
    ]
   },
@@ -6188,6 +6188,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 83.95,
+     "moneda": "EUR",
+     "tienda": "Pidopop",
+     "idioma": "es",
+     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-oscuridad-absoluta-espanol-91946.html",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 63.07,
+     "cardmarketPct": 33,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": "2026-11-27T17:40+01:00",
+     "precioAntes": 97.95,
+     "bajadaDesde": "2026-11-28T00:20+01:00"
+    },
+    {
      "titulo": "ETB Estuche Cartas Entrenador Elite Expansion Megaevolucion Oscuridad Absoluta Pokemon Espanol",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -6228,27 +6249,6 @@
      "desde": null,
      "precioAntes": 98.44,
      "bajadaDesde": "2026-11-25T21:50+01:00"
-    },
-    {
-     "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 97.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-oscuridad-absoluta-espanol-91946.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 63.07,
-     "cardmarketPct": 55,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-11-27T17:40+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "ETB – Oscuridad Absoluta – Español – Pokemon",
