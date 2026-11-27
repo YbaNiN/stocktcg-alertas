@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T17:48:36",
+ "actualizado": "2026-11-27T17:55:08",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1746,7 +1746,7 @@
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 74.99,
+     "precio": 79.99,
      "moneda": "EUR",
      "tienda": "ElBazarTCG",
      "idioma": "es",
@@ -1755,7 +1755,7 @@
      "foto": "fotos/3475a6f4a57ec163.jpg",
      "preventa": false,
      "cardmarket": 111.84,
-     "cardmarketPct": -33,
+     "cardmarketPct": -28,
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-11-27T17:50+01:00",
@@ -6276,7 +6276,7 @@
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
      "tipoNombre": "ETB",
-     "precio": 98.02,
+     "precio": 97.96,
      "moneda": "EUR",
      "tienda": "Carrefour",
      "idioma": "es",
