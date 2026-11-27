@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T12:08:41",
+ "actualizado": "2026-11-27T12:13:48",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1738,27 +1738,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-11-20T20:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja de Entrenador Elite 30 Aniversario",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 99.99,
-     "moneda": "EUR",
-     "tienda": "Darizard9",
-     "idioma": "es",
-     "url": "https://www.darizard9.com/products/caja-de-entrnador-elte-celebracion-30-anivrario",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 111.84,
-     "cardmarketPct": -11,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-11-27T12:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -9506,27 +9485,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
      "desde": "2026-11-15T18:25+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokemon Dominio Delta Elite Trainer Box",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.95,
-     "moneda": "EUR",
-     "tienda": "EpicDeck",
-     "idioma": "es",
-     "url": "https://epicdeck.es/products/pokemon-dominio-delta-elite-trainer-box",
-     "img": "https://cdn.shopify.com/s/files/1/0942/3509/9523/files/InShot_20261118_081132833.jpg?v=1795004060&width=400",
-     "foto": "fotos/5c7379f56e5bf2c6.jpg",
-     "preventa": false,
-     "cardmarket": 62.18,
-     "cardmarketPct": 12,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-19T03:15+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
