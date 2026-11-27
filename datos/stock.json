@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T01:43:33",
+ "actualizado": "2026-11-27T02:03:50",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -43,27 +43,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-11-25T18:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "POKEMON - ETB Fuegos Fantasmales — Español",
-     "coleccion": "Phantasmal Flames / Fuegos Fantasmales",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 80.0,
-     "moneda": "EUR",
-     "tienda": "Factory Cards",
-     "idioma": "es",
-     "url": "https://factorycardstcg.com/products/reserva-pokemon-caja-mega-02-noviembre-premium-llamas-fantasmales-espanol-copia?variant=57009733107977",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_400x400.jpg",
-     "foto": "fotos/f07ecea19094f29d.jpg",
-     "preventa": true,
-     "cardmarket": 87.88,
-     "cardmarketPct": -9,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
-     "desde": "2026-11-27T00:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
