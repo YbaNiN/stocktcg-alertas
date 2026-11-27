@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T19:15:07",
+ "actualizado": "2026-11-27T20:18:19",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9170,6 +9170,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
      "desde": "2026-11-08T18:15+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG: Delta Reign Booster Display (36 packs) — Spanish",
+     "coleccion": "Delta Reign / Dominio Delta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 216.0,
+     "moneda": "EUR",
+     "tienda": "Universe TCG",
+     "idioma": "es",
+     "url": "https://universetcg.com/products/pokemon-mega-evolution-delta-reign-display?variant=55621241012565",
+     "img": "https://cdn.shopify.com/s/files/1/0912/3554/9525/files/pkw_11743672500565_me1_0.jpg?v=1794261427&width=400",
+     "foto": "fotos/8cc6267fad4e24c6.jpg",
+     "preventa": false,
+     "cardmarket": 160.73,
+     "cardmarketPct": 34,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/delta-reign--booster-box",
+     "desde": "2026-11-27T20:20+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
