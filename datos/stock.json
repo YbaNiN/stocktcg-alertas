@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T12:30:12",
+ "actualizado": "2026-11-27T13:10:23",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1738,6 +1738,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-11-20T20:55+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG: 30 Aniversario Especial Pokémon Elite Trainer Box — Español",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 99.95,
+     "moneda": "EUR",
+     "tienda": "Pokezilla",
+     "idioma": "es",
+     "url": "https://pokezilla.com/products/pokemon-tcg-30-aniversario-especial-pokemon-preventa?variant=43614516215898",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
+     "foto": "fotos/3475a6f4a57ec163.jpg",
+     "preventa": false,
+     "cardmarket": 111.84,
+     "cardmarketPct": -11,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
+     "desde": "2026-11-27T13:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
