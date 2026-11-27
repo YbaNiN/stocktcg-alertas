@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T17:40:15",
+ "actualizado": "2026-11-27T17:48:36",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1741,6 +1741,27 @@
   {
    "nombre": "30 Aniversario",
    "productos": [
+    {
+     "titulo": "(1 MAX PERSONA y APERTURA DIRECTO)ETB 30th (ESP)",
+     "coleccion": "30th Celebration / Celebración 30 Aniversario",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 74.99,
+     "moneda": "EUR",
+     "tienda": "ElBazarTCG",
+     "idioma": "es",
+     "url": "https://elbazartcg.com/products/1max-persona-y-apertura-directo-o-sellado-rotoetb-30th-esp",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
+     "foto": "fotos/3475a6f4a57ec163.jpg",
+     "preventa": false,
+     "cardmarket": 111.84,
+     "cardmarketPct": -33,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
+     "desde": "2026-11-27T17:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
     {
      "titulo": "ETB 30 Aniversario",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
