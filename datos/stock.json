@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T22:00:03",
+ "actualizado": "2026-11-27T22:34:51",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -10464,27 +10464,6 @@
   {
    "nombre": "Corona Astral",
    "productos": [
-    {
-     "titulo": "Elite Trainer Box Corona Astral ES – Pokémon TCG",
-     "coleccion": "Stellar Crown",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 66.49,
-     "moneda": "EUR",
-     "tienda": "Madrid Norte TCG",
-     "idioma": "es",
-     "url": "https://madridnortetcg.com/products/elite-trainer-box-corona-astral-es-pokemon-tcg",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/557350_in_400x400.jpg",
-     "foto": "fotos/1fb2eb176ffcf2f4.jpg",
-     "preventa": false,
-     "cardmarket": 83.57,
-     "cardmarketPct": -20,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/stellar-crown--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "ETB Corona Astral (ESP)",
      "coleccion": "Stellar Crown",
