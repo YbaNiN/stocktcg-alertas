@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T11:05:24",
+ "actualizado": "2026-11-27T11:20:22",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3740,27 +3740,6 @@
      "preventa": false,
      "cardmarket": 175.31,
      "cardmarketPct": -32,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Booster Box Equilibrio Perfecto | Perfect Order",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 189.9,
-     "moneda": "EUR",
-     "tienda": "TopDeck",
-     "idioma": "es",
-     "url": "https://topdeck.es/tienda-de-cartas-coleccionables/booster-box-equilibrio-perfecto-perfect-order/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 175.31,
-     "cardmarketPct": 8,
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": null,
