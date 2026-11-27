@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T20:18:19",
+ "actualizado": "2026-11-27T22:00:03",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -6209,6 +6209,27 @@
      "bajadaDesde": "2026-11-17T01:05+01:00"
     },
     {
+     "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "etb",
+     "tipoNombre": "ETB",
+     "precio": 97.85,
+     "moneda": "EUR",
+     "tienda": "Carrefour",
+     "idioma": "es",
+     "url": "https://www.carrefour.es/pokemon-megaevolucion-oscuridad-absoluta-caja-de-entrenador-elite-6-anos/VC4A-34198433/p",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
+     "foto": "fotos/0a158a6c5402619f.jpg",
+     "preventa": false,
+     "cardmarket": 63.07,
+     "cardmarketPct": 55,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
+     "desde": null,
+     "precioAntes": 98.44,
+     "bajadaDesde": "2026-11-25T21:50+01:00"
+    },
+    {
      "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
      "coleccion": "Pitch Black / Oscuridad Absoluta",
      "tipo": "etb",
@@ -6228,27 +6249,6 @@
      "desde": "2026-11-27T17:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 97.96,
-     "moneda": "EUR",
-     "tienda": "Carrefour",
-     "idioma": "es",
-     "url": "https://www.carrefour.es/pokemon-megaevolucion-oscuridad-absoluta-caja-de-entrenador-elite-6-anos/VC4A-34198433/p",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 63.07,
-     "cardmarketPct": 55,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": 98.44,
-     "bajadaDesde": "2026-11-25T21:50+01:00"
     },
     {
      "titulo": "ETB – Oscuridad Absoluta – Español – Pokemon",
