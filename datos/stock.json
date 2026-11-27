@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T14:59:20",
+ "actualizado": "2026-11-27T15:28:46",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -657,27 +657,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--premium-collection",
      "desde": "2026-11-17T10:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Evoluciones Prismaticas Lucario & Tyranitar Premium Collection",
-     "coleccion": "Prismatic Evolutions",
-     "tipo": "premium-collection",
-     "tipoNombre": "Premium Collection",
-     "precio": 229.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/evoluciones-prismaticas-lucario-tyranitar-premium-collection/",
-     "img": "https://flashstore.es/wp-content/uploads/2025/09/Diseno_sin_titulo.jpg",
-     "foto": "fotos/f246e4a52298dd84.jpg",
-     "preventa": false,
-     "cardmarket": 235.58,
-     "cardmarketPct": -2,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/prismatic-evolutions--premium-collection",
-     "desde": "2026-11-19T12:45+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
