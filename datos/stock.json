@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T16:28:58",
+ "actualizado": "2026-11-27T17:24:34",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1741,27 +1741,6 @@
   {
    "nombre": "30 Aniversario",
    "productos": [
-    {
-     "titulo": "[BF] Celebraciones 30th ETB",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 89.9,
-     "moneda": "EUR",
-     "tienda": "FlashStore",
-     "idioma": "es",
-     "url": "https://flashstore.es/producto/celebraciones-30th-etb/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 111.84,
-     "cardmarketPct": -20,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-11-27T13:31+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
     {
      "titulo": "ETB 30 Aniversario",
      "coleccion": "30th Celebration / Celebración 30 Aniversario",
@@ -6249,27 +6228,6 @@
      "desde": "2026-11-10T14:15+01:00",
      "precioAntes": 94.95,
      "bajadaDesde": "2026-11-17T01:05+01:00"
-    },
-    {
-     "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 89.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-oscuridad-absoluta-espanol-91946.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 63.92,
-     "cardmarketPct": 41,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": "2026-11-27T13:20+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
