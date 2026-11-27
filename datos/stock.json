@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T22:34:51",
+ "actualizado": "2026-11-27T22:39:57",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -5260,6 +5260,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG Megaevolución Oscuridad Absoluta Booster Box 36 Sobres Español",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 188.95,
+     "moneda": "EUR",
+     "tienda": "Golden Pulls Cards",
+     "idioma": "es",
+     "url": "https://goldenpullscards.com/products/booster-box-oscuridad-absoluta-36-sobres-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_400x400.jpg",
+     "foto": "fotos/2d95d5c132a0c8f0.jpg",
+     "preventa": false,
+     "cardmarket": 166.65,
+     "cardmarketPct": 13,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+     "desde": "2026-11-27T22:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
