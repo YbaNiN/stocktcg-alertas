@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T02:03:50",
+ "actualizado": "2026-11-27T02:33:32",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -356,7 +356,7 @@
    "fecha": null
   },
   {
-   "titulo": "ETB Caja de Entrenador Elite Dominio Delta - Español",
+   "titulo": "Elite Trainer Box - Dominio Delta",
    "coleccion": "Delta Reign / Dominio Delta",
    "tipo": "etb",
    "tipoNombre": "ETB",
@@ -365,8 +365,8 @@
    "tienda": "1001TCG",
    "idioma": "es",
    "url": "https://1001tcg.com/products/products-etb-dominio-delta-delta-reign-pokemon-tcg",
-   "img": "https://cdn.shopify.com/s/files/1/1007/1077/7172/files/etb-caja-de-entrenador-elite-dominio-delta-reign-rayquaza-cartas-pokemon-tcg-cardzone.webp?v=1794939434&width=320",
-   "foto": "fotos/00d21a965a6b86d1.jpg",
+   "img": "https://cdn.shopify.com/s/files/1/0952/6971/6315/files/Pokemon-TCG_Mega_Evolution_Delta_Reign_Elite_Trainer_Box_LA-1.webp?v=1793973007&width=320",
+   "foto": "fotos/068bb2fabe67d391.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
    "lanzamiento": null,
