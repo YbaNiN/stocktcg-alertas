@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T06:01:00",
+ "actualizado": "2026-11-27T06:55:29",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1103,27 +1103,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
      "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "POKEMON - Heroes Ascendentes ETB - Español — Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 100.0,
-     "moneda": "EUR",
-     "tienda": "Factory Cards",
-     "idioma": "es",
-     "url": "https://factorycardstcg.com/products/reserva-heroes-ascendentes-elite-trainer-box-etb-espanol?variant=57009782194441",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/668496_in_400x400.jpg",
-     "foto": "fotos/40799851c627c011.jpg",
-     "preventa": false,
-     "cardmarket": 119.22,
-     "cardmarketPct": -16,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
-     "desde": "2026-11-27T00:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
