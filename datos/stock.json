@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T10:10:13",
+ "actualizado": "2026-11-27T10:24:07",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3428,6 +3428,27 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
      "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokemon TCG: Perfect Order – Booster Box [ESPAÑOL]",
+     "coleccion": "Perfect Order / Equilibrio Perfecto",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 153.9,
+     "moneda": "EUR",
+     "tienda": "Manavortex",
+     "idioma": "es",
+     "url": "https://manavortex.es/product/pokemon-tcg-perfect-order-booster-box-espanol/",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
+     "foto": "fotos/a28fe6709aa672ea.jpg",
+     "preventa": false,
+     "cardmarket": 175.31,
+     "cardmarketPct": -12,
+     "chollo": true,
+     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
+     "desde": "2026-11-27T10:25+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
