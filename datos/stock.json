@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T12:20:09",
+ "actualizado": "2026-11-27T12:30:12",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1738,27 +1738,6 @@
      "chollo": true,
      "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
      "desde": "2026-11-20T20:55+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Caja de Entrenador Elite 30 Aniversario",
-     "coleccion": "30th Celebration / Celebración 30 Aniversario",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 99.99,
-     "moneda": "EUR",
-     "tienda": "Darizard9",
-     "idioma": "es",
-     "url": "https://www.darizard9.com/products/caja-de-entrnador-elte-celebracion-30-anivrario",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/704143_in_400x400.jpg",
-     "foto": "fotos/3475a6f4a57ec163.jpg",
-     "preventa": false,
-     "cardmarket": 111.84,
-     "cardmarketPct": -11,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/30th-anniversary--etb",
-     "desde": "2026-11-27T12:20+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
