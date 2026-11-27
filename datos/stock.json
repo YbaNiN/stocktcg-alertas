@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T14:04:26",
+ "actualizado": "2026-11-27T14:20:09",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -9865,27 +9865,6 @@
      "desde": "2026-11-17T14:40+01:00",
      "precioAntes": null,
      "bajadaDesde": null
-    },
-    {
-     "titulo": "(español) RECOGIDA - Pokemon ETB Dominio Delta",
-     "coleccion": "Delta Reign / Dominio Delta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "La Maquina del Temps",
-     "idioma": "es",
-     "url": "https://lamaquinadeltemps.com/trading-card-game/3379-espanol-recogida-pokemon-etb-dominio-delta.html",
-     "img": "https://lamaquinadeltemps.com/6877-home_default/espanol-recogida-pokemon-etb-dominio-delta.jpg",
-     "foto": "fotos/e2915e2c6ea7ce76.jpg",
-     "preventa": false,
-     "cardmarket": 62.18,
-     "cardmarketPct": 13,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/delta-reign--etb",
-     "desde": "2026-11-09T12:05+01:00",
-     "precioAntes": 75.0,
-     "bajadaDesde": "2026-11-21T12:40+01:00"
     },
     {
      "titulo": "Caja de Entrenador Élite Dominio Delta de JCC Pokémon",
