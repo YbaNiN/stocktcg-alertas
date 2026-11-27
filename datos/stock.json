@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T09:39:05",
+ "actualizado": "2026-11-27T10:10:13",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -3432,27 +3432,6 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Pokemon TCG: Perfect Order – Booster Box [ESPAÑOL]",
-     "coleccion": "Perfect Order / Equilibrio Perfecto",
-     "tipo": "booster-box",
-     "tipoNombre": "Booster Box / Display",
-     "precio": 153.9,
-     "moneda": "EUR",
-     "tienda": "Manavortex",
-     "idioma": "es",
-     "url": "https://manavortex.es/product/pokemon-tcg-perfect-order-booster-box-espanol/",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_400x400.jpg",
-     "foto": "fotos/a28fe6709aa672ea.jpg",
-     "preventa": false,
-     "cardmarket": 175.31,
-     "cardmarketPct": -12,
-     "chollo": true,
-     "stocktcg": "https://stocktcg.net/p/perfect-order--booster-box",
-     "desde": "2026-11-23T16:20+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Caja 36 sobres Pokémon Equilibrio Perfecto y Perfect Order — Español",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "booster-box",
@@ -5934,27 +5913,6 @@
      "desde": "2026-11-10T14:15+01:00",
      "precioAntes": 94.95,
      "bajadaDesde": "2026-11-17T01:05+01:00"
-    },
-    {
-     "titulo": "Caja Entrenador Elite Pokemon Oscuridad Absoluta Espanol",
-     "coleccion": "Pitch Black / Oscuridad Absoluta",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 89.95,
-     "moneda": "EUR",
-     "tienda": "Pidopop",
-     "idioma": "es",
-     "url": "https://pidopop.com/caja-entrenador-elite-pokemon-oscuridad-absoluta-espanol-91946.html",
-     "img": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_400x400.jpg",
-     "foto": "fotos/0a158a6c5402619f.jpg",
-     "preventa": false,
-     "cardmarket": 63.92,
-     "cardmarketPct": 41,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/pitch-black--etb",
-     "desde": null,
-     "precioAntes": null,
-     "bajadaDesde": null
     },
     {
      "titulo": "Pokémon Megaevolución Oscuridad Absoluta Caja de entrenador élite +6 años",
