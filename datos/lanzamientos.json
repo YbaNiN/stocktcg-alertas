@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T13:28:33",
+ "actualizado": "2026-11-27T13:33:52",
  "lanzamientos": [
   {
    "slug": "special-deck-set-mega-jp",
@@ -148,23 +148,6 @@
    "foto": "fotos/ad0e7cf022b19a6e.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-pack",
-   "lanzamiento": null,
-   "fecha": null
-  },
-  {
-   "titulo": "Booster Bundle 30 Aniversario - Español - Reserva",
-   "coleccion": "30th Celebration / Celebración 30 Aniversario",
-   "tipo": "booster-bundle",
-   "tipoNombre": "Booster Bundle",
-   "precio": 49.9,
-   "moneda": "EUR",
-   "tienda": "Top Rocket Shop",
-   "idioma": "es",
-   "url": "https://toprocketshop.com/products/booster-bundle-30-aniversario-espanol-reserva",
-   "img": "https://tcgplayer-cdn.tcgplayer.com/product/704171_in_400x400.jpg",
-   "foto": "fotos/91a213f34f133eae.jpg",
-   "preventa": true,
-   "stocktcg": "https://stocktcg.net/p/30th-anniversary--booster-bundle",
    "lanzamiento": null,
    "fecha": null
   },
