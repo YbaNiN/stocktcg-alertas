@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T12:14:48",
+ "actualizado": "2026-11-28T13:19:05",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1586,6 +1586,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--blister",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG – Héroes Ascendentes Tech Sticker Blister Collection Gastly - Español",
+     "coleccion": "Ascended Heroes / Héroes Ascendentes",
+     "tipo": "blister",
+     "tipoNombre": "Blister",
+     "precio": 44.9,
+     "moneda": "EUR",
+     "tienda": "Kadoplay",
+     "idioma": "es",
+     "url": "https://kadoplay.com/products/pokemon-tcg-heroes-ascendentes-tech-sticker-blister-collection-gastly-espanol",
+     "img": "https://cdn.shopify.com/s/files/1/0879/7863/9624/files/pokemon-tcg-heroes-ascendentes-tech-sticker-blister-collection-gastly-espanol.png?v=1773082173&width=400",
+     "foto": "fotos/bdf7269674683586.jpg",
+     "preventa": false,
+     "cardmarket": null,
+     "cardmarketPct": null,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/ascended-heroes--blister",
+     "desde": "2026-11-28T13:20+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
