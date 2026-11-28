@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T02:39:09",
+ "actualizado": "2026-11-28T03:18:22",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -64,6 +64,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Mega Charizard X Ultra-Premium Collection — Español",
+     "coleccion": "Mega Evolution",
+     "tipo": "ultra-premium-collection",
+     "tipoNombre": "Ultra Premium Collection",
+     "precio": 249.95,
+     "moneda": "EUR",
+     "tienda": "Kame House Cards",
+     "idioma": "es",
+     "url": "https://kamehousecards.com/products/mega-charizard-x-ultra-premium-collection?variant=53009014325586",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654213_in_400x400.jpg",
+     "foto": "fotos/1ca8e65525ca39ee.jpg",
+     "preventa": false,
+     "cardmarket": 212.07,
+     "cardmarketPct": 18,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/mega-evolution--ultra-premium-collection",
+     "desde": "2026-11-28T03:20+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
