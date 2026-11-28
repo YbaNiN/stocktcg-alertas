@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T15:33:00",
+ "actualizado": "2026-11-28T15:49:29",
  "lanzamientos": [
   {
    "slug": "aura-seeker-jp",
@@ -612,6 +612,23 @@
    "url": "https://lanavetcg.com/products/pokemon-center-fukuoka-special-box",
    "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/1_006a7251-a8f2-4bd8-8d5a-011e6e0973a5.png?v=1794945500&width=400",
    "foto": "fotos/e5bfb56265802a98.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/pokemon-center-exclusive--collection-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "RESERVA RESERVA Pokémon Center Tohoku Special Box",
+   "coleccion": "Pokémon Center Exclusive",
+   "tipo": "collection-box",
+   "tipoNombre": "Collection Box",
+   "precio": 99.9,
+   "moneda": "EUR",
+   "tienda": "La Nave TCG",
+   "idioma": "es",
+   "url": "https://lanavetcg.com/products/reserva",
+   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/1_592b1956-4db0-4e85-811b-1991c8e3a6fe.png?v=1795877134&width=400",
+   "foto": "fotos/3f8d67e1335951f7.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/pokemon-center-exclusive--collection-box",
    "lanzamiento": null,
