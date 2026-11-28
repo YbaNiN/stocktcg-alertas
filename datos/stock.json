@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T13:55:24",
+ "actualizado": "2026-11-28T14:33:43",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -2755,6 +2755,27 @@
      "bajadaDesde": null
     },
     {
+     "titulo": "Booster Box Caos Creciente – Pokémon Español",
+     "coleccion": "Chaos Rising / Caos Creciente",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 245.0,
+     "moneda": "EUR",
+     "tienda": "Homelands",
+     "idioma": "es",
+     "url": "https://www.homelands.es/producto/pokemon-caos-creciente-caja-de-sobres-es/",
+     "img": "https://wsrv.nl/?url=https%3A%2F%2Felultimobooster.com%2Fwp-content%2Fuploads%2F2026%2F05%2F4.webp&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Felultimobooster.com%2Fwp-content%2Fuploads%2F2026%2F05%2F4.webp",
+     "foto": "fotos/bdc2818b70615cf4.jpg",
+     "preventa": false,
+     "cardmarket": 169.4,
+     "cardmarketPct": -6,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/chaos-rising--booster-box",
+     "desde": null,
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
      "titulo": "Elite Trainer Box Caos Creciente",
      "coleccion": "Chaos Rising / Caos Creciente",
      "tipo": "etb",
@@ -3705,7 +3726,7 @@
      "bajadaDesde": "2026-11-27T03:20+01:00"
     },
     {
-     "titulo": "Caja de 36 Sobres Booster Box Pokémon Perfect Order",
+     "titulo": "Pokémon Perfect Order – Booster Box",
      "coleccion": "Perfect Order / Equilibrio Perfecto",
      "tipo": "booster-box",
      "tipoNombre": "Booster Box / Display",
@@ -3714,8 +3735,8 @@
      "tienda": "CardCenter",
      "idioma": "es",
      "url": "https://cardcenter.es/producto/caja-de-36-sobres-booster-box-pokemon-perfect-order/",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Fcardcenter.es%2Fwp-content%2Fuploads%2F2026%2F01%2Fperfect-order-booster-box-english-cardcenter.es_.jpg&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Fcardcenter.es%2Fwp-content%2Fuploads%2F2026%2F01%2Fperfect-order-booster-box-english-cardcenter.es_.jpg",
-     "foto": null,
+     "img": "https://wsrv.nl/?url=https%3A%2F%2Fmanavortex.es%2Fwp-content%2Fuploads%2F2026%2F09%2Fequilibrio-perfecto-PBB.png&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Fmanavortex.es%2Fwp-content%2Fuploads%2F2026%2F09%2Fequilibrio-perfecto-PBB.png",
+     "foto": "fotos/affe96e453cf13e7.jpg",
      "preventa": false,
      "cardmarket": 175.17,
      "cardmarketPct": -32,
@@ -5491,6 +5512,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
      "desde": "2026-11-17T14:35+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Booster Box Oscuridad Absoluta · 36 sobres Español · Pokemon",
+     "coleccion": "Pitch Black / Oscuridad Absoluta",
+     "tipo": "booster-box",
+     "tipoNombre": "Booster Box / Display",
+     "precio": 220.0,
+     "moneda": "EUR",
+     "tienda": "Homelands",
+     "idioma": "es",
+     "url": "https://www.homelands.es/producto/pokemon-oscuridad-absoluta-caja-de-sobres/",
+     "img": "https://cdn.shopify.com/s/files/1/0943/7403/5830/files/booster-box-caja-de-36-sobres-oscuridad-absoluta-cartas-pokemon-tcg-cardzone.webp?v=1784546867&width=320",
+     "foto": "fotos/1da70656b56e1e1c.jpg",
+     "preventa": false,
+     "cardmarket": 166.65,
+     "cardmarketPct": 2,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/pitch-black--booster-box",
+     "desde": null,
      "precioAntes": null,
      "bajadaDesde": null
     },
@@ -10486,7 +10528,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box Corona Astral ES – Pokémon",
+     "titulo": "ETB Corona Astral",
      "coleccion": "Stellar Crown",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -10495,8 +10537,8 @@
      "tienda": "MiniTCG",
      "idioma": "es",
      "url": "https://minitcg.com/products/etb-corona-astral",
-     "img": "https://cdn.shopify.com/s/files/1/0952/7823/6034/files/elite-trainer-box-corona-astral-es-pokemon-tcg.png?v=1775041629&width=320",
-     "foto": "fotos/274241bea25cf881.jpg",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/etbcorona.png?v=1793818123&width=320",
+     "foto": "fotos/13a03196c5cd5a37.jpg",
      "preventa": false,
      "cardmarket": 83.57,
      "cardmarketPct": -20,
@@ -10507,7 +10549,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box Corona Astral ES – Pokémon",
+     "titulo": "ETB Corona Astral",
      "coleccion": "Stellar Crown",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -10516,8 +10558,8 @@
      "tienda": "SuperCollectors",
      "idioma": "es",
      "url": "https://www.supercollectors.es/producto/pokemon-corona-astral-etb-espanol/",
-     "img": "https://cdn.shopify.com/s/files/1/0952/7823/6034/files/elite-trainer-box-corona-astral-es-pokemon-tcg.png?v=1775041629&width=320",
-     "foto": "fotos/274241bea25cf881.jpg",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/etbcorona.png?v=1793818123&width=320",
+     "foto": "fotos/13a03196c5cd5a37.jpg",
      "preventa": false,
      "cardmarket": 83.57,
      "cardmarketPct": -20,
@@ -10612,7 +10654,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box Corona Astral ES – Pokémon",
+     "titulo": "ETB Corona Astral",
      "coleccion": "Stellar Crown",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -10621,8 +10663,8 @@
      "tienda": "Mazo Bueno",
      "idioma": "es",
      "url": "https://mazobueno.es/producto/etb-corona-astral-espanol/",
-     "img": "https://cdn.shopify.com/s/files/1/0952/7823/6034/files/elite-trainer-box-corona-astral-es-pokemon-tcg.png?v=1775041629&width=320",
-     "foto": "fotos/274241bea25cf881.jpg",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/etbcorona.png?v=1793818123&width=320",
+     "foto": "fotos/13a03196c5cd5a37.jpg",
      "preventa": false,
      "cardmarket": 83.57,
      "cardmarketPct": -20,
@@ -10654,7 +10696,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box Corona Astral ES – Pokémon",
+     "titulo": "ETB Corona Astral",
      "coleccion": "Stellar Crown",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -10663,8 +10705,8 @@
      "tienda": "Una Carta Más",
      "idioma": "es",
      "url": "https://unacartamas.com/products/elite-trainer-box-de-corona-astral-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0952/7823/6034/files/elite-trainer-box-corona-astral-es-pokemon-tcg.png?v=1775041629&width=320",
-     "foto": "fotos/274241bea25cf881.jpg",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/etbcorona.png?v=1793818123&width=320",
+     "foto": "fotos/13a03196c5cd5a37.jpg",
      "preventa": false,
      "cardmarket": 83.57,
      "cardmarketPct": -20,
@@ -10717,7 +10759,7 @@
      "bajadaDesde": null
     },
     {
-     "titulo": "Elite Trainer Box Corona Astral ES – Pokémon",
+     "titulo": "ETB Corona Astral",
      "coleccion": "Stellar Crown",
      "tipo": "etb",
      "tipoNombre": "ETB",
@@ -10726,8 +10768,8 @@
      "tienda": "Merchan Store",
      "idioma": "es",
      "url": "https://www.merchan-store.com/juego-de-cartas-coleccionables/33167-caja-de-cartas-pokemon-elite-trainer-box-corona-astral-espanol-820650505539.html",
-     "img": "https://cdn.shopify.com/s/files/1/0952/7823/6034/files/elite-trainer-box-corona-astral-es-pokemon-tcg.png?v=1775041629&width=320",
-     "foto": "fotos/274241bea25cf881.jpg",
+     "img": "https://cdn.shopify.com/s/files/1/0893/1239/5612/files/etbcorona.png?v=1793818123&width=320",
+     "foto": "fotos/13a03196c5cd5a37.jpg",
      "preventa": false,
      "cardmarket": 83.57,
      "cardmarketPct": -20,
