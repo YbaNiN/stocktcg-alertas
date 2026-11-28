@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T14:33:43",
+ "actualizado": "2026-11-28T14:40:08",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1023,27 +1023,6 @@
    "nombre": "Héroes Ascendentes",
    "productos": [
     {
-     "titulo": "Pokémon Ascended Heroes – Elite Trainer Box",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 69.99,
-     "moneda": "EUR",
-     "tienda": "La Cueva Roja",
-     "idioma": "es",
-     "url": "https://lacuevaroja.com/pokemon-tcg/pokemon-tcg-ascended-heroes-elite-trainer-box-es",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Flacuevaroja.com%2F52277-large_default%2Fpokemon-tcg-ascended-heroes-elite-trainer-box-es.jpg&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Flacuevaroja.com%2F52277-large_default%2Fpokemon-tcg-ascended-heroes-elite-trainer-box-es.jpg",
-     "foto": "fotos/8cb8cc4263456f7a.jpg",
-     "preventa": false,
-     "cardmarket": 118.69,
-     "cardmarketPct": -20,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
-     "desde": "2026-11-27T02:35+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
      "titulo": "Pokemon Ascenso Heroico Elite Trainer Box LAT",
      "coleccion": "Ascended Heroes / Héroes Ascendentes",
      "tipo": "etb",
@@ -1082,27 +1061,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
      "desde": "2026-11-17T10:50+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "Pokémon Ascended Heroes – Elite Trainer Box",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "etb",
-     "tipoNombre": "ETB",
-     "precio": 179.0,
-     "moneda": "EUR",
-     "tienda": "City of Cards",
-     "idioma": "es",
-     "url": "https://cityof.cards/producto/elite-trainer-box-de-ascended-heroes/",
-     "img": "https://wsrv.nl/?url=https%3A%2F%2Flacuevaroja.com%2F52277-large_default%2Fpokemon-tcg-ascended-heroes-elite-trainer-box-es.jpg&w=320&h=320&fit=contain&output=webp&q=75&default=https%3A%2F%2Flacuevaroja.com%2F52277-large_default%2Fpokemon-tcg-ascended-heroes-elite-trainer-box-es.jpg",
-     "foto": "fotos/8cb8cc4263456f7a.jpg",
-     "preventa": false,
-     "cardmarket": 118.69,
-     "cardmarketPct": -20,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--etb",
-     "desde": "2026-11-27T02:35+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
