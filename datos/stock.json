@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T05:54:45",
+ "actualizado": "2026-11-28T07:29:30",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -1565,27 +1565,6 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/ascended-heroes--mini-tin",
      "desde": "2026-11-25T19:25+01:00",
-     "precioAntes": null,
-     "bajadaDesde": null
-    },
-    {
-     "titulo": "POKEMON - Tech Sticker Blister 3 Sobres Héroes Ascendentes - Español",
-     "coleccion": "Ascended Heroes / Héroes Ascendentes",
-     "tipo": "blister",
-     "tipoNombre": "Blister",
-     "precio": 23.0,
-     "moneda": "EUR",
-     "tienda": "Factory Cards",
-     "idioma": "es",
-     "url": "https://factorycardstcg.com/products/tech-sticker-blister-3-sobres-heroes-ascendentes-espanol",
-     "img": "https://cdn.shopify.com/s/files/1/0670/4860/3913/files/stickercollec.jpg?v=1770200564&width=400",
-     "foto": "fotos/eb15b80c73b5c81f.jpg",
-     "preventa": false,
-     "cardmarket": null,
-     "cardmarketPct": null,
-     "chollo": false,
-     "stocktcg": "https://stocktcg.net/p/ascended-heroes--blister",
-     "desde": "2026-11-27T00:10+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
