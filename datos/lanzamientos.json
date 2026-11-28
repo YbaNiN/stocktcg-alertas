@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T15:54:45",
+ "actualizado": "2026-11-28T18:49:21",
  "lanzamientos": [
   {
    "slug": "aura-seeker-jp",
@@ -257,6 +257,23 @@
    "foto": "fotos/fe01e654f615e5f0.jpg",
    "preventa": true,
    "stocktcg": "https://stocktcg.net/p/destined-rivals--booster-box",
+   "lanzamiento": null,
+   "fecha": null
+  },
+  {
+   "titulo": "Reserva Blíster 3 Sobres Dominio Delta",
+   "coleccion": "Delta Reign / Dominio Delta",
+   "tipo": "blister",
+   "tipoNombre": "Blister",
+   "precio": 18.9,
+   "moneda": "EUR",
+   "tienda": "La Nave TCG",
+   "idioma": "es",
+   "url": "https://lanavetcg.com/products/reserva-blister-3-sobres-dominio-delta",
+   "img": "https://cdn.shopify.com/s/files/1/0960/7653/0039/files/BLISTER_009906d4-3ef0-4fe1-b3da-02cc21e9bd6a.png?v=1793282316&width=400",
+   "foto": "fotos/00b2f57eb69f0eb6.jpg",
+   "preventa": true,
+   "stocktcg": "https://stocktcg.net/p/delta-reign--blister",
    "lanzamiento": null,
    "fecha": null
   },
