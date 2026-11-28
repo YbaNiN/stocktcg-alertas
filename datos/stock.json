@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T14:40:08",
+ "actualizado": "2026-11-28T16:59:04",
  "colecciones": [
   {
    "nombre": "Fuegos Fantasmales",
@@ -64,6 +64,27 @@
      "chollo": false,
      "stocktcg": "https://stocktcg.net/p/phantasmal-flames--etb",
      "desde": "2026-11-17T10:50+01:00",
+     "precioAntes": null,
+     "bajadaDesde": null
+    },
+    {
+     "titulo": "Pokémon TCG Ultra Premium Collection Mega-Charizard X ex – Español",
+     "coleccion": "Mega Evolution",
+     "tipo": "ultra-premium-collection",
+     "tipoNombre": "Ultra Premium Collection",
+     "precio": 249.9,
+     "moneda": "EUR",
+     "tienda": "Kadoplay",
+     "idioma": "es",
+     "url": "https://kadoplay.com/products/ultra-premium-collection-mega-charizard-x-ex-espanol",
+     "img": "https://tcgplayer-cdn.tcgplayer.com/product/654213_in_400x400.jpg",
+     "foto": "fotos/1ca8e65525ca39ee.jpg",
+     "preventa": false,
+     "cardmarket": 212.07,
+     "cardmarketPct": 18,
+     "chollo": false,
+     "stocktcg": "https://stocktcg.net/p/mega-evolution--ultra-premium-collection",
+     "desde": "2026-11-28T17:01+01:00",
      "precioAntes": null,
      "bajadaDesde": null
     },
